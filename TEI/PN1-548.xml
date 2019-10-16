@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No hay braço tan luengo que pueda</title>
+
+                <title type="incipit">No hay braço tan luengo que pueda</title>
+
+                <author ref="#FIM">Francisco Imperial</author>
+
+
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval /CENDARI Project</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url">
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero
+                            Manuscripts</publisher>
+                        <idno n="505"> Dutton 505</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=548&amp;entry=ID0505%20R%200504#PN1548ID0505_R_0504</ref>
+                    </bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia</repository>
+                        <idno>Espagnol 37 </idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="184r" to="184r">3184r</locus>
+                            <idno>PN1-548</idno>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <origDate notBefore="1426" notAfter="1465">1426-1465</origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-08" who="#GDR">Changes are made</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+            <head>
+                <term cRef="163">Respuesta</term> que <term cRef="174">fizo</term> e <term cRef="175">ordenó</term>
+                <persName ref="#FIM">Micer Francisco Imperial</persName>, natural de Génova, stante
+                morador en <placeName ref="#SE1">Sevilla</placeName>, contra el dicho <persName ref="#FPG">Fernand Pérez de Guzmán</persName> a esta su <term cRef="162">pregunta</term> tan <term cRef="204">oscura</term> e tan <term cRef="171">sotil</term>, la cual <term cRef="163">respuesta</term> va muy bien <term cRef="174">fecha</term> e <term cRef="171">sotilmente</term>
+                <term cRef="163">respondida</term> por los mismos <term cRef="166">consonantes
+                </term>del otro </head>
+
+
+            <sp>
+                <speaker>Francisco Imperial</speaker>
+                <lg type="poema"
+                subtype="respuesta"
+                unisonancia="usingular"
+                isometrismo="isométrico"
+                isoestrofismo="isoestrófico"
+                asonancia="consonante"
+                met="10,10, 10, 10, 10, 10, 10, 10"
+                rhyme="ABABBCCB">
+
+
+                    <lg n="1"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABABBCCB">
+                        <l xml:id="L1">No hay braço tan luengo que p<rhyme>ueda</rhyme>
+                  </l>
+                        <l xml:id="L2">alcançar tan alto nin mano bast<rhyme>able</rhyme>
+                  </l>
+                        <l xml:id="L3">a tirar el clavo por que ande la r<rhyme>ueda</rhyme>
+                  </l>
+                        <l xml:id="L4">si no el que la fizo que non es palp<rhyme>able</rhyme>
+                  </l>
+                        <l xml:id="L5">e nin aprovecha nin es razon<rhyme>able</rhyme>
+                  </l>
+                        <l xml:id="L6">a llaga incurable ponerle ungü<rhyme>entos</rhyme>
+                  </l>
+                        <l xml:id="L7">nin a nave que tiene abiertos conv<rhyme>entos</rhyme>
+                  </l>
+                        <l xml:id="L8">que mejor que vientos es andas e c<rhyme>able</rhyme>.</l>
+                    </lg>
+
+                    <lg n="2"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABABBCCB">
+                        <l xml:id="L9">Si jamás non cesa como lo que <rhyme>era</rhyme>
+                  </l>
+                        <l xml:id="L10">e es e será verná la su m<rhyme>uerte</rhyme>,</l>
+                        <l xml:id="L11">por ende me paresce que muy mejor fu<rhyme>era</rhyme>
+                  </l>
+                        <l xml:id="L12">pedir que tornase e firmase f<rhyme>uerte</rhyme>
+                  </l>
+                        <l xml:id="L13">maguer que ‘sta dueña nunca se convi<rhyme>erte</rhyme>
+                  </l>
+                        <l xml:id="L14">a vuestro querer nin preçia la esp<rhyme>ada</rhyme>
+                  </l>
+                        <l xml:id="L15">linaje nin seso mucho cel<rhyme>ada</rhyme>
+                  </l>
+                        <l xml:id="L16">vuelve su rueda e cursa en la s<rhyme>uerte</rhyme>.</l>
+                    </lg>
+
+                    <lg n="3"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABABBCCB">
+                        <l xml:id="L17">Si aquesta dueña volviendo su d<rhyme>ança</rhyme>
+                  </l>
+                        <l xml:id="L18">abre las puertas de Jano en troj<rhyme>ano</rhyme>
+                  </l>
+                        <l xml:id="L19">bien creo sin duda que grand alegr<rhyme>ança</rhyme>
+                  </l>
+                        <l xml:id="L20">se seguira al pueblo arri<rhyme>ano</rhyme>
+                  </l>
+                        <l xml:id="L21">e por tanto amigo que “seda inpl<rhyme>ano</rhyme>
+                        </l>
+                        <l xml:id="L22">unde non habetis”, que segund veo vey<rhyme>endo</rhyme>,</l>
+                        <l xml:id="L23">peña cayendo e muerte dezi<rhyme>endo</rhyme>,</l>
+                        <l xml:id="L24">por ende el medio es lugar muy s<rhyme>ano</rhyme>.</l>
+                    </lg>
+
+                    <lg n="4"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABABBCCB">
+                        <l xml:id="L25">“De mas alto caye quien mal alto s<rhyme>ee</rhyme>” </l>
+                        <l xml:id="L26">aquesto vos añado por vun corril<rhyme>ayo</rhyme>
+                  </l>
+                        <l xml:id="L27">segund cada año nuestra vista v<rhyme>ee</rhyme>
+                  </l>
+                        <l xml:id="L28">las flores de ablil secarse en el m<rhyme>ayo</rhyme>
+                  </l>
+                        <l xml:id="L29">por ende mas breve que veloce r<rhyme>ayo</rhyme>
+                  </l>
+                        <l xml:id="L30">passo e passa e aun pasar<rhyme label="a">á</rhyme>
+                  </l>
+                        <l xml:id="L31">e lo que fue sie[m]pre_e es e_aun ser<rhyme label="a">á</rhyme>
+                  </l>
+                        <l xml:id="L32">“el nuestro cuidar es como el del b<rhyme>ayo</rhyme>” .</l>
+                    </lg>
+
+
+                </lg>
+            </sp>
+        </body>
+    </text>
+</TEI>

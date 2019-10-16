@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Garcia amigo, ninguno te espante</title>
+
+
+                <title type="incipit">Garcia amigo, ninguno te espante</title>
+
+                <author ref="#AAV">Alfonso Álvarez de Villasandino </author>
+
+
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval/CENDARI Project</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url">
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero
+                            Manuscripts</publisher>
+                        <idno n="1232">Dutton 1232</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=107&amp;entry=ID1247#PN1107ID1247</ref>
+                    </bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia </repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="36v" to="36v">36v</locus>
+                            <idno>PN1-107</idno>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <origDate notBefore="1426" notAfter="1465">1426-1465</origDate>
+            </creation>
+            <langUsage>
+                <language ident="sp">Galego-Castelán</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-07" who="#GDR">Changes are made</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    
+    <!--Introducción de imagen -->
+    
+    <facsimile>
+        <graphic url="imagenes/nombre-del-archivo-con-la-extensión" xml:id="id_im"></graphic>
+    </facsimile>  
+    
+    <text>
+        <body>
+            
+            <!-- Elemento <pb/> con la referencia a la imagen. Si el poema
+            contiene un salto de folio (por lo que tendría dos imágenes facsimilares
+            asociadas, se colocaría el segundo elemento <pb/> en el sitio correspondiente
+            de la edición)-->
+            
+            <pb facs="#id_im"/>
+            
+            
+            <head type="rúbrica">Esta <term cRef="162">pregunta</term>
+                <term cRef="174">fizo</term> e <term cRef="175">ordenó</term>
+                <persName ref="#AAV">Alfonso Álvarez</persName> de <placeName ref="#VI1">Villasandino</placeName> contra Garcia <persName ref="#GFG">Ferrandes de
+                        <placeName ref="#GE1">Gerena</placeName>
+            </persName> quando se tornó moro</head>
+            <sp who="#GFG">
+                <speaker>Alfonso Álvarez de Villasandino</speaker>
+                <lg type="poema"
+                subtype="pregunta"
+                unisonancia="singular"
+                isometrismo="isométrico"
+                isoestrofismo="isoestrófico"
+                asonancia="consonante"
+                met="10,10, 10, 10, 10, 10, 10, 10"
+                rhyme="ABBAACCA">
+                    <note> Se trata de una pieza de arte mayor. Incompleta. Falta la finda y el
+                        folio siguiente completo.</note>
+                    <lg n="1"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L1">
+                     <rs ref="#GFG">Garcia amigo</rs>, ninguno <rs ref="#GFG">te
+                                    esp<rhyme>ante</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L2">pero que <rs ref="#GFG">te</rs>
+                            <rs ref="#AAV">diga</rs> que muito <rs ref="#GFG">perd<rhyme>iste</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L3">desque en Mahomad <rs ref="#GFG">tu creencia pos<rhyme>iste</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L4">segunt que dize o vello almir<rhyme>ante</rhyme>
+                  </l>
+                        <l xml:id="L5">que o que <rs ref="#GFG">ganaste</rs>
+                            <rs ref="#AAV">direi</rs> de tal<rhyme>ante</rhyme>;</l>
+                        <l xml:id="L6">
+                     <rs ref="#GFG">ganaste</rs> nome de alcaide de v<rhyme>ento</rhyme>,</l>
+                        <l xml:id="L7">
+                     <rs ref="#GFG">ganaste</rs> inferno e ´scuro torm<rhyme>ento</rhyme>
+                  </l>
+                        <l xml:id="L8">
+                     <rs ref="#GFG">ganaste</rs> más que <rs ref="#GFG">tragías</rs>
+                            <rhyme>ante</rhyme>.</l>
+                    </lg>
+
+                    <lg n="2"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L9">Desque a Iesu, nosso salvad<rhyme>or</rhyme>,</l>
+                        <l xml:id="L10">
+                     <rs ref="#GFG">tu renegaste</rs> por ben ador<rhyme>ar</rhyme>,</l>
+                        <l xml:id="L11">o falso profeta linage de ag<rhyme>ar</rhyme>,</l>
+                        <l xml:id="L12">que dizen Mafomad, vil enbaid<rhyme>or</rhyme>,</l>
+                        <l xml:id="L13">de quanto <rs ref="#GFG">ganaste</rs> so ben sabid<rhyme>or</rhyme>;</l>
+                        <l xml:id="L14">
+                     <rs ref="#GFG">ganaste mas barbas que trager sol<rhyme label="ias">ías</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L15">
+                     <rs ref="#GFG">ganaste maridos que acá non av<rhyme label="ias">ías</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L16">
+                     <rs ref="#GFG">ga[n]aste</rs> privança do demo may<rhyme>or</rhyme>.</l>
+                    </lg>
+
+                    <lg n="3"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L17">Con tales trocos como <rs ref="#GFG">has troc<rhyme>ado</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L18">muy ben <rs ref="#GFG">podes chamar te traid<rhyme>or</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L19">pois <rs ref="#GFG">non oviste</rs> de Cristus pav<rhyme>or</rhyme>
+                  </l>
+                        <l xml:id="L20">nin de as gentes vergonça <rs ref="#GFG">coit<rhyme>ado</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L21">
+                     <rhyme label="ado">(...)</rhyme>
+                  </l>
+                        <l xml:id="L22">canto hi <rs ref="#GFG">ganaste</rs> proveza e ma
+                                avent<rhyme>ura</rhyme>
+                  </l>
+                        <l xml:id="L23">
+                     <rs ref="#GFG">ganaste</rs> luxuria amarga trist<rhyme>ura</rhyme>
+                  </l>
+                        <l xml:id="L24">
+                     <rs ref="#GFG">ganaste por sienpre de ser lastim<rhyme>ado</rhyme>
+                     </rs>.</l>
+                    </lg>
+
+                    <lg n="4"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L25">Ja <rs ref="#GFG">non te podes chamar perdid<rhyme>oso</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L26">pois tantas cossas com’ estas <rs ref="#GFG">ga[n]<rhyme>aste</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L27">cando a ley muy santa troc<rhyme>aste</rhyme>
+                  </l>
+                        <l xml:id="L28">por maa seíta do falso engañ<rhyme label="oso">osso</rhyme>;</l>
+                        <l xml:id="L29">de canto <rs ref="#GFG">ganaste</rs>
+                            <rs ref="#AAV">sei ledo e goz<rhyme>oso</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L30">
+                     <rs ref="#GFG">ganaste</rs> lazeria de noite e de d<rhyme label="ia">ía</rhyme>,</l>
+                        <l xml:id="L31">
+                     <rs ref="#GFG">ganaste</rs> la ira de ssanta Mar<rhyme label="ia">ía</rhyme>,</l>
+                        <l xml:id="L32">
+                     <rs ref="#GFG">ganaste</rs> vileza e canbio astr<rhyme>oso</rhyme>.</l>
+                    </lg>
+
+                </lg>
+            </sp>
+        </body>
+    </text>
+</TEI>

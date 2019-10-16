@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Las gracias complidas a vos sean dadas</title>
+
+
+                <title type="incipit">Las gracias complidas a vos sean dadas</title>
+
+                <author ref="#AAV">Alfonso Álvarez de Villasandino </author>
+
+
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval/CENDARI Project</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url">
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero
+                            Manuscripts</publisher>
+                        <idno n="1233">Dutton 1233</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=93&amp;entry=ID1233%20R%201232#PN193ID1233_R_1232</ref>
+                    </bibl>
+
+
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia </repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="32v" to="32v">32v</locus>
+                            <idno>PN1-93</idno>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <creation>
+                <origDate notBefore="1426" notAfter="1465">1426-1465</origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-07" who="#GDR">Changes are made</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head type="rúbrica"> Esta <term cRef="163">respuesta</term>
+                <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> el dicho <persName ref="#AAV">Alfonso Álvarez</persName> de <placeName ref="#VI1">Villasandino</placeName>contra el dicho <persName ref="#BSA">Bachiller e
+                    Maestro en Artes</persName>
+            </head>
+
+
+            <sp who="#BSA">
+                <speaker>Alfonso Álvarez de Villasandino</speaker>
+                <lg type="poema"
+                subtype="respuesta"
+                unisonancia="singular"
+                isometrismo="isométrico"
+                isoestrofismo="heteroestrófico"
+                asonancia="consonante"
+                met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10, 10"
+                rhyme="ABBAACCA/ABBA">
+                    <note> Se trata de una pieza de arte mayor</note>
+                    <lg n="1"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L1">Las gracias complidas <rs ref="#BSA">a vos</rs> sean d<rhyme>adas</rhyme>
+                  </l>
+                        <l xml:id="L2">de la mesma parte del maravill<rhyme>oso</rhyme>
+                  </l>
+                        <l xml:id="L3">porque consolads aun dese<rhyme label="oso">osso</rhyme>,</l>
+                        <l xml:id="L4">con <term cRef="89">buenas razones</term>
+                            <term cRef="197">bien retoric<rhyme>adas</rhyme>
+                     </term>,</l>
+                        <l xml:id="L5">que <rs ref="#BSA">vuestras palabras</rs> por <term cRef="198">arte</term> intrinc<rhyme>adas</rhyme>,</l>
+                        <l xml:id="L6">farían amansar a un fuerte t<rhyme>oro</rhyme>,</l>
+                        <l xml:id="L7">por ende, <rs ref="#BSA">amigo</rs>, <rs ref="#AAV">yo bien
+                                    m´enam<rhyme>oro</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L8">de <rs ref="#BSA">vuestras <term cRef="199">siguidas
+                                </term>
+                     </rs> tan <term cRef="175">bien orden<rhyme>adas</rhyme>
+                     </term>.</l>
+                    </lg>
+
+                    <lg n="2"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L9">
+                     <rs ref="#BSA">Non <rs ref="#AAV">me</rs> tengades</rs> por
+                                <rs ref="#AAV">tan mal cri<rhyme>ado</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L10">que en <rs ref="#BSA">vos</rs>
+                            <rs ref="#AAV">dubdase</rs>, <rs ref="#BSA">amigo e señ<rhyme>or</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L11">antes <rs ref="#AAV">me plaze e he grant sab<rhyme>or</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L12">de <rs ref="#AAV">ver</rs>
+                            <rs ref="#BSA">vuestras prosas e vuestro <term cRef="200">deit<rhyme>ado</rhyme>
+                        </term>
+                     </rs>,</l>
+                        <l xml:id="L13">si <rs ref="#AAV">yo como lego en algo so err<rhyme>ado</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L14">seyendo judgadas las <rs ref="#AAV">mis entenci<rhyme>ones</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L15">
+                     <rs ref="#BSA">vos</rs> las fallaredes dinas de perd<rhyme>ones</rhyme>
+                  </l>
+                        <l xml:id="L16">desque fuere todo bien consider<rhyme>ado</rhyme>.</l>
+                    </lg>
+
+                    <lg n="3"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L17">Los que solíen ser gente mex<rhyme>illa</rhyme>
+                  </l>
+                        <l xml:id="L18">son en estado que comen gall<rhyme>inas</rhyme>
+                  </l>
+                        <l xml:id="L19">beben con plata e tienen cort<rhyme>inas</rhyme>,</l>
+                        <l xml:id="L20">e ya menosprecian blanqueça e palm<rhyme>illa</rhyme>,</l>
+                        <l xml:id="L21">de cómo los unos van a la senz<rhyme>illa</rhyme>
+                  </l>
+                        <l xml:id="L22">hayamos emiente sin fuerça de v<rhyme>ino</rhyme>,</l>
+                        <l xml:id="L23">e pues que <rs ref="#BSA">vos</rs>
+                            <rs ref="#AAV">tengo</rs> aquí por <rs ref="#BSA">vez<rhyme>ino</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L24">veamos quién tiene la cara amar<rhyme>illa</rhyme>.</l>
+                    </lg>
+
+                    <lg n="4" type="octava" met="10,10, 10, 10" rhyme="ABBA">
+                        <l xml:id="L25">Ya <rs ref="#AAV">me costase mi mula morz<rhyme>illa</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L26">que en algunas cossas <rs ref="#AAV">yo fuese pac<rhyme>iente</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L27">mas <rs ref="#AAV">yo non sé</rs> quién non se dasat<rhyme>iente</rhyme>
+                  </l>
+                        <l xml:id="L28">segunt la fortuna nos desacabd<rhyme>illa</rhyme>.</l>
+                    </lg>
+                </lg>
+            </sp>
+        </body>
+    </text>
+</TEI>

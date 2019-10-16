@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gracias e mercedes sean otorgadas</title>
+
+
+                <title type="incipit">Gracias e mercedes sean otorgadas</title>
+
+                <author ref="#BSA">Bachiller en Artes de Salamanca </author>
+
+
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval/CENDARI Project</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url">
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero
+                            Manuscripts</publisher>
+                        <idno n="1232">Dutton 1232</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=92&amp;entry=ID1232#PN192ID1232</ref>
+                    </bibl>
+
+
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia </repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="32r" to="32v">32r-32v</locus>
+                            <idno>PN1-92</idno>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <creation>
+                <origDate notBefore="1426" notAfter="1465">1426-1465</origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-07" who="#GDR">Changes are made</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head type="rúbrica"> Esta <term cRef="162">pregunta</term>
+                <term cRef="174">fizo</term> e <term cRef="175">ordenó el dicho </term>
+            <persName ref="#BSA">Bachiller e Maestro en Artes</persName> contra el dicho <persName ref="#AAV">Alfonso Álvarez</persName> de <placeName ref="#VI1">Villasandino</placeName>
+            </head>
+
+
+            <sp who="#AAV">
+                <speaker>Bachiller en Artes de Salamanca</speaker>
+                <lg type="poema"
+                subtype="pregunta"
+                unisonancia="singular"
+                isometrismo="isométrico"
+                isoestrofismo="heteroestrófico"
+                asonancia="consonante"
+                met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10, 10"
+                rhyme="ABBAACCA/ABBA">
+                    <note> Se trata de una pieza de arte mayor</note>
+                    <lg n="1"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+
+
+                        <l xml:id="L1">Gracias e mercedes sean otorg<rhyme>adas</rhyme>
+                  </l>
+                        <l xml:id="L2">de parte Dios, pues que <rs ref="#BSA">yo non <rhyme label="oso">osso</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L3">
+                     <rs ref="#AAV">a vos muy coraz, loçano e don<rhyme>oso</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L4">por las <term cRef="163">responsiones</term>
+                            <rs ref="#BSA">a mí</rs> destin<rhyme>adas</rhyme>,</l>
+                        <l xml:id="L5">segunt fue cristiana las d´esas nonbr<rhyme>adas</rhyme>
+                  </l>
+                        <l xml:id="L6">non ensalçaron al buen rey don P<rhyme>oro</rhyme>,</l>
+                        <l xml:id="L7">mas la virtud de Dios en que m<rhyme>oro</rhyme>
+                  </l>
+                        <l xml:id="L8">lo enrequizió de lond<rhyme>adas</rhyme>.</l>
+                    </lg>
+
+                    <lg n="2"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L9">Segunt el salmista <rs ref="#BSA">so certific<rhyme>ado</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L10">compone e dize con muy grant am<rhyme>or</rhyme>,</l>
+                        <l xml:id="L11">que nunca el olio del qu´es pecad<rhyme>or</rhyme>
+                  </l>
+                        <l xml:id="L12">afeite su rostro con licor ross<rhyme>ado</rhyme>,</l>
+                        <l xml:id="L13">nin <rs ref="#BSA">yo</rs> bien <rs ref="#AAV">creades</rs>
+                            que fuesse <rs ref="#BSA">os<rhyme>ado</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L14">de lisonjar en <rs ref="#BSA">los mis serm<rhyme>ones</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L15">pues <rs ref="#AAV">tan perfeto de gracias e d<rhyme>ones</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L16">
+                     <rs ref="#AAV">a vos</rs> costelaron planetas e f<rhyme>ado</rhyme>.</l>
+                    </lg>
+
+                    <lg n="3"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L17">A Dios lo <rs ref="#BSA">agradesco</rs> pues que en
+                                Sev<rhyme>illa</rhyme>
+                  </l>
+                        <l xml:id="L18">por noble damasco visten esclav<rhyme>inas</rhyme>,</l>
+                        <l xml:id="L19">las calças soladas andan por mesqu<rhyme>inas</rhyme>,</l>
+                        <l xml:id="L20">pues el aldeano las trae en la tr<rhyme>illa</rhyme>,</l>
+                        <l xml:id="L21">color encendido sabio en la mex<rhyme>illa</rhyme>,</l>
+                        <l xml:id="L22">pues <rs ref="#BSA">mi</rs> sofismo tan simple ven<rhyme>ino</rhyme>
+                  </l>
+                        <l xml:id="L23">
+                     <rs ref="#BSA">vi</rs> ser aprovado de <persName ref="#AAV">don Alfons<rhyme>ino</rhyme>
+                     </persName>,</l>
+                        <l xml:id="L24">
+                     <rs ref="#AAV">señor</rs> sea cedo de noble cuadr<rhyme>illa</rhyme>.</l>
+                    </lg>
+
+                    <lg n="4" type="finda" met="10,10, 10, 10" rhyme="ABBA">
+                        <l xml:id="L25">
+                     <rs ref="#BSA">Non quiero</rs> ya más traer en <term cRef="196">fabl<rhyme>illa</rhyme>
+                     </term>
+                  </l>
+                        <l xml:id="L26">los altos loores d´aqueste prud<rhyme>ente</rhyme>,</l>
+                        <l xml:id="L27">ca por aventura por un acid<rhyme>ente</rhyme>,</l>
+                        <l xml:id="L28">podría caer en fuerte los<rhyme>illa</rhyme>.</l>
+                    </lg>
+                </lg>
+            </sp>
+        </body>
+    </text>
+</TEI>

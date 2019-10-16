@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amigo maestro, ya otras vegadas</title>
+
+
+                <title type="incipit">Amigo maestro, ya otras vegadas</title>
+
+                <author ref="#AAV">Alfonso Álvarez de Villasandino </author>
+
+
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval/CENDARI Project</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url">
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero
+                            Manuscripts</publisher>
+                        <idno n="1231">Dutton 1231</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=91&amp;entry=ID1231%20R%201230#PN191ID1231_R_1230</ref>
+                    </bibl>
+
+
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia </repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="32r" to="32r">32r. </locus>
+                            <idno>PN1-91</idno>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+
+            <creation>
+                <origDate notBefore="1426" notAfter="1465">1426-1465</origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-04" who="#GDR">Changes are made</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head type="rúbrica"> Esta <term cRef="163">respuesta</term>
+                <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> el dicho <persName ref="#AAV">Alfonso Álvarez de <placeName ref="#VI1">Villasandino</placeName>
+            </persName>(…) <persName ref="#BSA">maestro en
+                        artes</persName> a la <term cRef="162">pregunta</term> que le <term cRef="174">fizo</term> (...) </head>
+
+            <sp who="#BSA">
+                <speaker>Alfonso Álvarez de Villasandino</speaker>
+                <lg type="poema"
+                subtype="respuesta"
+                unisonancia="singular"
+                isometrismo="isométrico"
+                isoestrofismo="heteroestrófico"
+                asonancia="consonante"
+                met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10, 10"
+                rhyme="ABBAACCA/ABBA">
+                    <note> Se trata de una pieza de arte mayor</note>
+                    <lg n="1"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+
+                        <l xml:id="L1">
+                     <rs ref="#BSA">Amigo maestro</rs>, ya otras veg<rhyme>adas</rhyme>
+                  </l>
+                        <l xml:id="L2">
+                     <rs ref="#AAV">vi</rs>
+                            <rs ref="#BSA">vuestros</rs>
+                            <term cRef="187">dezires</term> con que <rs ref="#AAV">fui goz<rhyme>oso</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L3">por quanto parescen de <term cRef="190">sabio</term>
+                                engeñ<rhyme>oso</rhyme>
+                  </l>
+                        <l xml:id="L4">las <rs ref="#BSA">vuestras</rs>
+                            <term cRef="89">razones</term>
+                            <term cRef="171">sotiles</term>, <term cRef="189">lim<rhyme>adas</rhyme>
+                     </term>,</l>
+                        <l xml:id="L5">mas non <rs ref="#AAV">me</rs> fadaron a <rs ref="#AAV">mí</rs> tales f<rhyme label="adas ">adas</rhyme>
+                  </l>
+                        <l xml:id="L6">que <rs ref="#AAV">yo meresciese</rs> entrar en tal c<rhyme>oro</rhyme>
+                  </l>
+                        <l xml:id="L7">como <rs ref="#BSA">vos dezides</rs>, pero sienpre <rs ref="#AAV">ad<rhyme>oro</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L8">en lindas personas que son bien cre<rhyme>adas</rhyme>.</l>
+                    </lg>
+
+                    <lg n="2"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L9">Nin <rs ref="#AAV">yo me siento tan desacord<rhyme label="ador">ado</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L10">que por <rs ref="#AAV">mí</rs>tomasse tan fino lo<rhyme>or</rhyme>,</l>
+                        <l xml:id="L11">e si lo <rs ref="#AAV">feziese</rs> seria grant err<rhyme>or</rhyme>,</l>
+                        <l xml:id="L12">seyendo inorante non guard<rhyme>ado</rhyme>,</l>
+                        <l xml:id="L13">pero todo cuerpo es element<rhyme>ado</rhyme>
+                  </l>
+                        <l xml:id="L14">segunt las planetas e costelaci<rhyme>ones</rhyme>
+                  </l>
+                        <l xml:id="L15">después por criança en sus condici<rhyme>ones</rhyme>
+                  </l>
+                        <l xml:id="L16">bien puede por gracia ser quisto e am<rhyme>ado</rhyme>.</l>
+                    </lg>
+
+                    <lg n="3"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L17">
+                     <rs ref="#BSA">La vuestra grand fusta sin toda renz<rhyme>illa</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L18">con vela e antena e sus cuerdas f<rhyme>inas</rhyme>
+                  </l>
+                        <l xml:id="L19">podrié marear bien fasta Mell<rhyme>inas</rhyme>,</l>
+                        <l xml:id="L20">después con buen tiempo tornar en Cast<rhyme>illa</rhyme>
+                  </l>
+                        <l xml:id="L21">e donde se esmera la noble bax<rhyme>illa</rhyme>,</l>
+                        <l xml:id="L22">
+                     <rs ref="#BSA">el vuestro argumento amuestran por f<rhyme>ino</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L23">e <rs ref="#AAV">yo de mi parte así lo esam<rhyme>ino</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L24">maguer non <rs ref="#AAV">meresco</rs> sobir en tal s<rhyme>illa</rhyme>.</l>
+                    </lg>
+
+                    <lg n="4" type="finda" met="10,10, 10, 10" rhyme="ABBA">
+                        <l xml:id="L25">El sabio sessudo quanto más se om<rhyme>illa</rhyme>,</l>
+                        <l xml:id="L26">tanto se onra, pues Dios acrec<rhyme>iente</rhyme>
+                  </l>
+                        <l xml:id="L27">
+                     <rs ref="#BSA">la vuestra salud</rs>, <rs ref="#BSA">amigo e
+                                    par<rhyme>iente</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L28">e sienpre <rs ref="#BSA">seades onrado</rs> en la v<rhyme>illa</rhyme>.</l>
+                    </lg>
+                </lg>
+            </sp>
+        </body>
+    </text>
+</TEI>

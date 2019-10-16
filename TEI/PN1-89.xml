@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Non siento tal lego, amigo, en España</title>
+
+
+                <title type="incipit">Non siento tal lego, amigo, en España</title>
+
+                <author ref="#AAV">Alfonso Álvarez de Villasandino</author>
+
+
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval/CENDARI Project</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url">
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero
+                            Manuscripts</publisher>
+                        <idno n="1229">Dutton 1229</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=89&amp;entry=ID1229%20R%201228#PN189ID1229_R_1228</ref>
+                    </bibl>
+
+
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia </repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="31v" to="32r">31v-32r</locus>
+                            <idno>PN1-89</idno>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+
+            <creation>
+                <origDate notBefore="1426" notAfter="1465">1426-1465</origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-02" who="#GDR">Changes are made</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head type="rúbrica">
+                <term cRef="163">Respuesta</term> de <persName ref="#AAV">Alfonso Álvarez</persName>
+                contra el <persName ref="#BSA">Bachiller</persName>
+            </head>
+
+
+            <sp who="#AAV">
+                <speaker>Alfonso Álvarez de Villasandino</speaker>
+                <lg type="poema"
+                subtype="respuesta"
+                unisonancia="singular"
+                isometrismo="isométrico"
+                isoestrofismo="heteroestrófico"
+                asonancia="consonante"
+                met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10"
+                rhyme="ABBAACCA/AAB">
+                    <note> Se trata de una pieza de arte mayor</note>
+                    <lg n="1"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+
+
+                        <l xml:id="L1">Non siento tal lego, <rs ref="#BSA">amigo</rs>, en Esp<rhyme>aña</rhyme>
+                  </l>
+                        <l xml:id="L2">que <rs ref="#BSA">vos</rs> declarasse luego en prov<rhyme label="isso">iso</rhyme>
+                  </l>
+                        <l xml:id="L3">las obras del cielo nin Dios por que qu<rhyme>iso</rhyme>
+                  </l>
+                        <l xml:id="L4">criar la natura por fuerça o por m<rhyme>aña</rhyme>,</l>
+                        <l xml:id="L5">a esto <rs ref="#AAV">respondo</rs> como por <term cRef="192">faz<rhyme>aña</rhyme>
+                     </term>
+                  </l>
+                        <l xml:id="L6">que es un secreto d´escura carr<rhyme>era</rhyme>
+                  </l>
+                        <l xml:id="L7">del alto sin fin sin cuento e sin <rhyme>era</rhyme>,</l>
+                        <l xml:id="L8">e quien de al enfinge creo que se eng<rhyme>aña</rhyme>.</l>
+                    </lg>
+
+                    <lg n="2"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L9">
+                     <rs ref="#BSA">Amigo</rs>, ya <rs ref="#AAV">tengo mi <term ref="#PMC:89">razón</term> prop<rhyme label="esta">uesta</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L10">que este secreto es del que non m<rhyme label="iente">ient</rhyme>e</l>
+                        <l xml:id="L11">e sobre natura inpera viv<rhyme>iente</rhyme>
+                  </l>
+                        <l xml:id="L12">potestad divina luz clara e ap<rhyme label="esta">uesta</rhyme>
+                  </l>
+                        <l xml:id="L13">quien al me demanda su saber den<rhyme>uesta</rhyme>,</l>
+                        <l xml:id="L14">que <rs ref="#AAV">yo non entiendo</rs> qu´es astrolog<rhyme label="ia">ía</rhyme>
+                  </l>
+                        <l xml:id="L15">nin sus almanaques mas por <term ref="#PMC:193">poetr<rhyme label="ia">ía</rhyme>
+                     </term>
+                  </l>
+                        <l xml:id="L16">faré mi <term cRef="89">razón</term>
+                            <term cRef="189">limada</term>
+                            <term cRef="194">conp<rhyme>uesta</rhyme>
+                     </term>.</l>
+                    </lg>
+
+                    <lg n="3" type="finda" met="10,10, 10" rhyme="AAB">
+                        <l xml:id="L17">
+                     <rs ref="#BSA">Amigo señor</rs>, <rs ref="#AAV">yo nunca
+                                    aprend<rhyme label="i">í</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L18">ninguna <term cRef="195">ciencia</term>salvo que<rs ref="#AAV">
+                        <rhyme label="io"> yo</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L19">tañer, dançar docida e trasp<rhyme>uesta</rhyme>.</l>
+                    </lg>
+
+
+                </lg>
+            </sp>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amigo señor, franqueza desdeña</title>
+
+
+                <title type="incipit">Amigo señor, franqueza desdeña</title>
+
+                <author ref="#AAV">Alfonso Álvarez de Villasandino</author>
+
+
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval/CENDARI Project</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url">
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero
+                            Manuscripts</publisher>
+                        <idno n="1235">Dutton 1235</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=95&amp;entry=ID1235%20R%201234#PN195ID1235_R_1234</ref>
+                    </bibl>
+
+
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia </repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="33r" to="33r">33r</locus>
+                            <idno>PN1-95</idno>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+
+            <creation>
+                <origDate notBefore="1426" notAfter="1465">1426-1465</origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-07" who="#GDR">Changes are made</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head type="rúbrica"> Esta <term cRef="163">respuesta</term>
+                <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> el dicho <persName ref="#AAV">Alfonso Álvarez</persName> de <placeName ref="#VI1">Villasandino</placeName>contra el dicho <persName ref="#BSA">Bachiller e
+                    Maestro en Artes</persName>
+            </head>
+
+
+            <sp who="#BSA">
+                <speaker>Alfonso Álvarez de Villasandino</speaker>
+                <lg type="poema"
+                subtype="respuesta"
+                unisonancia="singular"
+                isometrismo="isométrico"
+                isoestrofismo="heteroestrófico"
+                asonancia="consonante"
+                met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10, 10"
+                rhyme="ABBAACCA/AAB">
+                    <note> Se trata de una pieza de arte mayor</note>
+                    <lg n="1"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+
+                        <l xml:id="L1">
+                            <rs ref="#BSA">Amigo señor</rs>, franqueza desd<rhyme>eña</rhyme>
+                  </l>
+                        <l xml:id="L2">a gente avarenta e geno turb<rhyme>ado</rhyme>,</l>
+                        <l xml:id="L3">por ende se foi morar malp<rhyme label="ado">ando</rhyme>
+                  </l>
+                        <l xml:id="L4">trezentas jornadas alende Cerd<rhyme>eña</rhyme>,</l>
+                        <l xml:id="L5">e non tornará por cosa que av<rhyme>eña</rhyme>
+                  </l>
+                        <l xml:id="L6">en estas partidas pos un muy grant tr<rhyme label="eto">eito</rhyme>
+                  </l>
+                        <l xml:id="L7">e si o fizere fará grant der<rhyme>eito</rhyme>
+                  </l>
+                        <l xml:id="L8">pois <rs ref="#AAV">he</rs> preçada por una cerm<rhyme>eña</rhyme>.</l>
+                    </lg>
+
+                    <lg n="2"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L9">E aun mas <rs ref="#BSA">vos</rs>
+                            <rs ref="#AAV">digo</rs> que finca escas<rhyme>eza</rhyme>
+                  </l>
+                        <l xml:id="L10">en estas partidas con honra tam<rhyme>aña</rhyme>
+                  </l>
+                        <l xml:id="L11">que todos lle fazen muy grant festa estr<rhyme>aña</rhyme>
+                  </l>
+                        <l xml:id="L12">así aborrecen a toda gentil<rhyme>eza</rhyme>
+                  </l>
+                        <l xml:id="L13">pois como atendedes que veña nobr<rhyme>eza</rhyme>
+                  </l>
+                        <l xml:id="L14">morar entre gente do hay tal degr<rhyme>edo</rhyme>
+                  </l>
+                        <l xml:id="L15">que tantos <rs ref="#AAV">señalo con este meu d<rhyme>edo</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L16">son muy avarentos con toda vil<rhyme>eza</rhyme>.</l>
+                    </lg>
+
+                    <lg n="3"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L17">Gra[n]des señores, legos e perl<rhyme>ados</rhyme>
+                  </l>
+                        <l xml:id="L18">ben <rs ref="#BSA">vos</rs> mostrarán logo de pres<rhyme>ente</rhyme>
+                  </l>
+                        <l xml:id="L19">en todos sus gestos e seu contin<rhyme>ente</rhyme>
+                  </l>
+                        <l xml:id="L20">que aman franqueza segunt los pas<rhyme>ados</rhyme>
+                  </l>
+                        <l xml:id="L21">mais desque ajades a estos prov<rhyme>ados</rhyme>
+                  </l>
+                        <l xml:id="L22">
+                     <rs ref="#BSA">veredes</rs> que curan de se apart<rhyme>ar</rhyme>
+                  </l>
+                        <l xml:id="L23">e con avariça reír, profaz<rhyme>ar</rhyme>
+                  </l>
+                        <l xml:id="L24">de lindos fidalgos que viven lazr<rhyme>ados</rhyme>.</l>
+                    </lg>
+
+                    <lg n="4" type="finda" met="10,10, 10" rhyme="AAB">
+                        <l xml:id="L25">Desi han tomado agora un refr<rhyme label="an">án</rhyme>
+                  </l>
+                        <l xml:id="L26">viciosos e ricos por qué buscar<rhyme label="an">án</rhyme>
+                  </l>
+                        <l xml:id="L27">bollicios nin guerras por ser enloc<rhyme>ados</rhyme>.</l>
+                    </lg>
+
+                </lg>
+            </sp>
+        </body>
+    </text>
+</TEI>
