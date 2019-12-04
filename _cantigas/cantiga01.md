@@ -1,7 +1,7 @@
 ---
 layout: cantiga
 title: Cantiga 1
-permalink: /cantiga01/
+permalink: cantiga01/
 ---
 
 
@@ -22,4 +22,4 @@ Small images should be shown at their actual size.
 
 Large images should always scale down and fit in the content container.
 
-![](https://github.com/hdcaicyt/Poesia-Medieval/blob/master/img/PN1-107-36v-0.jpg)
+![](../img/PN1-107-36v-0.jpg)
