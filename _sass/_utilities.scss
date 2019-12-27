@@ -85,25 +85,6 @@
 .col-11 { width: (11 / 12 * 100%); }
 .col-12 { width: 100%; }
 
-.col-left {
-  float: left;
-  width: 50%;
-}
-.col-right {
-  float: right;
-  width: 50%;
-}
-/* Clear floats after the columns */
-.row {
-  max-width: 70em ;
-}
-
-:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 @media (max-width: $breakpoint-lg) {
   .sm-width-full { width: 100% !important; }
 }
@@ -123,6 +104,25 @@
 .left { float: left; }
 .right { float: right; }
 
+
+.col-left {
+  float: left;
+  width: 50%;
+}
+.col-right {
+  float: right;
+  width: 50%;
+}
+/* Clear floats after the columns */
+.row {
+  max-width: 70em ;
+}
+
+// :after {
+//  content: "";
+//  display: table;
+//  clear: both;
+//}
 
 // Responsive layout
 

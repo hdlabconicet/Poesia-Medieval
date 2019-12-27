@@ -16,7 +16,12 @@ code {
     padding: 1px 4px;
 }
 
-
+.rubrica {
+  p {
+    font-size: 14px;
+    font-style: italic
+  }
+}
 .prose {
 
   p, ol, ul {
@@ -60,7 +65,7 @@ code {
     font-style: italic;
 
     p {
-      font-size: 20px;
+      font-size: 16px;
     }
 
     @media (min-width: $breakpoint-lg) {
@@ -69,7 +74,7 @@ code {
       max-width: (11 / 10 * 100%);
 
       p {
-        font-size: 28px;
+        font-size: 22px;
       }
 
     }
