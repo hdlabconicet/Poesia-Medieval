@@ -106,6 +106,7 @@
 
 
 .col-left {
+  padding-right:  $spacer-2;
   float: left;
   width: 50%;
 }
@@ -167,6 +168,8 @@
 
 .px-4 { padding-left: $spacer-4; padding-right:  $spacer-4; }
 .py-4 { padding-top: $spacer-4;  padding-bottom: $spacer-4; }
+
+.py-5 { padding-top: 90px;  padding-bottom: 90px; }
 
 /* Margin */
 .mx-auto { margin-left: auto; margin-right: auto; }
