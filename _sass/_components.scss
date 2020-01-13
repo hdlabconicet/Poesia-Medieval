@@ -28,7 +28,18 @@ code {
     // }
 
   }
-
+  
+  .verso {
+  font-size: 22px;
+  margin-bottom:4px;
+  }
+  
+.rubrica {
+  font-size: 18px;
+  font-style: italic; 
+  color: #7b241c
+}
+  
   ul, ol {
     padding-left: 40px;
   }
@@ -71,8 +82,7 @@ code {
         font-size: 22px;
       }
 
-    }
-
+    
   }
 
   hr {
@@ -82,6 +92,7 @@ code {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
   }
+    }
 
   dt {
     font-weight: bold;
@@ -126,5 +137,5 @@ code {
       border-bottom: 2px solid $color-body-text;
     }
   }
+  }
 
-}
