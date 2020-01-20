@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Amigo señor, non vos encubrades</title>
-
-
-                <title type="incipit">Amigo señor, non vos encubrades</title>
+                
+                <title>A esta pregunta que me preguntades</title>
+                
+                
+                <title type="incipit">A esta pregunta que me preguntades</title>
+                
 
                 <author ref="#AAV">Alfonso Álvarez de Villasandino</author>
 
@@ -42,7 +46,7 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <locus from="41v" to="42r">41v-42r</locus>
+                            <locus from="42r" to="42r">42r</locus>
                             <idno>PN1-122</idno>
                         </msItem>
                     </msContents>
@@ -68,15 +72,29 @@
         </revisionDesc>
     </teiHeader>
 
+
+
+    <facsimile>
+        <graphic url="imagenes/PN1-122-42r-(0).jpg" xml:id="PN122-0"></graphic>
+
+        <graphic url="imagenes/PN1-122-42r-(1).jpg" xml:id="PN122-1"></graphic>
+    </facsimile>
+
+
     <text>
         <body>
+            
+            <pb facs="#PN122-0"/>
+            
             <head type="rúbrica">
                 <term cRef="212">Repregunta</term> del dicho<persName ref="#AAV">Alfonso
                     Álvarez</persName>
             </head>
 
 
-
+            <pb facs="#PN122-1"/>
+            
+            
             <sp who="#NC">
                 <speaker>Alfonso Álvarez de Villasandino</speaker>
                 <lg type="poema"
@@ -85,8 +103,8 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10, 10"
-                rhyme="ABBAACCA/ABBA">
+                met="10,10, 10, 10, 10, 10, 10, 10"
+                rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor. La clasificación de la pieza como
                         repregunta del mismo poeta es un unicum. El receptor, al igual que en la
                         pieza anterior, podría ser Fernán Pérez de Guzmán.</note>
@@ -98,32 +116,31 @@
 
                         <l xml:id="L1">A esta <term cRef="162">pregunta</term> que <rs ref="#AAV">me</rs>
                             <rs ref="#NC">
-                        <term cRef="162">pregunt<rhyme>ades</rhyme>
+                        <term cRef="162">pregunt<rhyme label="ades">ades</rhyme>
                         </term>
                      </rs>,</l>
-                        <l xml:id="L2">que grande es la noche, <rs ref="#AAV">pensando la v<rhyme>elo</rhyme>
+                        <l xml:id="L2">que grande es la noche, <rs ref="#AAV">pensando la v<rhyme label="elo">elo</rhyme>
                      </rs>,</l>
-                        <l xml:id="L3">dando garpellidos como gato en c<rhyme>elo</rhyme>,</l>
-                        <l xml:id="L4">por el grant peligro que <rs ref="#NC">vos devis<rhyme>ades</rhyme>
+                        <l xml:id="L3">dando garpellidos como gato en c<rhyme label="elo">elo</rhyme>,</l>
+                        <l xml:id="L4">por el grant peligro que <rs ref="#NC">vos devis<rhyme label="ades">ades</rhyme>
                      </rs>,</l>
-                        <l xml:id="L5">si Dios nos comprende por nuestras mald<rhyme>ades</rhyme>,</l>
+                        <l xml:id="L5">si Dios nos comprende por nuestras mald<rhyme label="ades">ades</rhyme>,</l>
                         <l xml:id="L6">e <rs ref="#NC">vedes</rs>, <rs ref="#NC">amigo</rs>, que
-                            desto <rs ref="#AAV">m´enc<rhyme>elo</rhyme>
+                            desto <rs ref="#AAV">m´enc<rhyme label="elo">elo</rhyme>
                      </rs>,</l>
-                        <l xml:id="L7">e por su venida “mi barba rep<rhyme>elo</rhyme>, </l>
+                        <l xml:id="L7">e por su venida “mi barba rep<rhyme label="elo">elo</rhyme>, </l>
                         <l xml:id="L8">
-                     <rs ref="#NC">echad</rs> en remojo essa que rap<rhyme>ades</rhyme>”.</l>
+                            <rs ref="#NC">echad</rs> en remojo essa que rap<rhyme label="ades">ades</rhyme>”.</l>
                     </lg>
-                    <lg n="2">
+                    
+                    <lg n="2" type="finida" met="10,10, 10, 10" rhyme="ABBA">
 
-                        <!-- Falta información métrica -->
-
-                        <l xml:id="L9">Castillos e villas con sus merind<rhyme>ades</rhyme>
+                        <l xml:id="L9">Castillos e villas con sus merind<rhyme label="ades">ades</rhyme>
                   </l>
-                        <l xml:id="L10">fagan procesión con muy homilz<rhyme>elo</rhyme>,</l>
-                        <l xml:id="L11">que Dios nunca traiga quien diga en cong<rhyme>elo</rhyme>
+                        <l xml:id="L10">fagan procesión con muy homilz<rhyme label="elo">elo</rhyme>,</l>
+                        <l xml:id="L11">que Dios nunca traiga quien diga en cong<rhyme label="elo">elo</rhyme>
                   </l>
-                        <l xml:id="L12">porque nos turbe nuestras volunt<rhyme>ades</rhyme>.</l>
+                        <l xml:id="L12">porque nos turbe nuestras volunt<rhyme label="ades">ades</rhyme>.</l>
                     </lg>
 
 

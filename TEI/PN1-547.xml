@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -68,17 +70,32 @@
         </revisionDesc>
     </teiHeader>
 
+
+
+    <facsimile>
+        <graphic url="imagenes/PN1-547-183v-(0).jpg" xml:id="PN547-0"></graphic>
+
+        <graphic url="imagenes/PN1-547-183v-(1).jpg" xml:id="PN547-1"></graphic>
+    
+        <graphic url="imagenes/PN1-547-184r-(2).jpg" xml:id="PN547-2"></graphic>
+    
+    </facsimile>
+
     <text>
         <body>
+            
+            <pb facs="#PN547-0"/>
+            
             <head type="rúbrica">
-                <term cRef="162">Pregunta</term> en manera de <term cRef="203">requesta</term>
-                oscura e sotil que <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> el
+                <term cRef="162">Pregunta</term> oscura e sotil que <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> el
                 dicho <persName ref="#FPG">Ferrand Pérez de Guzmán</persName> como en manera de
-                    <term cRef="203">requesta</term> contra los trabajadores, la cual <term cRef="174">fizo</term> por quanto el rey don Enrique avía apartado de su corte
-                al condestable viejo e en su lugar privaba el caldenal de España </head>
+                    <term cRef="203">requesta</term> contra los trabajadores, la cual <term cRef="174">fizo</term> por quanto el <persName ref="#REC">rey don Enrique</persName> avía apartado de su corte
+                al condestable viejo e en su lugar privaba el cardenal de <placeName ref="#ESP">España</placeName></head>
 
 
-            <sp>
+            <pb facs="#PN547-1"/>
+
+            <sp>   <!-- Acá tendríamos que hacer una identidad para los trabajadores para completar el atributo "who", o utilizamos NC??? -->
                 <speaker>Fernán Pérez de Guzmán</speaker>
                 <lg type="poema"
                 subtype="pregunta"
@@ -99,18 +116,18 @@
 
 
 
-                        <l xml:id="L1">Tiren el clavo e ande la ru<rhyme>eda</rhyme>
+                        <l xml:id="L1">Tiren el clavo e ande la ru<rhyme label="eda">eda</rhyme>
                   </l>
-                        <l xml:id="L2">que ya su firmeza non es razon<rhyme>able</rhyme>,</l>
-                        <l xml:id="L3">semblante non faga un punto ser qu<rhyme>eda</rhyme>
+                        <l xml:id="L2">que ya su firmeza non es razon<rhyme label="able">able</rhyme>,</l>
+                        <l xml:id="L3">semblante non faga un punto ser qu<rhyme label="eda">eda</rhyme>
                   </l>
-                        <l xml:id="L4">e mezcle ventura sin pleito dur<rhyme>able</rhyme>
+                        <l xml:id="L4">e mezcle ventura sin pleito dur<rhyme label="able">able</rhyme>
                   </l>
-                        <l xml:id="L5">e sane con vueltas la llaga incur<rhyme>able</rhyme>,</l>
-                        <l xml:id="L6">alegre los tristes con sus mudam<rhyme>ientos</rhyme>,</l>
-                        <l xml:id="L7">que si non han esta calma acorro de v<rhyme>ientos</rhyme>
+                        <l xml:id="L5">e sane con vueltas la llaga incur<rhyme label="able">able</rhyme>,</l>
+                        <l xml:id="L6">alegre los tristes con sus mudam<rhyme label="ientos">ientos</rhyme>,</l>
+                        <l xml:id="L7">que si non han esta calma acorro de v<rhyme label="ientos">ientos</rhyme>
                   </l>
-                        <l xml:id="L8">paresc[i]era lana fundida en el s<rhyme>able</rhyme>
+                        <l xml:id="L8">paresc[i]era lana fundida en el s<rhyme label="able">able</rhyme>
                   </l>
                     </lg>
 
@@ -118,39 +135,42 @@
                    type="octava"
                    met="10,10, 10, 10, 10, 10, 10, 10"
                    rhyme="ABABBCCB">
-                        <l xml:id="L9">El rodar non cese jamás de l’ esp<rhyme>era</rhyme>,</l>
-                        <l xml:id="L10">e mude los tienpos en quexosa s<rhyme>uerte</rhyme>
+                        <l xml:id="L9">El rodar non cese jamás de l’ esp<rhyme label="era">era</rhyme>,</l>
+                        <l xml:id="L10">e mude los tienpos en quexosa s<rhyme label="uerte">uerte</rhyme>
                   </l>
-                        <l xml:id="L11">non se faga estable lo que de auto non <rhyme>era</rhyme>
+                        <l xml:id="L11">non se faga estable lo que de auto non <rhyme label="era">era</rhyme>
                   </l>
-                        <l xml:id="L12">que mudar costunbre sería_a par de m<rhyme>uerte</rhyme>
+                        
+                        <pb facs="#PN547-2"/>
+                        
+                        <l xml:id="L12">que mudar costunbre sería_a par de m<rhyme label="uerte">uerte</rhyme>
                   </l>
-                        <l xml:id="L13">quier mansa quier leda entre nos ap<rhyme>uerte</rhyme>
+                        <l xml:id="L13">quier mansa quier leda entre nos ap<rhyme label="uerte">uerte</rhyme>
                   </l>
-                        <l xml:id="L14">aquesta fortuna sin calma enbi<rhyme>ada</rhyme>
+                        <l xml:id="L14">aquesta fortuna sin calma enbi<rhyme label="ada">ada</rhyme>
                   </l>
-                        <l xml:id="L15">en tal que non viva sienpre_asoseg<rhyme>ada</rhyme>
+                        <l xml:id="L15">en tal que non viva sienpre_asoseg<rhyme label="ada">ada</rhyme>
                   </l>
-                        <l xml:id="L16">cras será mansa la que hoy vi f<rhyme>uerte</rhyme>.</l>
+                        <l xml:id="L16">cras será mansa la que hoy vi f<rhyme label="uerte">uerte</rhyme>.</l>
                     </lg>
 
                     <lg n="3"
                    type="octava"
                    met="10,10, 10, 10, 10, 10, 10, 10"
                    rhyme="ABABBCCB">
-                        <l xml:id="L17">Plaziendo a Fortuna sin toda tard<rhyme>ança</rhyme>
+                        <l xml:id="L17">Plaziendo a Fortuna sin toda tard<rhyme label="ança">ança</rhyme>
                   </l>
-                        <l xml:id="L18">abiertas serán las puertas de J<rhyme>ano</rhyme>
+                        <l xml:id="L18">abiertas serán las puertas de J<rhyme label="ano">ano</rhyme>
                   </l>
-                        <l xml:id="L19">aquel que mas usa de buena orden<rhyme>ança</rhyme>
+                        <l xml:id="L19">aquel que mas usa de buena orden<rhyme label="ança">ança</rhyme>
                   </l>
-                        <l xml:id="L20">será obedescido del pueblo rom<rhyme>ano</rhyme>,</l>
-                        <l xml:id="L21">e los que cayeron en el tienpo ll<rhyme>ano</rhyme>
+                        <l xml:id="L20">será obedescido del pueblo rom<rhyme label="ano">ano</rhyme>,</l>
+                        <l xml:id="L21">e los que cayeron en el tienpo ll<rhyme label="ano">ano</rhyme>
                   </l>
-                        <l xml:id="L22">serán ensalçados Fortuna corri<rhyme>endo</rhyme>
+                        <l xml:id="L22">serán ensalçados Fortuna corri<rhyme label="endo">endo</rhyme>
                   </l>
-                        <l xml:id="L23">e dirán los malos, pues fueron cay<rhyme>endo</rhyme>:</l>
-                        <l xml:id="L24">“viva quien vence, lo al todo es v<rhyme>ano</rhyme>.”</l>
+                        <l xml:id="L23">e dirán los malos, pues fueron cay<rhyme label="endo">endo</rhyme>:</l>
+                        <l xml:id="L24">“viva quien vence, lo al todo es v<rhyme label="ano">ano</rhyme>.”</l>
                     </lg>
 
 

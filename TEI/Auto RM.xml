@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Auto de los reyes magos</title>
+                <author>Anónimo</author>
+                <editor>Gabriel Calarco</editor> 
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Diálogo Medieval</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <listBibl>
+                    <head>Edición crítica de Ronald e. Surtz</head>
+                    <bibl> 
+                        <publisher>Taurus: Madrid, 1983</publisher>
+                        <ref></ref>
+                    </bibl>
+                </listBibl>
+                
+                <msDesc>
+                    <msIdentifier> 
+                        <repository>Biblioteca Nacional de Madrid</repository> 
+                        <idno>BNE vitr/5/9</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="67v" to="68r">67v-68r</locus>
+                            <idno>BNE vitr/5/9</idno>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+                
+            </sourceDesc> 
+            
+        </fileDesc>
+        
+        <profileDesc>
+            
+            <particDesc>
+                <listPerson>
+                    <person xml:id="CAS">
+                        <persName>Caspar</persName>
+                    </person>
+                    <person xml:id="BAL">
+                        <persName>Baltasar</persName>
+                    </person>
+                    <person xml:id="MEL">
+                        <persName>Melchior</persName>
+                    </person>
+                    <person xml:id="ERO">
+                        <persName>Herodes</persName>
+                    </person> 
+                    <person xml:id="MAY">           
+                        <persName>Mayordomo</persName>
+                    </person> 
+                    <person xml:id="RA1">
+                        <persName>Rabí 1</persName>
+                    </person>       
+                    <person xml:id="RA2">
+                        <persName>Rabí 2</persName>
+                    </person> 
+                    <person xml:id="DC">
+                        <persName>Discurso colectivo</persName>
+                    </person> 
+                    <person xml:id="NC">
+                        <persName>Not clear</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="OCC">
+                        <placeName>Occidente</placeName>
+                    </place>
+                    <place xml:id="ORI">
+                        <placeName>Oriente</placeName>
+                    </place>
+                </listPlace>
+            </settingDesc>
+            
+            <textClass>
+                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
+                    <term n="146">Pareado</term>
+                    <term n="113">Religioso</term>
+                    <term n="129">Navidad</term>
+                </keywords>
+            </textClass>
+            
+            <creation>
+                <origDate notBefore="1150" notAfter="1250">1150-1250</origDate>
+            </creation>
+            
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+            
+        </profileDesc>
+        
+        <revisionDesc>
+            <listChange>
+                <change>por revisar</change>
+            </listChange>
+        </revisionDesc>
+        
+        
+    </teiHeader>
+
+
+
+    <facsimile>
+        <graphic url="imagenes/ARM-67v-1.jpg" xml:id="ARM-1"></graphic>
+  
+        <graphic url="imagenes/ARM-68r-2.jpg" xml:id="ARM-2"></graphic>
+    </facsimile>
+
+    <text>
+        <body>
+            
+            <note>Dada irregularidad métrica propia de las obras castellanas de este período, la métrica cosignada de "9, 9" tiene un carácter 
+                general y refleja la mayoría de versos eneasílabos del poema</note>
+            
+            <pb facs="#ARM-1"/>
+            
+         <sp who="#NC" >
+           <speaker>Caspar</speaker>    
+                <lg n="1"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="e-a">  
+                    <l xml:id="L1">¡Dios criador, cuál marav<rhyme label="i-a">ila</rhyme>!</l>
+                    <l xml:id="L2">No sé cuál es aquesta str<rhyme label="e-a">ela</rhyme>.</l>
+                </lg>
+                
+             <lg n="2" type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                 isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="i-a">
+                    <l xml:id="L3">Agora primas la he ve<rhyme label="i-a">ída</rhyme>;</l>
+                    <l xml:id="L4">poco timpo ha que es nac<rhyme label="i-a">ida</rhyme>.</l>
+                </lg>
+                
+             <lg n="3"   type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                 isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="o">
+                    <l xml:id="L5">¿Nacido es el Criad<rhyme label="o">or</rhyme></l>
+                    <l xml:id="L6">que es de la[s] gentes Seni<rhyme label="o">or</rhyme>?</l>
+                </lg>
+                
+             <lg n="4"   type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                 isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="i-o">
+                    <l xml:id="L7">Non es verdad, non sé qué d<rhyme label="i-o">igo</rhyme>;</l>
+                    <l xml:id="L8">todo esto non vale uno f<rhyme label="i-o">igo</rhyme>.</l>
+                </lg>
+                
+             <lg n="5"   type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                 isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="e">
+                    <l xml:id="L9">Otra nocte me lo cata<rhyme label="e">ré</rhyme>;</l>
+                    <l xml:id="L10">si es vertad, bine lo sab<rhyme label="e">ré</rhyme>.</l>
+                </lg>
+                
+             <lg n="6"   type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                 isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="i-o">
+                    <l xml:id="L11">¿Bine es vertad lo que yo d<rhyme label="i-o">igo</rhyme>?</l>
+                    <l xml:id="L12">En todo, en todo lo proh<rhyme label="i-o">ío</rhyme>.</l>		
+                </lg>
+                
+             <lg n="7"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                 isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a">
+                    <l xml:id="L13">¿Non pudet seer otra senn<rhyme label="a">al</rhyme>?</l>
+                    <l xml:id="L14"> Aquesto es y non es <rhyme label="a">ál</rhyme>;</l>
+                </lg>
+                
+             <lg n="8" type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                 isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="e-a"> 
+                    <l xml:id="L15">nacido es Dios, por ver, de f<rhyme label="e-a">embra</rhyme></l>    
+                    <l xml:id="L16">in aquest mes de dec<rhyme label="e-e">ember</rhyme>.</l>
+                </lg>
+                
+             <lg n="9" type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                 isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="e">           
+                    <l xml:id="L17"> Alá iré, ó que fure, aorale h<rhyme label="e">e</rhyme>;</l>
+                    <l xml:id="L18">  por Dios de todos lo tern<rhyme label="e">é</rhyme>.</l>
+                </lg> 
+         </sp>
+     
+     
+            
+      <sp who="#NC">
+       <speaker>Baltasar</speaker>   
+                    
+          <lg n="10"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+              isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="i-e">           
+                  <l xml:id="L19">Esta strela non sé dónd v<rhyme label="i-e">inet</rhyme>,</l> 
+                  <l xml:id="L20">quín la trae o quín la t<rhyme label="i-e">ine</rhyme>.</l>                   
+              </lg>
+              
+          <lg n="11"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+              isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a">
+                  <l xml:id="L21">¿Por qué es aquesta senn<rhyme label="a">al</rhyme>?</l>
+                  <l xml:id="L22"> En mos días [n]on vi at<rhyme label="a">al</rhyme>.</l>
+              </lg> 
+              
+          <lg n="12"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+              isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="e-a">
+                  <l xml:id="L23">Certas nacido es en t<rhyme label="i-a">irra</rhyme></l>
+                  <l xml:id="L24">aquel qui en pace y en gu<rhyme label="e-a">er[r]a</rhyme></l>
+              </lg>
+              
+          <lg n="13"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+              isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="e-e">
+                  <l xml:id="L25">senior ha de seer da <placeName ref="#ORI"><rhyme label="e-e">ente</rhyme></placeName></l>       
+                  <l xml:id="L26">de todos hata in <placeName ref="#OCC">occid<rhyme label="e-e">ente</rhyme></placeName>.</l>
+              </lg>
+              
+          <lg n="14"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+              isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="e">
+                  <l xml:id="L27">Por tres noches me lo ver<rhyme label="e">é</rhyme></l>
+                  <l xml:id="L28">y más de vero lo sabr<rhyme label="e">é</rhyme>.</l>
+              </lg>
+              
+          <lg n="15"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+              isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="i-o">
+                  <l xml:id="L29">¿En todo, en todo es nac<rhyme label="i-o">ido</rhyme>?</l>
+                  <l xml:id="L30">Non sé si algo he ve<rhyme label="i-o">ído</rhyme>.</l>    
+              </lg>
+              
+          <lg n="16"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+              isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="e">
+                  <l xml:id="L31">Iré, lo aorar<rhyme label="e">é</rhyme>,</l>
+                  <l xml:id="L32">y pregaré y rogar<rhyme label="e">é</rhyme>.</l>    
+              </lg>
+           </sp>
+             
+           
+            
+     <sp who="#NC">
+        <speaker>Melchior</speaker>          
+
+         <lg n="17"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+             isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="i-a">
+                 <l xml:id="L33">¡Val, Criador! ¿Atal fac<rhyme label="i-a">inda</rhyme></l>
+             </lg>
+             
+         <lg n="18"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+             isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a-a">
+                 <l xml:id="L34">fu nuncas alguandre fal<rhyme label="a-a">ada</rhyme></l>			
+                 <l xml:id="L35">o en escriptura trub<rhyme label="a-a">ada</rhyme>?</l>		  
+             </lg>
+             
+         <lg n="19"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+             isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="e-o">
+                 <l xml:id="L36">Tal estrela non es in c<rhyme label="e-o">elo</rhyme>;</l>
+                 <l xml:id="L37">d’esto só yo bono strel<rhyme label="e-o">ero</rhyme>.</l>
+             </lg>
+             
+         <lg n="20"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+             isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="a-e"> 
+                 <l xml:id="L38">Bine lo veo sines esc<rhyme label="a-o">arno</rhyme></l>
+                 <l xml:id="L39">que uno omne es nacido de c<rhyme label="a-e">arne</rhyme></l>
+             </lg>
+             
+         <lg n="21"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+             isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="o-o"> 
+                 <l xml:id="L40">que es senior de todo el m<rhyme label="u-o">undo</rhyme>,</l>     
+                 <l xml:id="L41">así como el cilo es red<rhyme label="o-o">ondo</rhyme>.</l>
+             </lg>
+             
+         <lg n="22"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+             isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="a">
+                 <l xml:id="L42">De todas gentes senior ser<rhyme label="a">á</rhyme></l>
+                 <l xml:id="L43">y todo seglo jugar<rhyme label="a">á</rhyme>.</l>
+             </lg>
+             
+         <lg n="23"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+             isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="e">
+                 <l xml:id="L44">¿Es? ¿Non <rhyme label="e">es</rhyme>?</l>
+                 <l xml:id="L45">Cudo que verdad <rhyme label="e">es</rhyme>.</l>  
+             </lg>
+             
+         <lg n="24"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+             isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="a-a">
+                 <l xml:id="L46">Veerlo he otra veg<rhyme label="a-a">ada</rhyme>,</l> 
+                 <l xml:id="L47">si es vertad o si es n<rhyme label="a-a">ada</rhyme>.</l>
+             </lg>
+             
+         <lg n="25"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+             isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="o">
+                 <l xml:id="L48">Nacido es el Criad<rhyme label="o">or</rhyme></l>
+                 <l xml:id="L49">de todas las gentes may<rhyme label="o">or</rhyme>.</l>
+             </lg>
+             
+         <lg n="26"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+             isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a">
+                 <l xml:id="L50">Bine lo [v]eo que es verd<rhyme label="a">ad</rhyme>;</l>            
+                 <l xml:id="L51">iré alá, par carid<rhyme label="a">ad</rhyme>.</l>
+             </lg>
+       </sp>
+            
+            
+            <sp who="#MEL">
+                <speaker>Baltasar</speaker>         
+                <lg n="27"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="e-o">
+                        <l xml:id="L52">¡Dios vos salve, Senior! ¿Sodes vos strel<rhyme label="e-o">ero</rhyme>?</l> 
+                        <l xml:id="L53">Dezidme la vertad, de vos sabelo qu<rhyme label="i-o">iro</rhyme></l>   
+                    </lg>
+                </sp> 
+                         
+
+
+            <sp who="#MEL">
+                <speaker>Caspar</speaker>          
+                <lg n="28"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="e-a">
+                        <l xml:id="L54">[¿Vedes tal marav<rhyme label="i-a">ila</rhyme>?]</l> 
+                        <l xml:id="L55">[Nacida] es una str<rhyme label="e-a">ela</rhyme>.</l>                           
+                    </lg>
+                </sp> 
+             
+            
+            
+            <sp who="#DC">
+                <speaker>Melchior</speaker>          
+                <lg n="29"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="o">
+                        <l xml:id="L56">Nacido es el Criad<rhyme label="o">or</rhyme>,</l>  
+                        <l xml:id="L57">que de las gentes <pb facs="#ARM-2"/>es seni<rhyme label="o">or</rhyme>.</l> 
+                    </lg>
+                </sp> 
+            
+            
+            
+            <sp who="#MEL" >
+                <speaker>Discurso colectivo</speaker>       
+                <lg n="30"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="e">
+                        <l xml:id="L58"> Iré, lo aorar<rhyme label="e">é</rhyme>.</l>                    
+                        <l xml:id="L59">Yo otrosí rogarlo h<rhyme label="e">e</rhyme>.</l>
+                    </lg>   
+                 </sp> 
+           
+
+
+            <sp who="#DC">
+                <speaker>Melchior</speaker>          
+                <lg n="31"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="a">
+                        <l xml:id="L60">Seniores, ¿a cuál tirra, ó que[redes] and<rhyme label="a">ar</rhyme>?</l>
+                        <l xml:id="L61"> ¿Queredes ir conmigo al Criador rog<rhyme label="a">ar</rhyme>?</l>             
+                        <l xml:id="L62">¿Havédeslo veído? Yo lo vo [aor]<rhyme label="a">ar</rhyme>.</l>
+                    </lg>
+                 </sp> 
+           
+             
+             
+            <sp who="#DC" >
+                <speaker>Discurso colectivo</speaker>                         
+                <lg n="32"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="a">
+                        <l xml:id="L63">Nos ímos otrosí, si l’podremos fal<rhyme label="a">ar</rhyme>.</l>
+                        <l xml:id="L64">Andemos tras el strela, veremos el log<rhyme label="a">ar</rhyme>.</l>    
+                    </lg> 
+                </sp>  
+
+
+            <sp who="#MEL" >
+                <speaker>Baltasar</speaker>          
+                <lg n="33"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a">
+                        <l xml:id="L65">¿Cúmo podremos provar si es homne mort<rhyme label="a">al</rhyme>,</l>  
+                        <l xml:id="L66">o si es rey de terra o si celesti<rhyme label="a">al</rhyme>?</l>   
+                    </lg>
+                </sp>  
+                                   
+            
+            <sp who="#DC" >
+                <speaker>Melchior</speaker>          
+                <lg n="34"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="e-o">
+                        <l xml:id="L67">¿Queredes bine saber cúmo lo sabr<rhyme label="e-o">emos</rhyme>?</l>
+                        <l xml:id="L68">Oro, mira y acenso a él ofreçr<rhyme label="e-o">emos</rhyme>:</l>
+                    </lg>
+             
+                <lg n="35"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"   rhyme="a">
+                        <l xml:id="L69"> si fure rey de terra, el oro quer<rhyme label="a">á</rhyme>;</l>
+                        <l xml:id="L70">si fure omne mortal, la mira tomar<rhyme label="a">á</rhyme>;</l>
+                    </lg>
+                    
+                <lg n="36"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="a">
+                        <l xml:id="L71">si rey celestial, estos dos dexar<rhyme label="a">á</rhyme>,</l>                          
+                        <l xml:id="L72">tomará el encenso que l’ pertenecer<rhyme label="a">á</rhyme>.</l>
+                 </lg>
+                
+                </sp>    
+            
+            <sp who="#MEL">  
+                <speaker>Discurso colectivo</speaker>          
+                <lg n="37"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a-o"> 
+                        <l xml:id="L73">Andemos y así lo fag<rhyme label="a-o">amos</rhyme>.</l>
+                    </lg>
+                </sp>        
+            
+            
+            <sp who="#ERO">    
+                <speaker>Caspar</speaker>          
+                <lg n="38"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a">
+                <l xml:id="L74">Sálvete el Criador, Dios te curie de m<rhyme label="a">al</rhyme>!</l>
+                <l xml:id="L75"> Un poco te dizeremos, non te queremos <rhyme label="a">ál</rhyme>.</l>         
+            </lg>
+                </sp>
+            
+            
+            <sp who="#ERO">    
+                <speaker>Melchior</speaker>                           
+                <lg n="39"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a">
+                <l xml:id="L76">¡Dios te dé longa vida y te curie de m<rhyme label="a">al</rhyme></l>
+            </lg>    
+                </sp>
+            
+            
+            <sp who="#ERO">    
+                <speaker>Baltasar</speaker>          
+                <lg n="40"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a">
+                <l xml:id="L77">Imos en romería aquel rey ador<rhyme label="a">ar</rhyme></l>                   
+                <l xml:id="L78">que es nacido in tirra, no l’ podemos fall<rhyme label="a">ar</rhyme>.</l>
+            </lg>
+                
+                </sp>
+            
+            
+            <sp who="#CAS">    
+                <speaker>Herodes</speaker>           
+                <lg n="41"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="a">
+                <l xml:id="L79">¿Que decides, ó ides? ¿A quín ides busc<rhyme label="a">ar</rhyme>?</l>  
+                <l xml:id="L80"> ¿De cuál terra venides, ó queredes and<rhyme label="a">ar</rhyme>?</l>          
+                <l xml:id="L81">Decidme vostros nombres; no m’ los querades cel<rhyme label="a">ar</rhyme>.</l>  
+            </lg>                
+                </sp>
+           
+           
+            <sp who="#ERO">    
+                <speaker>Caspar</speaker>          
+                <lg n="42"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a">
+                <l xml:id="L82">A mi dizen <persName ref="#CAS">Casp<rhyme label="a">ar</rhyme></persName>,</l>                                   
+                <l xml:id="L83">est’otro <persName ref="#MEL">Melchior</persName>, ad aquest <persName ref="#BAL">Baltas<rhyme label="a">ar</rhyme></persName>.</l>
+            </lg>                
+                </sp>
+            
+            
+            
+            <sp who="#ERO">    
+                <speaker>Baltasar</speaker>          
+                <lg n="43"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="e-a">
+                <l xml:id="L84">Rey, un rey es nacido que es senior de t<rhyme label="i-a">irra</rhyme>,</l>
+                <l xml:id="L85">que mandará el seclo en grant pace sines g[u]<rhyme label="e-a">er[r]a</rhyme>.</l>
+            </lg> 
+                </sp>
+            
+           
+            <sp who="#DC">                      
+                <speaker>Discurso colectivo</speaker>          
+                <lg n="44"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a">
+                <l xml:id="L86">¿Es así por vert<rhyme label="a">ad</rhyme>?</l>
+                <l xml:id="L87">Sí, rey, por carid<rhyme label="a">ad</rhyme>.</l>
+            </lg>        
+                </sp>
+            
+            
+             <sp who="#MEL">    
+                <speaker>Herodes</speaker>               
+                <lg n="45"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="e-e">
+                <l xml:id="L88">¿Y cúmo lo sab<rhyme label="e-e">edes</rhyme>?</l>
+                <l xml:id="L89">¿Ya provado lo hab<rhyme label="e-e">edes</rhyme>?</l>
+            </lg>        
+          </sp>
+            
+            
+            <sp who="#ERO">    
+                <speaker>Melchior</speaker>          
+                <lg n="46"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9"  rhyme="e-o">
+                <l xml:id="L90">Rey, vertad te dizr<rhyme label="e-o">emos</rhyme>,</l>                                         
+                <l xml:id="L91">que provado lo hav<rhyme label="e-o">emos</rhyme>.</l> 
+            </lg>
+                
+                </sp>
+            
+            
+            <sp who="#ERO">    
+                <speaker>Caspar</speaker>                  
+                <lg n="47"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="i-a">
+                <l xml:id="L92">Esto es grand ma[ra]v<rhyme label="i-a">ila</rhyme>;</l>    
+                <l xml:id="L93">un strela es nac<rhyme label="i-a">ida</rhyme>.</l>
+            </lg>
+                </sp>
+            
+            
+            <sp who="#ERO">    
+                <speaker>Melchior</speaker>          
+                <lg n="48"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="i-o">
+                <l xml:id="L94">Sennal face que es nac<rhyme label="i-o">ido</rhyme></l>
+                <l xml:id="L95">y in carne humana ven<rhyme label="i-o">ido</rhyme>.</l>          
+            </lg>
+                 </sp>
+            
+            
+            <sp who="#BAL">                                                                         
+                <speaker>Herodes</speaker>          
+                <lg n="49"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="i-e">
+                <l xml:id="L96">¿Cuánto ý ha que la v<rhyme label="i-e">istes</rhyme></l>
+                <l xml:id="L97">y que la percib<rhyme label="i-i">istis</rhyme>?</l>
+            </lg>
+               </sp>
+           
+            <sp who="#ERO">    
+                <speaker>Baltasar</speaker>          
+                <lg n="50"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a">
+                <l xml:id="L98">Tredze días h<rhyme label="a">a</rhyme>,</l>
+                <l xml:id="L99">y mais non haver<rhyme label="a">á</rhyme>,</l>
+            </lg>
+            
+                <lg n="51"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="i-a">
+                <l xml:id="L100">que la havemos ve<rhyme label="i-a">ída</rhyme></l>            
+                <l xml:id="L101">y bine perceb<rhyme label="i-a">ida</rhyme>.</l> 
+            </lg>
+            </sp>
+            
+            
+            <sp who="#DC">                                 
+                <speaker>Herodes</speaker>          
+                <lg n="52"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a">
+                <l xml:id="L102">Pus andad y busc<rhyme label="a">ad</rhyme></l>                            
+                <l xml:id="L103">y a él ador<rhyme label="a">ad</rhyme></l> 
+                <l xml:id="L104">y por aquí torn<rhyme label="a">ad</rhyme>.</l>
+            </lg>
+            
+                <lg n="53"  type="pareado"  unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="e">
+                <l xml:id="L105">Yo alá ir<rhyme label="e">é</rhyme></l>
+                <l xml:id="L106">y adoralo h<rhyme label="e">e</rhyme>.</l>
+            </lg>
+                </sp>
+        
+        
+                    <sp who="#NC">                                        
+                        <speaker>Herodes</speaker>          
+             <lg n="54"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                 isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a">
+                <l xml:id="L107">¡Quín vio numcas tal m<rhyme label="a">al</rhyme>,</l>                           
+                <l xml:id="L108"> sobre rey otro t<rhyme label="a">al</rhyme>!</l> 
+            </lg>
+            
+                        <lg n="55"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                            isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="o-o">
+                <l xml:id="L109">¡Aún non só yo m<rhyme label="o-o">orto</rhyme></l>       
+                <l xml:id="L110"> ni so la terra p<rhyme label="u-o">usto</rhyme>!</l>
+            </lg>
+            
+                        <lg n="56"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                            isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="i">
+                <l xml:id="L111">¿Rey otro sobre m<rhyme label="i">í</rhyme>?</l>
+                <l xml:id="L112">¡Numcas atal non v<rhyme label="i">i</rhyme>!</l> 
+            </lg>
+            
+                        <lg n="57"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                            isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a-a">  
+                <l xml:id="L113">El seglo va a ç<rhyme label="a-a">aga</rhyme>,</l>
+                <l xml:id="L114">ya non sé qué me f<rhyme label="a-a">aga</rhyme>.</l>    
+            </lg>
+            
+                    <lg n="58"  type="pareado" rhyme="e-o">
+                <l xml:id="L115">Por vertad no lo cr<rhyme label="e-o">eo</rhyme></l> 
+                <l xml:id="L116"> ata que yo lo v<rhyme label="e-o">eo</rhyme>.</l> 
+            </lg>
+          </sp>
+                    
+                    
+                    <sp who="#MAY">                                                  
+                        <speaker>Herodes</speaker>  
+                        <lg n="59"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                            isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="o-a">
+                <l xml:id="L117">Venga mio mayord<rhyme label="o-a">oo[ma]</rhyme></l>                            
+                <l xml:id="L118">qui mios haveres t<rhyme label="o-a">oma</rhyme>.</l>
+            </lg>
+            
+                        <lg n="60"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                            isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a-e">
+                <l xml:id="L119">Idme por mios ab<rhyme label="a-e">ades</rhyme></l>      
+                <l xml:id="L120">y por mis potest<rhyme label="a-e">ades</rhyme></l> 
+            </lg>
+            
+                        <lg n="61"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                            isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a-o">
+                <l xml:id="L121">y por mios scriv<rhyme label="a-o">anos</rhyme></l> 
+                <l xml:id="L122">y por meos gram<rhyme label="a-o">atgos</rhyme></l>     
+            </lg>
+            
+                        <lg n="62"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                            isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="e-o">    
+                <l xml:id="L123">y por mios strel<rhyme label="e-o">eros</rhyme></l>
+                <l xml:id="L124">y por mios retor<rhyme label="i-o">icos</rhyme>.</l>
+            </lg>
+            
+                        <lg n="63"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                            isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="i-o">    
+                <l xml:id="L125">Dezirm’ han la vertad, si yace in escr<rhyme label="i-o">ipto</rhyme>,</l>      
+                <l xml:id="L126">o si lo saben elos o si lo han sab<rhyme label="i-o">ido</rhyme>.</l>
+            </lg> 
+                        </sp>
+            
+            
+            <sp who="#DC">    
+                <speaker>Discurso colectivo</speaker>                     
+                <lg n="64"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="i-o">   
+                <l xml:id="L127">Rey, ¿qué te plaze? Henos ven<rhyme label="i-o">idos</rhyme>.</l>
+                <l xml:id="L128">¿Y traedes vostros escr<rhyme label="i-o">iptos</rhyme>?</l>
+            </lg>
+            </sp>
+            
+            
+            <sp who="#ERO">    
+                <speaker>Discurso colectivo</speaker>          
+                <lg n="65"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="e-o"> 
+                <l xml:id="L129">Rey, sí, tra<rhyme label="e-o">emos</rhyme></l>              
+                <l xml:id="L130">los mejores que nos hav<rhyme label="e-o">emos</rhyme></l> 
+            </lg>
+            </sp>
+            
+            
+            
+            <sp who="#RA1">    
+                <speaker>Herodes</speaker>          
+                <lg n="66"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a">
+                <l xml:id="L131"> Pus cat<rhyme label="a">ad</rhyme>,</l>
+                <l xml:id="L132">dezidme la vert<rhyme label="a">ad</rhyme>,</l>    
+            </lg>
+            
+                <lg n="67"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="i-o">
+                <l xml:id="L133">si es aquel omne nac<rhyme label="i-o">ido</rhyme></l>
+                <l xml:id="L134">que estos tres rees m’han d<rhyme label="i-o">icho</rhyme>.</l>   
+                <l xml:id="L135">Dí, <persName ref="#RA1">rabí</persName>, la vertad, si tú lo has sab<rhyme label="i-o">ido</rhyme>.</l> 
+            </lg>
+            </sp>
+            
+            
+            <sp who="#ERO">    
+                <speaker>Rabí 1</speaker>          
+                <lg n="68"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="i-o">
+                <l xml:id="L136">Po[r] veras vo[s] lo d<rhyme label="i-o">igo</rhyme></l>
+                <l xml:id="L137">que no lo [fallo] escr<rhyme label="i-o">ipto</rhyme>.</l>   
+            </lg>
+            </sp>
+
+
+            <sp who="#RA1">    
+                <speaker>Rabí 2</speaker>          
+                <lg n="69"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a-o">
+                <l xml:id="L138">¡Hamihalá,  cúmo eres enart<rhyme label="a-o">ado</rhyme>!</l>
+                <l xml:id="L139">¿Por qué eres <persName ref="#RA1">rabí</persName> clam<rhyme label="a-o">ado</rhyme>?</l>
+            </lg>
+            
+                <lg n="70"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="i-a"> 
+                <l xml:id="L140">Non entendes las profec<rhyme label="i-a">ías</rhyme>,</l>                           
+                <l xml:id="L141">las que nos dixo Jerem<rhyme label="i-a">ías</rhyme>.</l>    
+            </lg>
+            
+                <lg n="71"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a-o">  
+                <l xml:id="L142">¡Par mi ley, nos somos er<rhyme label="a-o">ados</rhyme>!</l>                     
+                <l xml:id="L143">¿Por qué non somos acord<rhyme label="a-o">ados</rhyme>?</l>
+            </lg>
+            
+                <lg n="72"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a">  
+                <l xml:id="L144">¿Por qué non dezimos vert<rhyme label="a">ad</rhyme>?</l>
+                <l xml:id="L145">Yo non la sé, por carid<rhyme label="a">ad</rhyme>.</l>
+            </lg>
+            
+                <lg n="73"  type="pareado" unisonancia="singular" isometrismo="heterométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="asontante" met="9, 9" rhyme="a-a">  
+                <l xml:id="L146">Porque non la havemos us<rhyme label="a-a">ada</rhyme></l>
+                <l xml:id="L147">nin en nostras voces es fal<rhyme label="a-a">ada</rhyme>.</l>                         
+            </lg>
+            </sp>
+            
+        </body>
+    </text>
+</TEI>

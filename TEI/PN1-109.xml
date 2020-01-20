@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+  <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -63,15 +65,27 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    
+    
+    <facsimile>
+        <graphic url="imagenes/PN1-109-38r-(0).jpg" xml:id="PN109-0"></graphic>
+
+        <graphic url="imagenes/PN1-109-38r-(1).jpg" xml:id="PN109-1"></graphic>
+ 
+        <graphic url="imagenes/PN1-109-38r-(2).jpg" xml:id="PN109-2"></graphic>
+    </facsimile>
 
     <text>
         <body>
+
+<pb facs="#PN109-0"/>
 
             <head>
             <term cRef="163">Respuesta</term> de <persName ref="#PCA">Pero Carrillo</persName>
                 contra <persName ref="#AAV">Alfonso Álvarez</persName>
             </head>
 
+            <pb facs="#PN109-1"/>
 
             <sp who="#AAV">
                 <speaker>Pedro Carrillo</speaker>
@@ -81,111 +95,114 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8,8,8,8,8,8,8/8,8,8,8"
-                rhyme="abbacca/abba">
+                met="8,8,8,8,8,8,8"
+                rhyme="abbacca">
 
 
                     <lg n="1" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
-                        <l xml:id="L1">Puesto que fuese quem<rhyme>ado</rhyme>
+                        <l xml:id="L1">Puesto que fuese quem<rhyme label="ado">ado</rhyme>
                   </l>
                         <l xml:id="L2">lo verde o carden<rhyme>illo</rhyme>,</l>
                         <l xml:id="L3">el pobre o el flaqu<rhyme>illo</rhyme>,</l>
-                        <l xml:id="L4">si se sufre es conort<rhyme>ado</rhyme>,</l>
-                        <l xml:id="L5">ca dize el duplicad<rhyme>or</rhyme>:</l>
-                        <l xml:id="L6">“quien non espera el renc<rhyme>or</rhyme>
+                        <l xml:id="L4">si se sufre es conort<rhyme label="ado">ado</rhyme>,</l>
+                        <l xml:id="L5">ca dize el duplicad<rhyme label="or">or</rhyme>:</l>
+                        <l xml:id="L6">“quien non espera el renc<rhyme label="or">or</rhyme>
                   </l>
-                        <l xml:id="L7">le fará ser aquex<rhyme>ado</rhyme>”.</l>
+                        <l xml:id="L7">le fará ser aquex<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
+                    
+                    
+                    <pb facs="#PN109-2"/>
 
                     <lg n="2" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
-                        <l xml:id="L8">Si <rs ref="#AAV">vos</rs> fue juego jug<rhyme>ado</rhyme>
+                        <l xml:id="L8">Si <rs ref="#AAV">vos</rs> fue juego jug<rhyme label="ado">ado</rhyme>
                   </l>
-                        <l xml:id="L9">aviesso non muy longu<rhyme>illo</rhyme>
+                        <l xml:id="L9">aviesso non muy longu<rhyme label="illo">illo</rhyme>
                   </l>
-                        <l xml:id="L10">o si <rs ref="#AAV">vos</rs> a mal fit<rhyme>illo</rhyme>
+                        <l xml:id="L10">o si <rs ref="#AAV">vos</rs> a mal fit<rhyme label="illo">illo</rhyme>
                   </l>
                         <l xml:id="L11">
                      <rs ref="#AAV">echastes</rs>, <rs ref="#PCA">non soy
-                                    culp<rhyme>ado</rhyme>
+                         culp<rhyme label="ado">ado</rhyme>
                      </rs>,</l>
-                        <l xml:id="L12">ca diz el duplicad<rhyme>or</rhyme>:</l>
-                        <l xml:id="L13">“esperança es bien may<rhyme>or</rhyme>
+                        <l xml:id="L12">ca diz el duplicad<rhyme label="or">or</rhyme>:</l>
+                        <l xml:id="L13">“esperança es bien may<rhyme label="or">or</rhyme>
                   </l>
-                        <l xml:id="L14">para lo que es tard<rhyme>ado</rhyme>”.</l>
+                        <l xml:id="L14">para lo que es tard<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
                     <lg n="3" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
                         <l xml:id="L15">
-                     <rs ref="#PCA">Yo sería denost<rhyme>ado</rhyme>
+                            <rs ref="#PCA">Yo sería denost<rhyme label="ado">ado</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L16">en pensar tal amar<rhyme>illo</rhyme>
+                        <l xml:id="L16">en pensar tal amar<rhyme label="illo">illo</rhyme>
                   </l>
-                        <l xml:id="L17">nin que fuesse en comed<rhyme>illo</rhyme>
+                        <l xml:id="L17">nin que fuesse en comed<rhyme label="illo">illo</rhyme>
                   </l>
                         <l xml:id="L18">
-                     <rs ref="#AAV">vos</rs> por mí ser baldon<rhyme>ado</rhyme>,</l>
-                        <l xml:id="L19">ca diz el duplicad<rhyme>or</rhyme>:</l>
-                        <l xml:id="L20">“quien a otro faze hon<rhyme>or</rhyme>
+                            <rs ref="#AAV">vos</rs> por mí ser baldon<rhyme label="ado">ado</rhyme>,</l>
+                        <l xml:id="L19">ca diz el duplicad<rhyme label="or">or</rhyme>:</l>
+                        <l xml:id="L20">“quien a otro faze hon<rhyme label="or">or</rhyme>
                   </l>
-                        <l xml:id="L21">el honor así es cont<rhyme>ado</rhyme>”.</l>
+                        <l xml:id="L21">el honor así es cont<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
                     <lg n="4" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
                         <l xml:id="L22">
-                     <rs ref="#AAV">En vos ser tan lastim<rhyme>ado</rhyme>
+                            <rs ref="#AAV">En vos ser tan lastim<rhyme label="ado">ado</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L23">por lo que está so el luz<rhyme>illo</rhyme>
+                        <l xml:id="L23">por lo que está so el luz<rhyme label="illo">illo</rhyme>
                   </l>
                         <l xml:id="L24">
-                     <rs ref="#PCA">pésame</rs>, aunque asper<rhyme>illo</rhyme>
+                            <rs ref="#PCA">pésame</rs>, aunque asper<rhyme label="illo">illo</rhyme>
                   </l>
-                        <l xml:id="L25">vino el mal afortun<rhyme>ado</rhyme>,</l>
-                        <l xml:id="L26">ca diz el duplicad<rhyme>or</rhyme>:</l>
-                        <l xml:id="L27">“si el novio es dormid<rhyme>or</rhyme>
+                        <l xml:id="L25">vino el mal afortun<rhyme label="ado">ado</rhyme>,</l>
+                        <l xml:id="L26">ca diz el duplicad<rhyme label="or">or</rhyme>:</l>
+                        <l xml:id="L27">“si el novio es dormid<rhyme label="or">or</rhyme>
                   </l>
-                        <l xml:id="L28">boda es de mal merc<rhyme>ado</rhyme>”.</l>
+                        <l xml:id="L28">boda es de mal merc<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
                     <lg n="5" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
                         <l xml:id="L29">
-                     <rs ref="#AAV">Vos que sodes tan atent<rhyme>ado</rhyme>
+                            <rs ref="#AAV">Vos que sodes tan atent<rhyme label="ado">ado</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L30">e muy más qu’ el de vad<rhyme>illo</rhyme>
+                        <l xml:id="L30">e muy más qu’ el de vad<rhyme label="illo">illo</rhyme>
                   </l>
-                        <l xml:id="L31">aunqu’ el su cofrez<rhyme>illo</rhyme>
+                        <l xml:id="L31">aunqu’ el su cofrez<rhyme label="illo">illo</rhyme>
                   </l>
-                        <l xml:id="L32">tenga lleno, bien ferr<rhyme>ado</rhyme>,</l>
-                        <l xml:id="L33">ca dize el duplicad<rhyme>or</rhyme>:</l>
-                        <l xml:id="L34">“que lo bien dicho ha val<rhyme>or</rhyme>
+                        <l xml:id="L32">tenga lleno, bien ferr<rhyme label="ado">ado</rhyme>,</l>
+                        <l xml:id="L33">ca dize el duplicad<rhyme label="or">or</rhyme>:</l>
+                        <l xml:id="L34">“que lo bien dicho ha val<rhyme label="or">or</rhyme>
                   </l>
-                        <l xml:id="L35">e lo mal es despreci<rhyme>ado</rhyme>”.</l>
+                        <l xml:id="L35">e lo mal es despreci<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
                     <lg n="6" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
-                        <l xml:id="L36">El tiempo desconcert<rhyme>ado</rhyme>
+                        <l xml:id="L36">El tiempo desconcert<rhyme label="ado">ado</rhyme>
                   </l>
-                        <l xml:id="L37">en frío zarzagan<rhyme>illo</rhyme>
+                        <l xml:id="L37">en frío zarzagan<rhyme label="illo">illo</rhyme>
                   </l>
-                        <l xml:id="L38">estorbo que en peralv<rhyme>illo</rhyme>
+                        <l xml:id="L38">estorbo que en peralv<rhyme label="illo">illo</rhyme>
                   </l>
-                        <l xml:id="L39">non fustes desenpach<rhyme>ado</rhyme>,</l>
-                        <l xml:id="L40">ca diz el duplicad<rhyme>or</rhyme>:</l>
-                        <l xml:id="L41">“que qualquier comvidad<rhyme>or</rhyme>
+                        <l xml:id="L39">non fustes desenpach<rhyme label="ado">ado</rhyme>,</l>
+                        <l xml:id="L40">ca diz el duplicad<rhyme label="or">or</rhyme>:</l>
+                        <l xml:id="L41">“que qualquier comvidad<rhyme label="or">or</rhyme>
                   </l>
-                        <l xml:id="L42">que requiera al convid<rhyme>ado</rhyme>”.</l>
+                        <l xml:id="L42">que requiera al convid<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
-                    <lg n="7" type="finda" met="8,8,8,8" rhyme="abba">
-                        <l xml:id="L43">Pues <rs ref="#PCA">me tenedes prend<rhyme>ado</rhyme>
+                    <lg n="7" type="finida" met="8,8,8,8" rhyme="abba">
+                        <l xml:id="L43">Pues <rs ref="#PCA">me tenedes prend<rhyme label="ado">ado</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L44">manda el duplicad<rhyme>or</rhyme>:</l>
-                        <l xml:id="L45">“que vengades sin tem<rhyme>or</rhyme>
+                        <l xml:id="L44">manda el duplicad<rhyme label="or">or</rhyme>:</l>
+                        <l xml:id="L45">“que vengades sin tem<rhyme label="or">or</rhyme>
                   </l>
-                        <l xml:id="L46">con gesto dessenoj<rhyme>ado</rhyme>”.</l>
+                        <l xml:id="L46">con gesto dessenoj<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
                 </lg>

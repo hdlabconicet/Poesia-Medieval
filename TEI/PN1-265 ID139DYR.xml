@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lindo fidalgo ley la seguida</title>
+                <title type="incipit">Lindo fidalgo ley la seguida</title>
+                <author ref="#JAB">Juan Alfonso de Baena</author>
+                <author role="atr">Juan Alfonso de Baena</author>
+                <editor>Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual (by-sa)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type='url'>
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher> 
+                        <idno n="1399">Dutton 1399</idno>
+                        <![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=263&entry=ID1397#PN1263ID1397 >]]>
+                    </bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia</repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="88v" to="88v">88v</locus>
+                            <idno>PN1-265</idno>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <origDate notAfter="1465" notBefore="1426">1426-1465</origDate>
+            </creation>
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    
+    
+    <facsimile>
+        <graphic url="imagenes/PN1-265-88v-(1).jpg" xml:id="PN265-1"></graphic>
+    </facsimile>
+    
+    
+    
+    <text>
+        <body>
+            
+            <pb facs="#PN265-1"/>
+            
+            <head type="rúbrica">Esta <term cRef="163">respuesta</term> <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> el dicho 
+                <persName ref="#JAB">Juan Alfonso de <placeName ref="#BA1">Baena</placeName></persName> contra <persName ref="#FML">Ferrant Manuel</persName></head>
+            <sp who='#FML'>	
+                <speaker>Juan Alfonso de Baena</speaker>
+                
+                <lg type="poema" subtype="respuesta"  met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA" 
+                    unisonancia="unisonante" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante">
+                    <note>Se trata de una pieza de arte mayor</note>
+                
+                <lg n="1" type="copla" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA">
+                    <l xml:id="L1"><term cRef="178">Lindo</term> fidalgo ley la <term cRef="199">segu<rhyme label='ida'>ida</rhyme></term></l>
+                    <l xml:id="L2">que vos enviastes de grant <term cRef="171">sotil<rhyme label='eza'>eza</rhyme></term></l>
+                    <l xml:id="L3">e yo trabaje segunt mi simpl<rhyme label='eza'>eza</rhyme></l>
+                    <l xml:id="L4">en dar vos <term cRef="163">respuesta</term> que fuese pol<rhyme label='ida'>ida</rhyme>,</l>
+                    <l xml:id="L5">amigo sabet que en esta part<rhyme label='ida'>ida</rhyme></l>
+                    <l xml:id="L6">la mona nombrada en vuestra let<rhyme label='ura'>ura</rhyme></l>  <!-- ms: mano - Dutton: mona -->
+                    <l xml:id="L7">acá non passo mas fago vos j<rhyme label='ura'>ura</rhyme></l>
+                    <l xml:id="L8">que mucho trabajé por ver su guar<rhyme label='ida'>ida</rhyme>.</l>
+                </lg>
+                
+                <lg n="2" type="finida" met="12, 12, 12, 12" rhyme="ABBA">
+                    <l xml:id="L9">Por ende vos ruego en esta fin<rhyme label='ida'>ida</rhyme></l>  
+                    <l xml:id="L10">que vos me digades cual es su fig<rhyme label='ura'>ura</rhyme>,</l>
+                    <l xml:id="L11">e si ay canes de grant ladrad<rhyme label='ura'>ura</rhyme></l>
+                    <l xml:id="L12">e luego vos digo do tangan doc<rhyme label='ida'>ida</rhyme>.</l> <!-- Dutton: d'ocida -->
+                </lg></lg></sp>
+        </body>
+    </text>
+</TEI>

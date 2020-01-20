@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Loando al señor redemidor nuestro</title>
+                <title type="incipit">Loando al señor redemidor nuestro</title>
+                <author ref="#FLM">Fray Lope del Monte</author>
+                <author role="atr">Fray Lope del Monte</author>
+                <editor>Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual (by-sa)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type='url'> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+                    <idno n="1407"> Dutton 1407</idno>
+                        <![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv >]]>
+                    </bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia</repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="90r" to="90r">90r</locus>
+                            <idno>PN1-273</idno> 
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <origDate notAfter="1465" notBefore="1426">1426-1465</origDate>
+            </creation>
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    
+    
+    
+    <facsimile>
+        <graphic url="imagenes/PN1-273-90r-(1).jpg" xml:id="PN273-1"></graphic>
+
+        <graphic url="imagenes/PN1-273-90r-(2).jpg" xml:id="PN273-2"></graphic>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+            
+            <pb facs="#PN273-1"/>
+            
+<head type="rúbrica">Esta <term cRef= "163">respuesta</term> fizo e ordenó el dicho maestro <persName ref="#FLM">fray Lope</persName> contra el dicho <persName ref="#FML">Ferran Manuel</persName><term cRef="163">respondiendole</term> por los <term cRef="166">Consonantes</term>  
+            </head>
+            
+            <sp who='#FML'>
+                <speaker>Fray Lope del Monte</speaker>
+                
+                <lg type="poema" subtype="respuesta"  met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA" 
+                    unisonancia="unisonante" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante">
+                    <note>Se trata de una pieza de arte mayor</note>
+                
+                <lg n="1"  type="octava" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABABBCCB">
+                    <l xml:id="L1">Loando al señor redemidor nu<rhyme label='estro'>estro</rhyme></l>
+                    <l xml:id="L2"> con grant voluntat pesada perf<rhyme label='eta'>eta</rhyme></l>
+                    <l xml:id="L3"> noble cavallero <term cRef="208">trobador</term> di<rhyme label='estro'>estro</rhyme>,</l>
+                    <l xml:id="L4"> siguiendo a Davit muy santo prof<rhyme label='eta'>eta</rhyme></l>      <!-- Davit pers name??? -->
+                    <l xml:id="L5"> llagar vos há Venus peor que sa<rhyme label='eta'>eta,</rhyme></l>
+                    <l xml:id="L6"> quien es Saturno en tiempo di<rhyme label='urno'>urno</rhyme></l>   <!-- Dutton: es "de" Saturno --> 
+                    <l xml:id="L7"> sus passos fallecen rompiendo el cot<rhyme label='urno'>urno</rhyme></l>
+                    <l xml:id="L8"> quier ande a la guisa, quier a la gin<rhyme label='eta'>eta.</rhyme></l>
+                </lg>
+                
+                    <lg n="2"  type="octava" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABABBCCB">
+                    <l xml:id="L9"> Polido en <term cRef="210">trobar</term> miras lo que f<rhyme label='undo'>undo</rhyme></l>
+                    <l xml:id="L10"> por astrología de vos bien am<rhyme label='ada'>ada,</rhyme></l>
+                    <l xml:id="L11"> que Venus beldat da lo seg<rhyme label='undo'>undo,</rhyme></l>
+                    <l xml:id="L12"> enciende luxuria más desorden<rhyme label='ada'>ada,</rhyme></l>
+                    <l xml:id="L13"> Saturno influye maldat acab<rhyme label='ada'>ada</rhyme>,</l>
+                    <l xml:id="L14"> da nos pestilencias de su condici<rhyme label='on'>ón</rhyme></l>
+                    <l xml:id="L15"> pero a vuestros dichos de sana entinci<rhyme label='on'>ón</rhyme></l>
+                    <l xml:id="L16"> ya mi voluntat vos é oblig<rhyme label='ada'>ada.</rhyme></l>
+                </lg>
+                
+                    <pb facs="#PN273-2"/>
+                
+                    <lg n="3"  type="octava" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABABBCCB">
+                    <l xml:id="L17"> Fablar de escripturas quando contesci<rhyme label='ere'>ere</rhyme></l>
+                    <l xml:id="L18"> yo non contradigo con lengua sep<rhyme label='ista'>ista</rhyme></l> <!-- Dutton: sophista --> 
+                    <l xml:id="L19"> nin yo manoscabo al que bien dix<rhyme label='ere'>ere</rhyme></l>
+                    <l xml:id="L20"> quanto quier que sea peqeño leg<rhyme label='ista'>ista</rhyme>,</l>
+                    <l xml:id="L21"> pero si me fabla de Remón Lul<rhyme label='ista'>ista</rhyme>,</l>
+                    <l xml:id="L22"> sofrir non me cumple sus dichos cev<rhyme label='iles'>iles</rhyme></l>
+                    <l xml:id="L23"> loar non se deve de lindos ast<rhyme label='iles'>iles</rhyme></l>
+                    <l xml:id="L24"> quien pule sus rayos como la mat<rhyme label='ista'>ista</rhyme>.</l>  <!-- Ms: matastes - Durron: amatista -->
+                </lg>
+                
+                    <lg n="4" type="octava" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABABBCCB">
+                    <l xml:id="L25"> Si fuese envidioso en justo fabl<rhyme label='ar'>ar</rhyme></l>
+                    <l xml:id="L26"> ternía mis dichos por mucho men<rhyme label='udos'>udos</rhyme></l>
+                    <l xml:id="L27"> nunca vi secretos de Dios en <term cRef="200">dit<rhyme label='ar'>ar</rhyme></term></l>
+                    <l xml:id="L28"> nin al tal saber non somos ten<rhyme label='udos'>udos</rhyme></l>
+                    <l xml:id="L29"> los fechos divinos son a nos esc<rhyme label='udos'>udos</rhyme></l>
+                    <l xml:id="L30"> que non alcanço el flaco armad<rhyme label='or'>or</rhyme>,</l>
+                    <l xml:id="L31"> gentil nin judío nin arrendad<rhyme label='or'>or</rhyme></l>
+                    <l xml:id="L32"> que tiene tristeza con gestos cej<rhyme label='udos'>udos</rhyme>.</l>
+                </lg>
+                
+                <lg n="5"  type="finida" met="12, 12, 12, 12" rhyme="ABBA">
+                    <l xml:id="L33"> Él faze los ossos con cueros lan<rhyme label='udos'>udos</rhyme></l>
+                    <l xml:id="L34"> al que poco sabe ser grant <term cRef="183">sabid<rhyme label='or'>or</rhyme></term>,</l>
+                    <l xml:id="L35"> pocos son los sabios de sabio val<rhyme label='or'>or</rhyme></l> <!-- Ms: lo -->
+                    <l xml:id="L36"> que tengan los pechos e lomos pel<rhyme label='udos'>udos</rhyme>.</l>
+                </lg></lg></sp>
+        </body>
+    </text>
+</TEI>

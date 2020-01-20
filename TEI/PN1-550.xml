@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -68,13 +70,28 @@
         </revisionDesc>
     </teiHeader>
 
+
+    <facsimile>
+        <graphic url="imagenes/PN1-550-184v-(0).jpg" xml:id="PN550-0"></graphic>
+
+        <graphic url="imagenes/PN1-550-184v-(1).jpg" xml:id="PN550-1"></graphic>
+
+        <graphic url="imagenes/PN1-550-184v-(2).jpg" xml:id="PN550-2"></graphic>
+    </facsimile>
+    
+
     <text>
         <body>
+            
+            <pb facs="#PN550-0"/>
+            
             <head type="rúbrica"> Esta <term cRef="162">pregunta</term> dizen que <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> el dicho <persName ref="#FPG">Ferrand Pérez de Guzmán, señor de Batres</persName>, para el dicho <persName ref="#GDT">don Gutierre arcedean"</persName> e otros dizen que las fizo para
                     <persName ref="#AAV">Alfonso Álvarez</persName>, e sea para quien se pagare,
                 abasta que la <term cRef="162">pregunta</term> es muy bien <term cRef="174">fecha</term> e <term cRef="171">sotilmente</term>
                 <term cRef="205">fundada</term>
             </head>
+
+            <pb facs="#PN550-1"/>
 
             <sp who="#NC">
                 <speaker>Fernán Pérez de Guzmán</speaker>
@@ -84,95 +101,96 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10/10,10, 10, 10"
-                rhyme="ABBAACCA/ABBA">
+                met="10,10, 10, 10, 10, 10, 10, 10"
+                rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor. La pregunta no tiene un receptor
                         claro (GDT o AAV) y no la responde ningún poeta</note>
+                   
+                    
                     <lg n="1"
                    type="octava"
                    met="10,10, 10, 10, 10, 10, 10, 10"
                    rhyme="ABBAACCA">
 
-
-
-
-                        <l xml:id="L1">Porque de las vidas la que es oci<rhyme>osa</rhyme>
+                        <l xml:id="L1">Porque de las vidas la que es oci<rhyme label="osa">osa</rhyme>
                   </l>
-                        <l xml:id="L2">es de los santos por peor not<rhyme>ada</rhyme>
+                        <l xml:id="L2">es de los santos por peor not<rhyme label="ada">ada</rhyme>
                   </l>
-                        <l xml:id="L3">el que non podiere en obra gran<rhyme>ada</rhyme>
+                        <l xml:id="L3">el que non podiere en obra gran<rhyme label="ada">ada</rhyme>
                   </l>
                         <l xml:id="L4">envuélvase en <term cRef="198">arte</term>
-                            <term cRef="171">sotil</term> e <term cRef="206">ferm<rhyme>osa</rhyme>
+                            <term cRef="171">sotil</term> e <term cRef="206">ferm<rhyme label="osa">osa</rhyme>
                      </term>
                   </l>
                         <l xml:id="L5">la <term cRef="207">gaya</term>
-                            <term cRef="195">ciencia</term> que así como r<rhyme>osa</rhyme>
+                            <term cRef="195">ciencia</term> que así como r<rhyme label="osa">osa</rhyme>
                   </l>
                         <l xml:id="L6">nasció en el vergel de la <term cRef="193">poetr<rhyme label="ia">ía</rhyme>
                      </term>
                   </l>
                         <l xml:id="L7">siquiera, <rs ref="#NC">señor</rs>, en el año un d<rhyme label="ia">ía</rhyme>
                   </l>
-                        <l xml:id="L8">miremos su bulto con vista homild<rhyme>osa</rhyme>.</l>
+                        <l xml:id="L8">miremos su bulto con vista homild<rhyme label="osa">osa</rhyme>.</l>
                     </lg>
 
                     <lg n="2"
                    type="octava"
                    met="10,10, 10, 10, 10, 10, 10, 10"
                    rhyme="ABBAACCA">
-                        <l xml:id="L9">E quien non podiere, alto penetr<rhyme>ando</rhyme>,</l>
-                        <l xml:id="L10">sentir el secreto del postrimer ci<rhyme>elo</rhyme>,</l>
-                        <l xml:id="L11">nin puede en tal guisa taladrar el su<rhyme>elo</rhyme>,</l>
-                        <l xml:id="L12">porqu’ el fondo abismo vaya escodriñ<rhyme>ando</rhyme>,</l>
-                        <l xml:id="L13">cuestiones medianas e baxas trat<rhyme>ando</rhyme>,</l>
-                        <l xml:id="L14">que son mas palpabres al engeño r<rhyme>udo</rhyme>,</l>
-                        <l xml:id="L15">mejor <rs ref="#FPG">me paresce</rs> que non estar m<rhyme>udo</rhyme>
+                        <l xml:id="L9">E quien non podiere, alto penetr<rhyme label="ando">ando</rhyme>,</l>
+                        <l xml:id="L10">sentir el secreto del postrimer ci<rhyme label="elo">elo</rhyme>,</l>
+                        <l xml:id="L11">nin puede en tal guisa taladrar el su<rhyme label="elo">elo</rhyme>,</l>
+                        <l xml:id="L12">porqu’ el fondo abismo vaya escodriñ<rhyme label="ando">ando</rhyme>,</l>
+                        <l xml:id="L13">cuestiones medianas e baxas trat<rhyme label="ando">ando</rhyme>,</l>
+                        <l xml:id="L14">que son mas palpabres al engeño r<rhyme label="udo">udo</rhyme>,</l>
+                        <l xml:id="L15">mejor <rs ref="#FPG">me paresce</rs> que non estar m<rhyme label="udo">udo</rhyme>
                   </l>
-                        <l xml:id="L16">e en feos yerros el tiempo gast<rhyme>ando</rhyme>.</l>
+                        <l xml:id="L16">e en feos yerros el tiempo gast<rhyme label="ando">ando</rhyme>.</l>
                     </lg>
 
                     <lg n="3"
                    type="octava"
                    met="10,10, 10, 10, 10, 10, 10, 10"
                    rhyme="ABBAACCA">
-                        <l xml:id="L17">E si la cuistión por <rs ref="#FPG">mí</rs> demand<rhyme>ada</rhyme>
+                        <l xml:id="L17">E si la cuistión por <rs ref="#FPG">mí</rs> demand<rhyme label="ada">ada</rhyme>
                   </l>
-                        <l xml:id="L18">a <rs ref="#NC">vos</rs> fuere clara e sin cobert<rhyme>ura</rhyme>
+                        <l xml:id="L18">a <rs ref="#NC">vos</rs> fuere clara e sin cobert<rhyme label="ura">ura</rhyme>
                   </l>
-                        <l xml:id="L19">es a <rs ref="#FPG">mí</rs> dudosa e non poco osc<rhyme>ura</rhyme>
+                        <l xml:id="L19">es a <rs ref="#FPG">mí</rs> dudosa e non poco osc<rhyme label="ura">ura</rhyme>
                   </l>
-                        <l xml:id="L20">e si a <rs ref="#NC">vos</rs> abierta a <rs ref="#FPG">mí</rs> muy cerr<rhyme>ada</rhyme>
+                        <l xml:id="L20">e si a <rs ref="#NC">vos</rs> abierta a <rs ref="#FPG">mí</rs> muy cerr<rhyme label="ada">ada</rhyme>
                   </l>
                         <l xml:id="L21">si lo que a <rs ref="#FPG">mí</rs> es mucho a vos fuere
-                                n<rhyme>ada</rhyme>,</l>
-                        <l xml:id="L22">non deve por eso quedar sin <term cRef="162">resp<rhyme>uesta</rhyme>
+                            n<rhyme label="ada">ada</rhyme>,</l>
+                        <l xml:id="L22">non deve por eso quedar sin <term cRef="162">resp<rhyme label="uesta">uesta</rhyme>
                      </term>,</l>
-                        <l xml:id="L23">ca si poco <rs ref="#FPG">monto</rs> tanto menos c<rhyme>uesta</rhyme>
+                        <l xml:id="L23">ca si poco <rs ref="#FPG">monto</rs> tanto menos c<rhyme label="uesta">uesta</rhyme>
                   </l>
-                        <l xml:id="L24">a <rs ref="#NC">vos</rs> por quien puede ser determin<rhyme>ada</rhyme>.</l>
+                        <l xml:id="L24">a <rs ref="#NC">vos</rs> por quien puede ser determin<rhyme label="ada">ada</rhyme>.</l>
                     </lg>
 
                     <lg n="4"
                    type="octava"
                    met="10,10, 10, 10, 10, 10, 10, 10"
                    rhyme="ABBAACCA">
-                        <l xml:id="L25">En aquella edat que tanto flor<rhyme>esce</rhyme>
+                        <l xml:id="L25">En aquella edat que tanto flor<rhyme label="esce">esce</rhyme>
+                            
+                            <pb facs="#PN550-2"/>
                   </l>
-                        <l xml:id="L26">cuando veyencico antes van vin<rhyme>iendo</rhyme>
+                        <l xml:id="L26">cuando veyencico antes van vin<rhyme label="iendo">iendo</rhyme>
                   </l>
-                        <l xml:id="L27">que sie[m]pre paresce que se esta r<rhyme>iendo</rhyme>
+                        <l xml:id="L27">que sie[m]pre paresce que se esta r<rhyme label="iendo">iendo</rhyme>
                   </l>
-                        <l xml:id="L28">un gesto sereno que nunca ocar<rhyme>esce</rhyme>
+                        <l xml:id="L28">un gesto sereno que nunca ocar<rhyme label="esce">esce</rhyme>
                   </l>
-                        <l xml:id="L29">o en la pesada vegez que aborr<rhyme>esce</rhyme>
+                        <l xml:id="L29">o en la pesada vegez que aborr<rhyme label="esce">esce</rhyme>
                   </l>
-                        <l xml:id="L30">todos los plazeres con pura trist<rhyme>eza</rhyme>
+                        <l xml:id="L30">todos los plazeres con pura trist<rhyme label="eza">eza</rhyme>
                   </l>
-                        <l xml:id="L31">destas dos edades aquella riqu<rhyme>eza</rhyme>
+                        <l xml:id="L31">destas dos edades aquella riqu<rhyme label="eza">eza</rhyme>
                   </l>
                         <l xml:id="L32">
-                     <rs ref="#NC">&gt;dezide, señor</rs>, que mas perten<rhyme>esce</rhyme>.</l>
+                            <rs ref="#NC">&gt;dezide, señor</rs>, que mas perten<rhyme label="esce">esce</rhyme>.</l>
                     </lg>
 
                     <lg n="5"
@@ -181,16 +199,16 @@
                    rhyme="ABBAACCA">
                         <l xml:id="L33">Si <rs ref="#NC">vos dezides</rs> que a la manceb<rhyme label="ia">ía</rhyme>
                   </l>
-                        <l xml:id="L34">aver las riquezas es mas nesçes<rhyme>ario</rhyme>
+                        <l xml:id="L34">aver las riquezas es mas nesçes<rhyme label="ario">ario</rhyme>
                   </l>
-                        <l xml:id="L35">la razón derecha demuestra el contr<rhyme>ario</rhyme>,</l>
-                        <l xml:id="L36">ca do es plazer e toda alegr<rhyme>ia</rhyme>
+                        <l xml:id="L35">la razón derecha demuestra el contr<rhyme label="ario">ario</rhyme>,</l>
+                        <l xml:id="L36">ca do es plazer e toda alegr<rhyme label="ia">ia</rhyme>
                   </l>
                         <l xml:id="L37">toda fermosura e toda valent<rhyme label="ia">ía</rhyme>
                   </l>
-                        <l xml:id="L38">esfuerço donarie e viva_agud<rhyme>eza</rhyme>
+                        <l xml:id="L38">esfuerço donarie e viva_agud<rhyme label="eza">eza</rhyme>
                   </l>
-                        <l xml:id="L39">que mengua podría tener la riqu<rhyme>eza</rhyme>,</l>
+                        <l xml:id="L39">que mengua podría tener la riqu<rhyme label="eza">eza</rhyme>,</l>
                         <l xml:id="L40">do tantas virtudes fazen conpañ<rhyme label="ia">ía</rhyme>.</l>
                     </lg>
 
@@ -198,32 +216,32 @@
                    type="octava"
                    met="10,10, 10, 10, 10, 10, 10, 10"
                    rhyme="ABBAACCA">
-                        <l xml:id="L41">E si piadosamente fabl<rhyme>ando</rhyme>
+                        <l xml:id="L41">E si piadosamente fabl<rhyme label="ando">ando</rhyme>
                   </l>
                         <l xml:id="L42">
                      <rs ref="#NC">queréis</rs> por los viejos dar vuestra
-                                sentenc<rhyme>ia</rhyme>
+                                sentenc<rhyme label="ia">ia</rhyme>
                   </l>
-                        <l xml:id="L43">a <rs ref="#FPG">mí me paresce</rs> con vuestra licenc<rhyme>ia</rhyme>
+                        <l xml:id="L43">a <rs ref="#FPG">mí me paresce</rs> con vuestra licenc<rhyme label="ia">ia</rhyme>
                   </l>
-                        <l xml:id="L44">que desque la luenga edat va carg<rhyme>ando</rhyme>,</l>
-                        <l xml:id="L45">la cama, la mesa, el buen vino bl<rhyme>anco</rhyme>,</l>
-                        <l xml:id="L46">abastan a viejo e al non des<rhyme>ea</rhyme>,</l>
-                        <l xml:id="L47">todo lo que sobra todo mal s’ enpl<rhyme>ea</rhyme>
+                        <l xml:id="L44">que desque la luenga edat va carg<rhyme label="ando">ando</rhyme>,</l>
+                        <l xml:id="L45">la cama, la mesa, el buen vino bl<rhyme label="anco">anco</rhyme>,</l>    <!-- label ando o anco??? -->
+                        <l xml:id="L46">abastan a viejo e al non des<rhyme label="ea">ea</rhyme>,</l>
+                        <l xml:id="L47">todo lo que sobra todo mal s’ enpl<rhyme label="ea">ea</rhyme>
                   </l>
-                        <l xml:id="L48">pues dello non puede ir sí aprovech<rhyme>ando</rhyme>.</l>
+                        <l xml:id="L48">pues dello non puede ir sí aprovech<rhyme label="ando">ando</rhyme>.</l>
                     </lg>
 
-                    <lg n="7" type="finda" met="10,10, 10, 10" rhyme="ABBA">
+                    <lg n="7" type="finida" met="10,10, 10, 10" rhyme="ABBA">
                         <l xml:id="L49">
-                     <rs ref="#NC">Señor</rs>, finalmente lo que <rs ref="#FPG">yo dem<rhyme>ando</rhyme>
+                            <rs ref="#NC">Señor</rs>, finalmente lo que <rs ref="#FPG">yo dem<rhyme label="ando">ando</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L50">es para qu’ el viejo viva en su veg<rhyme>ez</rhyme>
+                        <l xml:id="L50">es para qu’ el viejo viva en su veg<rhyme label="ez">ez</rhyme>
                   </l>
-                        <l xml:id="L51">o para quel moço goze en su niñ<rhyme>ez</rhyme>
+                        <l xml:id="L51">o para quel moço goze en su niñ<rhyme label="ez">ez</rhyme>
                   </l>
-                        <l xml:id="L52">de cual las riquezas serán de su b<rhyme>ando</rhyme>.</l>
+                        <l xml:id="L52">de cual las riquezas serán de su b<rhyme label="ando">ando</rhyme>.</l>
                     </lg>
 
 

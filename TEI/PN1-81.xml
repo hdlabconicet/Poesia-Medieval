@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
 
-
+                <title>Segund que fingides so vuestro encomienda</title>
                 <title type="incipit">Segund que fingides so vuestro encomienda</title>
 
                 <author ref="#JAB">Juan Alfonso de Baena</author>
@@ -63,14 +65,28 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    
+    <facsimile>
+        <graphic url="imagenes/PN1-81-29v-(0).jpg" xml:id="PN81-0"></graphic>
+   
+        <graphic url="imagenes/PN1-81-29v-(1).jpg" xml:id="PN81-1"></graphic>
+
+        <graphic url="imagenes/PN1-81-29v-(2).jpg" xml:id="PN81-2"></graphic>
+    </facsimile>
+    
 
     <text>
         <body>
+            
+            <pb facs="#PN81-0"/>
+            
             <head> A esta <term cRef="162">pregunta</term> e <term cRef="203">requesta</term>
                 respondió <persName ref="#JAB">Juan Alfonso de Baena</persName>, <rs ref="#JAB">escrivano del rey</rs>, por la mesma <term cRef="198">arte</term> de <term cRef="209">maestria</term> e por sus <term cRef="166">consonantes</term>
                 <term cRef="189">limados</term> e muy <term cRef="211">escandidos</term>
             </head>
-
+            
+            
+ <pb facs="#PN81-1"/>
 
             <sp who="#NC">
                 <speaker>Juan Alfonso de Baena</speaker>
@@ -80,34 +96,36 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10/10,10, 10, 10"
-                rhyme="ABBAACCA/ABBA">
+                met="10,10, 10, 10, 10, 10, 10, 10"
+                rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor. No se especifica el nombre del
                         poesta al que <persName ref="#JAB">Baena</persName> responde, aunque, por la
                         pregunta anterior, sabemos que es <persName ref="#AAV">Villasandino</persName>
                </note>
+
+                   
 
                     <lg n="1"
                    type="octava"
                    met="10,10, 10, 10, 10, 10, 10, 10"
                    rhyme="ABBAACCA">
                         <l xml:id="L1">Segund que <rs ref="#AAV">fingides</rs>
-                            <rs ref="#JAB">so vuestro encomi<rhyme>enda</rhyme>
+                            <rs ref="#JAB">so vuestro encomi<rhyme label="enda">enda</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L2">están las ciencias de todos met<rhyme>ales</rhyme>,</l>
-                        <l xml:id="L3">mas testos e glosas de <rs ref="#JAB">mis decret<rhyme>ales</rhyme>
+                        <l xml:id="L2">están las ciencias de todos met<rhyme label="ales">ales</rhyme>,</l>
+                        <l xml:id="L3">mas testos e glosas de <rs ref="#JAB">mis decret<rhyme label="ales">ales</rhyme>
                      </rs>,</l>
                         <l xml:id="L4">segunt <rs ref="#JAB">me paresce</rs>
-                            <rs ref="#AAV">leistes</rs> corri<rhyme>enda</rhyme>,</l>
-                        <l xml:id="L5">por ende, <rs ref="#AAV">maestro</rs>, <rs ref="#AAV">sabet</rs> que <rs ref="#JAB">resp<rhyme>enda</rhyme>
+                            <rs ref="#AAV">leistes</rs> corri<rhyme label="enda">enda</rhyme>,</l>
+                        <l xml:id="L5">por ende, <rs ref="#AAV">maestro</rs>, <rs ref="#AAV">sabet</rs> que <rs ref="#JAB">resp<rhyme label="enda">enda</rhyme>
                      </rs>
                   </l>
                         <l xml:id="L6">de <rs ref="#AAV">vuestra ordenança</rs> el muy grant
                                 rem<rhyme label="on">ón</rhyme>,</l>
                         <l xml:id="L7">Ricardo e Pánfilo, Escoto e Agrim<rhyme label="on">ón</rhyme>,</l>
                         <l xml:id="L8">los cuales mandaron que <rs ref="#AAV">vos</rs>
-                            <rs ref="#JAB">repr<rhyme>enda</rhyme>
+                            <rs ref="#JAB">repr<rhyme label="enda">enda</rhyme>
                      </rs>.</l>
                     </lg>
 
@@ -118,32 +136,34 @@
                         <l xml:id="L9">Ca puesto por caso que puge e trasc<rhyme>enda</rhyme>
                   </l>
                         <l xml:id="L10">la <rs ref="#AAV">vuestra <term cRef="195">ciencia</term> de
-                                finos crist<rhyme>ales</rhyme>
+                                finos crist<rhyme label="ales">ales</rhyme>
                      </rs>,</l>
-                        <l xml:id="L11">e callen los simples remotos bruc<rhyme>ales</rhyme>,</l>
-                        <l xml:id="L12">que non fueron dinos aver tal prev<rhyme>enda</rhyme>,</l>
-                        <l xml:id="L13">a <rs ref="#AAV">vuestra persona</rs> sotil rever<rhyme>enda</rhyme>,</l>
+                        <l xml:id="L11">e callen los simples remotos bruc<rhyme label="ales">ales</rhyme>,</l>
+                        <l xml:id="L12">que non fueron dinos aver tal prev<rhyme label="enda">enda</rhyme>,</l>
+                        <l xml:id="L13">a <rs ref="#AAV">vuestra persona</rs> sotil rever<rhyme label="enda">enda</rhyme>,</l>
                         <l xml:id="L14">fermoso le fuera loar con raz<rhyme label="on">ón</rhyme>,</l>
                         <l xml:id="L15">los altos <term cRef="182">poetas</term> que luenga
                                 saz<rhyme label="on">ón</rhyme>
                   </l>
                         <l xml:id="L16">
-                     <term cRef="210">trovaron</term> por <term cRef="198">artes</term> de alta cal<rhyme>enda</rhyme>.</l>
+                            <term cRef="210">trovaron</term> por <term cRef="198">artes</term> de alta cal<rhyme label="ales">enda</rhyme>.</l>
                     </lg>
+
+                    <pb facs="#PN81-2"/>
 
                     <lg n="3"
                    type="octava"
                    met="10,10, 10, 10, 10, 10, 10, 10"
                    rhyme="ABBAACCA">
                         <l xml:id="L17">E porque <rs ref="#JAB">non siento</rs> quien non
-                                condesc<rhyme>enda</rhyme>
+                                condesc<rhyme label="enda">enda</rhyme>
                   </l>
                         <l xml:id="L18">a <rs ref="#AAV">vuestras dotrinas</rs> por ser tan
-                                mor<rhyme>ales</rhyme>
+                                mor<rhyme label="ales">ales</rhyme>
                   </l>
-                        <l xml:id="L19">las flores de adelfa con lindos ros<rhyme>ales</rhyme>,</l>
-                        <l xml:id="L20">que non se conforman en dar su ofr<rhyme>enda</rhyme>,</l>
-                        <l xml:id="L21">por ende <rs ref="#JAB">siguiendo</rs>, <rs ref="#AAV">señor</rs>, <rs ref="#AAV">vuestra s<rhyme>enda</rhyme>
+                        <l xml:id="L19">las flores de adelfa con lindos ros<rhyme label="ales">ales</rhyme>,</l>
+                        <l xml:id="L20">que non se conforman en dar su ofr<rhyme label="enda">enda</rhyme>,</l>
+                        <l xml:id="L21">por ende <rs ref="#JAB">siguiendo</rs>, <rs ref="#AAV">señor</rs>, <rs ref="#AAV">vuestra s<rhyme label="enda">enda</rhyme>
                      </rs>,</l>
                         <l xml:id="L22">e non lo <rs ref="#JAB">tomando</rs>
                             <rs ref="#AAV">de vos</rs> el bald<rhyme label="on">ón</rhyme>,</l>
@@ -152,22 +172,22 @@
                                 vuestro pend<rhyme label="on">ón</rhyme>
                      </rs>,</l>
                         <l xml:id="L24">
-                     <rs ref="#JAB">seré</rs> todo siempre, <rs ref="#AAV">tomad</rs> esta pr<rhyme>enda</rhyme>.</l>
+                     <rs ref="#JAB">seré</rs> todo siempre, <rs ref="#AAV">tomad</rs> esta pr<rhyme label="enda">enda</rhyme>.</l>
                     </lg>
 
                     <lg n="4"
                    type="octava"
                    met="10,10, 10, 10, 10, 10, 10, 10"
                    rhyme="ABBAACCA">
-                        <l xml:id="L25">Pero si <rs ref="#AAV">vos plaze</rs> que desto <rs ref="#JAB">dep<rhyme>enda</rhyme>
+                        <l xml:id="L25">Pero si <rs ref="#AAV">vos plaze</rs> que desto <rs ref="#JAB">dep<rhyme label="enda">enda</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L26">que tangan las trompas e los atab<rhyme>ales</rhyme>
+                        <l xml:id="L26">que tangan las trompas e los atab<rhyme label="ales">ales</rhyme>
                   </l>
-                        <l xml:id="L27">e <rs ref="#JAB">yo</rs> suba quintas en bozes tumb<rhyme>ales</rhyme>
+                        <l xml:id="L27">e <rs ref="#JAB">yo</rs> suba quintas en bozes tumb<rhyme label="ales">ales</rhyme>
                   </l>
                         <l xml:id="L28">“de <rs ref="#AAV">vuestra madexa</rs> quebrada es la
-                                cu<rhyme>enda</rhyme>”, </l>
+                                cu<rhyme label="enda">enda</rhyme>”, </l>
                         <l xml:id="L29">ca <rs ref="#JAB">yo non me rindo</rs> como omne que
                                 arr<rhyme label="enda">ienda</rhyme>,</l>
                         <l xml:id="L30">pero si <rs ref="#AAV">vos</rs> punçó en el coraç<rhyme label="on">ón</rhyme>
@@ -179,12 +199,13 @@
                         <l xml:id="L32">que desta <term cRef="178">linda</term>
                             <term cRef="198">arte</term>
                             <rs ref="#AAV">vos</rs>
-                            <rs ref="#JAB">prive e susp<rhyme>enda</rhyme>
+                            <rs ref="#JAB">prive e susp<rhyme label="enda">enda</rhyme>
                      </rs>.</l>
                     </lg>
 
-                    <lg n="5" type="finda" met="10,10, 10, 10" rhyme="ABBA">
-                        <l xml:id="L33">Pasteles de pollos con polvos de h<rhyme label="enda">ienda</rhyme>,</l>
+                    <lg n="5" type="finida" met="10,10, 10, 10" rhyme="ABBA">
+                        <l xml:id="L33">Pasteles de pollos con polvos de h<rhyme label="enda">ienda</rhyme>,</l>   <!-- El atributo label= correcto para estas rimas
+                                                                                                                     es "ienda" o "enda"??? -->
                         <l xml:id="L34">e festes de noya con buen salpic<rhyme label="on">ón</rhyme>
                   </l>
                         <l xml:id="L35">

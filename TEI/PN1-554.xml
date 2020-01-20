@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -68,11 +70,26 @@
         </revisionDesc>
     </teiHeader>
 
+
+    <facsimile>
+        <graphic url="imagenes/PN1-554-185v-(0).jpg" xml:id="PN554-0"></graphic>
+
+        <graphic url="imagenes/PN1-554-185v-(1).jpg" xml:id="PN554-1"></graphic>
+
+        <graphic url="imagenes/PN1-554-186r-(2).jpg" xml:id="PN554-2"></graphic>
+    </facsimile>
+    
+
     <text>
         <body>
+            
+            <pb facs="#PN554-0"/>
+            
             <head type="rúbrica">
                 <term cRef="162">Respuesta</term> que <rs ref="#FPG">le</rs> dio el dicho <persName ref="#AAV">Alfonso Álvarez</persName>
          </head>
+
+            <pb facs="#PN554-1"/>
 
             <sp who="#FPG">
                 <speaker>Alfonso Álvarez de Villasandino</speaker>
@@ -82,81 +99,83 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8,8,8,8,8,8,8,8/8,8,8,8"
-                rhyme="ABBAABBA/ABBA">
+                met="8,8,8,8,8,8,8,8"
+                rhyme="ABBAABBA">
                     <note/>
                     <lg n="1" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
 
 
 
 
-                        <l xml:id="L1">Esto <rs ref="#AAV">entiendo</rs> más all<rhyme label="ende">iende</rhyme>
+                        <l xml:id="L1">Esto <rs ref="#AAV">entiendo</rs> más all<rhyme label="iende">iende</rhyme>
                   </l>
-                        <l xml:id="L2">mas con grand <rs ref="#AAV">pienso que tr<rhyme>ayo</rhyme>
+                        <l xml:id="L2">mas con grand <rs ref="#AAV">pienso que tr<rhyme label="ayo">ayo</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L3">non so más que un lac<rhyme>ayo</rhyme>,</l>
-                        <l xml:id="L4">dezir cuánto se esti<rhyme label="ende">iende</rhyme>
+                        <l xml:id="L3">non so más que un lac<rhyme label="ayo">ayo</rhyme>,</l>
+                        <l xml:id="L4">dezir cuánto se esti<rhyme label="iende">iende</rhyme>
                   </l>
                         <l xml:id="L5">la <term cRef="89">razón</term> porque conti<rhyme label="ende">iende</rhyme>
                   </l>
-                        <l xml:id="L6">quien ensaya tal ens<rhyme>ayo</rhyme>,</l>
-                        <l xml:id="L7">o “quiça que ha miedo p<rhyme>ayo</rhyme>
+                        <l xml:id="L6">quien ensaya tal ens<rhyme label="ayo">ayo</rhyme>,</l>
+                        <l xml:id="L7">o “quiça que ha miedo p<rhyme label="ayo">ayo</rhyme>
                         </l>
-                        <l xml:id="L8">que reza e non se def<rhyme>iende</rhyme>”.</l>
+                        <l xml:id="L8">que reza e non se def<rhyme label="iende">iende</rhyme>”.</l>
                     </lg>
 
                     <lg n="2" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
-                        <l xml:id="L9">El que es lindo enamor<rhyme>ado</rhyme>
+                        <l xml:id="L9">El que es lindo enamor<rhyme label="ado">ado</rhyme>
                   </l>
-                        <l xml:id="L10">siempre vive vida estr<rhyme>echa</rhyme>,</l>
-                        <l xml:id="L11">temiendo lo que des<rhyme>echa</rhyme>,</l>
-                        <l xml:id="L12">la que sirve de buen gr<rhyme>ado</rhyme>,</l>
-                        <l xml:id="L13">pero <rs ref="#FPG"> vos sed esforç<rhyme>ado</rhyme>
+                        <l xml:id="L10">siempre vive vida estr<rhyme label="echa">echa</rhyme>,</l>
+                        <l xml:id="L11">temiendo lo que des<rhyme label="echa">echa</rhyme>,</l>
+                        <l xml:id="L12">la que sirve de buen gr<rhyme label="ado">ado</rhyme>,</l>
+                        <l xml:id="L13">pero <rs ref="#FPG"> vos sed esforç<rhyme label="ado">ado</rhyme>
                      </rs>,</l>
-                        <l xml:id="L14">que segund <term cRef="89">razón</term> der<rhyme>echa</rhyme>:</l>
-                        <l xml:id="L15">“el que non tiene sosp<rhyme>echa</rhyme>
+                        <l xml:id="L14">que segund <term cRef="89">razón</term> der<rhyme label="echa">echa</rhyme>:</l>
+                        <l xml:id="L15">“el que non tiene sosp<rhyme label="echa">echa</rhyme>
                         </l>
-                        <l xml:id="L16">seguro duerme e pag<rhyme>ado</rhyme>”.</l>
+                        <l xml:id="L16">seguro duerme e pag<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
                     <lg n="3" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
-                        <l xml:id="L17">Quien honrada vida hon<rhyme>esta</rhyme>
+                        <l xml:id="L17">Quien honrada vida hon<rhyme label="esta">esta</rhyme>
                   </l>
-                        <l xml:id="L18">vive sin fazer err<rhyme>ores</rhyme>,</l>
-                        <l xml:id="L19">meresce grandes lo<rhyme>ores</rhyme>
+                        <l xml:id="L18">vive sin fazer err<rhyme label="ores">ores</rhyme>,</l>
+                        <l xml:id="L19">meresce grandes lo<rhyme label="ores">ores</rhyme>
                   </l>
-                        <l xml:id="L20">que es cosa que mucho pr<rhyme>esta</rhyme>,</l>
-                        <l xml:id="L21">si parló de alta g<rhyme>esta</rhyme>
+                        <l xml:id="L20">que es cosa que mucho pr<rhyme label="esta">esta</rhyme>,</l>
+                        <l xml:id="L21">si parló de alta g<rhyme label="esta">esta</rhyme>
                   </l>
-                        <l xml:id="L22">el gayo en sus clam<rhyme>ores</rhyme>
+                        <l xml:id="L22">el gayo en sus clam<rhyme label="ores">ores</rhyme>
                   </l>
                         <l xml:id="L23">
-                     <rs ref="#FPG"> entended</rs> que sus pav<rhyme>ores</rhyme>
+                            <rs ref="#FPG"> entended</rs> que sus pav<rhyme label="ores">ores</rhyme>
                   </l>
-                        <l xml:id="L24">“non son sinon agua en c<rhyme>esta</rhyme>”.</l>
+                        <l xml:id="L24">“non son sinon agua en c<rhyme label="esta">esta</rhyme>”.</l>
                     </lg>
+
+                    <pb facs="#PN554-2"/>
 
                     <lg n="4" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
                         <l xml:id="L25">
-                     <rs ref="#FPG"> Buen señor</rs> desde ab inic<rhyme>io</rhyme>
+                     <rs ref="#FPG"> Buen señor</rs> desde ab inic<rhyme label="io">io</rhyme>
                   </l>
-                        <l xml:id="L26">en luna meguante o ll<rhyme>ena</rhyme>
+                        <l xml:id="L26">en luna meguante o ll<rhyme label="ena">ena</rhyme>
                   </l>
-                        <l xml:id="L27">“do mucho puja el av<rhyme>ena</rhyme>
+                        <l xml:id="L27">“do mucho puja el av<rhyme label="ena">ena</rhyme>
                         </l>
-                        <l xml:id="L28">cogen fruto de fornic<rhyme>io</rhyme>”,</l>
-                        <l xml:id="L29">non puede estar sin bollic<rhyme>io</rhyme>,</l>
-                        <l xml:id="L30">quien codicia joya ag<rhyme>ena</rhyme>
+                        <l xml:id="L28">cogen fruto de fornic<rhyme label="io">io</rhyme>”,</l>
+                        <l xml:id="L29">non puede estar sin bollic<rhyme label="io">io</rhyme>,</l>
+                        <l xml:id="L30">quien codicia joya ag<rhyme label="ena">ena</rhyme>
                   </l>
-                        <l xml:id="L31">“caballo que non se enfr<rhyme>ena</rhyme>” </l>
-                        <l xml:id="L32">cuanto <rs ref="#AAV">yo</rs> non lo cobdic<rhyme>io</rhyme>.</l>
+                        <l xml:id="L31">“caballo que non se enfr<rhyme label="ena">ena</rhyme>” </l>
+                        <l xml:id="L32">cuanto <rs ref="#AAV">yo</rs> non lo cobdic<rhyme label="io">io</rhyme>.</l>
                     </lg>
 
                     <lg n="5" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
                         <l xml:id="L33">
                      <rs ref="#FPG"> Señor</rs>, merced <rs ref="#FPG">vos</rs>
-                            <rs ref="#AAV">dem<rhyme>ando</rhyme>
+                            <rs ref="#AAV">dem<rhyme label="ando">ando</rhyme>
                      </rs>
                   </l>
                         <l xml:id="L34">por bondad e cortes<rhyme label="ia">ía</rhyme>
@@ -165,7 +184,7 @@
                      </rs>
                   </l>
                         <l xml:id="L36">
-                     <rs ref="#FPG"> vades bien consider<rhyme>ando</rhyme>
+                            <rs ref="#FPG"> vades bien consider<rhyme label="ando">ando</rhyme>
                      </rs>,</l>
                         <l xml:id="L37">que <rs ref="#AAV">non sé</rs> cómo nin cu<rhyme label="ando">ándo</rhyme>
                   </l>
@@ -174,10 +193,10 @@
                         <l xml:id="L39">de <rs ref="#FPG"> vuestra arte</rs> más querr<rhyme label="ia">ía</rhyme>
                   </l>
                         <l xml:id="L40">siempre <rs ref="#AAV">servir</rs>
-                            <rs ref="#FPG"> vos</rs> lo<rhyme>ando</rhyme>,</l>
+                            <rs ref="#FPG"> vos</rs> lo<rhyme label="ando">ando</rhyme>,</l>
 
-                        <lg n="6" type="finda" met="8,8,8,8" rhyme="ABBA">
-                            <l xml:id="L41">Si en algo <rs ref="#AAV">erré trov<rhyme>ando</rhyme>
+                        <lg n="6" type="finida" met="8,8,8,8" rhyme="ABBA">
+                            <l xml:id="L41">Si en algo <rs ref="#AAV">erré trov<rhyme label="ando">ando</rhyme>
                         </rs>
                      </l>
                             <l xml:id="L42">
@@ -186,7 +205,7 @@
                         </term>
                      </l>
                             <l xml:id="L44">
-                        <rs ref="#AAV">sé</rs> muy poco estudi<rhyme>ando</rhyme>.</l>
+                                <rs ref="#AAV">sé</rs> muy poco estudi<rhyme label="ando">ando</rhyme>.</l>
                         </lg>
 
                     </lg>

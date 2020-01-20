@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -42,7 +44,7 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <locus from="32r" to="32r">32r. </locus>
+                            <locus from="32r" to="32r">32r</locus>
                             <idno>PN1-91</idno>
                         </msItem>
                     </msContents>
@@ -67,13 +69,25 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    
+    <facsimile>
+        <graphic url="imagenes/PN1-91-32r-(0).jpg" xml:id="PN91-0"></graphic>
+  
+        <graphic url="imagenes/PN1-91-32r-(1).jpg" xml:id="PN91-1"></graphic>
+    </facsimile>
 
     <text>
         <body>
+            
+            <pb facs="#PN91-0"/>
+            
             <head type="rúbrica"> Esta <term cRef="163">respuesta</term>
                 <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> el dicho <persName ref="#AAV">Alfonso Álvarez de <placeName ref="#VI1">Villasandino</placeName>
             </persName>(…) <persName ref="#BSA">maestro en
                         artes</persName> a la <term cRef="162">pregunta</term> que le <term cRef="174">fizo</term> (...) </head>
+
+
+            <pb facs="#PN91-1"/>
 
             <sp who="#BSA">
                 <speaker>Alfonso Álvarez de Villasandino</speaker>
@@ -83,8 +97,8 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10, 10"
-                rhyme="ABBAACCA/ABBA">
+                met="10,10, 10, 10, 10, 10, 10, 10"
+                rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor</note>
                     <lg n="1"
                    type="octava"
@@ -92,48 +106,48 @@
                    rhyme="ABBAACCA">
 
                         <l xml:id="L1">
-                     <rs ref="#BSA">Amigo maestro</rs>, ya otras veg<rhyme>adas</rhyme>
+                     <rs ref="#BSA">Amigo maestro</rs>, ya otras veg<rhyme label="adas">adas</rhyme>
                   </l>
                         <l xml:id="L2">
                      <rs ref="#AAV">vi</rs>
                             <rs ref="#BSA">vuestros</rs>
-                            <term cRef="187">dezires</term> con que <rs ref="#AAV">fui goz<rhyme>oso</rhyme>
+                            <term cRef="187">dezires</term> con que <rs ref="#AAV">fui goz<rhyme label="oso">oso</rhyme>
                      </rs>
                   </l>
                         <l xml:id="L3">por quanto parescen de <term cRef="190">sabio</term>
-                                engeñ<rhyme>oso</rhyme>
+                                engeñ<rhyme label="oso">oso</rhyme>
                   </l>
                         <l xml:id="L4">las <rs ref="#BSA">vuestras</rs>
                             <term cRef="89">razones</term>
-                            <term cRef="171">sotiles</term>, <term cRef="189">lim<rhyme>adas</rhyme>
+                            <term cRef="171">sotiles</term>, <term cRef="189">lim<rhyme label="adas">adas</rhyme>
                      </term>,</l>
-                        <l xml:id="L5">mas non <rs ref="#AAV">me</rs> fadaron a <rs ref="#AAV">mí</rs> tales f<rhyme label="adas ">adas</rhyme>
+                        <l xml:id="L5">mas non <rs ref="#AAV">me</rs> fadaron a <rs ref="#AAV">mí</rs> tales f<rhyme label="adas">adas</rhyme>
                   </l>
-                        <l xml:id="L6">que <rs ref="#AAV">yo meresciese</rs> entrar en tal c<rhyme>oro</rhyme>
+                        <l xml:id="L6">que <rs ref="#AAV">yo meresciese</rs> entrar en tal c<rhyme label="oro">oro</rhyme>
                   </l>
-                        <l xml:id="L7">como <rs ref="#BSA">vos dezides</rs>, pero sienpre <rs ref="#AAV">ad<rhyme>oro</rhyme>
+                        <l xml:id="L7">como <rs ref="#BSA">vos dezides</rs>, pero sienpre <rs ref="#AAV">ad<rhyme label="oro">oro</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L8">en lindas personas que son bien cre<rhyme>adas</rhyme>.</l>
+                        <l xml:id="L8">en lindas personas que son bien cre<rhyme label="adas">adas</rhyme>.</l>
                     </lg>
 
                     <lg n="2"
                    type="octava"
                    met="10,10, 10, 10, 10, 10, 10, 10"
                    rhyme="ABBAACCA">
-                        <l xml:id="L9">Nin <rs ref="#AAV">yo me siento tan desacord<rhyme label="ador">ado</rhyme>
+                        <l xml:id="L9">Nin <rs ref="#AAV">yo me siento tan desacord<rhyme label="ado">ado</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L10">que por <rs ref="#AAV">mí</rs>tomasse tan fino lo<rhyme>or</rhyme>,</l>
-                        <l xml:id="L11">e si lo <rs ref="#AAV">feziese</rs> seria grant err<rhyme>or</rhyme>,</l>
-                        <l xml:id="L12">seyendo inorante non guard<rhyme>ado</rhyme>,</l>
-                        <l xml:id="L13">pero todo cuerpo es element<rhyme>ado</rhyme>
+                        <l xml:id="L10">que por <rs ref="#AAV">mí</rs>tomasse tan fino lo<rhyme label="or">or</rhyme>,</l>
+                        <l xml:id="L11">e si lo <rs ref="#AAV">feziese</rs> seria grant err<rhyme label="or">or</rhyme>,</l>
+                        <l xml:id="L12">seyendo inorante non guard<rhyme label="ado">ado</rhyme>,</l>
+                        <l xml:id="L13">pero todo cuerpo es element<rhyme label="ado">ado</rhyme>
                   </l>
-                        <l xml:id="L14">segunt las planetas e costelaci<rhyme>ones</rhyme>
+                        <l xml:id="L14">segunt las planetas e costelaci<rhyme label="ones">ones</rhyme>
                   </l>
-                        <l xml:id="L15">después por criança en sus condici<rhyme>ones</rhyme>
+                        <l xml:id="L15">después por criança en sus condici<rhyme label="ones">ones</rhyme>
                   </l>
-                        <l xml:id="L16">bien puede por gracia ser quisto e am<rhyme>ado</rhyme>.</l>
+                        <l xml:id="L16">bien puede por gracia ser quisto e am<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
                     <lg n="3"
@@ -141,34 +155,34 @@
                    met="10,10, 10, 10, 10, 10, 10, 10"
                    rhyme="ABBAACCA">
                         <l xml:id="L17">
-                     <rs ref="#BSA">La vuestra grand fusta sin toda renz<rhyme>illa</rhyme>
+                     <rs ref="#BSA">La vuestra grand fusta sin toda renz<rhyme label="illa">illa</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L18">con vela e antena e sus cuerdas f<rhyme>inas</rhyme>
+                        <l xml:id="L18">con vela e antena e sus cuerdas f<rhyme label="inas">inas</rhyme>
                   </l>
-                        <l xml:id="L19">podrié marear bien fasta Mell<rhyme>inas</rhyme>,</l>
-                        <l xml:id="L20">después con buen tiempo tornar en Cast<rhyme>illa</rhyme>
+                        <l xml:id="L19">podrié marear bien fasta Mell<rhyme label="inas">inas</rhyme>,</l>
+                        <l xml:id="L20">después con buen tiempo tornar en Cast<rhyme label="illa">illa</rhyme>
                   </l>
-                        <l xml:id="L21">e donde se esmera la noble bax<rhyme>illa</rhyme>,</l>
+                        <l xml:id="L21">e donde se esmera la noble bax<rhyme label="illa">illa</rhyme>,</l>
                         <l xml:id="L22">
-                     <rs ref="#BSA">el vuestro argumento amuestran por f<rhyme>ino</rhyme>
+                     <rs ref="#BSA">el vuestro argumento amuestran por f<rhyme label="ino">ino</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L23">e <rs ref="#AAV">yo de mi parte así lo esam<rhyme>ino</rhyme>
+                        <l xml:id="L23">e <rs ref="#AAV">yo de mi parte así lo esam<rhyme label="ino">ino</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L24">maguer non <rs ref="#AAV">meresco</rs> sobir en tal s<rhyme>illa</rhyme>.</l>
+                        <l xml:id="L24">maguer non <rs ref="#AAV">meresco</rs> sobir en tal s<rhyme label="illa">illa</rhyme>.</l>
                     </lg>
 
                     <lg n="4" type="finda" met="10,10, 10, 10" rhyme="ABBA">
-                        <l xml:id="L25">El sabio sessudo quanto más se om<rhyme>illa</rhyme>,</l>
-                        <l xml:id="L26">tanto se onra, pues Dios acrec<rhyme>iente</rhyme>
+                        <l xml:id="L25">El sabio sessudo quanto más se om<rhyme label="illa">illa</rhyme>,</l>
+                        <l xml:id="L26">tanto se onra, pues Dios acrec<rhyme label="iente">iente</rhyme>
                   </l>
                         <l xml:id="L27">
                      <rs ref="#BSA">la vuestra salud</rs>, <rs ref="#BSA">amigo e
-                                    par<rhyme>iente</rhyme>
+                                    par<rhyme label="iente">iente</rhyme>
                      </rs>,</l>
-                        <l xml:id="L28">e sienpre <rs ref="#BSA">seades onrado</rs> en la v<rhyme>illa</rhyme>.</l>
+                        <l xml:id="L28">e sienpre <rs ref="#BSA">seades onrado</rs> en la v<rhyme label="illa">illa</rhyme>.</l>
                     </lg>
                 </lg>
             </sp>

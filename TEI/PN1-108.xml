@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -68,6 +70,11 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    
+    
+    <facsimile>
+        <graphic url="imagenes/PN1-108-38r-(1).jpg" xml:id="PN108-1"></graphic>
+    </facsimile>
 
     <text>
         <body>
@@ -76,6 +83,7 @@
                 Villasandino, sabemos que esta es una pregunta de AAV a este. Por la cantidad de
                 estrofas que tiene la respuesta podemos pensar que esta pieza está incompleta</note>
 
+<pb facs="#PN108-1"/>
 
             <sp who="#PCA">
                 <speaker>Alfonso Álvarez de Villasandino</speaker>
@@ -85,95 +93,95 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8,8,8,8,8,8,8/8,8,8,8"
-                rhyme="abbacca/abba">
+                met="8,8,8,8,8,8,8"
+                rhyme="abbacca">
 
                     <lg n="1" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
 
 
 
 
-                        <l xml:id="L1">Non muy bien encabell<rhyme>ado</rhyme>
+                        <l xml:id="L1">Non muy bien encabell<rhyme label="ado">ado</rhyme>
                         </l>
                         <l xml:id="L2">
-                     <rs ref="#AAV">me <rs ref="#PCA">diredes</rs> o calv<rhyme>illo</rhyme>
+                     <rs ref="#AAV">me <rs ref="#PCA">diredes</rs> o calv<rhyme label="illo">illo</rhyme>
                      </rs>
                         </l>
                         <l xml:id="L3">
                      <rs ref="#AAV">mi riqueza</rs> es del gran<rhyme label="illo">illo </rhyme>
                   </l>
-                        <l xml:id="L4">mas siempre leal prov<rhyme>ado</rhyme>, </l>
-                        <l xml:id="L5">por ende dize el act<rhyme>or</rhyme>
+                        <l xml:id="L4">mas siempre leal prov<rhyme label="ado">ado</rhyme>, </l>
+                        <l xml:id="L5">por ende dize el act<rhyme label="or">or</rhyme>
                         </l>
-                        <l xml:id="L6">qu’el pedir es grant trist<rhyme>or</rhyme>
+                        <l xml:id="L6">qu’el pedir es grant trist<rhyme label="or">or</rhyme>
                         </l>
-                        <l xml:id="L7">e manjar emponzoñ<rhyme>ado</rhyme>.</l>
+                        <l xml:id="L7">e manjar emponzoñ<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
                     <lg n="2" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
                         <l xml:id="L8">
-                     <rs ref="#AAV">De mí me siento coit<rhyme>ado</rhyme>
+                            <rs ref="#AAV">De mí me siento coit<rhyme label="ado">ado</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L9">que <rs ref="#AAV">se me quebró el colm<rhyme>illo</rhyme>
+                        <l xml:id="L9">que <rs ref="#AAV">se me quebró el colm<rhyme label="illo">illo</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L10">e <rs ref="#AAV">non sé</rs> a quién hom<rhyme>illo</rhyme>
+                        <l xml:id="L10">e <rs ref="#AAV">non sé</rs> a quién hom<rhyme label="illo">illo</rhyme>
                   </l>
                         <l xml:id="L11">
-                     <rs ref="#AAV">este mi cuerpo lazr<rhyme>ado</rhyme>
+                            <rs ref="#AAV">este mi cuerpo lazr<rhyme label="ado">ado</rhyme>
                      </rs>,</l>
-                        <l xml:id="L12">pero que dize el act<rhyme>or</rhyme>
+                        <l xml:id="L12">pero que dize el act<rhyme label="or">or</rhyme>
                   </l>
-                        <l xml:id="L13">que quien es fornicad<rhyme>or</rhyme>
+                        <l xml:id="L13">que quien es fornicad<rhyme label="or">or</rhyme>
                   </l>
-                        <l xml:id="L14">non será de Dios am<rhyme>ado</rhyme>.</l>
+                        <l xml:id="L14">non será de Dios am<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
                     <lg n="3" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
                         <l xml:id="L15">
-                     <rs ref="#AAV">Non soy tan desatent<rhyme>ado</rhyme>
+                            <rs ref="#AAV">Non soy tan desatent<rhyme label="ado">ado</rhyme>
                      </rs>
                   </l>
                         <l xml:id="L16">
-                     <rs ref="#AAV">nin de seso tan cort<rhyme label="illlo">illo</rhyme>
+                     <rs ref="#AAV">nin de seso tan cort<rhyme label="illo">illo</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L17">que sol a <rs ref="#PCA">vuestro mor<rhyme>illo</rhyme>
+                        <l xml:id="L17">que sol a <rs ref="#PCA">vuestro mor<rhyme label="illo">illo</rhyme>
                      </rs>
                   </l>
                         <l xml:id="L18">
-                     <rs ref="#AAV">yo fuese desmesur<rhyme>ado</rhyme>
+                            <rs ref="#AAV">yo fuese desmesur<rhyme label="ado">ado</rhyme>
                      </rs>,</l>
-                        <l xml:id="L19">por ende dize el act<rhyme label="or">or:</rhyme>
+                        <l xml:id="L19">por ende dize el act<rhyme label="or">or</rhyme>:
                   </l>
-                        <l xml:id="L20">que cualquier que es honrad<rhyme>or</rhyme>
+                        <l xml:id="L20">que cualquier que es honrad<rhyme label="or">or</rhyme>
                         </l>
-                        <l xml:id="L21">siempre entiende ser honr<rhyme>ado</rhyme>.</l>
+                        <l xml:id="L21">siempre entiende ser honr<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
                     <lg n="4" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
-                        <l xml:id="L22">Si <rs ref="#PCA">tenedes</rs> ya libr<rhyme>ado</rhyme>
+                        <l xml:id="L22">Si <rs ref="#PCA">tenedes</rs> ya libr<rhyme label="ado">ado</rhyme>
                   </l>
-                        <l xml:id="L23">ponimiento en ced<rhyme>illo</rhyme>
+                        <l xml:id="L23">ponimiento en ced<rhyme label="illo">illo</rhyme>
                   </l>
-                        <l xml:id="L24">para el miércoles corv<rhyme>illo</rhyme>
+                        <l xml:id="L24">para el miércoles corv<rhyme label="illo">illo</rhyme>
                   </l>
                         <l xml:id="L25">
-                     <rs ref="#PCA">seredes</rs> mi convid<rhyme>ado</rhyme>;</l>
-                        <l xml:id="L26">non esté dixo el act<rhyme>or</rhyme>
+                            <rs ref="#PCA">seredes</rs> mi convid<rhyme label="ado">ado</rhyme>;</l>
+                        <l xml:id="L26">non esté dixo el act<rhyme label="or">or</rhyme>
                   </l>
-                        <l xml:id="L27">mas quando el emperad<rhyme>or</rhyme>
+                        <l xml:id="L27">mas quando el emperad<rhyme label="or">or</rhyme>
                   </l>
-                        <l xml:id="L28">haya el mundo soseg<rhyme>ado</rhyme>.</l>
+                        <l xml:id="L28">haya el mundo soseg<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
-                    <lg n="5" type="finda" met="8,8,8,8" rhyme="abba">
+                    <lg n="5" type="finida" met="8,8,8,8" rhyme="abba">
                         <l xml:id="L29">
-                     <rs ref="#AAV">Temome de ser tent<rhyme>ado</rhyme>
+                            <rs ref="#AAV">Temome de ser tent<rhyme label="ado">ado</rhyme>
                      </rs>,</l>
-                        <l xml:id="L30">por ende dize el act<rhyme>or</rhyme>:</l>
-                        <l xml:id="L31">"quien no es engañad<rhyme>or</rhyme>
+                        <l xml:id="L30">por ende dize el act<rhyme label="or">or</rhyme>:</l>
+                        <l xml:id="L31">"quien no es engañad<rhyme label="or">or</rhyme>
                   </l>
                         <l xml:id="L32">non deve ser engañ<rhyme label="ado">ado"</rhyme>.</l>
                     </lg>

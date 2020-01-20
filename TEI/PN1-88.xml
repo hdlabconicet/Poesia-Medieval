@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -68,15 +70,27 @@
                             </listChange>
         </revisionDesc>
    </teiHeader>
+    
+    <facsimile>
+        <graphic url="imagenes/PN1-88-31v-(0).jpg" xml:id="PN88-0"></graphic>
+    </facsimile>
+    
+    <facsimile>
+        <graphic url="imagenes/PN1-88-31v-(1).jpg" xml:id="PN88-1"></graphic>
+    </facsimile>
 
    <text>
       <body>
+          
+          <pb facs="#PN88-0"/>
+          
         <head type="rúbrica"> 
             
             <term cRef="162">Pregunta</term> del dicho <persName ref="#BSA">Bachiller</persName> contra <persName ref="#AAV">Alfonso Álvarez</persName>
                         </head>
   
-
+          <pb facs="#PN88-1"/>
+          
         <sp who="#AAV">
             <speaker>Bachiller en Artes de Salamanca</speaker>
             <lg type="poema"
@@ -85,8 +99,8 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10"
-                rhyme="ABBAACCA/AAB">
+                met="10,10, 10, 10, 10, 10, 10, 10"
+                rhyme="ABBAACCA">
                 <note> Se trata de una pieza de arte mayor</note>
                 <lg n="1"
                    type="octava"
@@ -94,56 +108,56 @@
                    rhyme="ABBAACCA">   
                  
                     <l xml:id="L1">
-                     <rs ref="#AAV">Señor</rs>, non tomedes enojo nin s<rhyme>aña</rhyme>
+                        <rs ref="#AAV">Señor</rs>, non tomedes enojo nin s<rhyme label="aña">aña</rhyme>
                   </l>
-                    <l xml:id="L2">por <rs ref="#AAV">vos preguntar</rs> quien poco depr<rhyme>isso</rhyme>,</l>
+                    <l xml:id="L2">por <rs ref="#AAV">vos preguntar</rs> quien poco depr<rhyme label="isso">isso</rhyme>,</l>
                     <l xml:id="L3">que bien <rs ref="#BSA">se</rs> que <rs ref="#AAV">sodes cortés e env<rhyme label="isso">iso</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L4">e muy bien criado de noble conp<rhyme>aña</rhyme>
+                        <l xml:id="L4">e muy bien criado de noble conp<rhyme label="aña">aña</rhyme>
                   </l>
-                    <l xml:id="L5">porque <rs ref="#BSA">yo veo</rs> cossa muy estr<rhyme>aña</rhyme>
+                    <l xml:id="L5">porque <rs ref="#BSA">yo veo</rs> cossa muy estr<rhyme label="aña">aña</rhyme>
                   </l>
-                        <l xml:id="L6">en razón del cielo e de su esp<rhyme>era</rhyme>
+                        <l xml:id="L6">en razón del cielo e de su esp<rhyme label="era">era</rhyme>
                   </l>
-                        <l xml:id="L7">que siempre se muda de una man<rhyme>era</rhyme>
+                        <l xml:id="L7">que siempre se muda de una man<rhyme label="era">era</rhyme>
                   </l>
                     <l xml:id="L8">
-                     <rs ref="#AAV">dezid</rs> quien la muda siendo tam<rhyme>aña</rhyme>.</l>
+                        <rs ref="#AAV">dezid</rs> quien la muda siendo tam<rhyme label="aña">aña</rhyme>.</l>
                     </lg>
                     
                 <lg n="2"
                    type="octava"
                    met="10,10, 10, 10, 10, 10, 10, 10"
                    rhyme="ABBAACCA">   
-                        <l xml:id="L9">Ca non se mueve d´allí do es pu<rhyme>esta</rhyme>
+                        <l xml:id="L9">Ca non se mueve d´allí do es p<rhyme label="uesta">uesta</rhyme>
                   </l>
                         <l xml:id="L10">desque fue criada del primer movimi<rhyme label="ent%">ento</rhyme>
                   </l>
                         <l xml:id="L11">maguer faze cursso tan súbitam<rhyme label="ent%">ente</rhyme>
                   </l>
-                        <l xml:id="L12">a parte adverssa jamás non ac<rhyme>uesta</rhyme>
+                        <l xml:id="L12">a parte adverssa jamás non ac<rhyme label="uesta">uesta</rhyme>
                   </l>
-                    <l xml:id="L13">a esto me dad, <rs ref="#AAV">señor</rs>, la <term cRef="163">resp<rhyme>uesta</rhyme>
+                    <l xml:id="L13">a esto me dad, <rs ref="#AAV">señor</rs>, la <term cRef="163">resp<rhyme label="uesta">uesta</rhyme>
                      </term>
                   </l>
-                        <l xml:id="L14">por los almanques de filosof<rhyme label="´´ia">ía</rhyme>
+                        <l xml:id="L14">por los almanques de filosof<rhyme label="ia">ía</rhyme>
                   </l>
-                        <l xml:id="L15">o por vuestra bondat o por cortes<rhyme>ía</rhyme>
+                    <l xml:id="L15">o por vuestra bondat o por cortes<rhyme label="ia">ía</rhyme>
                   </l>
-                        <l xml:id="L16">ca en lo dezir muy poco vos cu<rhyme>esta</rhyme>.</l>
+                        <l xml:id="L16">ca en lo dezir muy poco vos c<rhyme label="uesta">uesta</rhyme>.</l>
                     </lg>
                 
-                <lg n="3" type="finda" met="10,10, 10" rhyme="AAB">   
+                <lg n="3" type="finida" met="10,10, 10" rhyme="AAB">   
                     <l xml:id="L17">
                      <rs ref="#BSA">Ruego</rs> 
-                     <rs ref="#AAV">vos</rs> mucho por amor de m<rhyme>i</rhyme>
+                     <rs ref="#AAV">vos</rs> mucho por amor de m<rhyme label="i">i</rhyme>
                   </l>
                     <l xml:id="L18">que esta demanda que <rs ref="#AAV">vos</rs> 
-                     <rs ref="#BSA">fago</rs> aqu<rhyme>i</rhyme>
+                     <rs ref="#BSA">fago</rs> aqu<rhyme label="i">i</rhyme>
                   </l>
                     <l xml:id="L19">
-                     <rs ref="#BSA">me</rs> sea por <rs ref="#AAV">vos</rs> con razón espu<rhyme>esta</rhyme>.</l>
+                     <rs ref="#BSA">me</rs> sea por <rs ref="#AAV">vos</rs> con razón esp<rhyme label="uesta">uesta</rhyme>.</l>
                     
                 </lg>
                     

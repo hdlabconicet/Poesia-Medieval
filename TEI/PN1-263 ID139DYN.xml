@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Johan Alfonso alçad la cara</title>
+                <title type="incipit">Johan Alfonso alçad la cara</title>
+                <author ref="#FML">Ferrán Manuel de Lando</author>
+                <author role="atr">Ferrán Manuel de Lando</author>
+                <editor>Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual (by-sa)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type='url'>
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher> 
+                        <idno n="1397">Dutton 1397</idno>
+                        <![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=263&entry=ID1397#PN1263ID1397 >]]>
+                    </bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia</repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="87v" to="88r">87v-88r</locus>
+                            <idno>PN1-263</idno>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <origDate notAfter="1465" notBefore="1426">1426-1465</origDate>
+            </creation>
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <graphic url="imagenes/PN1-263-87v-(0).jpg" xml:id="PN263-0"></graphic>
+
+        <graphic url="imagenes/PN1-263-88r-(1).jpg" xml:id="PN263-1"></graphic>
+
+        <graphic url="imagenes/PN1-263-88r-(2).jpg" xml:id="PN263-2"></graphic>
+    </facsimile>
+    
+    
+    
+    <text>
+        <body>
+            
+            
+            <pb facs="#PN263-0"/>
+            
+            <head type="rúbrica">Este <term cRef="180">decir</term> de <term cRef="203">requesta</term> <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> 
+                el dicho <persName ref="#FML">Ferrant Manuel</persName> contra <persName ref="#JAB">Juan Alfonso de <placeName ref="#BA1">Baena</placeName></persName> a fin que non le <term cRef="163">respondería</term>
+            </head>      
+            
+            <pb facs="#PN263-1"/>
+            
+            
+            
+            <sp who='#JAB'>	
+                <speaker>Ferrán Manuel de Lando</speaker>
+                
+                <lg type="poema" subtype="requesta" met="8, 8, 8, 8, 8, 8, 8, 8, 8, 8" rhyme="abbaacccca"
+                    unisonancia="unisonante" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante">
+                    <note>Se trata de una pieza de arte menor</note>        
+                   
+                    
+                <lg n="1" type="décima" met="8, 8, 8, 8, 8, 8, 8, 8, 8, 8" rhyme="abbaacccca">
+                    <l xml:id="L1"><persName ref="#JAB">Johan Alfonso</persName> alçad la c<rhyme label='ara'>ara</rhyme></l>
+                    <l xml:id="L2">fablad si algo sab<rhyme label='edes'>edes</rhyme></l>
+                    <l xml:id="L3">pero non vos atuf<rhyme label='edes'>edes</rhyme></l>
+                    <l xml:id="L4">faziendo grand algaz<rhyme label='ara'>ara</rhyme>,</l>
+                    <l xml:id="L5">si non el señor de L<rhyme label='ara'>ara</rhyme></l>
+                    <l xml:id="L6">con toda su merind<rhyme label='at'>at</rhyme></l>
+                    <l xml:id="L7">terná que fazer cat<rhyme label='at'>at</rhyme></l>  
+                    <l xml:id="L8">en quitar la enemist<rhyme label='ad'>ad</rhyme>,</l>      
+                    <l xml:id="L9">pues por Dios manso fabl<rhyme label='at'>at</rhyme></l>
+                    <l xml:id="L10">e será vuestra atij<rhyme label='ara'>ara</rhyme>.</l>
+                </lg>
+                
+                    <lg n="2" type="décima" met="8, 8, 8, 8, 8, 8, 8, 8, 8, 8" rhyme="abbaacccca">
+                    <l xml:id="L11">El simple pajés que <rhyme label='ara'>ara</rhyme></l> 
+                    <l xml:id="L12">toda sobervia ref<rhyme label='uye'>uye</rhyme>,</l>
+                    <l xml:id="L13">cuanto la saña destr<rhyme label='uye'>uye</rhyme></l>
+                    <l xml:id="L14">la mesura le rep<rhyme label='ara'>ara</rhyme>,</l>
+                    <l xml:id="L15">que quien de mal dezir se amp<rhyme label='ara'>ara</rhyme></l> <!-- Dutton suprime "que" -->
+                    <l xml:id="L16">es más fuerte que Sans<rhyme label='on'>ón</rhyme></l>
+                    <l xml:id="L17">e sabio que Salam<rhyme label='on'>ón</rhyme>,</l>
+                    <l xml:id="L18">señor pues notat el s<rhyme label='on'>on</rhyme></l>    <!-- Ms: natat - Dutton: notat -->
+                    <l xml:id="L19">por que vuestra presunci<rhyme label='on'>ón</rhyme></l>
+                    <l xml:id="L20">non desvare si desv<rhyme label='ara'>ara</rhyme>.</l>
+                </lg>
+                
+                    <lg n="3" type="décima" met="8, 8, 8, 8, 8, 8, 8, 8, 8, 8" rhyme="abbaacccca">
+                    <l xml:id="L21">Segund las vías prep<rhyme label='ara'>ara</rhyme></l>
+                    <l xml:id="L22">esta breve consecu<rhyme label='encia'>encia</rhyme></l>
+                    <l xml:id="L23">el fructo de la prud<rhyme label='encia'>encia</rhyme></l>
+                    <l xml:id="L24">asaz bien llano se ap<rhyme label='ara'>ara</rhyme>,</l>
+                    <l xml:id="L25">mas en forma d<rhyme label='ensa'>ensa</rhyme></l>       <!-- Dutton agrega "e clara" -->
+                    <l xml:id="L26">mirad la quistión que vi<rhyme label='ene'>ene</rhyme></l>     <!-- qüistión??? -->
+                    <l xml:id="L27">las cláusulas que ti<rhyme label='ene'>ene</rhyme>,</l>
+                    <l xml:id="L28">que si la <term cRef="89">razón</term> se absti<rhyme label='ene'>ene</rhyme></l>
+                    <l xml:id="L29">creed me que vos convi<rhyme label='ene'>ene</rhyme></l>
+                    <l xml:id="L30">caer o perder la v<rhyme label='ara'>ara</rhyme>.</l>
+                </lg>
+                
+                    <lg n="4" type="décima"  met="8, 8, 8, 8, 8, 8, 8, 8, 8, 8" rhyme="abbaacccca">
+                    <l xml:id="L31">Anda el osso por la x<rhyme label='ara'>ara</rhyme></l>
+                    <l xml:id="L32">muy esquivo manzell<rhyme label='ero'>ero</rhyme></l>
+                    <l xml:id="L33">el vestiglo carnic<rhyme label='ero'>ero</rhyme></l>
+                    <l xml:id="L34">circunda la grant pi<rhyme label='ara'>ara</rhyme></l>
+                    <l xml:id="L35">esta puesta en alcat<rhyme label='ara'>ara</rhyme></l>
+                    <l xml:id="L36">con fación de agua repl<rhyme label='eta'>eta</rhyme>,</l>
+                    <l xml:id="L37">pues fablad gentil <term cRef="182">po<rhyme label='eta'>eta</rhyme></term></l>
+                    <l xml:id="L38">con vuestra lengua discr<rhyme label='eta'>eta</rhyme></l>
+                    <l xml:id="L39">pues esta lectión secr<rhyme label='eta'>eta</rhyme></l>
+                    <l xml:id="L40">de turbia se torne cl<rhyme label='ara'>ara</rhyme>.</l>
+                </lg>
+                
+                    <pb facs="#PN263-2"/>
+                
+                
+                    <lg n="5" type="décima"  met="8, 8, 8, 8, 8, 8, 8, 8, 8, 8" rhyme="abbaacccca">
+                    <l xml:id="L41">E si algund vapor sep<rhyme label='ara'>ara</rhyme></l>
+                    <l xml:id="L42">de vos la quistión que t<rhyme label='oco'>oco</rhyme></l>
+                    <l xml:id="L43">avisad vos más un p<rhyme label='oco'>oco</rhyme>,</l>
+                    <l xml:id="L44">en esta <term cRef="198">arte</term> fonda c<rhyme label='ara'>ara</rhyme></l>
+                    <l xml:id="L45">que mi seso aquí comp<rhyme label='ara'>ara</rhyme></l>
+                    <l xml:id="L46">invenciones entric<rhyme label='adas'>adas</rhyme></l>
+                    <l xml:id="L47"><term cRef="312">metáforas</term> delg<rhyme label='adas'>adas</rhyme></l>
+                    <l xml:id="L48">a otras gruessas infl<rhyme label='adas'>adas</rhyme></l>
+                    <l xml:id="L49">por figuras trasform<rhyme label='adas'>adas</rhyme></l>
+                    <l xml:id="L50">que Dios le muestra e dep<rhyme label='ara'>ara</rhyme>.</l>
+                </lg>
+                
+                    <lg n="6" type="décima" met="8, 8, 8, 8, 8, 8, 8, 8, 8, 8" rhyme="abbaacccca">
+                    <l xml:id="L51">Fago fin que va el al<rhyme label='ara'>ara</rhyme></l>
+                    <l xml:id="L52">de mis actos procedi<rhyme label='endo'>endo</rhyme></l>
+                    <l xml:id="L53">la <term cRef="89">razón</term> floresce ardi<rhyme label='endo'>endo</rhyme></l>
+                    <l xml:id="L54">commo fuego en almen<rhyme label='ara'>ara</rhyme>,</l>
+                    <l xml:id="L55">pero si el arco disp<rhyme label='ara'>ara</rhyme></l>
+                    <l xml:id="L56">algund berbo interpol<rhyme label='ado'>ado</rhyme></l>
+                    <l xml:id="L57">rescebid lo en gassaj<rhyme label='ado'>ado</rhyme></l>
+                    <l xml:id="L58">non me fabledes turb<rhyme label='ado'>ado</rhyme></l>
+                    <l xml:id="L59">que yo non tengo cuid<rhyme label='ado'>ado</rhyme></l>
+                    <l xml:id="L60">de ropa que mal se p<rhyme label='ara'>ara</rhyme>.</l>
+                </lg>
+                
+                    <lg n="7" type="finida" met="8, 8, 8, 8, 8, 8" rhyme="abbbba">
+                    <l xml:id="L61">Ved el pesso con su at<rhyme label='ara'>ara</rhyme></l>
+                    <l xml:id="L62"><term cRef="208">trobador</term> <term cRef="171">sotil</term> <term cRef="205">fund<rhyme label='ado'>ado</rhyme></term></l>
+                    <l xml:id="L63">e <term cRef="163">respondet</term> mesur<rhyme label='ado'>ado</rhyme>,</l>
+                    <l xml:id="L64">que todo omne bien cri<rhyme label='ado'>ado</rhyme></l>
+                    <l xml:id="L65">non deve en cada merc<rhyme label='ado'>ado</rhyme></l>
+                    <l xml:id="L66">fazer su lengua jugl<rhyme label='ara'>ara</rhyme>.</l>
+                </lg></lg></sp>
+        </body>
+    </text>
+</TEI>

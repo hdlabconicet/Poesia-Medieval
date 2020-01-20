@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>En coplas llenas de azoge</title>
+                <title type="incipit">En coplas llenas de azoge</title>
+                <author>Ferrán Manuel de Lando</author>
+                <author role="atr" ref="#FML">Ferrán Manuel de Lando</author>
+                <editor>Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual (by-sa)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+                        <idno n="1394"> Dutton 1394</idno>
+                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv]]></ref>
+                    </bibl>
+                </listBibl>
+                
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia</repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="87r" to="87r">87r</locus>
+                            <idno>PN1-260</idno>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <origDate notAfter="1465" notBefore="1426">1426-1465</origDate>
+            </creation>
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    
+    
+    <facsimile>
+        <graphic url="imagenes/PN1-260-87r-(1).jpg" xml:id="PN260-1"></graphic>
+        
+        <graphic url="imagenes/PN1-260-87r-(2).jpg" xml:id="PN260-2"></graphic>
+    </facsimile>
+    
+    <text>
+        <body> 
+            
+            <pb facs="#PN260-1"/>
+            
+<head type="rubrica"> <term cRef="162">Pregunta</term> de <persName ref="#FML">Ferrant Manuel</persName> contra 
+    <persName ref="#JAB">Juan Alfonso</persName></head> 
+            
+            <sp who='#JAB'>
+                <speaker>Ferrán Manuel de Lando</speaker>
+                 
+                <lg type="poema" subtype="pregunta" rhyme="abbaacccca"  met="8, 8, 8, 8, 8, 8, 8, 8, 8, 8" 
+                    unisonancia="unisonante" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante">
+                    <note>Se trata de una pieza de arte menor</note>
+                    
+                 
+                <lg n="1" type="décima" rhyme="abbaacccca"  met="8, 8, 8, 8, 8, 8, 8, 8, 8, 8">
+                    <l xml:id="L1"> En <term cRef="34">coplas</term> llenas de az<rhyme label='ogue'>ogue</rhyme></l>
+                    <l xml:id="L2"> gentil señor <persName ref="#JAB">Johan Alf<rhyme label='onso'>onso</rhyme></persName></l>
+                    <l xml:id="L3"> fazedes alto <term cRef="163">resp<rhyme label='onso'>onso</rhyme></term></l>
+                    <l xml:id="L4"> tanedes vuestro alb<rhyme label='ogue'>ogue</rhyme>,</l>
+                    <l xml:id="L5"> mas guardat que non se af<rhyme label='ogue'>ogue</rhyme></l>
+                    <l xml:id="L6"> la vuestra <term cRef="195">ciencia</term> prof<rhyme label='unda'>unda</rhyme></l>
+                    <l xml:id="L7"> que faze grant baraf<rhyme label='unda'>unda</rhyme>,</l>
+                    <l xml:id="L8"> pero en esta <term cRef="198">arte</term> fec<rhyme label='unda'>unda</rhyme></l>
+                    <l xml:id="L9"> si más fonda non se f<rhyme label='unda'>unda</rhyme></l>
+                    <l xml:id="L10"> ciará por bien que b<rhyme label='ogue'>ogue</rhyme>.</l> 
+                </lg>
+                
+                    <lg n="2" type="décima" rhyme="abbaacccca"  met="8, 8, 8, 8, 8, 8, 8, 8, 8, 8">
+                    <l xml:id="L11"> Ciará de banco en b<rhyme label='anco'>anco</rhyme></l>
+                    <l xml:id="L12"> siguiendo siempre el estr<rhyme label='emo'>emo</rhyme></l>
+                    <l xml:id="L13"> con la fuerça del r<rhyme label='emo'>emo</rhyme>,</l>
+                    <l xml:id="L14"> tornará prieto lo bl<rhyme label='anco'>anco</rhyme>,</l>
+                    <l xml:id="L15"> pues mirad commo yo atr<rhyme label='anco'>anco</rhyme></l>
+                    <l xml:id="L16"> la <term cRef="89">razón</term> punto por p<rhyme label='unto'>unto</rhyme></l>
+                    <l xml:id="L17"> con materia e forma j<rhyme label='unto'>unto</rhyme></l>
+                    <l xml:id="L18"> maguer paresco def<rhyme label='unto'>unto</rhyme>,</l>
+                    <l xml:id="L19"> que cuando non canta el p<rhyme label='unto'>unto</rhyme></l>
+                    <l xml:id="L20"> el sano se falla m<rhyme label='anco'>anco</rhyme>.</l>
+                </lg>
+     
+     
+                    <pb facs="#PN260-2"/>
+     
+                    <lg n="3" type="décima" rhyme="abbaacccca"  met="8, 8, 8, 8, 8, 8, 8, 8, 8, 8">
+                    <l xml:id="L21"> El sano que de fort<rhyme label='una'>una</rhyme></l>
+                    <l xml:id="L22"> non es bien favoriz<rhyme label='ado'>ado</rhyme></l>
+                    <l xml:id="L23"> maguer sea muy <term cRef="184">letr<rhyme label='ado'>ado</rhyme></term></l>
+                    <l xml:id="L24"> toda su obra es ning<rhyme label='una'>una</rhyme>,</l>
+                    <l xml:id="L25"> que sin gracia sola <rhyme label='una'>una</rhyme></l>
+                    <l xml:id="L26"> non ay planeta que <rhyme label='obre'>obre</rhyme></l>
+                    <l xml:id="L27"> nin árbol pino nin r<rhyme label='obre'>obre</rhyme></l>
+                    <l xml:id="L28"> que foja nin fructo c<rhyme label='obre'>obre</rhyme></l>
+                    <l xml:id="L29"> la plata se torna c<rhyme label='obre'>obre</rhyme></l>
+                    <l xml:id="L30"> creed lo sin dubda alg<rhyme label='una'>una</rhyme>.</l>
+                </lg>
+                
+                    <lg n="4" type="décima" rhyme="abbaacccca"  met="8, 8, 8, 8, 8, 8, 8, 8, 8, 8">
+                    <l xml:id="L31"> Creed lo <term cRef="208">trobador</term> f<rhyme label='ino'>ino</rhyme></l>
+                    <l xml:id="L32"> segunt la lección es p<rhyme label='uesta'>uesta</rhyme>,</l>
+                    <l xml:id="L33"> e si me dades <term cRef="163">resp<rhyme label='uesta'>uesta</rhyme></term></l>
+                    <l xml:id="L34"> mucho buen día vos v<rhyme label='ino'>ino</rhyme>,</l>
+                    <l xml:id="L35"> quel león del alto s<rhyme label='igno'>igno</rhyme></l>  <!-- Dutton: sino -->
+                    <l xml:id="L36"> e su lindo Condest<rhyme label='able'>able</rhyme></l>
+                    <l xml:id="L37"> gracioso señor not<rhyme label='able'>able</rhyme></l>
+                    <l xml:id="L38"> con plazer muy amig<rhyme label='able'>able</rhyme></l>
+                    <l xml:id="L39"> querrar ver en luz palp<rhyme label='able'>able</rhyme></l> 
+                    <l xml:id="L40"> si va bien guardado el t<rhyme label='ino'>ino</rhyme>.</l>
+                </lg>
+                
+                    <lg n="5" type="finida" rhyme="aaaab"  met="8, 8, 8, 8, 8" >
+                    <l xml:id="L41"> Si va bien autor onrr<rhyme label='able'>able</rhyme></l>
+                    <l xml:id="L42"> la vuestra lengua me f<rhyme label='able'>able</rhyme>,</l>
+                    <l xml:id="L43"> ca en este golfo espant<rhyme label='able'>able</rhyme></l>
+                    <l xml:id="L44"> muchas vezes fuella el s<rhyme label='able'>able</rhyme></l>
+                    <l xml:id="L45"> quien non es abto nin d<rhyme label='igno'>igno</rhyme>.</l>  <!-- dutton: dino -->
+                </lg></lg></sp>
+        </body>
+    </text>
+</TEI>

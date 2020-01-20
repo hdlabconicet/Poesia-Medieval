@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Señor Johan Alfonso muy mucho me pesa</title>
+                <title type="incipit">Señor Johan Alfonso muy mucho me pesa</title>
+                <author ref="#FML">Ferrán Manuel de Lando</author>
+                <author role="atr">Ferrán Manuel de Lando</author>
+                <editor>Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual (by-sa)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type='url'>
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher> 
+                        <idno n="1396">Dutton 1396</idno>
+                        <![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=262&entry=ID1396#PN1262ID1396 >]]>
+                    </bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia</repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="87v" to="87v">87v</locus>
+                            <idno>PN1-262</idno>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <origDate notAfter="1465" notBefore="1426">1426-1465</origDate>
+            </creation>
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    
+    
+    <facsimile>
+        <graphic url="imagenes/PN1-262-87v-(1).jpg" xml:id="PN262-1"></graphic>
+
+        <graphic url="imagenes/PN1-262-87v-(2).jpg" xml:id="PN262-2"></graphic>
+    </facsimile>
+    
+    <text>
+        <body>
+            
+            <pb facs="#PN262-1"/>
+            
+            <head type="rúbrica">Este <term cRef="180">dezir</term> <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> 
+      el dicho <persName ref="#FML">Ferrán Manuel</persName> contra <persName ref="#JAB">Johan Alfonso de <placeName ref="#BA1">Baena</placeName></persName> sobre un cavallo 
+       que le mandó por una carta                                     
+            </head>
+            <sp who='#JAB'>
+                <speaker>Ferrán Manuel de Lando</speaker>
+                
+                <lg type="poema" subtype="dezir"  met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA" 
+                    unisonancia="unisonante" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante">
+                    <note>Se trata de una pieza de arte mayor</note>
+                
+                <lg n="1" type="octava" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA">
+                    <l xml:id="L1">Señor <persName ref="#JAB">Johan Alfonso</persName> muy mucho me p<rhyme label='esa'>esa</rhyme></l>
+                    <l xml:id="L2">de algunas palabras que vos me fabl<rhyme label='astes'>astes</rhyme></l>
+                    <l xml:id="L3">siempre la noto segund las trat<rhyme label='astes'>astes</rhyme></l>  
+                    <l xml:id="L4">cada vez que pienso estando a mi m<rhyme label='esa'>esa</rhyme>,</l> <!-- Dutton suprime "vez" -->
+                    <l xml:id="L5">con pompa de lengua tomastes empr<rhyme label='esa'>esa</rhyme></l>
+                    <l xml:id="L6">de dar me un cavallo muy señal<rhyme label='ado'>ado</rhyme></l>
+                    <l xml:id="L7">mas nunca me vino a ver mal pec<rhyme label='ado'>ado</rhyme></l>
+                    <l xml:id="L8">en freno ginete nin brida franc<rhyme label='esa'>esa</rhyme>.</l>  
+                </lg>
+                
+                    <lg n="2" type="octava" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA">
+                    <l xml:id="L9">Pero por ventura si agora se arn<rhyme label='ase'>esa</rhyme></l>   <!-- Ms:arnase Dutton:arnesa-->
+                    <l xml:id="L10">de algund fermoso jaez esmer<rhyme label='ado'>ado</rhyme></l>
+                    <l xml:id="L11">razón es en tanto que sea pens<rhyme label='ado'>ado</rhyme></l>
+                    <l xml:id="L12">por manos de alguna gentil cordov<rhyme label='esa'>esa</rhyme>,</l>   
+                    <l xml:id="L13">venga después por la grant de<rhyme label='esa'>essa</rhyme></l>   <!-- Ms:deessa Dutton:dehesa-->
+                    <l xml:id="L14">maguer yo vos juro sin obra de eng<rhyme label='año'>año</rhyme></l>
+                    <l xml:id="L15">que soy muy bien cierto que en todo este <rhyme label='año'>año</rhyme></l>
+                <l xml:id="L16">non le encontrarán aquende <placeName ref="#ORO">Orop<rhyme label='esa'>esa</rhyme></placeName>.</l>  <!-- Ms:a quien de - Dutton:aquende--> 
+                </lg>
+                    
+                    
+                    <pb facs="#PN262-2"/>
+                
+                    <lg n="3" type="octava" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA">
+                    <l xml:id="L17">E tanto querría una fina turqu<rhyme label='esa'>essa</rhyme></l>
+                    <l xml:id="L18">commo tal cavallo pues nunca es ven<rhyme label='ido'>ido</rhyme>,</l>
+                    <l xml:id="L19">mas por vuestros dichos aver conosc<rhyme label='ido'>ido</rhyme></l>
+                    <l xml:id="L20">mi descrición simple las manos vos b<rhyme label='esa'>esa</rhyme>,</l>
+                    <l xml:id="L21">que todo molino que muele a repr<rhyme label='esa'>esa</rhyme></l>
+                    <l xml:id="L22">se queda sin agua lo mas del ver<rhyme label='ano'>ano</rhyme>,</l>
+                    <l xml:id="L23">mas segunt juizio discreto bien ll<rhyme label='ano'>ano</rhyme></l>
+                    <l xml:id="L24">non puede el camello nadar en art<rhyme label='esa'>esa</rhyme>.</l>
+                </lg>
+                
+                    <lg n="4" type="octava" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA">
+                    <l xml:id="L25">El rico falcón muy lieve sop<rhyme label='esa'>essa</rhyme></l>
+                    <l xml:id="L26">la garça en el aire si nigunt tem<rhyme label='or'>or</rhyme>, </l> <!-- Dutton: "sin" -->
+                    <l xml:id="L27">las aves pequeñas fuerça men<rhyme label='or'>or</rhyme></l>
+                    <l xml:id="L28">non basta su cuerpo sofrir tan grant pr<rhyme label='esa'>esa</rhyme>,</l>
+                    <l xml:id="L29">así concluyendo el <term cRef="198">arte</term> compr<rhyme label='esa'>esa</rhyme> </l>
+                    <l xml:id="L30">a todo omne sabio creer le convi<rhyme label='iene'>iene</rhyme>,</l>
+                    <l xml:id="L31">que a mengua de pollos muy bien se mant<rhyme label='iene'>iene</rhyme></l>
+                    <l xml:id="L32">quien come gallinas con carne salpr<rhyme label='esa'>esa</rhyme>. </l>
+                </lg>
+                
+                <lg n="5" type="finida" met="12, 12, 12, 12" rhyme="ABBA">
+                    <l xml:id="L33">E pues es notorio mi parte ser l<rhyme label='esa'>essa</rhyme></l>
+                    <l xml:id="L34">en tanto que vuestro cavallo non v<rhyme label='iene'>iene</rhyme>,</l>
+                    <l xml:id="L35">mi mula pardilla senor me sost<rhyme label='iene'>iene</rhyme></l>
+                    <l xml:id="L36">maguer ya de vieja los braços ent<rhyme label='esa'>esa</rhyme>.</l>
+                </lg></lg></sp>
+        </body>
+    </text>
+</TEI>

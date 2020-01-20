@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>A esta pregunta que me preguntades</title>
-
-
-                <title type="incipit">A esta pregunta que me preguntades</title>
-
+                <title>Amigo señor, non vos encubrades</title>
+                
+                
+                <title type="incipit">Amigo señor, non vos encubrades</title>
+                
                 <author ref="#AAV">Alfonso Álvarez de Villasandino</author>
 
 
@@ -42,8 +44,8 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <locus from="42r" to="42r">42r</locus>
-                            <idno>PN1-122</idno>
+                            <locus from="41v" to="42r">41v-42r</locus>
+                            <idno>PN1-121</idno>
                         </msItem>
                     </msContents>
                 </msDesc>
@@ -69,13 +71,29 @@
         </revisionDesc>
     </teiHeader>
 
+
+
+    <facsimile>
+        <graphic url="imagenes/PN1-121-41v-(0).jpg" xml:id="PN121-0"></graphic>
+
+        <graphic url="imagenes/PN1-121-41v-(1).jpg" xml:id="PN121-1"></graphic>
+  
+        <graphic url="imagenes/PN1-121-42r-(2).jpg" xml:id="PN121-2"></graphic>
+    </facsimile>
+    
+
     <text>
         <body>
+            
+            <pb facs="#PN121-0"/>
+            
             <head type="rúbrica">
                 <term cRef="162">Pregunta</term> que le dio <persName ref="#AAV">Alfonso
                     Álvarez</persName>
             </head>
 
+
+            <pb facs="#PN121-1"/>
 
             <sp who="#NC">
                 <speaker>Alfonso Álvarez de Villasandino</speaker>
@@ -85,11 +103,11 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10, 10"
-                rhyme="ABBAACCA/ABBA">
+                met="10,10, 10, 10, 10, 10, 10, 10"
+                rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor. La pregunta no tiene un
                         destinatario, pero por la estructura de la rúbrica parecería estar dirigida
-                        a Fernán Pérez de Guzmán, rceptor de las piezas que la antedecen. La
+                        a Fernán Pérez de Guzmán, receptor de las piezas que la antedecen. La
                         pregunta no sigue las rimas de estas, con lo que no puede sostenerse con
                         solidez la hipótesis.</note>
                     <lg n="1"
@@ -98,31 +116,34 @@
                    rhyme="ABBAACCA">
                         <l xml:id="L1">
                      <rs ref="#NC">Amigo señor</rs>, <rs ref="#NC">non vos
-                                    encubr<rhyme>ades</rhyme>
+                         encubr<rhyme label="ades">ades</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L2">deste negocio solamente un p<rhyme>elo</rhyme>,</l>
-                        <l xml:id="L3">ca muchos la temen e <rs ref="#AAV">yo la rec<rhyme>elo</rhyme>
+                        <l xml:id="L2">deste negocio solamente un p<rhyme label="elo">elo</rhyme>,</l>
+                        <l xml:id="L3">ca muchos la temen e <rs ref="#AAV">yo la rec<rhyme label="elo">elo</rhyme>
                      </rs>,</l>
-                        <l xml:id="L4">la grant turbamulta que <rs ref="#NC">vos recel<rhyme>ades</rhyme>
+                        <l xml:id="L4">la grant turbamulta que <rs ref="#NC">vos recel<rhyme label="ades">ades</rhyme>
                      </rs>,</l>
+                        
+                        <pb facs="#PN121-2"/>
+                        
                         <l xml:id="L5">por ende, <rs ref="#NC">señor</rs>, <rs ref="#NC">dezid que
-                                    viv<rhyme>ades</rhyme>
+                            viv<rhyme label="ades">ades</rhyme>
                      </rs>
                   </l>
                         <l xml:id="L6">
-                     <rs ref="#NC">que sintiredes en diciendo <rhyme>elo</rhyme>
+                            <rs ref="#NC">que sintiredes en diciendo <rhyme label="elo">elo</rhyme>
                      </rs>,</l>
-                        <l xml:id="L7">o si hay tal poste, pilar, nin est<rhyme>elo</rhyme>,</l>
-                        <l xml:id="L8">que todos non tiemblan peor que tembl<rhyme>ades</rhyme>.</l>
+                        <l xml:id="L7">o si hay tal poste, pilar, nin est<rhyme label="elo">elo</rhyme>,</l>
+                        <l xml:id="L8">que todos non tiemblan peor que tembl<rhyme label="ades">ades</rhyme>.</l>
                     </lg>
 
-                    <lg n="2" type="finda" met="10,10, 10, 10" rhyme="ABBA">
-                        <l xml:id="L9">Villas e aldeas, castillos, cibd<rhyme>ades</rhyme>,</l>
-                        <l xml:id="L10">delante sus ojos verán negro v<rhyme>elo</rhyme>,</l>
-                        <l xml:id="L11">si <rs ref="#NC">vos lo sabedes</rs> que quanto <rs ref="#AAV">yo s<rhyme>elo</rhyme>
+                    <lg n="2" type="finida" met="10,10, 10, 10" rhyme="ABBA">
+                        <l xml:id="L9">Villas e aldeas, castillos, cibd<rhyme label="ades">ades</rhyme>,</l>
+                        <l xml:id="L10">delante sus ojos verán negro v<rhyme label="elo">elo</rhyme>,</l>
+                        <l xml:id="L11">si <rs ref="#NC">vos lo sabedes</rs> que quanto <rs ref="#AAV">yo s<rhyme label="elo">elo</rhyme>
                      </rs>,</l>
-                        <l xml:id="L12">por moros, judíos, legos, ab<rhyme>ades</rhyme>.</l>
+                        <l xml:id="L12">por moros, judíos, legos, ab<rhyme label="ades">ades</rhyme>.</l>
                     </lg>
 
 

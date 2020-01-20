@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Señor mucho andades fuera</title>
+                <title type="incipit">Señor mucho andades fuera</title>
+                <author ref="#FML">Ferrán Manuel de Lando</author>
+                <author role="atr">Ferrán Manuel de Lando</author>
+                <editor>Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual (by-sa)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type='url'>
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher> 
+                        <idno n="1405">Dutton 1405</idno>
+                        <![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=263&entry=ID1397#PN1263ID1397 >]]>
+                    </bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia</repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="89v" to="89v">89v</locus>
+                            <idno>PN1-271</idno>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <origDate notAfter="1465" notBefore="1426">1426-1465</origDate>
+            </creation>
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+
+    <facsimile>
+        <graphic url="imagenes/PN1-271-89v-(0).jpg" xml:id="PN271-0"></graphic>
+
+        <graphic url="imagenes/PN1-271-89v-(1).jpg" xml:id="PN271-1"></graphic>
+    </facsimile>
+    
+    
+    
+    <text>
+        <body>
+            
+            <pb facs="#PN271-0"/>
+            
+            <head type="rúbrica"> Esta <term cRef="163">replicación</term> que está ençima <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> el dicho 
+                <persName ref="#FML">Ferrán Manuel de <placeName ref="#LAN">Lando</placeName></persName> contra el dicho <persName ref="#AMO">Alfonso de <placeName ref="#MOR">Moraña</placeName></persName>, ensañándose contra él por la desmesura del moro
+            sobre lo qual ovieron de llegar a los cabeçones el uno con el otro segunt que adelante está puesto.</head>  
+            <!-- En el manuscrito esta rúbrica está al final del pomea, la colocamos al final en la ficha??? -->
+     
+     
+     <pb facs="#PN271-1"/>
+            
+            <sp who='#AMO'>	
+                <speaker>Ferrán Manuel de Lando</speaker>
+                
+                <lg type="poema" subtype="respuesta" met="8, 8, 8, 8, 8, 8, 8, 8" rhyme="abbaacca" unisonancia="unisonante"
+                    isometrismo="isométrico" isoestrofismo="isoestrófico"
+                    asonancia="consonante">
+                    <note>Se trata de una pieza de arte menor</note>
+            
+                    <lg n="1" type="octavilla" met="8, 8, 8, 8, 8, 8, 8, 8" rhyme="abbaacca">
+                <l xml:id="L1">Señor mucho andades fu<rhyme label='era'>era</rhyme></l>
+                <l xml:id="L2">limando con bota l<rhyme label='ima'>ima</rhyme>,</l>
+                <l xml:id="L3">por ende nunca vos tr<rhyme label='ima'>ima</rhyme></l>
+                <l xml:id="L4">con tal miedo la cont<rhyme label='era'>era</rhyme></l>
+                <l xml:id="L5">porque águila ferr<rhyme label='era'>era</rhyme></l>
+                <l xml:id="L6">yo non fui nin so pens<rhyme label='oso'>oso</rhyme>,</l>
+                <l xml:id="L7">mas el semblante bri<rhyme label='oso'>oso</rhyme></l>
+                <l xml:id="L8">loarte fasta que mu<rhyme label='era'>era</rhyme>.</l>   <!-- Dutton: loart' hé -->
+            </lg>
+            
+                    <lg n="2" type="octavilla" met="8, 8, 8, 8, 8, 8, 8, 8" rhyme="abbaacca">
+                <l xml:id="L9">Si de simple non in<rhyme label='oro'>oro</rhyme></l>
+                <l xml:id="L10">vuestra llana compost<rhyme label='ura'>ura</rhyme>,</l>
+                <l xml:id="L11">bien entiendo esta fig<rhyme label='ura'>ura</rhyme></l>
+                <l xml:id="L12">maguer non me descol<rhyme label='oro'>oro</rhyme></l>
+                <l xml:id="L13">pues yo pinto desfl<rhyme label='oro'>oro</rhyme></l>
+                <l xml:id="L14">algunas abtorid<rhyme label='ades'>ades</rhyme>,</l>
+                <l xml:id="L15">por ende non teng<rhyme label='ades'>ades</rhyme></l>
+                <l xml:id="L16">que de toda me enam<rhyme label='oro'>oro</rhyme>.</l>
+            </lg>
+            
+                    <lg n="3" type="octavilla" met="8, 8, 8, 8, 8, 8, 8, 8" rhyme="abbaacca">
+                <l xml:id="L17">E la planeta apos<rhyme label='ada'>ada</rhyme></l>     <!-- Dutton: De / Ms: E -->
+                <l xml:id="L18">en la muy baxa trib<rhyme label='una'>una</rhyme></l>
+                <l xml:id="L19">non fago mención alg<rhyme label='una'>una</rhyme></l>
+                <l xml:id="L20">nin de su rueda quebr<rhyme label='ada'>ada</rhyme>,</l>
+                <l xml:id="L21">pero por la sustent<rhyme label='ada'>ada</rhyme></l>
+                <l xml:id="L22"><term cRef="163">responsión</term> vil inor<rhyme label='ante'>ante</rhyme>,</l>
+                <l xml:id="L23">vuestro moro mal and<rhyme label='ante'>ante</rhyme></l>
+                <l xml:id="L24">a vos pague tal sold<rhyme label='ada'>ada</rhyme>.</l>
+            </lg>
+            
+                    <lg n="4" type="octavilla" met="8, 8, 8, 8, 8, 8, 8, 8" rhyme="abbaacca">
+                <l xml:id="L25">Grant mentira desigu<rhyme label='al'>al</rhyme></l>
+                <l xml:id="L26">con su lengua pronunci<rhyme label='ava'>ava</rhyme></l>
+                <l xml:id="L27">quien dezía que yo am<rhyme label='ava'>ava</rhyme></l>
+                <l xml:id="L28">ave de plumaje t<rhyme label='al'>al</rhyme>,</l>
+                <l xml:id="L29">que la esmeralda orient<rhyme label='al'>al</rhyme></l>
+                <l xml:id="L30">otra es que me conqu<rhyme label='iso'>isso</rhyme></l>
+                <l xml:id="L31">más <term cRef="206">fermosa</term> que Para<rhyme label='iso'>íso</rhyme></l>
+                <l xml:id="L32">nin la rossa en el ros<rhyme label='al'>al</rhyme>.</l>
+            </lg> </lg> </sp>
+        </body>
+    </text>
+</TEI>

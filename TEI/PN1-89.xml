@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -67,14 +69,24 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    <facsimile>
+        <graphic url="imagenes/PN1-89-31v.(0).jpg" xml:id="PN89-0"></graphic>
 
+        <graphic url="imagenes/PN1-89-31v.(1).jpg" xml:id="PN89-1"></graphic>
+  
+        <graphic url="imagenes/PN1-89-32r.(2).jpg" xml:id="PN89-2"></graphic>
+    </facsimile>
     <text>
         <body>
+            
+            <pb facs="#PN88-0"/>
+            
             <head type="rúbrica">
                 <term cRef="163">Respuesta</term> de <persName ref="#AAV">Alfonso Álvarez</persName>
                 contra el <persName ref="#BSA">Bachiller</persName>
             </head>
 
+            <pb facs="#PN89-1"/>
 
             <sp who="#AAV">
                 <speaker>Alfonso Álvarez de Villasandino</speaker>
@@ -84,8 +96,8 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10"
-                rhyme="ABBAACCA/AAB">
+                met="10,10, 10, 10, 10, 10, 10, 10"
+                rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor</note>
                     <lg n="1"
                    type="octava"
@@ -93,21 +105,23 @@
                    rhyme="ABBAACCA">
 
 
-                        <l xml:id="L1">Non siento tal lego, <rs ref="#BSA">amigo</rs>, en Esp<rhyme>aña</rhyme>
+                        <l xml:id="L1">Non siento tal lego, <rs ref="#BSA">amigo</rs>, en <placeName ref="#ESP">Esp<rhyme label="aña">aña</rhyme></placeName>
                   </l>
-                        <l xml:id="L2">que <rs ref="#BSA">vos</rs> declarasse luego en prov<rhyme label="isso">iso</rhyme>
+                        <l xml:id="L2">que <rs ref="#BSA">vos</rs> declarasse luego en prov<rhyme label="iso">iso</rhyme>
                   </l>
-                        <l xml:id="L3">las obras del cielo nin Dios por que qu<rhyme>iso</rhyme>
+                        <l xml:id="L3">las obras del cielo nin Dios por que qu<rhyme label="iso">iso</rhyme>
                   </l>
-                        <l xml:id="L4">criar la natura por fuerça o por m<rhyme>aña</rhyme>,</l>
-                        <l xml:id="L5">a esto <rs ref="#AAV">respondo</rs> como por <term cRef="192">faz<rhyme>aña</rhyme>
+                        <l xml:id="L4">criar la natura por fuerça o por m<rhyme label="aña">aña</rhyme>,</l>
+                        <l xml:id="L5">a esto <rs ref="#AAV">respondo</rs> como por <term cRef="192">faz<rhyme label="aña">aña</rhyme>
                      </term>
                   </l>
-                        <l xml:id="L6">que es un secreto d´escura carr<rhyme>era</rhyme>
+                        <l xml:id="L6">que es un secreto d´escura carr<rhyme label="era">era</rhyme>
                   </l>
-                        <l xml:id="L7">del alto sin fin sin cuento e sin <rhyme>era</rhyme>,</l>
-                        <l xml:id="L8">e quien de al enfinge creo que se eng<rhyme>aña</rhyme>.</l>
+                        <l xml:id="L7">del alto sin fin sin cuento e sin <rhyme label="era">era</rhyme>,</l>
+                        <l xml:id="L8">e quien de al enfinge creo que se eng<rhyme label="aña">aña</rhyme>.</l>
                     </lg>
+                    
+                    <pb facs="#PN89-2"/>
 
                     <lg n="2"
                    type="octava"
@@ -118,11 +132,11 @@
                      </rs>
                   </l>
                         <l xml:id="L10">que este secreto es del que non m<rhyme label="iente">ient</rhyme>e</l>
-                        <l xml:id="L11">e sobre natura inpera viv<rhyme>iente</rhyme>
+                        <l xml:id="L11">e sobre natura inpera viv<rhyme label="iente">iente</rhyme>
                   </l>
-                        <l xml:id="L12">potestad divina luz clara e ap<rhyme label="esta">uesta</rhyme>
+                        <l xml:id="L12">potestad divina luz clara e ap<rhyme label="uesta">uesta</rhyme>
                   </l>
-                        <l xml:id="L13">quien al me demanda su saber den<rhyme>uesta</rhyme>,</l>
+                        <l xml:id="L13">quien al me demanda su saber den<rhyme label="uesta">uesta</rhyme>,</l>
                         <l xml:id="L14">que <rs ref="#AAV">yo non entiendo</rs> qu´es astrolog<rhyme label="ia">ía</rhyme>
                   </l>
                         <l xml:id="L15">nin sus almanaques mas por <term ref="#PMC:193">poetr<rhyme label="ia">ía</rhyme>
@@ -130,11 +144,11 @@
                   </l>
                         <l xml:id="L16">faré mi <term cRef="89">razón</term>
                             <term cRef="189">limada</term>
-                            <term cRef="194">conp<rhyme>uesta</rhyme>
+                            <term cRef="194">conp<rhyme label="uesta">uesta</rhyme>
                      </term>.</l>
                     </lg>
 
-                    <lg n="3" type="finda" met="10,10, 10" rhyme="AAB">
+                    <lg n="3" type="finida" met="10,10, 10" rhyme="AAB">
                         <l xml:id="L17">
                      <rs ref="#BSA">Amigo señor</rs>, <rs ref="#AAV">yo nunca
                                     aprend<rhyme label="i">í</rhyme>
@@ -144,7 +158,7 @@
                         <rhyme label="io"> yo</rhyme>
                      </rs>
                   </l>
-                        <l xml:id="L19">tañer, dançar docida e trasp<rhyme>uesta</rhyme>.</l>
+                        <l xml:id="L19">tañer, dançar docida e trasp<rhyme label="uesta">uesta</rhyme>.</l>
                     </lg>
 
 
