@@ -1,10 +1,14 @@
 <script>
-function myFunction() {
-  var x = document.getElementById("type");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+    clicked = true;
+    $(document).ready(function(){
+        $("button").click(function(){
+            if(clicked){
+                $('.info').css('display', 'block');
+                clicked  = false;
+            } else {
+                $('.info').css('display', 'none');
+                clicked  = true;
+            }   
+        });
+    });
 </script>
