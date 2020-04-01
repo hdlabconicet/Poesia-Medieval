@@ -52,6 +52,13 @@
   padding-left: 0;
 }
 
+// ELEMENTO STICKY
+.masinfo {
+  position: sticky;
+  top: 10px;
+
+}
+
 /* Border utilities */
 .border-bottom-thick { border-bottom: 2px solid; border-color: currentColor; }
 .border-bottom-thin { border-bottom: 1px solid; border-color: currentColor; }
