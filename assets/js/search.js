@@ -4,7 +4,6 @@
 // Based on a script by Kathie Decora : katydecorah.com/code/lunr-and-jekyll/
 
 //Create the lunr index for the search
-
 var index = elasticlunr(function () {
   this.addField('title')
   this.addField('layout')
@@ -13,9 +12,7 @@ var index = elasticlunr(function () {
 });
 
 //Add to this index the proper metadata from the Jekyll content
-
-
-{% assign count = 0 %}{% for text in site.preguntas_respuestas %}
+{% assign count = 0 %}{% for text in site.preguntas_respuestas %} //metadata from preguntas_respuestas repertory
 index.addDoc({
   subtitle: {{text.title | jsonify}},
   layout: {{text.layout | jsonify}},
@@ -25,10 +22,18 @@ index.addDoc({
 });{% assign count = count | plus: 1 %}{% endfor %}
 console.log( jQuery.type(index) );
 
-// Builds reference data (maybe not necessary for us, to check)
+{% for text in site.cantigas %} //metadata from cantigas repertory
+index.addDoc({
+  subtitle: {{text.title | jsonify}},
+  layout: {{text.layout | jsonify}},
+  type: {{text.type | jsonify}},
+  content: {{text.content | jsonify | strip_html}},
+  id: {{count}}
+});{% assign count = count | plus: 1 %}{% endfor %}
+console.log( jQuery.type(index) );
 
-
-var store = [{% for text in site.preguntas_respuestas %}{
+// Builds reference data for results
+var store1 = [{% for text in site.preguntas_respuestas %}{ //reference data from preguntas y respuestas
   "title": {{text.title | jsonify}},
   "layout": {{ text.layout | jsonify }},
   "type": {{ text.type | jsonify }},
@@ -36,8 +41,17 @@ var store = [{% for text in site.preguntas_respuestas %}{
 },
 {% endfor %}]
 
-//Query
+var store2 = [{% for text in site.cantigas %}{ //reference data from cantigas
+  "title": {{text.title | jsonify}},
+  "layout": {{ text.layout | jsonify }},
+  "type": {{ text.type | jsonify }},
+  "link": {{text.url | jsonify}},
+},
+{% endfor %}]
 
+let store = store1.concat(store2); //concat reference data to loop on single reference variabe when recovering results
+
+//Query
 var url = window.location.href;
 if (url.lastIndexOf("?q=") > 0) {
   // get the index of the parameter, add three (to account for length)
