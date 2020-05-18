@@ -101,12 +101,12 @@
                 isometrismo="isométrico"
                 isoestrofismo="isoestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10"
+                met="10,10,10,10,10,10,10,10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor</note>
                     <lg n="1"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L1">
                      <persName ref="#AAV">Señor Alfonso Álvarez</persName>, <rs ref="#AAV">grant sabio perf<rhyme ana="eto">eto</rhyme>
@@ -135,7 +135,7 @@
 
                     <lg n="2"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L9">Dixo que viera muger en pers<rhyme label="ona">ona</rhyme>
                   </l>
@@ -157,7 +157,7 @@
 
                     <lg n="3"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L17">Desque fue nacido el fijo var<rhyme label="on">ón</rhyme>
                   </l>
@@ -178,7 +178,7 @@
 
                     <lg n="4"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L25">
                      <rs ref="#AAV">Vos</rs>
@@ -200,7 +200,7 @@
 
                     <lg n="5"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L33">Los pies e los braços, su cuerpo e fig<rhyme label="ura">ura</rhyme>
                   </l>
@@ -223,7 +223,7 @@
 
                     <lg n="6"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L41">La luna esso mesmo so sus pies ech<rhyme label="ada">ada</rhyme>
                   </l>
@@ -242,7 +242,7 @@
 
                     <lg n="7"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L49">Aquella corona tan resplandeci<rhyme label="ente">ente</rhyme>
                   </l>
@@ -265,7 +265,7 @@
 
                     <lg n="8"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L57">Quien fue su padre daquel tal nac<rhyme label="ido">ido</rhyme>
                   </l>
@@ -286,7 +286,7 @@
 
                     <lg n="9"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L65">La verga de fierro, dezit me señ<rhyme label="or">or</rhyme>,</l>
                         <l xml:id="L66">si ha de enviar por ella a Vizc<rhyme label="aya">aya</rhyme>

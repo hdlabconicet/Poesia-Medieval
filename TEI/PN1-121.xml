@@ -103,7 +103,7 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10"
+                met="10,10,10,10,10,10,10,10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor. La pregunta no tiene un
                         destinatario, pero por la estructura de la rúbrica parecería estar dirigida
@@ -112,7 +112,7 @@
                         solidez la hipótesis.</note>
                     <lg n="1"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L1">
                      <rs ref="#NC">Amigo señor</rs>, <rs ref="#NC">non vos

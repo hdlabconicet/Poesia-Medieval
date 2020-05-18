@@ -71,11 +71,11 @@
             <sp who='#FML'>	
                 <speaker>Juan Alfonso de Baena</speaker>
                 
-                <lg type="poema" subtype="respuesta"  met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA" 
+                <lg type="poema" subtype="respuesta"  met="12,12,12,12,12,12,12,12" rhyme="ABBAACCA" 
                     unisonancia="unisonante" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante">
                     <note>Se trata de una pieza de arte mayor</note>
                 
-                <lg n="1" type="copla" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA">
+                <lg n="1" type="copla" met="12,12,12,12,12,12,12,12" rhyme="ABBAACCA">
                     <l xml:id="L1"><term cRef="178">Lindo</term> fidalgo ley la <term cRef="199">segu<rhyme label='ida'>ida</rhyme></term></l>
                     <l xml:id="L2">que vos enviastes de grant <term cRef="171">sotil<rhyme label='eza'>eza</rhyme></term></l>
                     <l xml:id="L3">e yo trabaje segunt mi simpl<rhyme label='eza'>eza</rhyme></l>

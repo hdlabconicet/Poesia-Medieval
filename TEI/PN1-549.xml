@@ -99,7 +99,7 @@
                 isometrismo="isométrico"
                 isoestrofismo="isoestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10"
+                met="10,10,10,10,10,10,10,10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor. La pregunta no se dirige sino que se
                         dedica (al primo de FPG) y no la responde ningún poeta</note>
@@ -108,7 +108,7 @@
                     
                     <lg n="1"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
 
                         <l xml:id="L1">
@@ -137,7 +137,7 @@
 
                     <lg n="2"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L9">
                      <rs ref="#FPG">Oí </rs>muchas vezes, <rs ref="#GDT">señor</rs>, afirm<rhyme label="ar">ar</rhyme>
@@ -163,7 +163,7 @@
 
                     <lg n="3"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L17">Un buen omne <rs ref="#FPG">veo</rs> a Dios e al m<rhyme label="undo">undo</rhyme>
                   </l>
@@ -187,7 +187,7 @@
 
                     <lg n="4"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L25">Dizen los letrados, <rs ref="#GDT">señor</rs>, que es
                                 err<rhyme label="or">or</rhyme>

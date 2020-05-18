@@ -67,13 +67,13 @@
                 <speaker>Álvaro Alfonso</speaker>
                 <lg type="poema"
                 subtype="pregunta"
-                met="10,10, 10, 10, 10, 10, 10, 10"
+                met="10,10,10,10,10,10,10,10"
                 rhyme="ABABCCCB">
                     <note> Se trata de una pieza de arte mayor. Solo se conserva una primera estrofa
                         completa a la que le siguen dos versos.</note>
                     <lg n="1"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABABCCCB">
                         <l xml:id="L1">
                      <persName ref="#LV">Luis Vaasquez</persName>, depois que <rs ref="#AA">part<rhyme>i</rhyme>

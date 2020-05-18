@@ -99,12 +99,12 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10"
+                met="10,10,10,10,10,10,10,10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor</note>
                     <lg n="1"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
 
                         <l xml:id="L1">Non <rs ref="#BSA">tengo</rs> que siente la natural<rhyme label="eza">eza</rhyme>
@@ -129,7 +129,7 @@
 
                     <lg n="2"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L9">De otra quistión asaz bien esc<rhyme label="ura">ura</rhyme>
                   </l>
@@ -150,7 +150,7 @@
 
                     <lg n="3"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L17">La quistión tercera es maravill<rhyme label="osa">osa</rhyme>
                   </l>
@@ -171,7 +171,7 @@
 
                     <lg n="4"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L25">La quarta pregunta es tan intric<rhyme label="ada">ada</rhyme>
                   </l>

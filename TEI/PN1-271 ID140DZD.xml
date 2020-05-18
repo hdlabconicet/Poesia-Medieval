@@ -79,12 +79,12 @@
             <sp who='#AMO'>	
                 <speaker>Ferrán Manuel de Lando</speaker>
                 
-                <lg type="poema" subtype="respuesta" met="8, 8, 8, 8, 8, 8, 8, 8" rhyme="abbaacca" unisonancia="unisonante"
+                <lg type="poema" subtype="respuesta" met="8,8,8,8,8,8,8,8" rhyme="abbaacca" unisonancia="unisonante"
                     isometrismo="isométrico" isoestrofismo="isoestrófico"
                     asonancia="consonante">
                     <note>Se trata de una pieza de arte menor</note>
             
-                    <lg n="1" type="octavilla" met="8, 8, 8, 8, 8, 8, 8, 8" rhyme="abbaacca">
+                    <lg n="1" type="octavilla" met="8,8,8,8,8,8,8,8" rhyme="abbaacca">
                 <l xml:id="L1">Señor mucho andades fu<rhyme label='era'>era</rhyme></l>
                 <l xml:id="L2">limando con bota l<rhyme label='ima'>ima</rhyme>,</l>
                 <l xml:id="L3">por ende nunca vos tr<rhyme label='ima'>ima</rhyme></l>
@@ -95,7 +95,7 @@
                 <l xml:id="L8">loarte fasta que mu<rhyme label='era'>era</rhyme>.</l>   <!-- Dutton: loart' hé -->
             </lg>
             
-                    <lg n="2" type="octavilla" met="8, 8, 8, 8, 8, 8, 8, 8" rhyme="abbaacca">
+                    <lg n="2" type="octavilla" met="8,8,8,8,8,8,8,8" rhyme="abbaacca">
                 <l xml:id="L9">Si de simple non in<rhyme label='oro'>oro</rhyme></l>
                 <l xml:id="L10">vuestra llana compost<rhyme label='ura'>ura</rhyme>,</l>
                 <l xml:id="L11">bien entiendo esta fig<rhyme label='ura'>ura</rhyme></l>
@@ -106,7 +106,7 @@
                 <l xml:id="L16">que de toda me enam<rhyme label='oro'>oro</rhyme>.</l>
             </lg>
             
-                    <lg n="3" type="octavilla" met="8, 8, 8, 8, 8, 8, 8, 8" rhyme="abbaacca">
+                    <lg n="3" type="octavilla" met="8,8,8,8,8,8,8,8" rhyme="abbaacca">
                 <l xml:id="L17">E la planeta apos<rhyme label='ada'>ada</rhyme></l>     <!-- Dutton: De / Ms: E -->
                 <l xml:id="L18">en la muy baxa trib<rhyme label='una'>una</rhyme></l>
                 <l xml:id="L19">non fago mención alg<rhyme label='una'>una</rhyme></l>
@@ -117,7 +117,7 @@
                 <l xml:id="L24">a vos pague tal sold<rhyme label='ada'>ada</rhyme>.</l>
             </lg>
             
-                    <lg n="4" type="octavilla" met="8, 8, 8, 8, 8, 8, 8, 8" rhyme="abbaacca">
+                    <lg n="4" type="octavilla" met="8,8,8,8,8,8,8,8" rhyme="abbaacca">
                 <l xml:id="L25">Grant mentira desigu<rhyme label='al'>al</rhyme></l>
                 <l xml:id="L26">con su lengua pronunci<rhyme label='ava'>ava</rhyme></l>
                 <l xml:id="L27">quien dezía que yo am<rhyme label='ava'>ava</rhyme></l>

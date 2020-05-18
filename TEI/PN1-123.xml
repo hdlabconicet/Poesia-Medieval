@@ -109,14 +109,14 @@
                 isometrismo="isométrico"
                 isoestrofismo="isoestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10"
+                met="10,10,10,10,10,10,10,10"
                 rhyme="ABBAACCA">
             
             
             
                     <lg n="1"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
 
                         <l xml:id="L1">Pena le pone la setena part<rhyme label="ida">ida</rhyme>
@@ -146,7 +146,7 @@
 
 
                     <lg n="2" type="octava"
-                        met="10,10, 10, 10, 10, 10, 10, 10"
+                        met="10,10,10,10,10,10,10,10"
                         rhyme="ABBAACCA">
                        
                         <l xml:id="L9">Si bien pensaredes en estos part<rhyme label="ida">idos</rhyme>
@@ -165,7 +165,7 @@
                     </lg>
 
                     <lg n="3" type="octava"
-                        met="10,10, 10, 10, 10, 10, 10, 10"
+                        met="10,10,10,10,10,10,10,10"
                         rhyme="ABBAACCA">
 
                        

@@ -98,12 +98,12 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10"
+                met="10,10,10,10,10,10,10,10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor</note>
                     <lg n="1"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
 
 
@@ -132,7 +132,7 @@
 
                     <lg n="2"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L9">
                      <rs ref="#AAV">Dezid <rs ref="#BSA">me</rs> señor</rs> u se
@@ -158,7 +158,7 @@
 
                     <lg n="3"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L17">Que <rs ref="#BSA">vejo e vi</rs> fazer a coit<rhyme label="ados">ados</rhyme>
                   </l>

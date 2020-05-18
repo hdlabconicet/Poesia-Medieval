@@ -96,12 +96,12 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10"
+                met="10,10,10,10,10,10,10,10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor</note>
                     <lg n="1"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
 
                         <l xml:id="L1">Oh, criaturas tan organiz<rhyme label="adas">adas</rhyme>
@@ -123,7 +123,7 @@
 
                     <lg n="2"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L9">Non fue in neutro nin hoy es fall<rhyme label="ado">ado</rhyme>
                   </l>
@@ -142,7 +142,7 @@
 
                     <lg n="3"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L17">Non se ofrece la mi navez<rhyme label="illa">illa</rhyme>
                   </l>

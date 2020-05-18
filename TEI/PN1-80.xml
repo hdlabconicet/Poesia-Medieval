@@ -93,7 +93,7 @@
                         isometrismo="isométrico"
                         isoestrofismo="heteroestrófico"
                         asonancia="consonante"
-                        met="10,10, 10, 10, 10, 10, 10, 10"
+                        met="10,10,10,10,10,10,10,10"
                         rhyme="ABBAACCA">
                         <note>Se trata de una pieza de arte mayor. La pregunta no se dirige a un poeta
                             en particular sino a los <term cRef="208">trovadores</term>. La responde
@@ -104,7 +104,7 @@
                         
                         <lg n="1"
                             type="octava"
-                            met="10,10, 10, 10, 10, 10, 10, 10"
+                            met="10,10,10,10,10,10,10,10"
                             rhyme="ABBAACCA">
                             <l xml:id="L1">
                                 <rs ref="#AAV">A mí bien me plaze</rs> por que se est<rhyme label="ienda">ienda</rhyme>
@@ -124,7 +124,7 @@
                         
                         <lg n="2"
                             type="octava"
-                            met="10,10, 10, 10, 10, 10, 10, 10"
+                            met="10,10,10,10,10,10,10,10"
                             rhyme="ABBAACCA">
                             <l xml:id="L9">Aquí todo bueno su sesso desp<rhyme label="ienda">ienda</rhyme>,</l>
                             <l xml:id="L10">e júntense algunos de los natur<rhyme label="ales ">ales</rhyme>
@@ -144,7 +144,7 @@
                         
                         <lg n="3"
                             type="octava"
-                            met="10,10, 10, 10, 10, 10, 10, 10"
+                            met="10,10,10,10,10,10,10,10"
                             rhyme="ABBAACCA">
                             <l xml:id="L17">E porque se esclaresca más esta faz<rhyme label="ienda">ienda</rhyme>
                             </l>
@@ -164,7 +164,7 @@
                         
                         <lg n="4"
                             type="octava"
-                            met="10,10, 10, 10, 10, 10, 10, 10"
+                            met="10,10,10,10,10,10,10,10"
                             rhyme="ABBAACCA">
                             <l xml:id="L25">Quien de los molinos, do hay grant mol<rhyme label="ienda">ienda,</rhyme>
                             </l>

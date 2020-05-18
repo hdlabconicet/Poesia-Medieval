@@ -101,7 +101,7 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10"
+                met="10,10,10,10,10,10,10,10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor. La pregunta no tiene un receptor
                         claro (GDT o AAV) y no la responde ningún poeta</note>
@@ -109,7 +109,7 @@
                     
                     <lg n="1"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
 
                         <l xml:id="L1">Porque de las vidas la que es oci<rhyme label="osa">osa</rhyme>
@@ -135,7 +135,7 @@
 
                     <lg n="2"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L9">E quien non podiere, alto penetr<rhyme label="ando">ando</rhyme>,</l>
                         <l xml:id="L10">sentir el secreto del postrimer ci<rhyme label="elo">elo</rhyme>,</l>
@@ -150,7 +150,7 @@
 
                     <lg n="3"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L17">E si la cuistión por <rs ref="#FPG">mí</rs> demand<rhyme label="ada">ada</rhyme>
                   </l>
@@ -171,7 +171,7 @@
 
                     <lg n="4"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L25">En aquella edat que tanto flor<rhyme label="esce">esce</rhyme>
                             
@@ -195,7 +195,7 @@
 
                     <lg n="5"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L33">Si <rs ref="#NC">vos dezides</rs> que a la manceb<rhyme label="ia">ía</rhyme>
                   </l>
@@ -214,7 +214,7 @@
 
                     <lg n="6"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L41">E si piadosamente fabl<rhyme label="ando">ando</rhyme>
                   </l>

@@ -102,13 +102,13 @@
                 isometrismo="isométrico"
                 isoestrofismo="isoestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10"
+                met="10,10,10,10,10,10,10,10"
                 rhyme="ABABBCCB">
 
 
                     <lg n="1"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABABBCCB">
                         <l xml:id="L1">No hay braço tan luengo que p<rhyme label="ueda">ueda</rhyme>
                   </l>
@@ -129,7 +129,7 @@
 
                     <lg n="2"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABABBCCB">
                         <l xml:id="L9">Si jamás non cesa como lo que <rhyme label="era">era</rhyme>
                   </l>
@@ -149,7 +149,7 @@
 
                     <lg n="3"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABABBCCB">
                         <l xml:id="L17">Si aquesta dueña volviendo su d<rhyme label="ança">ança</rhyme>
                   </l>
@@ -172,7 +172,7 @@
 
                     <lg n="4"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABABBCCB">
                         <l xml:id="L25">“De mas alto caye quien mal alto s<rhyme label="ee">ee</rhyme>” </l>
                         <l xml:id="L26">aquesto vos añado por vun corril<rhyme label="ayo">ayo</rhyme>

@@ -73,11 +73,11 @@
             <sp who="#JAB">
                 <speaker>Ferrán Manuel de Lando</speaker>
                 
-                <lg type="poema" subtype="pregunta"  met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA" 
+                <lg type="poema" subtype="pregunta"  met="12,12,12,12,12,12,12,12" rhyme="ABBAACCA" 
                     unisonancia="unisonante" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante">
                     <note>Se trata de una pieza de arte mayor</note>
                 
-                <lg n="1" type="octava" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA">
+                <lg n="1" type="octava" met="12,12,12,12,12,12,12,12" rhyme="ABBAACCA">
                     <l xml:id="L1">Amigo señor que Dios vuestra v<rhyme label='ida'>ida</rhyme></l>
                     <l xml:id="L2">alargue con abtos de grant gentil<rhyme label='eza'>eza</rhyme>,</l>  
                     <l xml:id="L3">crezca en virtudes de mucha pro<rhyme label='eza'>eza</rhyme></l>

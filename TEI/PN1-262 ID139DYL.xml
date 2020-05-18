@@ -73,11 +73,11 @@
             <sp who='#JAB'>
                 <speaker>Ferrán Manuel de Lando</speaker>
                 
-                <lg type="poema" subtype="dezir"  met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA" 
+                <lg type="poema" subtype="dezir"  met="12,12,12,12,12,12,12,12" rhyme="ABBAACCA" 
                     unisonancia="unisonante" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante">
                     <note>Se trata de una pieza de arte mayor</note>
                 
-                <lg n="1" type="octava" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA">
+                <lg n="1" type="octava" met="12,12,12,12,12,12,12,12" rhyme="ABBAACCA">
                     <l xml:id="L1">Señor <persName ref="#JAB">Johan Alfonso</persName> muy mucho me p<rhyme label='esa'>esa</rhyme></l>
                     <l xml:id="L2">de algunas palabras que vos me fabl<rhyme label='astes'>astes</rhyme></l>
                     <l xml:id="L3">siempre la noto segund las trat<rhyme label='astes'>astes</rhyme></l>  
@@ -88,7 +88,7 @@
                     <l xml:id="L8">en freno ginete nin brida franc<rhyme label='esa'>esa</rhyme>.</l>  
                 </lg>
                 
-                    <lg n="2" type="octava" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA">
+                    <lg n="2" type="octava" met="12,12,12,12,12,12,12,12" rhyme="ABBAACCA">
                     <l xml:id="L9">Pero por ventura si agora se arn<rhyme label='ase'>esa</rhyme></l>   <!-- Ms:arnase Dutton:arnesa-->
                     <l xml:id="L10">de algund fermoso jaez esmer<rhyme label='ado'>ado</rhyme></l>
                     <l xml:id="L11">razón es en tanto que sea pens<rhyme label='ado'>ado</rhyme></l>
@@ -102,7 +102,7 @@
                     
                     <pb facs="#PN262-2"/>
                 
-                    <lg n="3" type="octava" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA">
+                    <lg n="3" type="octava" met="12,12,12,12,12,12,12,12" rhyme="ABBAACCA">
                     <l xml:id="L17">E tanto querría una fina turqu<rhyme label='esa'>essa</rhyme></l>
                     <l xml:id="L18">commo tal cavallo pues nunca es ven<rhyme label='ido'>ido</rhyme>,</l>
                     <l xml:id="L19">mas por vuestros dichos aver conosc<rhyme label='ido'>ido</rhyme></l>
@@ -113,7 +113,7 @@
                     <l xml:id="L24">non puede el camello nadar en art<rhyme label='esa'>esa</rhyme>.</l>
                 </lg>
                 
-                    <lg n="4" type="octava" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA">
+                    <lg n="4" type="octava" met="12,12,12,12,12,12,12,12" rhyme="ABBAACCA">
                     <l xml:id="L25">El rico falcón muy lieve sop<rhyme label='esa'>essa</rhyme></l>
                     <l xml:id="L26">la garça en el aire si nigunt tem<rhyme label='or'>or</rhyme>, </l> <!-- Dutton: "sin" -->
                     <l xml:id="L27">las aves pequeñas fuerça men<rhyme label='or'>or</rhyme></l>

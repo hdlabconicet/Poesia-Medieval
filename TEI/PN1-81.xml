@@ -96,7 +96,7 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10"
+                met="10,10,10,10,10,10,10,10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor. No se especifica el nombre del
                         poesta al que <persName ref="#JAB">Baena</persName> responde, aunque, por la
@@ -107,7 +107,7 @@
 
                     <lg n="1"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L1">Segund que <rs ref="#AAV">fingides</rs>
                             <rs ref="#JAB">so vuestro encomi<rhyme label="enda">enda</rhyme>
@@ -131,7 +131,7 @@
 
                     <lg n="2"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L9">Ca puesto por caso que puge e trasc<rhyme>enda</rhyme>
                   </l>
@@ -153,7 +153,7 @@
 
                     <lg n="3"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L17">E porque <rs ref="#JAB">non siento</rs> quien non
                                 condesc<rhyme label="enda">enda</rhyme>
@@ -177,7 +177,7 @@
 
                     <lg n="4"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L25">Pero si <rs ref="#AAV">vos plaze</rs> que desto <rs ref="#JAB">dep<rhyme label="enda">enda</rhyme>
                      </rs>

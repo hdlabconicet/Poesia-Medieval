@@ -99,12 +99,12 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10"
+                met="10,10,10,10,10,10,10,10"
                 rhyme="ABBAACCA">
                 <note> Se trata de una pieza de arte mayor</note>
                 <lg n="1"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">   
                  
                     <l xml:id="L1">
@@ -128,7 +128,7 @@
                     
                 <lg n="2"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">   
                         <l xml:id="L9">Ca non se mueve d´allí do es p<rhyme label="uesta">uesta</rhyme>
                   </l>

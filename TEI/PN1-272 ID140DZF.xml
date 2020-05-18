@@ -84,11 +84,11 @@
             <sp who="#FLM">    
                 <speaker>Ferrán Manuel de Lando</speaker>
                 
-                <lg type="poema" subtype="pregunta"  met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABBAACCA" 
+                <lg type="poema" subtype="pregunta"  met="12,12,12,12,12,12,12,12" rhyme="ABBAACCA" 
                     unisonancia="unisonante" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante">
                     <note>Se trata de una pieza de arte mayor</note>
                     
-                    <lg  n="1"  type="octava" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABABBCCB">  
+                    <lg  n="1"  type="octava" met="12,12,12,12,12,12,12,12" rhyme="ABABBCCB">  
                         
                         <l xml:id="L1">Tomando de vos commo de ma<rhyme label="estro">estro</rhyme></l>
                         <l xml:id="L2">frey Lope senor fulgente <term cRef="182">po<rhyme label="eta">eta</rhyme></term></l>  
@@ -101,7 +101,7 @@
                         <l xml:id="L8">en que faga agora reino mi com<rhyme label="eta">eta.</rhyme></l>
                     </lg>
                     
-                    <lg  n="2"  type="octava" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABABBCCB">  
+                    <lg  n="2"  type="octava" met="12,12,12,12,12,12,12,12" rhyme="ABABBCCB">  
                         
                         <l xml:id="L9"> Mirando el estenso volumen prof<rhyme label="undo">undo</rhyme></l>
                         <l xml:id="L10">de vuestra <term cRef="195">ciencia</term> <term cRef="171">sotil</term> intrinc<rhyme label="ada">ada</rhyme></l>
@@ -115,7 +115,7 @@
                     
                     <pb facs="#PN272-2"/>
                     
-                    <lg  n="3"  type="octava" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABABBCCB">  
+                    <lg  n="3"  type="octava" met="12,12,12,12,12,12,12,12" rhyme="ABABBCCB">  
                         
                         <l xml:id="L17">E si por ventura yo vos <term cRef="163">respondi<rhyme label="ere">ere</rhyme></term></l>
                         <l xml:id="L18">en discreta forma sin otra conq<rhyme label="ista">ista</rhyme>,</l>
@@ -127,7 +127,7 @@
                         <l xml:id="L24">maguer non so alto nin lindo part<rhyme label="ista">ista</rhyme>.</l> 
                     </lg>
                     
-                    <lg  n="4"  type="octava" met="12, 12, 12, 12, 12, 12, 12, 12" rhyme="ABABBCCB">   
+                    <lg  n="4"  type="octava" met="12,12,12,12,12,12,12,12" rhyme="ABABBCCB">   
                         
                         <l xml:id="L25">Mas por aquesto non deven tom<rhyme label="ar">ar</rhyme></l>
                         <l xml:id="L26">envidia los grandes dotores ses<rhyme label="udos">udos</rhyme>,</l> 

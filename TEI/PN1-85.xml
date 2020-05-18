@@ -97,12 +97,12 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10, 10, 10, 10, 10, 10, 10"
+                met="10,10,10,10,10,10,10,10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor</note>
                     <lg n="1"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
 
                         <l xml:id="L1">Quando bien <rs ref="#BSA">contenplo la mi flaqu<rhyme label="eza">eza</rhyme>
@@ -128,7 +128,7 @@
                     
                     <lg n="2"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L9">Este Iesu Cristo, Señor del alt<rhyme label="ura">ura</rhyme>,</l>
                         <l xml:id="L10">de todos nos otros es Padre llam<rhyme label="ado">ado</rhyme>
@@ -145,7 +145,7 @@
 
                     <lg n="3"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L17">A todo varón paresce cuid<rhyme label="osa">osa</rhyme>
                   </l>
@@ -165,7 +165,7 @@
 
                     <lg n="4"
                    type="octava"
-                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   met="10,10,10,10,10,10,10,10"
                    rhyme="ABBAACCA">
                         <l xml:id="L25">Estoria tenemos e canoniz<rhyme label="ada">ada</rhyme>
                   </l>
