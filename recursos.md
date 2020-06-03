@@ -3,19 +3,6 @@ layout: page
 title: Recursos
 permalink: /recursos/
 ---
-
-## Documentos
-
-<div class="container mx-auto px-2 py-2">
-        <div class="py-2 mb-2 prose">
-          <ul>
-		  
-<li><a href="\Poesia-Medieval\assets\recursos\guialirica.docx" target="_blank">Guía para el estudio de la lírica profana gallego-portuguesa medieval, de Gimena del Rio Riande</a></li>	
-<li><a href="\Poesia-Medieval\assets\recursos\glosario.ods" target="_blank">Glosario</a></li>	
-
-          </ul>
-        </div>
-      </div>
 	  
 
 ## Repertorios poéticos digitales
