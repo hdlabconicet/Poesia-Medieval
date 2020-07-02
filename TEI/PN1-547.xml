@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -103,14 +102,14 @@
                 isometrismo="isométrico"
                 isoestrofismo="isoestrófico"
                 asonancia="consonante"
-                met="10,10,10,10,10,10,10,10"
+                met="8x10"
                 rhyme="ABABBCCB">
                     <note> Se trata de una pieza de arte mayor. La pregunta no se dirige a otro
                         poeta sino a "los trabajadores", aunque la responde Francisco Imperial
                         (PN1-548). Está también copiada en MH1-240</note>
                     <lg n="1"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABABBCCB">
 
 
@@ -133,7 +132,7 @@
 
                     <lg n="2"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABABBCCB">
                         <l xml:id="L9">El rodar non cese jamás de l’ esp<rhyme label="era">era</rhyme>,</l>
                         <l xml:id="L10">e mude los tienpos en quexosa s<rhyme label="uerte">uerte</rhyme>
@@ -156,7 +155,7 @@
 
                     <lg n="3"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABABBCCB">
                         <l xml:id="L17">Plaziendo a Fortuna sin toda tard<rhyme label="ança">ança</rhyme>
                   </l>

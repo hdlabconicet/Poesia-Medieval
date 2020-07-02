@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -97,12 +96,12 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10,10,10,10,10,10,10"
+                met="8x10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor</note>
                     <lg n="1"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
 
                         <l xml:id="L1">Quando bien <rs ref="#BSA">contenplo la mi flaqu<rhyme label="eza">eza</rhyme>
@@ -128,7 +127,7 @@
                     
                     <lg n="2"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L9">Este Iesu Cristo, Señor del alt<rhyme label="ura">ura</rhyme>,</l>
                         <l xml:id="L10">de todos nos otros es Padre llam<rhyme label="ado">ado</rhyme>
@@ -145,7 +144,7 @@
 
                     <lg n="3"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L17">A todo varón paresce cuid<rhyme label="osa">osa</rhyme>
                   </l>
@@ -165,7 +164,7 @@
 
                     <lg n="4"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L25">Estoria tenemos e canoniz<rhyme label="ada">ada</rhyme>
                   </l>
@@ -182,7 +181,7 @@
                         <l xml:id="L32">de muerte cruel muy arrebat<rhyme label="ada">ada</rhyme>.</l>
                     </lg>
 
-                    <lg n="5" type="finida" met="10,10, 10, 10" rhyme="ABBA">
+                    <lg n="5" type="finida" met="4x10" rhyme="ABBA">
                         <l xml:id="L33">Por ende su alma está conden<rhyme label="ada">ada</rhyme>
                   </l>
                         <l xml:id="L34">con todos malos aconsejad<rhyme label="ores">ores</rhyme>

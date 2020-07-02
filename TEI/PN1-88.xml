@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -99,12 +98,12 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10,10,10,10,10,10,10"
+                met="8x10"
                 rhyme="ABBAACCA">
                 <note> Se trata de una pieza de arte mayor</note>
                 <lg n="1"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">   
                  
                     <l xml:id="L1">
@@ -128,7 +127,7 @@
                     
                 <lg n="2"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">   
                         <l xml:id="L9">Ca non se mueve d´allí do es p<rhyme label="uesta">uesta</rhyme>
                   </l>
@@ -148,7 +147,7 @@
                         <l xml:id="L16">ca en lo dezir muy poco vos c<rhyme label="uesta">uesta</rhyme>.</l>
                     </lg>
                 
-                <lg n="3" type="finida" met="10,10, 10" rhyme="AAB">   
+                <lg n="3" type="finida" met="3x10" rhyme="AAB">   
                     <l xml:id="L17">
                      <rs ref="#BSA">Ruego</rs> 
                      <rs ref="#AAV">vos</rs> mucho por amor de m<rhyme label="i">i</rhyme>

@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -93,10 +92,10 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8,8,8,8,8,8,8"
+                met="7x8"
                 rhyme="abbacca">
 
-                    <lg n="1" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
+                    <lg n="1" type="etrovadoresca" met="7x8" rhyme="abbacca">
 
 
 
@@ -118,7 +117,7 @@
                         <l xml:id="L7">e manjar emponzoñ<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
-                    <lg n="2" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
+                    <lg n="2" type="etrovadoresca" met="7x8" rhyme="abbacca">
                         <l xml:id="L8">
                             <rs ref="#AAV">De mí me siento coit<rhyme label="ado">ado</rhyme>
                      </rs>
@@ -138,7 +137,7 @@
                         <l xml:id="L14">non será de Dios am<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
-                    <lg n="3" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
+                    <lg n="3" type="etrovadoresca" met="7x8" rhyme="abbacca">
                         <l xml:id="L15">
                             <rs ref="#AAV">Non soy tan desatent<rhyme label="ado">ado</rhyme>
                      </rs>
@@ -160,7 +159,7 @@
                         <l xml:id="L21">siempre entiende ser honr<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
-                    <lg n="4" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
+                    <lg n="4" type="etrovadoresca" met="7x8" rhyme="abbacca">
                         <l xml:id="L22">Si <rs ref="#PCA">tenedes</rs> ya libr<rhyme label="ado">ado</rhyme>
                   </l>
                         <l xml:id="L23">ponimiento en ced<rhyme label="illo">illo</rhyme>
@@ -176,7 +175,7 @@
                         <l xml:id="L28">haya el mundo soseg<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
-                    <lg n="5" type="finida" met="8,8,8,8" rhyme="abba">
+                    <lg n="5" type="finida" met="4x8" rhyme="abba">
                         <l xml:id="L29">
                             <rs ref="#AAV">Temome de ser tent<rhyme label="ado">ado</rhyme>
                      </rs>,</l>

@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -77,11 +76,11 @@
             <sp who='#FML'>	
                 <speaker>Juan Alfonso de Baena</speaker>
                 
-                <lg type="poema" subtype="respuesta"   met="8,8,8,8,8,8,8,8,8,8" rhyme="abbaacccca"
+                <lg type="poema" subtype="respuesta"   met="10x8" rhyme="abbaacccca"
                     unisonancia="unisonante" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante">
                     <note>Se trata de una pieza de arte menor</note>
                 
-                <lg n="1" type="décima" met="8,8,8,8,8,8,8,8,8,8" rhyme="abbaacccca"> 
+                <lg n="1" type="décima" met="10x8" rhyme="abbaacccca"> 
                     <l xml:id="L1">Señor pocas noches y<rhyme label='ogue'>ogue</rhyme></l>
                     <l xml:id="L2">en estudio como t<rhyme label='onso'>onso</rhyme></l>
                     <l xml:id="L3">por vuestro <term cRef="180">dezir</term> asc<rhyme label='onso'>onso</rhyme></l>
@@ -94,7 +93,7 @@
                     <l xml:id="L10">juro a Dios que vos ens<rhyme label='ogue'>ogue</rhyme>.</l>
                 </lg>
                 
-                    <lg n="2" type="décima" met="8,8,8,8,8,8,8,8,8,8" rhyme="abbaacccca">
+                    <lg n="2" type="décima" met="10x8" rhyme="abbaacccca">
                     <l xml:id="L11">Juro a Dios fidalgo fr<rhyme label='anco'>anco</rhyme></l>
                     <l xml:id="L12">si con saña me desfl<rhyme label='emo'>emo</rhyme></l>
                     <l xml:id="L13">o del todo me apost<rhyme label='emo'>emo</rhyme>, </l>
@@ -107,7 +106,7 @@
                     <l xml:id="L20">o vos lance en un barr<rhyme label='anco'>anco</rhyme>.</l>
                 </lg>
                 
-                    <lg n="3" type="décima" met="8,8,8,8,8,8,8,8,8,8" rhyme="abbaacccca">
+                    <lg n="3" type="décima" met="10x8" rhyme="abbaacccca">
                     <l xml:id="L21">O vos lance en tal lag<rhyme label='una'>una</rhyme></l>
                     <l xml:id="L22">do penedes aisl<rhyme label='ado'>ado</rhyme>,</l>
                     <l xml:id="L23">si vos non tien ampar<rhyme label='ado'>ado</rhyme></l>
@@ -120,7 +119,7 @@
                     <l xml:id="L30">de todos vuestra col<rhyme label='una'>una</rhyme>.</l>
                 </lg>
                 
-                    <lg n="4" type="décima" met="8,8,8,8,8,8,8,8,8,8" rhyme="abbaacccca">
+                    <lg n="4" type="décima" met="10x8" rhyme="abbaacccca">
                     <l xml:id="L31">De todos <persName ref="#AAV">Villasand<rhyme label='ino'>ino</rhyme></persName></l>
                     <l xml:id="L32">fue señor dela flor<rhyme label='esta'>esta</rhyme>,</l>
                     <l xml:id="L33">commoquier que por <term cRef="203">requ<rhyme label='esta'>esta</rhyme></term></l>
@@ -133,7 +132,7 @@
                     <l xml:id="L40">que vos golpe en el barqu<rhyme label='ino'>ino</rhyme>.</l>
                 </lg>
                 
-                    <lg n="5" type="finida" met="8, 8, 8, 8, 8" rhyme="aaaab">
+                    <lg n="5" type="finida" met="5x8" rhyme="aaaab">
                     <l xml:id="L41">Que vos golpe en semej<rhyme label='able'>able</rhyme></l>
                     <l xml:id="L42">sin el <term cRef="198">arte</term> ser mud<rhyme label='able'>able</rhyme>,</l>
                     <l xml:id="L43">ca vuestra tema incur<rhyme label='able'>able</rhyme></l>

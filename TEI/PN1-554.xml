@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -99,10 +98,10 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8,8,8,8,8,8,8,8"
+                met="8x8"
                 rhyme="ABBAABBA">
                     <note/>
-                    <lg n="1" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                    <lg n="1" type="octava" met="8x8" rhyme="ABBAABBA">
 
 
 
@@ -123,7 +122,7 @@
                         <l xml:id="L8">que reza e non se def<rhyme label="iende">iende</rhyme>”.</l>
                     </lg>
 
-                    <lg n="2" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                    <lg n="2" type="octava" met="8x8" rhyme="ABBAABBA">
                         <l xml:id="L9">El que es lindo enamor<rhyme label="ado">ado</rhyme>
                   </l>
                         <l xml:id="L10">siempre vive vida estr<rhyme label="echa">echa</rhyme>,</l>
@@ -137,7 +136,7 @@
                         <l xml:id="L16">seguro duerme e pag<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
-                    <lg n="3" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                    <lg n="3" type="octava" met="8x8" rhyme="ABBAABBA">
                         <l xml:id="L17">Quien honrada vida hon<rhyme label="esta">esta</rhyme>
                   </l>
                         <l xml:id="L18">vive sin fazer err<rhyme label="ores">ores</rhyme>,</l>
@@ -156,7 +155,7 @@
 
                     <pb facs="#PN554-2"/>
 
-                    <lg n="4" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                    <lg n="4" type="octava" met="8x8" rhyme="ABBAABBA">
                         <l xml:id="L25">
                      <rs ref="#FPG"> Buen señor</rs> desde ab inic<rhyme label="io">io</rhyme>
                   </l>
@@ -172,7 +171,7 @@
                         <l xml:id="L32">cuanto <rs ref="#AAV">yo</rs> non lo cobdic<rhyme label="io">io</rhyme>.</l>
                     </lg>
 
-                    <lg n="5" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                    <lg n="5" type="octava" met="8x8" rhyme="ABBAABBA">
                         <l xml:id="L33">
                      <rs ref="#FPG"> Señor</rs>, merced <rs ref="#FPG">vos</rs>
                             <rs ref="#AAV">dem<rhyme label="ando">ando</rhyme>
@@ -195,7 +194,7 @@
                         <l xml:id="L40">siempre <rs ref="#AAV">servir</rs>
                             <rs ref="#FPG"> vos</rs> lo<rhyme label="ando">ando</rhyme>,</l>
 
-                        <lg n="6" type="finida" met="8,8,8,8" rhyme="ABBA">
+                        <lg n="6" type="finida" met="4x8" rhyme="ABBA">
                             <l xml:id="L41">Si en algo <rs ref="#AAV">erré trov<rhyme label="ando">ando</rhyme>
                         </rs>
                      </l>

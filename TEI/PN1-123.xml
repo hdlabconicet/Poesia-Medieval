@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -109,14 +108,14 @@
                 isometrismo="isométrico"
                 isoestrofismo="isoestrófico"
                 asonancia="consonante"
-                met="10,10,10,10,10,10,10,10"
+                met="8x10"
                 rhyme="ABBAACCA">
             
             
             
                     <lg n="1"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
 
                         <l xml:id="L1">Pena le pone la setena part<rhyme label="ida">ida</rhyme>
@@ -146,7 +145,7 @@
 
 
                     <lg n="2" type="octava"
-                        met="10,10,10,10,10,10,10,10"
+                        met="8x10"
                         rhyme="ABBAACCA">
                        
                         <l xml:id="L9">Si bien pensaredes en estos part<rhyme label="ida">idos</rhyme>
@@ -165,7 +164,7 @@
                     </lg>
 
                     <lg n="3" type="octava"
-                        met="10,10,10,10,10,10,10,10"
+                        met="8x10"
                         rhyme="ABBAACCA">
 
                        
@@ -184,7 +183,7 @@
                     </lg>
 
                     <lg n="4" type="finida"
-                        met="10,10, 10, 10"
+                        met="4x10"
                         rhyme="ABBA">
 
                         <l xml:id="L25">Por ende, señores, con grant acord<rhyme label="ança">ança</rhyme>

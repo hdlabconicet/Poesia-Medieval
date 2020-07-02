@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -75,12 +74,12 @@ ella parece</head>
             <sp who='#FML'>	
                 <speaker>Alfonso de Moraña</speaker>
                 
-                <lg type="poema" subtype="respuesta" met="8,8,8,8,8,8,8,8" rhyme="abbaacca" unisonancia="unisonante"
+                <lg type="poema" subtype="respuesta" met="8x8" rhyme="abbaacca" unisonancia="unisonante"
                     isometrismo="isométrico" isoestrofismo="isoestrófico"
                     asonancia="consonante">
                 <note>Se trata de una pieza de arte menor</note>
                 
-                <lg n="1" type="octavilla" met="8,8,8,8,8,8,8,8" rhyme="abbaacca">
+                <lg n="1" type="octavilla" met="8x8" rhyme="abbaacca">
                     <l xml:id="L1">En la muy alta cad<rhyme label='era'>era</rhyme></l>
                     <l xml:id="L2">en el trono más denc<rhyme label='ima'>ima</rhyme></l>
                     <l xml:id="L3">donde otro non se arr<rhyme label='ima'>ima</rhyme></l>
@@ -91,7 +90,7 @@ ella parece</head>
                     <l xml:id="L8">dezir tan fermosa <rhyme label='era'>era</rhyme>.</l>
                 </lg>
                 
-                <lg n="2" type="octavilla" met="8,8,8,8,8,8,8,8" rhyme="abbaacca">
+                <lg n="2" type="octavilla" met="8x8" rhyme="abbaacca">
                     <l xml:id="L9">Desde <placeName ref="#PAR">Paris</placeName> fasta <placeName ref="#TOR">T<rhyme label='oro'>oro</rhyme></placeName></l>   
                     <l xml:id="L10">non nasció tal criat<rhyme label='ura'>ura</rhyme>, </l>
                     <l xml:id="L11">linda nariz sin mes<rhyme label='ura'>ura</rhyme></l>
@@ -104,7 +103,7 @@ ella parece</head>
                     
                     <pb facs="#PN270-2"/>
                 
-                <lg n="3" type="octavilla" met="8,8,8,8,8,8,8,8" rhyme="abbaacca">
+                <lg n="3" type="octavilla" met="8x8" rhyme="abbaacca">
                     <l xml:id="L17">La linda muy acab<rhyme label='ada'>ada</rhyme></l>
                     <l xml:id="L18">que Dios bendixo en la c<rhyme label='una'>una</rhyme></l>
                     <l xml:id="L19">non ovo culpa ning<rhyme label='ada'>ada</rhyme></l>           <!-- Ms: culpla -->
@@ -115,7 +114,7 @@ ella parece</head>
                     <l xml:id="L24">nin la Luna trastorn<rhyme label='ada'>ada</rhyme>.</l>   <!-- Dutton: Fortuna (x Luna) -->
                 </lg>
                 
-                <lg n="4" type="octavilla" met="8,8,8,8,8,8,8,8" rhyme="abbaacca">
+                <lg n="4" type="octavilla" met="8x8" rhyme="abbaacca">
                     <l xml:id="L25">Faz grand pecado mort<rhyme label='al'>al</rhyme></l>
                     <l xml:id="L26">quien otra quistión esc<rhyme label='ava'>ava</rhyme></l>   <!-- Dutton: qüistión -->
                     <l xml:id="L27">nin quien más <term cRef="89">razones</term> tr<rhyme label='ava'>ava</rhyme></l>

@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -98,12 +97,12 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10,10,10,10,10,10,10"
+                met="8x10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor</note>
                     <lg n="1"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L1">Todos los discretos perder deven r<rhyme label="issa">issa</rhyme>
                   </l>
@@ -122,7 +121,7 @@
 
                     <lg n="2"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L9">Por ende, <rs ref="#BSA">amigo</rs>, todo omne se esc<rhyme label="ude">ude</rhyme>
                   </l>
@@ -141,7 +140,7 @@
                     
                     <lg n="3"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L17">
                      <rs ref="#BSA">Amigo señor</rs>, <rs ref="#AAV">yo bien he
@@ -165,7 +164,7 @@
                      </rs>.</l>
                     </lg>
 
-                    <lg n="4" type="finida" met="10,10, 10" rhyme="AAB">
+                    <lg n="4" type="finida" met="3x10" rhyme="AAB">
                         <l xml:id="L25">Pero <rs ref="#AAV">yo entiendo con mi simple g<rhyme label="esto">esto</rhyme>
                      </rs>
                         </l>

@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -74,11 +73,11 @@
             <sp who='#FML'>
                 <speaker>Fray Lope del Monte</speaker>
                 
-                <lg type="poema" subtype="respuesta"  met="12,12,12,12,12,12,12,12" rhyme="ABBAACCA" 
+                <lg type="poema" subtype="respuesta"  met="8x12" rhyme="ABBAACCA" 
                     unisonancia="unisonante" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante">
                     <note>Se trata de una pieza de arte mayor</note>
                 
-                <lg n="1"  type="octava" met="12,12,12,12,12,12,12,12" rhyme="ABABBCCB">
+                <lg n="1"  type="octava" met="8x12" rhyme="ABABBCCB">
                     <l xml:id="L1">Loando al señor redemidor nu<rhyme label='estro'>estro</rhyme></l>
                     <l xml:id="L2"> con grant voluntat pesada perf<rhyme label='eta'>eta</rhyme></l>
                     <l xml:id="L3"> noble cavallero <term cRef="208">trobador</term> di<rhyme label='estro'>estro</rhyme>,</l>
@@ -89,7 +88,7 @@
                     <l xml:id="L8"> quier ande a la guisa, quier a la gin<rhyme label='eta'>eta.</rhyme></l>
                 </lg>
                 
-                    <lg n="2"  type="octava" met="12,12,12,12,12,12,12,12" rhyme="ABABBCCB">
+                    <lg n="2"  type="octava" met="8x12" rhyme="ABABBCCB">
                     <l xml:id="L9"> Polido en <term cRef="210">trobar</term> miras lo que f<rhyme label='undo'>undo</rhyme></l>
                     <l xml:id="L10"> por astrología de vos bien am<rhyme label='ada'>ada,</rhyme></l>
                     <l xml:id="L11"> que Venus beldat da lo seg<rhyme label='undo'>undo,</rhyme></l>
@@ -102,7 +101,7 @@
                 
                     <pb facs="#PN273-2"/>
                 
-                    <lg n="3"  type="octava" met="12,12,12,12,12,12,12,12" rhyme="ABABBCCB">
+                    <lg n="3"  type="octava" met="8x12" rhyme="ABABBCCB">
                     <l xml:id="L17"> Fablar de escripturas quando contesci<rhyme label='ere'>ere</rhyme></l>
                     <l xml:id="L18"> yo non contradigo con lengua sep<rhyme label='ista'>ista</rhyme></l> <!-- Dutton: sophista --> 
                     <l xml:id="L19"> nin yo manoscabo al que bien dix<rhyme label='ere'>ere</rhyme></l>
@@ -113,7 +112,7 @@
                     <l xml:id="L24"> quien pule sus rayos como la mat<rhyme label='ista'>ista</rhyme>.</l>  <!-- Ms: matastes - Durron: amatista -->
                 </lg>
                 
-                    <lg n="4" type="octava" met="12,12,12,12,12,12,12,12" rhyme="ABABBCCB">
+                    <lg n="4" type="octava" met="8x12" rhyme="ABABBCCB">
                     <l xml:id="L25"> Si fuese envidioso en justo fabl<rhyme label='ar'>ar</rhyme></l>
                     <l xml:id="L26"> ternía mis dichos por mucho men<rhyme label='udos'>udos</rhyme></l>
                     <l xml:id="L27"> nunca vi secretos de Dios en <term cRef="200">dit<rhyme label='ar'>ar</rhyme></term></l>
@@ -124,7 +123,7 @@
                     <l xml:id="L32"> que tiene tristeza con gestos cej<rhyme label='udos'>udos</rhyme>.</l>
                 </lg>
                 
-                <lg n="5"  type="finida" met="12, 12, 12, 12" rhyme="ABBA">
+                <lg n="5"  type="finida" met="4x12" rhyme="ABBA">
                     <l xml:id="L33"> Él faze los ossos con cueros lan<rhyme label='udos'>udos</rhyme></l>
                     <l xml:id="L34"> al que poco sabe ser grant <term cRef="183">sabid<rhyme label='or'>or</rhyme></term>,</l>
                     <l xml:id="L35"> pocos son los sabios de sabio val<rhyme label='or'>or</rhyme></l> <!-- Ms: lo -->

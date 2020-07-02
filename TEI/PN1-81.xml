@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -96,7 +95,7 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10,10,10,10,10,10,10"
+                met="8x10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor. No se especifica el nombre del
                         poesta al que <persName ref="#JAB">Baena</persName> responde, aunque, por la
@@ -107,7 +106,7 @@
 
                     <lg n="1"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L1">Segund que <rs ref="#AAV">fingides</rs>
                             <rs ref="#JAB">so vuestro encomi<rhyme label="enda">enda</rhyme>
@@ -131,7 +130,7 @@
 
                     <lg n="2"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L9">Ca puesto por caso que puge e trasc<rhyme>enda</rhyme>
                   </l>
@@ -153,7 +152,7 @@
 
                     <lg n="3"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L17">E porque <rs ref="#JAB">non siento</rs> quien non
                                 condesc<rhyme label="enda">enda</rhyme>
@@ -177,7 +176,7 @@
 
                     <lg n="4"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L25">Pero si <rs ref="#AAV">vos plaze</rs> que desto <rs ref="#JAB">dep<rhyme label="enda">enda</rhyme>
                      </rs>
@@ -203,7 +202,7 @@
                      </rs>.</l>
                     </lg>
 
-                    <lg n="5" type="finida" met="10,10, 10, 10" rhyme="ABBA">
+                    <lg n="5" type="finida" met="4x10" rhyme="ABBA">
                         <l xml:id="L33">Pasteles de pollos con polvos de h<rhyme label="enda">ienda</rhyme>,</l>   <!-- El atributo label= correcto para estas rimas
                                                                                                                      es "ienda" o "enda"??? -->
                         <l xml:id="L34">e festes de noya con buen salpic<rhyme label="on">ón</rhyme>

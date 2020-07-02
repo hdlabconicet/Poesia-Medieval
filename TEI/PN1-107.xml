@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -94,13 +93,13 @@
                 isometrismo="isométrico"
                 isoestrofismo="isoestrófico"
                 asonancia="consonante"
-                met="10,10,10,10,10,10,10,10"
+                met="8x10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor. Incompleta. Falta la finida y el
                         folio siguiente completo.</note>
                     <lg n="1"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L1">
                      <rs ref="#GFG">Garcia amigo</rs>, ninguno <rs ref="#GFG">te
@@ -129,7 +128,7 @@
 
                     <lg n="2"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L9">Desque a Iesu, nosso salvad<rhyme label="or">or</rhyme>,</l>
                         <l xml:id="L10">
@@ -150,7 +149,7 @@
 
                     <lg n="3"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L17">Con tales trocos como <rs ref="#GFG">has troc<rhyme label="ado">ado</rhyme>
                      </rs>
@@ -181,7 +180,7 @@
 
                     <lg n="4"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L25">Ja <rs ref="#GFG">non te podes chamar perdid<rhyme label="oso">oso</rhyme></rs></l>
                         <l xml:id="L26">pois tantas cossas com’ estas <rs ref="#GFG">ga[n]<rhyme label="aste">aste</rhyme></rs></l>

@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -81,12 +80,12 @@
             <sp who='#JAB'>	
                 <speaker>Ferrán Manuel de Lando</speaker>
                 
-                <lg type="poema" subtype="requesta" met="8,8,8,8,8,8,8,8,8,8" rhyme="abbaacccca"
+                <lg type="poema" subtype="requesta" met="10x8" rhyme="abbaacccca"
                     unisonancia="unisonante" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante">
                     <note>Se trata de una pieza de arte menor</note>        
                    
                     
-                <lg n="1" type="décima" met="8,8,8,8,8,8,8,8,8,8" rhyme="abbaacccca">
+                <lg n="1" type="décima" met="10x8" rhyme="abbaacccca">
                     <l xml:id="L1"><persName ref="#JAB">Johan Alfonso</persName> alçad la c<rhyme label='ara'>ara</rhyme></l>
                     <l xml:id="L2">fablad si algo sab<rhyme label='edes'>edes</rhyme></l>
                     <l xml:id="L3">pero non vos atuf<rhyme label='edes'>edes</rhyme></l>
@@ -99,7 +98,7 @@
                     <l xml:id="L10">e será vuestra atij<rhyme label='ara'>ara</rhyme>.</l>
                 </lg>
                 
-                    <lg n="2" type="décima" met="8,8,8,8,8,8,8,8,8,8" rhyme="abbaacccca">
+                    <lg n="2" type="décima" met="10x8" rhyme="abbaacccca">
                     <l xml:id="L11">El simple pajés que <rhyme label='ara'>ara</rhyme></l> 
                     <l xml:id="L12">toda sobervia ref<rhyme label='uye'>uye</rhyme>,</l>
                     <l xml:id="L13">cuanto la saña destr<rhyme label='uye'>uye</rhyme></l>
@@ -112,7 +111,7 @@
                     <l xml:id="L20">non desvare si desv<rhyme label='ara'>ara</rhyme>.</l>
                 </lg>
                 
-                    <lg n="3" type="décima" met="8,8,8,8,8,8,8,8,8,8" rhyme="abbaacccca">
+                    <lg n="3" type="décima" met="10x8" rhyme="abbaacccca">
                     <l xml:id="L21">Segund las vías prep<rhyme label='ara'>ara</rhyme></l>
                     <l xml:id="L22">esta breve consecu<rhyme label='encia'>encia</rhyme></l>
                     <l xml:id="L23">el fructo de la prud<rhyme label='encia'>encia</rhyme></l>
@@ -125,7 +124,7 @@
                     <l xml:id="L30">caer o perder la v<rhyme label='ara'>ara</rhyme>.</l>
                 </lg>
                 
-                    <lg n="4" type="décima"  met="8,8,8,8,8,8,8,8,8,8" rhyme="abbaacccca">
+                    <lg n="4" type="décima"  met="10x8" rhyme="abbaacccca">
                     <l xml:id="L31">Anda el osso por la x<rhyme label='ara'>ara</rhyme></l>
                     <l xml:id="L32">muy esquivo manzell<rhyme label='ero'>ero</rhyme></l>
                     <l xml:id="L33">el vestiglo carnic<rhyme label='ero'>ero</rhyme></l>
@@ -141,7 +140,7 @@
                     <pb facs="#PN263-2"/>
                 
                 
-                    <lg n="5" type="décima"  met="8,8,8,8,8,8,8,8,8,8" rhyme="abbaacccca">
+                    <lg n="5" type="décima"  met="10x8" rhyme="abbaacccca">
                     <l xml:id="L41">E si algund vapor sep<rhyme label='ara'>ara</rhyme></l>
                     <l xml:id="L42">de vos la quistión que t<rhyme label='oco'>oco</rhyme></l>
                     <l xml:id="L43">avisad vos más un p<rhyme label='oco'>oco</rhyme>,</l>
@@ -154,7 +153,7 @@
                     <l xml:id="L50">que Dios le muestra e dep<rhyme label='ara'>ara</rhyme>.</l>
                 </lg>
                 
-                    <lg n="6" type="décima" met="8,8,8,8,8,8,8,8,8,8" rhyme="abbaacccca">
+                    <lg n="6" type="décima" met="10x8" rhyme="abbaacccca">
                     <l xml:id="L51">Fago fin que va el al<rhyme label='ara'>ara</rhyme></l>
                     <l xml:id="L52">de mis actos procedi<rhyme label='endo'>endo</rhyme></l>
                     <l xml:id="L53">la <term cRef="89">razón</term> floresce ardi<rhyme label='endo'>endo</rhyme></l>
@@ -167,7 +166,7 @@
                     <l xml:id="L60">de ropa que mal se p<rhyme label='ara'>ara</rhyme>.</l>
                 </lg>
                 
-                    <lg n="7" type="finida" met="8, 8, 8, 8, 8, 8" rhyme="abbbba">
+                    <lg n="7" type="finida" met="6x8" rhyme="abbbba">
                     <l xml:id="L61">Ved el pesso con su at<rhyme label='ara'>ara</rhyme></l>
                     <l xml:id="L62"><term cRef="208">trobador</term> <term cRef="171">sotil</term> <term cRef="205">fund<rhyme label='ado'>ado</rhyme></term></l>
                     <l xml:id="L63">e <term cRef="163">respondet</term> mesur<rhyme label='ado'>ado</rhyme>,</l>

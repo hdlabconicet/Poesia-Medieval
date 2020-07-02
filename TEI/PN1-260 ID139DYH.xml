@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -73,12 +72,12 @@
             <sp who='#JAB'>
                 <speaker>Ferrán Manuel de Lando</speaker>
                  
-                <lg type="poema" subtype="pregunta" rhyme="abbaacccca"  met="8,8,8,8,8,8,8,8,8,8" 
+                <lg type="poema" subtype="pregunta" rhyme="abbaacccca"  met="10x8" 
                     unisonancia="unisonante" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante">
                     <note>Se trata de una pieza de arte menor</note>
                     
                  
-                <lg n="1" type="décima" rhyme="abbaacccca"  met="8,8,8,8,8,8,8,8,8,8">
+                <lg n="1" type="décima" rhyme="abbaacccca"  met="10x8">
                     <l xml:id="L1"> En <term cRef="34">coplas</term> llenas de az<rhyme label='ogue'>ogue</rhyme></l>
                     <l xml:id="L2"> gentil señor <persName ref="#JAB">Johan Alf<rhyme label='onso'>onso</rhyme></persName></l>
                     <l xml:id="L3"> fazedes alto <term cRef="163">resp<rhyme label='onso'>onso</rhyme></term></l>
@@ -91,7 +90,7 @@
                     <l xml:id="L10"> ciará por bien que b<rhyme label='ogue'>ogue</rhyme>.</l> 
                 </lg>
                 
-                    <lg n="2" type="décima" rhyme="abbaacccca"  met="8,8,8,8,8,8,8,8,8,8">
+                    <lg n="2" type="décima" rhyme="abbaacccca"  met="10x8">
                     <l xml:id="L11"> Ciará de banco en b<rhyme label='anco'>anco</rhyme></l>
                     <l xml:id="L12"> siguiendo siempre el estr<rhyme label='emo'>emo</rhyme></l>
                     <l xml:id="L13"> con la fuerça del r<rhyme label='emo'>emo</rhyme>,</l>
@@ -107,7 +106,7 @@
      
                     <pb facs="#PN260-2"/>
      
-                    <lg n="3" type="décima" rhyme="abbaacccca"  met="8,8,8,8,8,8,8,8,8,8">
+                    <lg n="3" type="décima" rhyme="abbaacccca"  met="10x8">
                     <l xml:id="L21"> El sano que de fort<rhyme label='una'>una</rhyme></l>
                     <l xml:id="L22"> non es bien favoriz<rhyme label='ado'>ado</rhyme></l>
                     <l xml:id="L23"> maguer sea muy <term cRef="184">letr<rhyme label='ado'>ado</rhyme></term></l>
@@ -120,7 +119,7 @@
                     <l xml:id="L30"> creed lo sin dubda alg<rhyme label='una'>una</rhyme>.</l>
                 </lg>
                 
-                    <lg n="4" type="décima" rhyme="abbaacccca"  met="8,8,8,8,8,8,8,8,8,8">
+                    <lg n="4" type="décima" rhyme="abbaacccca"  met="10x8">
                     <l xml:id="L31"> Creed lo <term cRef="208">trobador</term> f<rhyme label='ino'>ino</rhyme></l>
                     <l xml:id="L32"> segunt la lección es p<rhyme label='uesta'>uesta</rhyme>,</l>
                     <l xml:id="L33"> e si me dades <term cRef="163">resp<rhyme label='uesta'>uesta</rhyme></term></l>
@@ -133,7 +132,7 @@
                     <l xml:id="L40"> si va bien guardado el t<rhyme label='ino'>ino</rhyme>.</l>
                 </lg>
                 
-                    <lg n="5" type="finida" rhyme="aaaab"  met="8, 8, 8, 8, 8" >
+                    <lg n="5" type="finida" rhyme="aaaab"  met="5x8" >
                     <l xml:id="L41"> Si va bien autor onrr<rhyme label='able'>able</rhyme></l>
                     <l xml:id="L42"> la vuestra lengua me f<rhyme label='able'>able</rhyme>,</l>
                     <l xml:id="L43"> ca en este golfo espant<rhyme label='able'>able</rhyme></l>

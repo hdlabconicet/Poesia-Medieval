@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -103,7 +102,7 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10,10,10,10,10,10,10"
+                met="8x10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor. La pregunta no tiene un
                         destinatario, pero por la estructura de la rúbrica parecería estar dirigida
@@ -112,7 +111,7 @@
                         solidez la hipótesis.</note>
                     <lg n="1"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L1">
                      <rs ref="#NC">Amigo señor</rs>, <rs ref="#NC">non vos
@@ -138,7 +137,7 @@
                         <l xml:id="L8">que todos non tiemblan peor que tembl<rhyme label="ades">ades</rhyme>.</l>
                     </lg>
 
-                    <lg n="2" type="finida" met="10,10, 10, 10" rhyme="ABBA">
+                    <lg n="2" type="finida" met="4x10" rhyme="ABBA">
                         <l xml:id="L9">Villas e aldeas, castillos, cibd<rhyme label="ades">ades</rhyme>,</l>
                         <l xml:id="L10">delante sus ojos verán negro v<rhyme label="elo">elo</rhyme>,</l>
                         <l xml:id="L11">si <rs ref="#NC">vos lo sabedes</rs> que quanto <rs ref="#AAV">yo s<rhyme label="elo">elo</rhyme>

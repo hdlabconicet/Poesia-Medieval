@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -93,11 +92,11 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8,8,8,8,8,8,8"
+                met="7x8"
                 rhyme="abbacca">
 
 
-                    <lg n="1" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
+                    <lg n="1" type="etrovadoresca" met="7x8" rhyme="abbacca">
                         <l xml:id="L1">Tanto tiempo <rs ref="#AAV">he esper<rhyme label="ado">ado</rhyme>
                      </rs>
                   </l>
@@ -112,7 +111,7 @@
                         <l xml:id="L7">de mil años es aont<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
-                    <lg n="2" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
+                    <lg n="2" type="etrovadoresca" met="7x8" rhyme="abbacca">
                         <l xml:id="L8">Porque <rs ref="#AAV">fui mal costel<rhyme label="ado">ado</rhyme>
                      </rs>
                   </l>
@@ -126,7 +125,7 @@
                         <l xml:id="L14">derrama todo el gan<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
-                    <lg n="3" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
+                    <lg n="3" type="etrovadoresca" met="7x8" rhyme="abbacca">
                         <l xml:id="L15">
                      <rs ref="#PCA">Señor cuerdo e mesur<rhyme label="ado">ado</rhyme>
                      </rs>,</l>
@@ -144,7 +143,7 @@
                         <l xml:id="L21">el mundo les adebd<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
-                    <lg n="4" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
+                    <lg n="4" type="etrovadoresca" met="7x8" rhyme="abbacca">
                         <l xml:id="L22">
                      <rs ref="#AAV">Non quiero</rs> otro buen est<rhyme label="ado">ado</rhyme>
                   </l>
@@ -160,7 +159,7 @@
                         <l xml:id="L28">puede ser predestin<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
-                    <lg n="5" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
+                    <lg n="5" type="etrovadoresca" met="7x8" rhyme="abbacca">
                         <l xml:id="L29">
                      <rs ref="#AAV">Si non fui tan bien fad<rhyme label="ado">ado</rhyme>
                      </rs>
@@ -178,7 +177,7 @@
                         <l xml:id="L35">nin el sabio enriquent<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
-                    <lg n="6" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
+                    <lg n="6" type="etrovadoresca" met="7x8" rhyme="abbacca">
                         <l xml:id="L36">
                      <rs ref="#AAV">Mi convite desdon<rhyme label="ado">ado</rhyme>
                      </rs>
@@ -195,7 +194,7 @@
                         <l xml:id="L42">que rico desmazal<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
-                    <lg n="7" type="finda" met="8,8,8,8" rhyme="abba">
+                    <lg n="7" type="finda" met="4x8" rhyme="abba">
                         <l xml:id="L43">
                             <rs ref="#AAV">Yo iría e muy priv<rhyme label="ado">ado</rhyme>
                      </rs>,</l>

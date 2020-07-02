@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -99,7 +98,7 @@
                 isometrismo="isométrico"
                 isoestrofismo="isoestrófico"
                 asonancia="consonante"
-                met="10,10,10,10,10,10,10,10"
+                met="8x10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor. La pregunta no se dirige sino que se
                         dedica (al primo de FPG) y no la responde ningún poeta</note>
@@ -108,7 +107,7 @@
                     
                     <lg n="1"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
 
                         <l xml:id="L1">
@@ -137,7 +136,7 @@
 
                     <lg n="2"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L9">
                      <rs ref="#FPG">Oí </rs>muchas vezes, <rs ref="#GDT">señor</rs>, afirm<rhyme label="ar">ar</rhyme>
@@ -163,7 +162,7 @@
 
                     <lg n="3"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L17">Un buen omne <rs ref="#FPG">veo</rs> a Dios e al m<rhyme label="undo">undo</rhyme>
                   </l>
@@ -187,7 +186,7 @@
 
                     <lg n="4"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L25">Dizen los letrados, <rs ref="#GDT">señor</rs>, que es
                                 err<rhyme label="or">or</rhyme>

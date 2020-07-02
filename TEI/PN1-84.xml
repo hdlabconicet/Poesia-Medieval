@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -99,12 +98,12 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10,10,10,10,10,10,10"
+                met="8x10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor</note>
                     <lg n="1"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
 
                         <l xml:id="L1">Non <rs ref="#BSA">tengo</rs> que siente la natural<rhyme label="eza">eza</rhyme>
@@ -129,7 +128,7 @@
 
                     <lg n="2"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L9">De otra quistión asaz bien esc<rhyme label="ura">ura</rhyme>
                   </l>
@@ -150,7 +149,7 @@
 
                     <lg n="3"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L17">La quistión tercera es maravill<rhyme label="osa">osa</rhyme>
                   </l>
@@ -171,7 +170,7 @@
 
                     <lg n="4"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L25">La quarta pregunta es tan intric<rhyme label="ada">ada</rhyme>
                   </l>
@@ -190,7 +189,7 @@
                         <l xml:id="L32">en una cibdat notable esmer<rhyme label="ada">ada</rhyme>.</l>
                     </lg>
 
-                    <lg n="5" type="finida" met="10,10, 10, 10" rhyme="ABBA">
+                    <lg n="5" type="finida" met="4x10" rhyme="ABBA">
                         <l xml:id="L33">
                      <rs ref="#AAV">Quien</rs> diere <term cRef="163">respuesta</term>bien <term cRef="168">metrific<rhyme label="ada">ada</rhyme>
                      </term>

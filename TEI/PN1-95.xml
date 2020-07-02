@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -100,12 +99,12 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="10,10,10,10,10,10,10,10"
+                met="8x10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor</note>
                     <lg n="1"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
 
                         <l xml:id="L1">
@@ -127,7 +126,7 @@
 
                     <lg n="2"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L9">E aun mas <rs ref="#BSA">vos</rs>
                             <rs ref="#AAV">digo</rs> que finca escas<rhyme label="eza">eza</rhyme>
@@ -150,7 +149,7 @@
 
                     <lg n="3"
                    type="octava"
-                   met="10,10,10,10,10,10,10,10"
+                   met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L17">Gra[n]des señores, legos e perl<rhyme label="ados">ados</rhyme>
                   </l>
@@ -172,7 +171,7 @@
 
                     <pb facs="#PN95-2"/>
 
-                    <lg n="4" type="finida" met="10,10, 10" rhyme="AAB">
+                    <lg n="4" type="finida" met="3x10" rhyme="AAB">
                         <l xml:id="L25">Desi han tomado agora un refr<rhyme label="an">án</rhyme>
                   </l>
                         <l xml:id="L26">viciosos e ricos por qué buscar<rhyme label="an">án</rhyme>

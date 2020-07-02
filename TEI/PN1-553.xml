@@ -2,7 +2,6 @@
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -99,14 +98,14 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8,8,8,8,8,8,8,8"
+                met="8x8"
                 rhyme="ABBAABBA">
                     <note> La pregunta no se dirige a ningún poeta pero la responde Villasandino. En
                         la pieza el poeta dialoga con un papagayo</note>
                     
                     
                     
-                    <lg n="1" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                    <lg n="1" type="octava" met="8x8" rhyme="ABBAABBA">
 
 
                         <l xml:id="L1">Abril ya pasado aqu<rhyme label="ende">ende</rhyme>
@@ -123,7 +122,7 @@
                         <l xml:id="L8">quien lo ensilla al enti<rhyme label="ende">ende</rhyme>”.</l>
                     </lg>
 
-                    <lg n="2" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                    <lg n="2" type="octava" met="8x8" rhyme="ABBAABBA">
                         <l xml:id="L9">Como ferido e llag<rhyme label="ado">ado</rhyme>
                   </l>
                         <l xml:id="L10">
@@ -140,7 +139,7 @@
                         <l xml:id="L16">ha mi gozo así turb<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
-                    <lg n="3" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                    <lg n="3" type="octava" met="8x8" rhyme="ABBAABBA">
                         <l xml:id="L17">Nunca tale tu flor<rhyme label="esta">esta</rhyme>
                   </l>
                         <l xml:id="L18">nin corte tus nuevas flor<rhyme label="es">es</rhyme>
@@ -156,7 +155,7 @@
                             <rs ref="#FPG">mi voluntad</rs> es muy pr<rhyme label="esta">esta</rhyme>.</l>
                     </lg>
 
-                    <lg n="4" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                    <lg n="4" type="octava" met="8x8" rhyme="ABBAABBA">
                         <l xml:id="L25">Los laureles hé por vic<rhyme label="io">io</rhyme>,</l>
                         <l xml:id="L26">los rosales por estr<rhyme label="ena">ena</rhyme>,</l>
                         <l xml:id="L27">las flores de la açuc<rhyme label="ena">ena</rhyme>
@@ -173,7 +172,7 @@
                         <l xml:id="L32">nunca mi puerta desquic<rhyme label="io">io</rhyme>
                   </l>
                     </lg>
-                    <lg n="5" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                    <lg n="5" type="octava" met="8x8" rhyme="ABBAABBA">
                         <l xml:id="L33">Debatiéndose e cant<rhyme label="ando">ando</rhyme>
                   </l>
                         <l xml:id="L34">voló e fuese su v<rhyme label="ia">ía</rhyme>,</l>
@@ -193,7 +192,7 @@
                         <l xml:id="L40">ser la que sirvo mud<rhyme label="ando">ando</rhyme>.</l>
                     </lg>
 
-                    <lg n="6" type="finda" met="8,8,8,8" rhyme="ABBA">
+                    <lg n="6" type="finda" met="4x8" rhyme="ABBA">
                         <l xml:id="L41">Pues fuestes siempre del b<rhyme label="ando">ando</rhyme>
                   </l>
                         <l xml:id="L42">d’ amor en su compañ<rhyme label="ia">ía</rhyme>,</l>
