@@ -9,10 +9,6 @@
     
     <xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes"></xsl:output>
     
-    <xsl:template match="/"> <!-- Indicamos que las transformaciones del final se van a aplicar al elemento lg -->
-        <xsl:apply-templates select="//lg"/>
-    </xsl:template>
-    
     <xsl:template match="/">
         <xsl:variable name="doc_id" select="//msItem/idno"/> <!-- Recuperamos el id del documento en una variable para nombrar el archivo de salida -->
         <!-- Redirigir el resultado hacia un archivo -->        
@@ -39,7 +35,8 @@ button: siquieromiboton
         </div>
         </div>  
         
-            <xsl:apply-templates select="//lg"/>
+            <xsl:apply-templates select="//lg"/> <!-- Indicamos que las transformaciones de abajo se van a aplicar al elemento lg -->
+            
         </xsl:result-document>
         <!-- Redirigir el resultado hacia un archivo -->
     </xsl:template>
