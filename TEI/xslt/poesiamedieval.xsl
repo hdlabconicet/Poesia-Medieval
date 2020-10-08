@@ -7,20 +7,24 @@
     xmlns="http://www.w3.org/1999/xhtml"
     >
     
-    <xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes"></xsl:output>
+   <!-- <xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes"></xsl:output>-->
     
     <xsl:template match="/">
         <xsl:variable name="doc_id" select="//msItem/idno"/> <!-- Recuperamos el id del documento en una variable para nombrar el archivo de salida -->
         <!-- Redirigir el resultado hacia un archivo -->        
         <xsl:result-document method="html" encoding="utf-8"
-            href="../_preguntas_respuestas/{$doc_id}-83.GC.html" omit-xml-declaration="yes">
----
+            href="../_preguntas_respuestas/{$doc_id}-83.GC.html" omit-xml-declaration="yes">---
 layout: pregunta_respuesta
-title: <xsl:apply-templates select="//title[1]"/> / Fray Pedro señor, aqueste respeto
-permalink: <xsl:apply-templates select="//msItem/idno"/>-83/
+title: <xsl:apply-templates select="//title[1]"/> / incipit del otro poema
+permalink: <xsl:apply-templates select="//msItem/idno"/>-idno/
 type: pregunta/respuesta
 button: siquieromiboton
 ---
+           <div class="row clearfix">
+                <div class="col-left px-3">
+                    <h1><xsl:apply-templates select="//title[1]"/></h1>
+                </div></div>
+            
         <div class="row clearfix">
         <div class="col-left px-3">
             <p class="rubrica">
@@ -31,11 +35,11 @@ button: siquieromiboton
         
         <div class="row clearfix">
         <div class="col-left px-3">
-            <xsl:apply-templates select="//lg[1]"/>
+            <xsl:apply-templates select="//lg[@type='poema']"/>
         </div>
         </div>  
         
-            <xsl:apply-templates select="//lg"/> <!-- Indicamos que las transformaciones de abajo se van a aplicar al elemento lg -->
+           <!-- <xsl:apply-templates select="//lg"/>--> <!-- Indicamos que las transformaciones de abajo se van a aplicar al elemento lg -->
             
         </xsl:result-document>
         <!-- Redirigir el resultado hacia un archivo -->
@@ -43,6 +47,17 @@ button: siquieromiboton
     
     
     <!-- Transformaciones -->
+    
+    <xsl:template match="//lg[@type='poema']">     
+        <p class="info"><xsl:value-of select="concat('Unisonancia: ', @unisonancia)"/></p>
+        <p class="info"><xsl:value-of select="concat('Isometrismo: ', @isometrismo)"/></p>
+        <p class="info"><xsl:value-of select="concat('Isoestrofismo: ', @isoestrofismo)"/></p>
+        <p class="info"><xsl:value-of select="concat('Asonancia: ', @asonancia)"/></p>
+        <p class="info"><xsl:value-of select="concat('Esquema métrico: ', @met)"/></p>
+        <p class="info"><xsl:value-of select="concat('Esquema rimático: ', @rhyme)"/></p>
+        <xsl:apply-templates/>
+    </xsl:template>
+    
     <xsl:template match="//lg//lg">
         <div class="estrofa">
             <p class="info">
