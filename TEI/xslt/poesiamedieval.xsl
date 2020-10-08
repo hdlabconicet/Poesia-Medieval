@@ -15,7 +15,7 @@
         <xsl:result-document method="html" encoding="utf-8"
             href="../_preguntas_respuestas/{$doc_id}-83.GC.html" omit-xml-declaration="yes">---
 layout: pregunta_respuesta
-title: <xsl:apply-templates select="//title[1]"/> / incipit del otro poema
+title: <xsl:apply-templates select="//title[1]"/> / incipit del otro poema        
 permalink: <xsl:apply-templates select="//msItem/idno"/>-idno/
 type: pregunta/respuesta
 button: siquieromiboton
@@ -40,6 +40,8 @@ button: siquieromiboton
         </div>  
         
            <!-- <xsl:apply-templates select="//lg"/>--> <!-- Indicamos que las transformaciones de abajo se van a aplicar al elemento lg -->
+           <!-- Tuve que comentar esta línea porque si no me repetía tres veces el texto del poema en la salida html-->
+            
             
         </xsl:result-document>
         <!-- Redirigir el resultado hacia un archivo -->
