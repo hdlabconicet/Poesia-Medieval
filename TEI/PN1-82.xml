@@ -66,13 +66,13 @@
 
 
     <facsimile>
-        <graphic url="imagenes/PN1-82-29v-(0).jpg" xml:id="PN82-0"></graphic>
+        <graphic url="../TEI/imagenes/PN1-82-29v-(0).jpg" xml:id="PN82-0"></graphic>
 
-        <graphic url="imagenes/PN1-82-30r-(1).jpg" xml:id="PN82-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-82-30r-(1).jpg" xml:id="PN82-1"></graphic>
  
-        <graphic url="imagenes/PN1-82-30r-(2).jpg" xml:id="PN82-2"></graphic>
+        <graphic url="../TEI/imagenes/PN1-82-30r-(2).jpg" xml:id="PN82-2"></graphic>
 
-        <graphic url="imagenes/PN1-82-30r-(3).jpg" xml:id="PN82-3"></graphic>
+        <graphic url="../TEI/imagenes/PN1-82-30r-(3).jpg" xml:id="PN82-3"></graphic>
     </facsimile>
 
     <text>
@@ -108,7 +108,7 @@
                    met="8x10"
                    rhyme="ABBAACCA">
                         <l xml:id="L1">
-                     <persName ref="#AAV">Señor Alfonso Álvarez</persName>, <rs ref="#AAV">grant sabio perf<rhyme ana="eto">eto</rhyme>
+                     <persName ref="#AAV">Señor Alfonso Álvarez</persName>, <rs ref="#AAV">grant sabio perf<rhyme label="eto">eto</rhyme>
                      </rs>,</l>
                         <l xml:id="L2">en todo fablar de <term cRef="178">linda poetr<rhyme label="ia" ana="ia">ía</rhyme>
                      </term>,</l>
@@ -117,7 +117,7 @@
                      </rs>
                   </l>
                         <l xml:id="L4">
-                            <rs ref="#AAV">en regir conpañas sin algún def<rhyme ana="eto">eto</rhyme>
+                            <rs ref="#AAV">en regir conpañas sin algún def<rhyme label="eto">eto</rhyme>
                      </rs>
                   </l>
                         <l xml:id="L5">
@@ -129,7 +129,7 @@
                   </l>
                         <l xml:id="L7">que puso Sant Johan en revelac<rhyme label="ion">ión</rhyme>
                   </l>
-                        <l xml:id="L8">en el Apocalipſi oscuro e secr<rhyme ana="eto">eto</rhyme>.</l>
+                        <l xml:id="L8">en el Apocalipſi oscuro e secr<rhyme label="eto">eto</rhyme>.</l>
                     </lg>
 
                     <lg n="2"

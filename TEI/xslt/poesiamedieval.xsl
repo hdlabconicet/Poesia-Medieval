@@ -20,7 +20,8 @@ permalink: <xsl:apply-templates select="//msItem/idno"/>-idno/
 type: pregunta/respuesta
 button: siquieromiboton
 ---
-           <div class="row clearfix">
+        
+            <div class="row clearfix">
                 <div class="col-left px-3">
                     <h1><xsl:apply-templates select="//title[1]"/></h1>
                 </div></div>
@@ -39,6 +40,36 @@ button: siquieromiboton
         </div>
         </div>  
         
+        
+            <div class="row clearfix">
+                <div class="col-left px-3">
+                    <div class="highlight">
+                    <xsl:apply-templates select="//graphic"/>
+                </div>
+            </div>
+          </div>
+            
+            <div class="row clearfix">
+                <div class="col-left px-3">
+                    <div class="px-3 py-3">
+                        <dl>
+                            <dt>Autor</dt>
+                            <dd><xsl:apply-templates select="//author"/></dd>
+                            <dt>Editor/a</dt>
+                            <dd><xsl:apply-templates select="//editor"/></dd>
+                            <dt>Repositorio</dt>
+                            <dd><xsl:apply-templates select="//repository"/></dd>
+                            <dt>Identificador</dt>
+                            <dd><xsl:apply-templates select="//$doc_id"/></dd>
+                            <dt>Localización manuscrito</dt>
+                            <dd><xsl:apply-templates select="//locus"/></dd>
+                            <dt>Tipo</dt>
+                            <dd><xsl:apply-templates select="//lg/@subtype"/></dd>  
+                        </dl>
+                    </div>
+                </div>
+            </div> 
+            
            <!-- <xsl:apply-templates select="//lg"/>--> <!-- Indicamos que las transformaciones de abajo se van a aplicar al elemento lg -->
            <!-- Tuve que comentar esta línea porque si no me repetía tres veces el texto del poema en la salida html-->
             
@@ -49,6 +80,23 @@ button: siquieromiboton
     
     
     <!-- Transformaciones -->
+    
+    
+    <xsl:template match="//graphic">
+        <a>
+            <xsl:attribute name="href">
+                <xsl:value-of select="@url"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+            <img>
+                <xsl:attribute name="src">
+                    <xsl:value-of select="@url"/>
+                </xsl:attribute>
+                <xsl:apply-templates/>        
+            </img>
+        </a>
+    </xsl:template>
+    
     
     <xsl:template match="//lg[@type='poema']">     
         <p class="info"><xsl:value-of select="concat('Unisonancia: ', @unisonancia)"/></p>
