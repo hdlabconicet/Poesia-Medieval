@@ -68,11 +68,11 @@
 
 
     <facsimile>
-        <graphic url="imagenes/PN1-548-184r-(0).jpg" xml:id="PN548-0"></graphic>
+        <graphic url="../TEI/imagenes/PN1-548-184r-(0).jpg" xml:id="PN548-0"></graphic>
 
-        <graphic url="imagenes/PN1-548-184r-(1).jpg" xml:id="PN548-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-548-184r-(1).jpg" xml:id="PN548-1"></graphic>
 
-        <graphic url="imagenes/PN1-548-184r-(2).jpg" xml:id="PN548-2"></graphic>
+        <graphic url="../TEI/imagenes/PN1-548-184r-(2).jpg" xml:id="PN548-2"></graphic>
     </facsimile>
     
     

@@ -81,7 +81,7 @@ button: siquieromiboton
     
     
     <!-- Transformaciones -->
-    
+ 
     
     <xsl:template match="//graphic">
         <a>
@@ -126,7 +126,11 @@ button: siquieromiboton
         </p>
     </xsl:template>
    
-   
+    <xsl:template match="//note">
+        <p class="nota">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>   
    
     <xsl:template match="//rhyme">
         <span> 

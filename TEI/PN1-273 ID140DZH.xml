@@ -9,7 +9,7 @@
                 <title>Loando al señor redemidor nuestro</title>
                 <title type="incipit">Loando al señor redemidor nuestro</title>
                 <author ref="#FLM">Fray Lope del Monte</author>
-                <author role="atr">Fray Lope del Monte</author>
+             
                 <editor>Gabriel Calarco</editor>
             </titleStmt>
             <publicationStmt>
@@ -56,9 +56,9 @@
     
     
     <facsimile>
-        <graphic url="imagenes/PN1-273-90r-(1).jpg" xml:id="PN273-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-273-90r-(1).jpg" xml:id="PN273-1"></graphic>
 
-        <graphic url="imagenes/PN1-273-90r-(2).jpg" xml:id="PN273-2"></graphic>
+        <graphic url="../TEI/imagenes/PN1-273-90r-(2).jpg" xml:id="PN273-2"></graphic>
     </facsimile>
     
     

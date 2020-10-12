@@ -74,9 +74,9 @@
 
 
     <facsimile>
-        <graphic url="imagenes/PN1-122-42r-(0).jpg" xml:id="PN122-0"></graphic>
+        <graphic url="../TEI/imagenes/PN1-122-42r-(0).jpg" xml:id="PN122-0"></graphic>
 
-        <graphic url="imagenes/PN1-122-42r-(1).jpg" xml:id="PN122-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-122-42r-(1).jpg" xml:id="PN122-1"></graphic>
     </facsimile>
 
 

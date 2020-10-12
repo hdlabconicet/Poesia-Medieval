@@ -66,11 +66,11 @@
     </teiHeader>
     
     <facsimile>
-        <graphic url="imagenes/PN1-81-29v-(0).jpg" xml:id="PN81-0"></graphic>
+        <graphic url="../TEI/imagenes/PN1-81-29v-(0).jpg" xml:id="PN81-0"></graphic>
    
-        <graphic url="imagenes/PN1-81-29v-(1).jpg" xml:id="PN81-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-81-29v-(1).jpg" xml:id="PN81-1"></graphic>
 
-        <graphic url="imagenes/PN1-81-29v-(2).jpg" xml:id="PN81-2"></graphic>
+        <graphic url="../TEI/imagenes/PN1-81-29v-(2).jpg" xml:id="PN81-2"></graphic>
     </facsimile>
     
 
@@ -98,7 +98,7 @@
                 met="8x10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor. No se especifica el nombre del
-                        poesta al que <persName ref="#JAB">Baena</persName> responde, aunque, por la
+                        poeta al que <persName ref="#JAB">Baena</persName> responde, aunque, por la
                         pregunta anterior, sabemos que es <persName ref="#AAV">Villasandino</persName>
                </note>
 

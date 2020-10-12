@@ -64,11 +64,11 @@
         </teiHeader>
         
     <facsimile>
-        <graphic url="imagenes/PN1-80-29r-(0).jpg" xml:id="PN80-0"></graphic>
+        <graphic url="../TEI/imagenes/PN1-80-29r-(0).jpg" xml:id="PN80-0"></graphic>
    
-        <graphic url="imagenes/PN1-80-29v-(1).jpg" xml:id="PN80-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-80-29v-(1).jpg" xml:id="PN80-1"></graphic>
 
-        <graphic url="imagenes/PN1-80-29v-(2).jpg" xml:id="PN80-2"></graphic>
+        <graphic url="../TEI/imagenes/PN1-80-29v-(2).jpg" xml:id="PN80-2"></graphic>
     </facsimile>
     
     

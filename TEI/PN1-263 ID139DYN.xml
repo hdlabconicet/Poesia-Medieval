@@ -9,7 +9,7 @@
                 <title>Johan Alfonso alçad la cara</title>
                 <title type="incipit">Johan Alfonso alçad la cara</title>
                 <author ref="#FML">Ferrán Manuel de Lando</author>
-                <author role="atr">Ferrán Manuel de Lando</author>
+             
                 <editor>Gabriel Calarco</editor>
             </titleStmt>
             <publicationStmt>
@@ -54,11 +54,11 @@
     </teiHeader>
 
     <facsimile>
-        <graphic url="imagenes/PN1-263-87v-(0).jpg" xml:id="PN263-0"></graphic>
+        <graphic url="../TEI/imagenes/PN1-263-87v-(0).jpg" xml:id="PN263-0"></graphic>
 
-        <graphic url="imagenes/PN1-263-88r-(1).jpg" xml:id="PN263-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-263-88r-(1).jpg" xml:id="PN263-1"></graphic>
 
-        <graphic url="imagenes/PN1-263-88r-(2).jpg" xml:id="PN263-2"></graphic>
+        <graphic url="../TEI/imagenes/PN1-263-88r-(2).jpg" xml:id="PN263-2"></graphic>
     </facsimile>
     
     

@@ -9,7 +9,7 @@
                 <title>Señor mucho andades fuera</title>
                 <title type="incipit">Señor mucho andades fuera</title>
                 <author ref="#FML">Ferrán Manuel de Lando</author>
-                <author role="atr">Ferrán Manuel de Lando</author>
+              
                 <editor>Gabriel Calarco</editor>
             </titleStmt>
             <publicationStmt>
@@ -55,9 +55,9 @@
 
 
     <facsimile>
-        <graphic url="imagenes/PN1-271-89v-(0).jpg" xml:id="PN271-0"></graphic>
+        <graphic url="../TEI/imagenes/PN1-271-89v-(0).jpg" xml:id="PN271-0"></graphic>
 
-        <graphic url="imagenes/PN1-271-89v-(1).jpg" xml:id="PN271-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-271-89v-(1).jpg" xml:id="PN271-1"></graphic>
     </facsimile>
     
     

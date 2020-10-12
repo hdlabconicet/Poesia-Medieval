@@ -9,7 +9,7 @@
                 <title>En la muy alta cadera</title>
                 <title type="incipit">En la muy alta cadera</title>
                 <author ref="#AMO">Alfonso de Moraña</author>
-                <author role="atr">Alfonso de Moraña</author>
+                
                 <editor>Gabriel Calarco</editor>
             </titleStmt>
             <publicationStmt>
@@ -55,9 +55,9 @@
     
     
     <facsimile>
-        <graphic url="imagenes/PN1-270-89r-(1).jpg" xml:id="PN270-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-270-89r-(1).jpg" xml:id="PN270-1"></graphic>
 
-        <graphic url="imagenes/PN1-270-89r-(2).jpg" xml:id="PN270-2"></graphic>
+        <graphic url="../TEI/imagenes/PN1-270-89r-(2).jpg" xml:id="PN270-2"></graphic>
     </facsimile>
     
     

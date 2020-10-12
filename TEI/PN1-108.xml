@@ -72,14 +72,14 @@
     
     
     <facsimile>
-        <graphic url="imagenes/PN1-108-38r-(1).jpg" xml:id="PN108-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-108-38r-(1).jpg" xml:id="PN108-1"></graphic>
     </facsimile>
 
     <text>
         <body>
 
             <note>Falta la rúbrica. Por la siguiente pieza, que es una respuesta de Pero Carrillo a
-                Villasandino, sabemos que esta es una pregunta de AAV a este. Por la cantidad de
+                Villasandino, sabemos que esta es una pregunta de A. A. Villasandino a este. Por la cantidad de
                 estrofas que tiene la respuesta podemos pensar que esta pieza está incompleta</note>
 
 <pb facs="#PN108-1"/>

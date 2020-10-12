@@ -9,7 +9,7 @@
                 <title>Lindo fidalgo ley la seguida</title>
                 <title type="incipit">Lindo fidalgo ley la seguida</title>
                 <author ref="#JAB">Juan Alfonso de Baena</author>
-                <author role="atr">Juan Alfonso de Baena</author>
+            
                 <editor>Gabriel Calarco</editor>
             </titleStmt>
             <publicationStmt>
@@ -55,7 +55,7 @@
     
     
     <facsimile>
-        <graphic url="imagenes/PN1-265-88v-(1).jpg" xml:id="PN265-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-265-88v-(1).jpg" xml:id="PN265-1"></graphic>
     </facsimile>
     
     

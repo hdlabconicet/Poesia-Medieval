@@ -70,9 +70,9 @@
     </teiHeader>
     
     <facsimile>
-        <graphic url="imagenes/PN1-91-32r-(0).jpg" xml:id="PN91-0"></graphic>
+        <graphic url="../TEI/imagenes/PN1-91-32r-(0).jpg" xml:id="PN91-0"></graphic>
   
-        <graphic url="imagenes/PN1-91-32r-(1).jpg" xml:id="PN91-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-91-32r-(1).jpg" xml:id="PN91-1"></graphic>
     </facsimile>
 
     <text>

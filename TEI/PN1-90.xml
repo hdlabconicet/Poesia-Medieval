@@ -68,11 +68,11 @@
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="imagenes/PN1-90-32r-(0).jpg" xml:id="PN90-0"></graphic>
+        <graphic url="../TEI/imagenes/PN1-90-32r-(0).jpg" xml:id="PN90-0"></graphic>
    
-        <graphic url="imagenes/PN1-90-32r-(1).jpg" xml:id="PN90-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-90-32r-(1).jpg" xml:id="PN90-1"></graphic>
 
-        <graphic url="imagenes/PN1-90-32r-(2).jpg" xml:id="PN90-2"></graphic>
+        <graphic url="../TEI/imagenes/PN1-90-32r-(2).jpg" xml:id="PN90-2"></graphic>
     </facsimile>
     <text>
         <body>

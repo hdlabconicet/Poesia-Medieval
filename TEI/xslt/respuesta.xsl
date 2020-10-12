@@ -82,6 +82,7 @@
     <!-- Transformaciones -->
     
     
+    
     <xsl:template match="//graphic">
         <a>
             <xsl:attribute name="href">
@@ -117,7 +118,11 @@
         </div>
     </xsl:template>
     
-    
+    <xsl:template match="//note">
+        <p class="nota">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template> 
     
     <xsl:template match="//lg//l">
         <p class="verso">
