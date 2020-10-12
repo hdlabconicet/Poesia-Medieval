@@ -67,13 +67,13 @@
 
 
     <facsimile>
-        <graphic url="imagenes/PN1-83-30r-(0).jpg" xml:id="PN83-0"></graphic>
+        <graphic url="../TEI/imagenes/PN1-83-30r-(0).jpg" xml:id="PN83-0"></graphic>
 
-        <graphic url="imagenes/PN1-83-30v-(1).jpg" xml:id="PN83-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-83-30v-(1).jpg" xml:id="PN83-1"></graphic>
 
-        <graphic url="imagenes/PN1-83-30v-(2).jpg" xml:id="PN83-2"></graphic>
+        <graphic url="../TEI/imagenes/PN1-83-30v-(2).jpg" xml:id="PN83-2"></graphic>
  
-        <graphic url="imagenes/PN1-83-30v-(3).jpg" xml:id="PN83-3"></graphic>
+        <graphic url="../TEI/imagenes/PN1-83-30v-(3).jpg" xml:id="PN83-3"></graphic>
     </facsimile>
 
     <text>

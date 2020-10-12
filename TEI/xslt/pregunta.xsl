@@ -24,7 +24,8 @@ button: siquieromiboton
             <div class="row clearfix">
                 <div class="col-left px-3">
                     <h1><xsl:apply-templates select="//title[1]"/></h1>
-                </div></div>
+                </div>
+            </div>
             
         <div class="row clearfix">
         <div class="col-left px-3">

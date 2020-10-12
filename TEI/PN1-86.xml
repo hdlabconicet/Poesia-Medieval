@@ -6,8 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Non tengo que siente la naturaleza</title>
-                <title type="incipit">Non tengo que siente la naturaleza</title>
+                <title>Maestro, yo fallo por cierta pesquisa</title>
+                <title type="incipit">Maestro, yo fallo por cierta pesquisa</title>
 
                 <author ref="#BSA">Bachiller en Artes de Salamanca</author>
 
@@ -69,11 +69,11 @@
     
     
     <facsimile>
-        <graphic url="imagenes/PN1-86-31r-(0).jpg" xml:id="PN86-0"></graphic>
+        <graphic url="../TEI/imagenes/PN1-86-31r-(0).jpg" xml:id="PN86-0"></graphic>
 
-        <graphic url="imagenes/PN1-86-31r-(1).jpg" xml:id="PN86-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-86-31r-(1).jpg" xml:id="PN86-1"></graphic>
 
-        <graphic url="imagenes/PN1-86-31v-(2).jpg" xml:id="PN86-2"></graphic>
+        <graphic url="../TEI/imagenes/PN1-86-31v-(2).jpg" xml:id="PN86-2"></graphic>
     </facsimile>
 
     <text>
@@ -98,7 +98,7 @@
                 asonancia="consonante"
                 met="8x10"
                 rhyme="ABBAACCA">
-                    <note> Se trata de una pieza de arte mayor. Falta la respuesta</note>
+                    <note> Se trata de una pieza de arte mayor.</note>
                     <lg n="1"
                    type="octava"
                    met="8x10"
@@ -115,7 +115,7 @@
                   </l>
                         <l xml:id="L5">por ende la vuestra memoria env<rhyme label="isa">issa</rhyme>
                   </l>
-                        <l xml:id="L6">luego me responda e dé su raz<rhyme label="on">"on</rhyme>,</l>
+                        <l xml:id="L6">luego me responda e dé su raz<rhyme label="on">on</rhyme>,</l>
                         <l xml:id="L7">aquesta demanda e ruda quisti<rhyme label="on">ón</rhyme>
                   </l>
                         <l xml:id="L8">que <rs ref="#BSA">yo</rs>

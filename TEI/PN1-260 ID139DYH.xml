@@ -8,7 +8,7 @@
             <titleStmt>
                 <title>En coplas llenas de azoge</title>
                 <title type="incipit">En coplas llenas de azoge</title>
-                <author>Ferrán Manuel de Lando</author>
+              
                 <author role="atr" ref="#FML">Ferrán Manuel de Lando</author>
                 <editor>Gabriel Calarco</editor>
             </titleStmt>
@@ -56,9 +56,9 @@
     
     
     <facsimile>
-        <graphic url="imagenes/PN1-260-87r-(1).jpg" xml:id="PN260-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-260-87r-(1).jpg" xml:id="PN260-1"></graphic>
         
-        <graphic url="imagenes/PN1-260-87r-(2).jpg" xml:id="PN260-2"></graphic>
+        <graphic url="../TEI/imagenes/PN1-260-87r-(2).jpg" xml:id="PN260-2"></graphic>
     </facsimile>
     
     <text>

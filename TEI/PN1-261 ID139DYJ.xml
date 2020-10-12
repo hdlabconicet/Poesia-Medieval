@@ -9,7 +9,7 @@
                 <title>Señor pocas noches yogue</title>
                 <title type="incipit">Señor pocas noches yogue</title>
                 <author ref="#JAB">Juan Alfonso de Baena</author>
-                <author role="atr">Juan Alfonso de Baena</author>
+            
                 <editor>Gabriel Calarco</editor>
             </titleStmt>
             <publicationStmt>
@@ -56,9 +56,9 @@
     
     
     <facsimile>
-        <graphic url="imagenes/PN1-261-87v-(0).jpg" xml:id="PN261-0"></graphic>
+        <graphic url="../TEI/imagenes/PN1-261-87v-(0).jpg" xml:id="PN261-0"></graphic>
 
-        <graphic url="imagenes/PN1-261-87v-(1).jpg" xml:id="PN261-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-261-87v-(1).jpg" xml:id="PN261-1"></graphic>
     </facsimile>
     
     

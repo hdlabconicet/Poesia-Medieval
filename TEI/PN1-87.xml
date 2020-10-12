@@ -11,7 +11,7 @@
 
                 <title type="incipit">Todos los discretos perder deven rissa</title>
 
-                <author ref="#BSA">Bachiller en Artes de Salamanca</author>
+                <author ref="#BSA">Alfonso Álvarez de Villasandino</author>
 
 
                 <editor xml:id="GDR">Gimena del Rio</editor>
@@ -69,11 +69,11 @@
     </teiHeader>
 
     <facsimile>
-        <graphic url="imagenes/PN1-87-31v-(0).jpg" xml:id="PN87-0"></graphic>
+        <graphic url="../TEI/imagenes/PN1-87-31v-(0).jpg" xml:id="PN87-0"></graphic>
     
-        <graphic url="imagenes/PN1-87-31v-(1).jpg" xml:id="PN87-1"></graphic>
+        <graphic url="../TEI/imagenes/PN1-87-31v-(1).jpg" xml:id="PN87-1"></graphic>
  
-        <graphic url="imagenes/PN1-87-31v-(2).jpg" xml:id="PN87-2"></graphic>
+        <graphic url="../TEI/imagenes/PN1-87-31v-(2).jpg" xml:id="PN87-2"></graphic>
     </facsimile>
 
 
@@ -82,9 +82,12 @@
             <pb facs="#PN87-0"/>
             
             <head type="rúbrica"> Esta <term cRef="163">respuesta</term> fizo e ordenó el dicho
-                    <persName ref="#AAV">Alfonso Álvarez de Villasandino</persName> contra la <term cRef="162">pregunta</term> qu´el dicho <persName ref="#BSA">Bachiller</persName> le fizo <note>Corrijo la primera aparición de la palabra
+                    <persName ref="#AAV">Alfonso Álvarez de Villasandino</persName> contra la <term cRef="162">pregunta</term> qu´el dicho <persName ref="#BSA">Bachiller</persName> le fizo 
+                
+                <note>Corrijo la primera aparición de la palabra
                     *pregunta* por *respuesta* en un claro error por atracción de parte del copista.
                 </note>
+            
             </head>
 
             <pb facs="#PN87-1"/>
