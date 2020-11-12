@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/C:/Users/Gisella/Desktop/TEI/esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Esta é a Madre de Nostro Sennor</title>
+                <author>Alfonso X</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Rocío Méndez</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Códice de los músicos/Códice Rico o del Escorial</repository>
+                        <idno>E170/T170</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="E170" from="162r" to="162v"/>
+                            <locus xml:id="T170" from="227r" to="227r"/>
+                            <idno xml:id="CSM170"/>
+                            <filiation type="base">
+                                <ref target="#DH533"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="mariana" unisonancia="singular" isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" asonancia="consonante" met="6x10" rhyme="aaacCC">
+                
+                <head type="rúbrica">Esta é de loor</head>
+                
+                <lg n="1" type="estrofa" met="4x10" rhyme="aaac">
+                    <l xml:id="L1">Esta é a Madre de Nostro Senn<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L2">Santa Maria, que sempr'é mell<rhyme label="or">or</rhyme>;</l>
+                    <l xml:id="L3">poren lle devemos a dar lo<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L4">e nona podemos loar ass<rhyme label="az">az</rhyme>.</l>
+                </lg>
+                <lg type="estribillo" met="2x10" rhyme="CC">
+                    <l xml:id="L5">Loar devemos a que sempre f<rhyme label="az">az</rhyme></l>
+                    <l xml:id="L6">ben e en que toda mesura j<rhyme label="az">az</rhyme>.</l>
+                </lg>
+               <lg n="2" type="estrofa" met="4x10" rhyme="aaac">
+                   <l xml:id="L7">Ca, en qual guisa podemos lo<rhyme label="ar">ar</rhyme></l>
+                   <l xml:id="L8">muit'a aquela que nos foi mostr<rhyme label="ar">ar</rhyme></l>
+                   <l xml:id="L9">a Deus en carne e nos fez salv<rhyme label="ar">ar</rhyme></l>
+                  <l xml:id="L10">e nos meteu dos santos en ssa <rhyme label="az">az</rhyme>?</l>
+               </lg>     
+               <lg type="estribillo" met="2x10" rhyme="CC">
+                   <l xml:id="L11">Loar devemos a que sempre f<rhyme label="az">az</rhyme></l>
+                   <l xml:id="L12">ben e en que toda mesura j<rhyme label="az">az</rhyme>.</l>
+               </lg>
+               <lg n="3" type="estrofa" met="4x10" rhyme="aaac">
+                   <l xml:id="L13">Par Deus, loada mui de coraç<rhyme label="on">on</rhyme></l>
+                   <l xml:id="L14">deve seer dos que no mundo s<rhyme label="on">on</rhyme>;</l>
+                   <l xml:id="L15">ca ûus faz salvar, outros perd<rhyme label="on">on</rhyme></l>
+                   <l xml:id="L16">gaanna[n], e o mundo met'en p<rhyme label="az">az</rhyme>.</l>
+               </lg>
+               <lg type="estribillo" met="2x10" rhyme="CC">
+                   <l xml:id="L17">Loar devemos a que sempre f<rhyme label="az">az</rhyme></l>
+                       <l xml:id="L18">ben e en que toda mesura j<rhyme label="az">az</rhyme>.</l>
+               </lg>
+                <lg n="4" type="estrofa" met="4x10" rhyme="aaac">
+                    <l xml:id="L19">Loada deve seer mais d'outra r<rhyme label="en">en</rhyme></l>
+                    <l xml:id="L20">a que tolle mal senpr'e trage b<rhyme label="en">en</rhyme></l>
+                    <l xml:id="L21">e por nos roga, e que nos mant<rhyme label="en">en</rhyme></l>
+                    <l xml:id="L22">e nos defende do demo malv<rhyme label="az">az</rhyme>.</l>
+                </lg>
+              <lg type="estribillo" met="2x10" rhyme="CC">
+                  <l xml:id="L23">Loar devemos a que sempre f<rhyme label="az">az</rhyme></l>
+                  <l xml:id="L24">ben e en que toda mesura j<rhyme label="az">az</rhyme>.</l>
+              </lg>
+              <lg n="5" type="estrofa" met="4x10" rhyme="aaac">
+                  <l xml:id="L25">De mi vos digo que a loar<rhyme label="ei">ei</rhyme></l>
+                <l xml:id="L26">mentre for vivo, e sempre dir<rhyme label="ei">ei</rhyme></l>
+                  <l xml:id="L27">ben dos seus bẽes, ca de certo s<rhyme label="ei">ei</rhyme></l>
+                   <l xml:id="L28">que, pois morrer, que verei a sa f<rhyme label="az">az.</rhyme></l>
+              </lg>
+                  <lg type="estribillo" met="2x10" rhyme="CC">
+                  <l xml:id="L29">Loar devemos a que sempre f<rhyme label="az">az</rhyme></l>
+                  <l xml:id="L30">ben e en que toda mesura j<rhyme label="az">az.</rhyme></l>
+                  </lg>
+                   </lg>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Joan Bolo jouv’ en ũa pousada</title>
+                <author>Don Denis</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa</repository>
+                        <idno>B1335</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B1335" from="321r" to="321r"/>
+                            <idno xml:id="DH1554"/>
+                            <filiation type="contrafactum">
+                                <ref target="#CSM414"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <lg type="cantiga" subtype="maestría" style="escarnio" unisonancia="singular" isometrismo="isométrico" 
+                isoestrofismo="isoestrófico" asonancia="consonante" met="7x10" rhyme="abbacca">
+                
+                <lg n="1" type="estrofa" met="7x10" rhyme="abbacca">
+                    <l xml:id="L1">Joan Bolo jouv’ en ũa pous<rhyme label="ada">ada</rhyme>,</l>
+                    <l xml:id="L2">ben des ogano que da era pass<rhyme label="ou">ou</rhyme>,</l>
+                    <l xml:id="L3">con medo do meirinho que lh’ach<rhyme label="ou">ou</rhyme></l>
+                    <l xml:id="L4">ũa mua que tragia neg<rhyme label="ada">ada</rhyme>,</l>
+                    <l xml:id="L5">pero diz el que se lhi for mest<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L6">que provará ante qual juiz qu<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L7">que a trouxe sempre des que foi n<rhyme label="ada">ada</rhyme>.</l>
+            </lg>
+            
+                <lg n="2" type="estrofa" met="7x10" rhyme="abbacca">
+                    <l xml:id="L8">Esta mũa pod’el provar por s<rhyme label="ua">ua</rhyme>,</l>
+                    <l xml:id="L9">que a non pod’ome d’ele lev<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L10">pelo dereito se a non forç<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L11">ca moran ben cento n’aquela r<rhyme label="ua">ua</rhyme>,</l>
+                    <l xml:id="L12">perque el poderá provar mui b<rhyme label="en">en</rhyme>,</l>
+                    <l xml:id="L13">que aquela mua que ora t<rhyme label="en">en</rhyme>,</l>
+                    <l xml:id="L14">que a teve sempre mentre foi m<rhyme label="ua">ua</rhyme>.</l>
+                </lg>
+            
+                <lg n="3" type="estrofa" met="7x10" rhyme="abbacca">
+                    <l xml:id="L15">Nõna perderá se ouver bon vog<rhyme label="ado">ado</rhyme>,</l>
+                    <l xml:id="L16">pois el pode per enquisas põ<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L17">como lh’a viron criar e trag<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L18">en cas sa madr’u foi el cri<rhyme label="ado">ado</rhyme>,</l>
+                    <l xml:id="L19">e provará per maestre Rein<rhyme label="el">el</rhyme></l>
+                    <l xml:id="L20">que lha guardou ben dez meses d’aqu<rhyme label="el">el</rhyme></l>
+                    <l xml:id="L21">cerro, ou ben doze, que trag’inch<rhyme label="ado">ado</rhyme>.</l>
+                </lg>
+            
+            </lg>
+        </body>
+    </text>
+</TEI>

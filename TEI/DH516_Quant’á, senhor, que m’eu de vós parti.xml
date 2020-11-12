@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/C:/Users/Gisella/Desktop/TEI/esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Quant’á, senhor, que m’eu de vós parti</title>
+                <author>Don Denis</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Rocío Méndez</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B518/V101</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B518" from="114v" to="114v"/>
+                            <locus xml:id="V101" from="11r" to="11r"/>
+                            <idno xml:id="DH516"/>
+                            <filiation type="contrafactum"> 
+                                <ref target="#CSM326"/> 
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="amor" unisonancia="singular" isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" asonancia="consonante" met="6x10" rhyme="abbaCC">
+                
+                
+            <lg n="1" type="estrofa" met="4x10" rhyme="abba">
+                <l xml:id="L1">Quant’á, senhor, que m’eu de vós part<rhyme label="i">i</rhyme>,</l>
+                    <l xml:id="L2">atan muit’á que nunca vi praz<rhyme label="i">er</rhyme></l>
+                        <l xml:id="L3">nen pesar, e querovos eu diz<rhyme label="i">er</rhyme>,</l>
+                            <l xml:id="L4">como prazer nen pesar nen er v<rhyme label="i">i</rhyme>,</l>
+            </lg>
+               <lg type="estribillo" met="2x10" rhyme="CC">
+                   <l xml:id="L5">perdi o sén e non poss’estrem<rhyme label="i">ar</rhyme></l>
+                       <l xml:id="L6">o ben do mal, nen prazer do pes<rhyme label="i">ar</rhyme>.</l>
+               </lg>                       
+                    <lg n="2" type="estrofa" met="4x10" rhyme="abba">
+                        <l xml:id="L7">E des que m’eu, senhor, per boa f<rhyme label="i">e</rhyme>,</l>
+                            <l xml:id="L8">de vós parti, creed’agora b<rhyme label="i">en</rhyme></l>
+                                <l xml:id="L9">que non vi prazer nen pesar de r<rhyme label="i">en</rhyme>,</l>
+                                    <l xml:id="L10">e aquesto direivos por qu’<rhyme label="i">é</rhyme>,</l> 
+                            </lg>                                        
+                  <lg type="estribillo" met="2x10" rhyme="CC">
+                      <l xml:id="L11">perdi o sén e non poss’estrem<rhyme label="i">ar</rhyme></l>
+                          <l xml:id="L12">o ben do mal, nen prazer do pes<rhyme label="i">ar</rhyme>.</l>
+                  </lg> 
+                        <lg n="3" type="estrofa" met="4x10" rhyme="abba">
+                            <l xml:id="L13">Ca, mia senhor, ben des aquela v<rhyme label="i">ez</rhyme></l>
+                           <l xml:id="L14">que m’eu de vós parti, no coraç<rhyme label="i">on</rhyme></l>
+                          <l xml:id="L15">nunca ar ouv’eu pesar des ent<rhyme label="i">on</rhyme></l>
+                             <l xml:id="L16">nen prazer, e direivos que mi o f<rhyme label="i">ez</rhyme>,</l>      
+                        </lg>                             
+                <lg type="estribillo" met="2x10" rhyme="CC">
+                    <l xml:id="L17">perdi o sén e non poss’estrem<rhyme label="i">ar</rhyme></l>
+                     <l xml:id="L18">o ben do mal, nen prazer do pes<rhyme label="i">ar</rhyme>.</l>
+                </lg>
+            </lg>
+        </body>
+       
+    </text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/C:/Users/Gisella/Desktop/TEI/esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Com’ousará parecer ante mi</title>
+                <author>Don Denis</author>
+                <editor resp="critica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Rocío Méndez</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B571/V175</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B571" from="127v" to="127v">127v</locus>
+                            <locus xml:id="V175" from="23v" to="23v">23v</locus>
+                            <idno xml:id="DH589"/>
+                            <filiation type="contrafactum">
+                                <ref target="#CSM415"/></filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="amigo" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x10" rhyme="abbaCC">
+                
+                <lg n="1" type="estrofa" met="4x10" rhyme="abba"> 
+                    <l xml:id="L1">Com’ousará parecer ante m<rhyme label="i">i</rhyme>,</l>
+                    <l xml:id="L2">o meu amig’,  ai amiga, por D<rhyme label="eus">eus</rhyme>,</l>
+                    <l xml:id="L3">e com’ousará catar estes m<rhyme label="eus">eus</rhyme></l>
+                    <l xml:id="L4">olhos  se o Deus trouxer per aqu<rhyme label="i">i</rhyme>?</l>
+                </lg>
+                <lg type="estribillo" met="2x10" rhyme="CC"> 
+                    <l xml:id="L5">pois tan muit’a que vos veo ve<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L6">mi e meus olhos e meu parec<rhyme label="er">er</rhyme>.</l>
+                </lg> 
+                <lg n="2" type="estrofa" met="4x10" rhyme="abba"> 
+                    <l xml:id="L7">Amiga, ou como s’atrever<rhyme label="a">á</rhyme></l>
+                    <l xml:id="L8">de m’ousar sol dos seus olhos cat<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L9">se os meus olhos vir un pouc’alç<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L10">ou no coraçon, como o porr<rhyme label="a">á</rhyme>?</l>
+                </lg> 
+                <lg type="estribillo" met="2x10" rhyme="CC"> 
+                    <l xml:id="L11">pois tan muit’a que vos veo ve<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L12">mi e meus olhos e meu parec<rhyme label="er">er</rhyme>.</l>
+                </lg> 
+                <lg n="3" type="estrofa" met="4x10" rhyme="abba">
+                    <l xml:id="L13">Ca sei que non terrá el por raz<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L14">como quer que m’aja mui grand’am<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L15">de m’ousar veer nen chamar senh<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L16">nen sol non o porrá no coraç<rhyme label="on">on</rhyme>,</l>
+                </lg>
+                <lg type="estribillo" met="2x10" rhyme="CC">     
+                    <l xml:id="L17">pois tan muit’a que vos veo ve<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L18">mi e meus olhos e meu parec<rhyme label="er">er</rhyme>.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>
