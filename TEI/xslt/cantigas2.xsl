@@ -30,7 +30,7 @@ button: siquieromiboton
         <div class="row clearfix">
         <div class="col-right px-3">
             <p class="rubrica">
-                <xsl:apply-templates select="//body/head"/>
+                <xsl:apply-templates select="//head"/>
             </p>
         </div>
         </div>

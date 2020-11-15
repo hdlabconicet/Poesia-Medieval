@@ -40,7 +40,7 @@
     <text>
         <body>
             <lg type="cantiga" subtype="refrán" style="amor" unisonancia="singular" isometrismo="isométrico" 
-                isoestrofismo="heteroestrófico" asonancia="consonante" met="6x10" rhyme="abbaCC">
+                isoestrofismo="isoestrófico" asonancia="consonante" met="6x10" rhyme="abbaCC">
                 
                 
             <lg n="1" type="estrofa" met="4x10" rhyme="abba">
