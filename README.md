@@ -18,10 +18,6 @@ Repositorio de proyectos HD CAICYT Lab / IIBICRIT sobre poesía medieval y Filo:
 	
   Gabriel Calarco (UBA)
 	
-  Irene Mangiarotti (UBA)
-	
-  Clara Lay (UBA)
-	
   Eleonora Wachsmann (UBA)
 	
   Rocío Méndez (UBA)
