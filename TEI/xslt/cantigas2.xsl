@@ -13,7 +13,7 @@
         <xsl:variable name="doc_id" select="//msItem/idno/@xml:id"/> <!-- Recuperamos el id del documento en una variable para nombrar el archivo de salida -->
         <!-- Redirigir el resultado hacia un archivo -->        
         <xsl:result-document method="html" encoding="utf-8"
-            href="../../_cantigas/{$doc_id}-idno.html" omit-xml-declaration="yes">---
+            href="../_cantigas/{$doc_id}-idno.html" omit-xml-declaration="yes">---
 layout: pregunta_respuesta
 title: <xsl:apply-templates select="//title[1]"/> / incipit del otro poema        
 permalink: <xsl:apply-templates select="//$doc_id"/>-idno/
@@ -143,8 +143,4 @@ button: siquieromiboton
             </xsl:attribute>
             <xsl:apply-templates/>
         </span>
-    </xsl:template>   
-   
- 
-   
-</xsl:stylesheet>
+    </xsl:template></xsl:stylesheet>

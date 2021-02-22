@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Porque trobar é cousa en que jaz</title>
+                <author>Alfonso X</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Códice de Toledo/Códice Rico o del Escorial</repository>
+                        <idno>ToPrólogo/TPrólogo</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="ToPrólogo" from="9v" to="10r"/>
+                            <locus xml:id="TPrólogo"/> <!--The Oxford Database no proporciona la localización de este poema -->
+                            <idno xml:id="CSM429"/> <!--Prólogo B-->
+                            <filiation type="base">
+                                <ref target="#DH502"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="maestría" style="mariana" unisonancia="singular" isometrismo="isométrico"      
+                isoestrofismo="isoestrófico" asonancia="consonante" met="6x10" rhyme="aaabab">                          
+                
+                <head type="rúbrica">Este é o Prologo das Cantigas de Santa Maria, ementando as cousas
+                    que á menester eno trobar</head> 
+                
+                <lg n="1" type="estrofa" met="6x10" rhyme="aaabab">
+                    <l xml:id="L1">Porque trobar é cousa en que j<rhyme label="az">az</rhyme></l>
+                    <l xml:id="L2">entendimento, poren queno f<rhyme label="az">az</rhyme></l>
+                    <l xml:id="L3">á-o d'aver e de razon ass<rhyme label="az">az</rhyme>,</l>
+                    <l xml:id="L4">per que entenda e sábia de diz<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L5">o que entenda'e de dizer lle pr<rhyme label="az">az</rhyme>,</l>
+                    <l xml:id="L6">ca ben trobar assi s'á de faz<rhyme label="er">er</rhyme>.</l>
+            </lg>
+            
+                <lg n="2" type="estrofa" met="6x10" rhyme="aaabab">
+                    <l xml:id="L7">E macar eu estas duas non <rhyme label="ei">ey</rhyme></l>
+                    <l xml:id="L8">com'eu querria, pero provar<rhyme label="ei">ei</rhyme></l>
+                    <l xml:id="L9">a mostrar ende un pouco que s<rhyme label="ei">ei</rhyme>,</l>
+                    <l xml:id="L10">confiand'en Deus, ond'o saber v<rhyme label="en">en</rhyme>;</l>
+                    <l xml:id="L11">ca per ele tenno que poder<rhyme label="ei">ei</rhyme></l>
+                    <l xml:id="L12">mostrar do que quero algua r<rhyme label="en">en</rhyme>.</l>
+                </lg>
+            
+                <lg n="3" type="estrofa" met="6x10" rhyme="aaabab">
+                    <l xml:id="L13">E o que quero é dizer lo<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L14">da Virgen, Madre de nostro Senh<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L15">Santa Maria, que ést'a mell<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L16">cousa que el fez; e por aquest'<rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L17">quero seer oimais seu trobad<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L18">e rogolle que me queira por s<rhyme label="eu">eu</rhyme></l>
+                </lg>
+            
+                <lg n="4" type="estrofa" met="6x10" rhyme="aaabab">
+                    <l xml:id="L19">Trobador e que queira meu trob<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L20">reçeber, ca per el quer'eu mostr<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L21">dos miragres que ela fez; e <rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L22">querreime leixar de trobar des <rhyme label="i">i</rhyme></l>
+                    <l xml:id="L23">por outra dona, e cuid'a cobr<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L24">per esta quant'enas outras perd<rhyme label="i">i</rhyme>.</l>
+                </lg>
+            
+                <lg n="5" type="estrofa" met="6x10" rhyme="aaabab">
+                    <l xml:id="L25">Ca o amor desta Sen(n)or é t<rhyme label="al">al</rhyme>,</l>
+                    <l xml:id="L26">que queno á sempre per i mais v<rhyme label="al">al</rhyme>;</l>
+                    <l xml:id="L27">e poilo gaannad' á, non lle f<rhyme label="al">al</rhyme>,</l>
+                    <l xml:id="L28">senon se é per sa grand'ocaj<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L29">querendo leixar ben e fazer m<rhyme label="al">al</rhyme>,</l>
+                    <l xml:id="L30">ca per esto o perde e per al n<rhyme label="on">on</rhyme>.</l>
+                </lg>
+            
+                <lg n="6" type="estrofa" met="6x10" rhyme="aaabab">
+                    <l xml:id="L31">Poren d'ela non me quer'eu part<rhyme label="ir">ir</rhyme>,</l>
+                    <l xml:id="L32">ca sei de pran que, se a ben serv<rhyme label="ir">ir</rhyme>,</l>
+                    <l xml:id="L33">que non poderei en seu ben fal<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L34">de o aver, ca nunca y fal<rhyme label="iu">iu</rhyme></l>
+                    <l xml:id="L35">quen llo soube con merçee ped<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L36">ca tal rogo sempr'ela ben o<rhyme label="iu">yu</rhyme>.</l>
+                </lg>
+            
+                <lg n="7" type="estrofa" met="6x10" rhyme="aaabab">
+                    <l xml:id="L37">Onde lle rogo, se ela quis<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L38">que lle praza do que dela diss<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L39">en meus cantares e, se ll'aprougu<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L40">que me dé galardon com'ela d<rhyme label="a">á</rhyme></l>
+                    <l xml:id="L41">aos que ama; e queno soub<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L42">por ela mais de grado trobar<rhyme label="a">á</rhyme>.</l>
+                </lg>
+                
+            </lg>
+        </body>
+    </text>
+</TEI>
+
+

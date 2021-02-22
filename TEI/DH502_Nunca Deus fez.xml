@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Nunca Deus fez tal coita qual eu ei</title>
+                <author>Don Denis</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B504/V87</idno>                       
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B504" from="112r" to="112r"/>
+                            <locus xml:id="V87" from="8v" to="8v"/>
+                            <idno xml:id="DH502"/>
+                            <filiation type="contrafactum">
+                                <ref target="CSM429"/> <!--prólogo B-->
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <lg type="cantiga" subtype="maestría" style="amor" unisonancia="singular" isometrismo="isométrico" 
+                isoestrofismo="isoestrófico" asonancia="consonante" met="6x10" rhyme="aaabab">
+                
+                <lg n="1" type="estrofa" met="6x10" rhyme="aaabab">  
+                    <l xml:id="L1">Nunca Deus fez tal coita qual eu <rhyme label="ei">ei</rhyme></l>                   
+                    <l xml:id="L2">con a ren do mundo que máis am<rhyme label="ei">ei</rhyme>,</l>
+                    <l xml:id="L3">e des que a vi e am’ e amar<rhyme label="ei">ei</rhyme>,</l>
+                    <l xml:id="L4">noutro dia quando a fui ve<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L5">o Demo lev’a ren que lh’eu fal<rhyme label="ei">ei</rhyme>,</l>
+                    <l xml:id="L6">de quanto lh’ante cuidara diz<rhyme label="er">er</rhyme>.</l>             
+            </lg>
+            
+                <lg n="2" type="estrofa" met="6x10" rhyme="aaabab">  
+                    <l xml:id="L7">Mais tanto, que me d’ant’ela quit<rhyme label="ei">ei</rhyme>.</l>
+                    <l xml:id="L8">do que ante cuidava me nembr<rhyme label="ei">ei</rhyme>,</l>
+                    <l xml:id="L9">que nulha cousa ende non mingu<rhyme label="ei">ei</rhyme>,</l>
+                    <l xml:id="L10">mais quand’er quis tornar pola ve<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L11">a lho dizer, e me ben esforç<rhyme label="ei">ei</rhyme>,</l>                         
+                    <l xml:id="L12">de lho contar sol non ouvi pod<rhyme label="er">er</rhyme>.</l>
+                </lg>
+                
+            </lg>
+        </body>
+    </text>
+</TEI>
