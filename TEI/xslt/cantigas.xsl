@@ -42,13 +42,28 @@ button: siquieromiboton
         </div>  
         
         
-            <div class="row clearfix">
-                <div class="col-left px-3">
-                    <div class="highlight">
-                    <xsl:apply-templates select="//graphic"/>
-                </div>
-            </div>
-          </div>
+   <!-- fila de audio -->
+<div class="row clearfix">
+   <div class="col-center px-3">
+     <div class="py-4">
+     <h3>
+     <xsl:apply-templates select="//title"/>
+     </h3>
+     <p class="rubrica">Melodía: Cantiga de Santa María nro, título</p>
+     <audio controls=""><source src="{{{site.baseurl}}}/assets/audios/{$doc_id}.mp3" type="audio/mpeg">Your browser does not support the audio element.</source></audio><!-- cambiar path al audio -->
+     </div>
+   </div>
+ </div>
+ 
+ <!-- fila de imagenes -->
+ <div class="row clearfix">
+ 
+   <div class="col-center px-3">
+     <div class="highlight">
+      <a href="../assets/partituras/{$doc_id}.jpg"><img src="../assets/partituras/{$doc_id}.jpg"></img></a>
+    </div>
+   </div>
+   </div>
             
             <div class="row clearfix">
                 <div class="col-left px-3">
