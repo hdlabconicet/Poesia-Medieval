@@ -1,0 +1,84 @@
+<TEI>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>das2</title>
+			<title type="incipit">dsad</title>
+			<author>sadas</author>
+			<author>dqwd</author>
+			<author role="atr">qwdqw</author>
+			<editor>dqwdqwd</editor>
+		</titleStmt>
+		<publicationStmt>
+			<publisher>Diálogo Medieval</publisher>
+			<availability>
+				<licence>Creative Commons Reconocimiento – CompartirIgual (by-sa)</licence>
+			</availability>
+		</publicationStmt>
+	<sourceDesc>
+	<listBibl>
+	<bibl type='url'>
+	<![CDATA[fewfewf >]]>
+	</bibl>
+	</listBibl>
+		<msDesc>
+			<msIdentifier>
+				<repository>wqedwqedf</repository>
+				<idno>dsd</idno>
+				<altIdentifier>
+					<idno type="weqfewqf"/>
+				</altIdentifier>
+			</msIdentifier>
+			<msContents>
+				<msItem>
+					<locus from="wefwe" to="fwefwe"></locus>
+					<index><term type="wefewf"/></index>
+				</msItem>
+			</msContents>
+		</msDesc>
+	</sourceDesc>
+	</fileDesc>
+	<profileDesc>
+		<particDesc>
+			<listPerson>
+				<person xml:id="fwefwef">
+					<persName type="standard">fewfwe</persName>
+					<persName type="form">dwedewdfwef</persName>
+				</person>
+				<person xml:id="ewdfwef">
+					<persName type="standard">dasd</persName>
+					<persName type="form">swqdfwe</persName>
+				</person>
+			</listPerson>
+		</particDesc>
+		<settingDesc>
+			<listPlace>
+				<place xml:id="sfdfsd">
+					<placeName>dasdas</placeName>
+				</place>
+			</listPlace>
+		</settingDesc>
+		<textClass>
+			<keywords scheme="PMC">
+				<term type="21e21">e12e</term>
+			</keywords>
+		</textClass>
+		<creation>
+			<origDate notAfter="1111" notBefore="22222">22222-1111</origDate>
+		</creation>
+		<langUsage>
+			<language ident="fwef">wefwe</language>
+		</langUsage>
+	</profileDesc>
+</teiHeader>
+<text>
+<body>
+	<lg n="1">
+		<l xml:id="L1">Cerrar podrá mis ojos la postrera</l>
+		<l xml:id="L2">sombra que me llevare el blanco día;</l>
+		<l xml:id="L3">y podrá desatar esta alma mía</l>
+		<l xml:id="L4">hora a su afán ansioso lisonjera.</l>
+	</lg>
+</body>
+</text>
+</TEI>
