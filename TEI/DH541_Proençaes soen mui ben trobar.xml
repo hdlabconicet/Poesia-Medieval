@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Proençaes soen mui ben trobar</title>
+                <author>Don Denis</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B524b/V127</idno>                       
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B524b" from="118v" to="119r"/>
+                            <locus xml:id="V127" from="15r" to="15v"/>
+                            <idno xml:id="DH541"/>
+                            <filiation type="contrafactum"> <!--contrafactum pendiente!!!-->
+                                <ref target="Can lerba fresch de Bernart de Ventadorn"/> 
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <lg type="cantiga" subtype="maestría" style="amor" unisonancia="singular" isometrismo="isométrico" 
+                isoestrofismo="isoestrófico" asonancia="consonante" met="6x11" rhyme="abbcca">
+
+
+                <lg n="1" type="estrofa"  met="6x11" rhyme="abbcca">
+                    <l xml:id="L1">Proençaes soen mui ben trob<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L2">e dizen eles que é con am<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L3">mais os que troban no tempo da fr<rhyme label="or">ol</rhyme></l>
+                    <l xml:id="L4">e non en outro, sei eu ben que n<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L5">an tan gran coita no seu coraç<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L6">qual m’ eu por mia senhor vejo lev<rhyme label="ar">ar</rhyme>.</l>
+                </lg>
+
+                    <lg n="2" type="estrofa"  met="6x11" rhyme="abbcca">
+                    <l xml:id="L7">Pero que troban e saben lo<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L8">sas senhores o mais e o melh<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L9">que eles poden soo sabed<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L10">que os que troban quand’ a frol saz<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L11">á e non ante, se Deus mi perd<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L12">non an tal coita qual eu ei sen p<rhyme label="ar">ar</rhyme>.</l>
+                </lg>
+
+                <lg n="3" type="estrofa"  met="6x11" rhyme="abbcca">
+                    <l xml:id="L13">Ca os que troban e que s’ alegr<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L14">van eno tempo que ten a col<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L15">a frol consig’ é tanto, que se f<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L16">aquel tempo log’ én trobar, raz<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L17">non an nen viven qual perdiç<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L18">oj’ eu vivo, que pois m’ á de mat<rhyme label="ar">ar</rhyme>.</l>
+                </lg>               
+
+            </lg>
+        </body>
+    </text>
+</TEI>
+
+
+

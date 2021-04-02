@@ -45,94 +45,94 @@
                     a Santa Maria de Salas e foi logo guarida.</head>
                 
                 <lg n="1" type="estrofa" met="4x7" rhyme="aaab">
-                    <l xml:id="L1">Ca de seu Fill'á sab<rhyme type="uda">uda</rhyme></l>
-                    <l xml:id="L2">fisica muit'ascond<rhyme type="uda">uda</rhyme>,</l>
-                    <l xml:id="L3">con que nos sempre aj<rhyme type="uda">uda</rhyme></l>
-                    <l xml:id="L4">e nos tolle todo m<rhyme type="al">al</rhyme>.</l>
+                    <l xml:id="L1">Ca de seu Fill'á sab<rhyme label="uda">uda</rhyme></l>
+                    <l xml:id="L2">fisica muit'ascond<rhyme label="uda">uda</rhyme>,</l>
+                    <l xml:id="L3">con que nos sempre aj<rhyme label="uda">uda</rhyme></l>
+                    <l xml:id="L4">e nos tolle todo m<rhyme label="al">al</rhyme>.</l>
                 </lg>
                 <lg type="estribillo" met="2x7" rhyme="BB">
-                    <l xml:id="L5">Ben sab'a que pod'e v<rhyme type="al">al</rhyme></l>
-                    <l xml:id="L6">fisica celesti<rhyme type="al">al</rhyme>.</l>
+                    <l xml:id="L5">Ben sab'a que pod'e v<rhyme label="al">al</rhyme></l>
+                    <l xml:id="L6">fisica celesti<rhyme label="al">al</rhyme>.</l>
                 </lg>  
                 <lg n="2" type="estrofa" met="4x7" rhyme="aaab">
-                    <l xml:id="L7">Esta Sennor de mes<rhyme type="ura">ura</rhyme></l>
-                    <l xml:id="L8">fisica sobre nat<rhyme type="ura">ura</rhyme></l>
-                    <l xml:id="L9">mostrou e quis aver c<rhyme type="ura">ura</rhyme></l>
-                    <l xml:id="L10">dûa moller, direi qu<rhyme type="al">al</rhyme>,</l>
+                    <l xml:id="L7">Esta Sennor de mes<rhyme label="ura">ura</rhyme></l>
+                    <l xml:id="L8">fisica sobre nat<rhyme label="ura">ura</rhyme></l>
+                    <l xml:id="L9">mostrou e quis aver c<rhyme label="ura">ura</rhyme></l>
+                    <l xml:id="L10">dûa moller, direi qu<rhyme label="al">al</rhyme>,</l>
                 </lg>
                 <lg type="estribillo" met="2x7" rhyme="BB">
-                    <l xml:id="L11">Ben sab'a que pod'e v<rhyme type="al">al</rhyme></l>
-                    <l xml:id="L12">fisica celesti<rhyme type="al">al</rhyme>.</l>
+                    <l xml:id="L11">Ben sab'a que pod'e v<rhyme label="al">al</rhyme></l>
+                    <l xml:id="L12">fisica celesti<rhyme label="al">al</rhyme>.</l>
                 </lg>
                 <lg n="3" type="estrofa" met="4x7" rhyme="aaab">    
-                    <l xml:id="L13">Que era toda tolle<rhyme type="ita">ita</rhyme></l>
-                    <l xml:id="L14">e das pernas encolle<rhyme type="ita">ita</rhyme>;</l>
-                    <l xml:id="L15">mas ela a fez dere<rhyme type="ita">ita</rhyme>,</l>
-                    <l xml:id="L16">ca ssa fisica non f<rhyme type="al">al</rhyme>.</l>
+                    <l xml:id="L13">Que era toda tolle<rhyme label="ita">ita</rhyme></l>
+                    <l xml:id="L14">e das pernas encolle<rhyme label="ita">ita</rhyme>;</l>
+                    <l xml:id="L15">mas ela a fez dere<rhyme label="ita">ita</rhyme>,</l>
+                    <l xml:id="L16">ca ssa fisica non f<rhyme label="al">al</rhyme>.</l>
                 </lg>
                 <lg type="estribillo" met="2x7" rhyme="BB">
-                    <l xml:id="L17">Ben sab'a que pod'e v<rhyme type="al">al</rhyme></l>
-                    <l xml:id="L18">fisica celesti<rhyme type="al">al</rhyme>.</l>
+                    <l xml:id="L17">Ben sab'a que pod'e v<rhyme label="al">al</rhyme></l>
+                    <l xml:id="L18">fisica celesti<rhyme label="al">al</rhyme>.</l>
                 </lg>
                 <lg n="4" type="estrofa" met="4x7" rhyme="aaab">
-                    <l xml:id="L19">Esta tîia prem<rhyme type="udos">udos</rhyme></l>
-                    <l xml:id="L20">os talões e met<rhyme type="udos">udos</rhyme></l>
-                    <l xml:id="L21">nas rẽes e aprend<rhyme type="udos">udos</rhyme></l>
-                    <l xml:id="L22">ben como pedra con c<rhyme type="al">al</rhyme>.</l>
+                    <l xml:id="L19">Esta tîia prem<rhyme label="udos">udos</rhyme></l>
+                    <l xml:id="L20">os talões e met<rhyme label="udos">udos</rhyme></l>
+                    <l xml:id="L21">nas rẽes e aprend<rhyme label="udos">udos</rhyme></l>
+                    <l xml:id="L22">ben como pedra con c<rhyme label="al">al</rhyme>.</l>
                 </lg>
                 <lg type="estribillo" met="2x7" rhyme="BB">
-                    <l xml:id="L23">Ben sab'a que pod'e v<rhyme type="al">al</rhyme></l>
-                    <l xml:id="L24">fisica celesti<rhyme type="al">al</rhyme>.</l>
+                    <l xml:id="L23">Ben sab'a que pod'e v<rhyme label="al">al</rhyme></l>
+                    <l xml:id="L24">fisica celesti<rhyme label="al">al</rhyme>.</l>
                 </lg>
                 <lg n="5" type="estrofa" met="4x7" rhyme="aaab"> 
-                    <l xml:id="L25">Con este mal que sofr<rhyme type="ia">ia</rhyme></l>
-                    <l xml:id="L26">a Salas en romar<rhyme type="ia">ia</rhyme></l>
-                    <l xml:id="L27">de Molina sse faz<rhyme type="ia">ia</rhyme></l>
-                    <l xml:id="L28">levar, ca d'i natur<rhyme type="al">al</rhyme></l>
+                    <l xml:id="L25">Con este mal que sofr<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L26">a Salas en romar<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L27">de Molina sse faz<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L28">levar, ca d'i natur<rhyme label="al">al</rhyme></l>
                 </lg>
                 <lg type="estribillo" met="2x7" rhyme="BB">
-                    <l xml:id="L29">Ben sab'a que pod'e v<rhyme type="al">al</rhyme></l>
-                    <l xml:id="L30">fisica celesti<rhyme type="al">al</rhyme>.</l>
+                    <l xml:id="L29">Ben sab'a que pod'e v<rhyme label="al">al</rhyme></l>
+                    <l xml:id="L30">fisica celesti<rhyme label="al">al</rhyme>.</l>
                 </lg>
                 <lg n="6" type="estrofa" met="4x7" rhyme="aaab">    
-                    <l xml:id="L31">Era. E pois na eigr<rhyme type="eja">eja</rhyme></l>
-                    <l xml:id="L32">foi da que bẽeita s<rhyme type="eja">eja</rhyme>,</l>
-                    <l xml:id="L33">gran maravilla sob<rhyme type="eja">eja</rhyme></l>
-                    <l xml:id="L34">mostrou a Sennor le<rhyme type="eja">al</rhyme>.</l>
+                    <l xml:id="L31">Era. E pois na eigr<rhyme label="eja">eja</rhyme></l>
+                    <l xml:id="L32">foi da que bẽeita s<rhyme label="eja">eja</rhyme>,</l>
+                    <l xml:id="L33">gran maravilla sob<rhyme label="eja">eja</rhyme></l>
+                    <l xml:id="L34">mostrou a Sennor le<rhyme label="eja">al</rhyme>.</l>
                 </lg>
                 <lg type="estribillo" met="2x7" rhyme="BB">
-                    <l xml:id="L35">Ben sab'a que pod'e v<rhyme type="al">al</rhyme></l>
-                    <l xml:id="L36">fisica celesti<rhyme type="al">al</rhyme>.</l>
+                    <l xml:id="L35">Ben sab'a que pod'e v<rhyme label="al">al</rhyme></l>
+                    <l xml:id="L36">fisica celesti<rhyme label="al">al</rhyme>.</l>
                     </lg>
                 <lg n="7" type="estrofa" met="4x7" rhyme="aaab">
-                    <l xml:id="L37"> Ca mentr'a missa cant<rhyme type="avan">avan</rhyme></l>
-                    <l xml:id="L38">en que a Virgen lo<rhyme type="avan">avan</rhyme>,</l>
-                    <l xml:id="L39">os nervios ll'assi sõ<rhyme type="avan">avan</rhyme></l>
-                    <l xml:id="L40">como carr'en pedreg<rhyme type="al">al</rhyme>.</l>
+                    <l xml:id="L37"> Ca mentr'a missa cant<rhyme label="avan">avan</rhyme></l>
+                    <l xml:id="L38">en que a Virgen lo<rhyme label="avan">avan</rhyme>,</l>
+                    <l xml:id="L39">os nervios ll'assi sõ<rhyme label="avan">avan</rhyme></l>
+                    <l xml:id="L40">como carr'en pedreg<rhyme label="al">al</rhyme>.</l>
                 </lg>
                 <lg type="estribillo" met="2x7" rhyme="BB">
-                    <l xml:id="L41">Ben sab'a que pod'e v<rhyme type="al">al</rhyme></l>
-                    <l xml:id="L42">fisica celesti<rhyme type="al">al</rhyme>.</l>
+                    <l xml:id="L41">Ben sab'a que pod'e v<rhyme label="al">al</rhyme></l>
+                    <l xml:id="L42">fisica celesti<rhyme label="al">al</rhyme>.</l>
                 </lg>
                 <lg n="8" type="estrofa" met="4x7" rhyme="aaab">
-                    <l xml:id="L435">Assi que sse ll'estend<rhyme type="endo">endo</rhyme></l>
-                    <l xml:id="L44">foron e desencoll<rhyme type="endo">endo</rhyme>,</l>
-                    <l xml:id="L45">e levantou-sse corr<rhyme type="endo">endo</rhyme></l>
-                    <l xml:id="L46">e sayu-ss'ao port<rhyme type="al">al</rhyme>,</l>
+                    <l xml:id="L435">Assi que sse ll'estend<rhyme label="endo">endo</rhyme></l>
+                    <l xml:id="L44">foron e desencoll<rhyme label="endo">endo</rhyme>,</l>
+                    <l xml:id="L45">e levantou-sse corr<rhyme label="endo">endo</rhyme></l>
+                    <l xml:id="L46">e sayu-ss'ao port<rhyme label="al">al</rhyme>,</l>
                 </lg>
                 <lg type="estribillo" met="2x7" rhyme="BB">
-                    <l xml:id="L47">Ben sab'a que pod'e v<rhyme type="al">al</rhyme></l>
-                    <l xml:id="L48">fisica celesti<rhyme type="al">al</rhyme>.</l>
+                    <l xml:id="L47">Ben sab'a que pod'e v<rhyme label="al">al</rhyme></l>
+                    <l xml:id="L48">fisica celesti<rhyme label="al">al</rhyme>.</l>
                 </lg>
                 <lg n="9" type="estrofa" met="4x7" rhyme="aaab">
-                    <l xml:id="L49">Loando a Grori<rhyme type="osa">osa</rhyme>,</l>
-                    <l xml:id="L50">que é Sennor poder<rhyme type="osa">osa</rhyme>,</l>
-                    <l xml:id="L51">que lle foi tan piad<rhyme type="osa">osa</rhyme></l>
-                    <l xml:id="L52">con saber esperit<rhyme type="al">al</rhyme>.</l>
+                    <l xml:id="L49">Loando a Grori<rhyme label="osa">osa</rhyme>,</l>
+                    <l xml:id="L50">que é Sennor poder<rhyme label="osa">osa</rhyme>,</l>
+                    <l xml:id="L51">que lle foi tan piad<rhyme label="osa">osa</rhyme></l>
+                    <l xml:id="L52">con saber esperit<rhyme label="al">al</rhyme>.</l>
                 </lg>
                 <lg type="estribillo" met="2x7" rhyme="BB">
-                    <l xml:id="L53">Ben sab'a que pod'e v<rhyme type="al">al</rhyme></l>
-                    <l xml:id="L54">fisica celesti<rhyme type="al">al</rhyme>.</l>
+                    <l xml:id="L53">Ben sab'a que pod'e v<rhyme label="al">al</rhyme></l>
+                    <l xml:id="L54">fisica celesti<rhyme label="al">al</rhyme>.</l>
                 </lg>
             </lg>
         </body>

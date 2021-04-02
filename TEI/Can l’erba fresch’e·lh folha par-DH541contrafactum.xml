@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Can l’erba fresch’e·lh folha par</title>
+                <author>Bernart de Ventadorn</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B521/V124</idno>                       
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B524b" from="118v" to="119r"/>
+                            <locus xml:id="V127" from="15r" to="15v"/>
+                            <idno xml:id="DH541"/>
+                                                <!-- No tengo idea de esto -->
+
+
+                            <filiation type="base"> 
+                                <ref target="#DH541"/> 
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <lg type="cantiga" subtype="maestría" style="amor" unisonancia="singular" isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" asonancia="consonante" met="8x8/2x8" rhyme="ababccdd/dd">
+                
+
+            <lg n="1" type="estrofa"  met="8x8" rhyme="ababccdd">
+            <l xml:id="L1">Can l’erba fresch’e·lh folha p<rhyme label="ar">ar</rhyme></l>
+            <l xml:id="L2">e la flors boton’el verj<rhyme label="an">an</rhyme>,</l>
+            <l xml:id="L3">e·l rossinhols autet e cl<rhyme label="ar">ar</rhyme></l>
+            <l xml:id="L4">leva sa votz e mou so ch<rhyme label="an">an</rhyme>,</l>
+            <l xml:id="L5">joi ai de lui, e joi ai de la fl<rhyme label="or">or</rhyme></l>
+            <l xml:id="L6">e joi de me e de midons maj<rhyme label="or">or</rhyme>;</l>
+            <l xml:id="L7">daus totas partz sui de joi claus e s<rhyme label="ens">ens</rhyme>,</l>
+            <l xml:id="L8">mas sel es jois que totz autres jois v<rhyme label="ens">ens</rhyme>.</l>
+            </lg>     
+
+            <lg n="2" type="estrofa"  met="8x8" rhyme="ababccdd"> 	
+            <l xml:id="L9">Ai las! com mor de cossir<rhyme label="ar">ar</rhyme>!</l>
+            <l xml:id="L10">que manhtas vetz en cossir t<rhyme label="an">an</rhyme>:</l>
+            <l xml:id="L11">lairo m’en poirian port<rhyme label="ar">ar</rhyme>,</l>
+            <l xml:id="L12">que re no sabria que·s f<rhyme label="an">an</rhyme>.</l>
+            <l xml:id="L13">Per Deu, Amors! be·m trobas vensed<rhyme label="or">or</rhyme>:</l>
+            <l xml:id="L14">ab paucs amics e ses autre senh<rhyme label="or">or</rhyme>.</l>
+            <l xml:id="L15">Car una vetz tan midons no destr<rhyme label="ens">ens</rhyme></l>
+            <l xml:id="L16">abans qu’eu fos del dezirer est<rhyme label="ens">ens</rhyme>?</l>
+            </lg>
+
+            <lg n="2" type="estrofa"  met="8x8" rhyme="ababccdd">
+            <l xml:id="L17">Meravilh me com posc dur<rhyme label="ar">ar</rhyme></l>
+            <l xml:id="L18">que no·lh demostre mo tal<rhyme label="an">an</rhyme>.</l>
+            <l xml:id="L19">Can eu vei midons ni l’esg<rhyme label="ar">ar</rhyme>,</l>
+            <l xml:id="L20">li seu bel ohl tan be l’est<rhyme label="an">an</rhyme>:</l>
+            <l xml:id="L21">per pauc me tenh car eu vas leis no c<rhyme label="or">or</rhyme>.</l>
+            <l xml:id="L22">Si fera eu, si no fos per pa<rhyme label="or">or</rhyme>,</l>
+            <l xml:id="L23">c’anc no vi cors melhs talhatz ni dep<rhyme label="ens">ens</rhyme></l>
+            <l xml:id="L24">ad ops d’amar sia tan greus ni l<rhyme label="ens">ens</rhyme>.</l>
+            </lg>
+
+
+            <lg n="3" type="estrofa"  met="8x8" rhyme="ababccdd">
+            <l xml:id="L25">Tan am midons e la tenh c<rhyme label="ar">ar</rhyme>,</l>  	
+            <l xml:id="L26">e tan la dopt’e la rebl<rhyme label="an">an</rhyme></l>
+            <l xml:id="L27">c’anc de me no·lh auzei parl<rhyme label="ar">ar</rhyme>,</l>
+            <l xml:id="L28">ni re no·lh quer ni re no·lh m<rhyme label="an">an</rhyme>.</l>
+            <l xml:id="L29">Pero ilh sap mo mal e ma dol<rhyme label="or">or</rhyme>,</l>
+            <l xml:id="L30">e can li plai, ni fai ben et on<rhyme label="or">or</rhyme>,</l>
+            <l xml:id="L31">e can li plai, eu m’en sofert ab m<rhyme label="ens">ens</rhyme>,</l>
+            <l xml:id="L32">per so c’a leis no·n avenha blast<rhyme label="ens">ens</rhyme>.</l>
+            </lg>
+
+            <lg n="4" type="estrofa"  met="8x8" rhyme="ababccdd">
+            <l xml:id="L33">S’eu saubes la gen enchant<rhyme label="ar">ar</rhyme>,</l>  	  	
+            <l xml:id="L34">mei enemic foran ef<rhyme label="an">an</rhyme>,</l>
+            <l xml:id="L35">que ja us no saubra tri<rhyme label="ar">ar</rhyme></l>
+            <l xml:id="L36">ni dir re que·ns tornes a d<rhyme label="an">an</rhyme>.</l>
+            <l xml:id="L37">Adoncs sai eu que vira la gens<rhyme label="or">or</rhyme></l>
+            <l xml:id="L38">e sos bels olhs e sa frescha col<rhyme label="or">or</rhyme>,</l>
+            <l xml:id="L39">e baizera·lh la bocha en totz s<rhyme label="ens">ens</rhyme>,</l>
+            <l xml:id="L40">si que d’un mes i paregra lo s<rhyme label="ens">ens</rhyme>.</l>
+            </lg>
+
+            <lg n="1" type="estrofa"  met="8x8" rhyme="ababccdd">
+            <l xml:id="L41">Be la volgra sola trob<rhyme label="ar">ar</rhyme></l>
+            <l xml:id="L42">que dormis, o·n fezes sembl<rhyme label="an">an</rhyme>,</l>
+            <l xml:id="L43">perqu’e·lh embles un doutz baiz<rhyme label="ar">ar</rhyme>,</l>
+            <l xml:id="L44">pus no valh tan qu’eu lo·lh dem<rhyme label="an">an</rhyme>.</l>
+            <l xml:id="L45">Per Deu, domna, pauc esplecham d’am<rhyme label="or">or</rhyme>!</l>
+            <l xml:id="L46">vai s’en lo tems, e perdem lo melh<rhyme label="or">or</rhyme>!</l>	
+            <l xml:id="L47">parlar degram ab cubertz entres<rhyme label="ens">ens</rhyme>,</l>
+            <l xml:id="L48">e, pus no·ns val arditz, valgues nos g<rhyme label="ens">ens</rhyme>!</l>
+            </lg>
+
+            <lg n="1" type="estrofa"  met="8x8" rhyme="ababccdd">
+            <l xml:id="L49">Be deuri’om domna blasm<rhyme label="ar">ar</rhyme>,</l>	
+            <l xml:id="L50">can trop vai son amics tarz<rhyme label="an">an</rhyme>,</l>
+            <l xml:id="L51">que lonja paraula d’am<rhyme label="ar">ar</rhyme></l>
+            <l xml:id="L52">es grans enois e par d’enj<rhyme label="an">an</rhyme>,</l>
+            <l xml:id="L53">c’amar pot om e far semblan alh<rhyme label="or">or</rhyme>,</l>
+            <l xml:id="L54">e gen mentir lai on non a aut<rhyme label="or">or</rhyme>.</l>
+            <l xml:id="L55">Bona domna, ab sol c’amar mi d<rhyme label="ens">ens</rhyme>,</l>
+            <l xml:id="L56">ja per mentir eu no serai at<rhyme label="ens">ens</rhyme>.</l>
+            </lg>
+
+            <lg n="1" type="estrofa"  met="2x8" rhyme="dd">
+            <l xml:id="L57">Messatger, vai, e no m’en prezes m<rhyme label="ens">ens</rhyme>,</l>
+            <l xml:id="L58">s’eu del anar vas midons sui tem<rhyme label="ens">ens</rhyme>.</l>
+            </lg>                
+
+            </lg>
+        </body>
+    </text>
+</TEI>

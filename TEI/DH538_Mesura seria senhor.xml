@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Mesura seria senhor</title>
+                <author>Don Denis</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B521/V124</idno>                       
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B521" from="118r" to="118v"/>
+                            <locus xml:id="V124" from="15r" to="15r"/>
+                            <idno xml:id="DH538"/>
+                            <filiation type="contrafactum"> <!--contrafactum pendiente!!!-->
+                                <ref target="de Pos vesem que l’iverns s’irais de Peire Vidal"/> 
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <lg type="cantiga" subtype="maestría" style="amor" unisonancia="singular" isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" asonancia="consonante" met="7x8/3x8" rhyme="abbacca/cca">
+                
+                    
+                    <lg n="1" type="estrofa"  met="7x8" rhyme="abbacca"> 
+                        <l xml:id="L1">Mesura seria senh<rhyme label="or">or</rhyme>,</l>
+                        <l xml:id="L2">de vós amercear de m<rhyme label="i">i</rhyme>,</l>
+                        <l xml:id="L3">que vos en grave dia v<rhyme label="i">i</rhyme>,</l>
+                        <l xml:id="L4">e en mui grave voss’ am<rhyme label="or">or</rhyme>,</l>
+                        <l xml:id="L5">tan grave que non ei pod<rhyme label="er">er</rhyme></l>
+                        <l xml:id="L6">daquesta coita  máis sofr<rhyme label="er">er</rhyme>,</l>
+                        <l xml:id="L7">de que muit’ á fui sofred<rhyme label="or">or</rhyme>.</l>
+                </lg>
+                    
+                    <lg n="2" type="estrofa"  met="7x8" rhyme="abbacca"> 
+                        <l xml:id="L8">Pero sabe Nostro Senh<rhyme label="or">or</rhyme></l>
+                        <l xml:id="L9">que nunca vol’ eu mereç<rhyme label="i">i</rhyme>,</l>
+                        <l xml:id="L10">mais sabe ben que vos serv<rhyme label="i">i</rhyme>,</l>
+                        <l xml:id="L11">des que vos vi, sempr’ o melh<rhyme label="or">or</rhyme></l>
+                        <l xml:id="L12">que nunca pudi faz<rhyme label="er">er</rhyme>,</l>
+                        <l xml:id="L13">por én queredevos do<rhyme label="er">er</rhyme></l>
+                        <l xml:id="L14">de min, coitado pecad<rhyme label="or">or</rhyme>.</l>
+            </lg>
+                    
+                    <lg n="3" type="estrofa"  met="7x8" rhyme="abbacca"> 
+                        <l xml:id="L15">Mais Deus, que de tod’ é senh<rhyme label="or">or</rhyme>,</l>
+                        <l xml:id="L16">me querra põer consselh’ <rhyme label="i">i</rhyme>,</l>
+                        <l xml:id="L17">ca se meu feito vai ass<rhyme label="i">i</rhyme>,</l>
+                        <l xml:id="L18">e m’ el non for ajudad<rhyme label="or">or</rhyme>,</l>
+                        <l xml:id="L19">contra vós, que el fez val<rhyme label="er">er</rhyme></l>
+                        <l xml:id="L20">máis de quantas fezo nac<rhyme label="er">er</rhyme></l>
+                        <l xml:id="L21">morr’ eu, mais non mereced<rhyme label="or">or</rhyme>.</l>
+                </lg>
+                    
+                    <lg n="4" type="finda"  met="3x8" rhyme="cca"> 
+                        <l xml:id="L22">Pero se eu ei de morr<rhyme label="er">er</rhyme></l>
+                        <l xml:id="L23">sen volo nunca merec<rhyme label="er">er</rhyme></l>
+                        <l xml:id="L24">non vós vej’ i prez nen l<rhyme label="or">oor</rhyme>.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>
+
+
+
