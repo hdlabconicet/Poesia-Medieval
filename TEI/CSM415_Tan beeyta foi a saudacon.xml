@@ -43,65 +43,59 @@
                 <head type="rúbrica">Esta quinta é de como o angeo Gabriel vẽo saudar a Santa Maria,
                     e esta festa [é] no mes de março.</head>
                 
-                <lg n="1" type="estrofa" met="4x10" rhyme="bbba"> 
+                <lg n="1"> 
                     <l xml:id="L1">Esta tro[u]x'o angeo Gabri<rhyme label="el">el</rhyme></l>
                     <l xml:id="L2">a Santa Maria come fi<rhyme label="el">el</rhyme></l>
                     <l xml:id="L3">mandadeiro, por que Emanu<rhyme label="el">el</rhyme></l>
                     <l xml:id="L4">foi logo Deus e pres encarnaç<rhyme label="on">on</rhyme>.</l>
+ 
+                    <l xml:id="L5" rendition="estribillo">Tan bẽeyta foi a saudaç<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L6" rendition="estribillo">per que nos vẽemos a salvaç<rhyme label="on">on</rhyme>.</l>
                 </lg>
-                <lg type="estribillo" met="2x10" rhyme="AA">      
-                    <l xml:id="L5">Tan bẽeyta foi a saudaç<rhyme label="on">on</rhyme></l>
-                    <l xml:id="L6">per que nos vẽemos a salvaç<rhyme label="on">on</rhyme>.</l>
-                </lg>
-                <lg n="2" type="estrofa" met="4x10" rhyme="bbba">        
+                <lg n="2">        
                     <l xml:id="L7">Ca ben ali u lle diss'el "Av<rhyme label="e">e</rhyme>"</l>
                     <l xml:id="L8">foi logo Deus ome feit', a la ff<rhyme label="e">e</rhyme>;</l>
                     <l xml:id="L9">e macar el atan poderos'<rhyme label="e">é</rhyme>,</l>
                     <l xml:id="L10">ena Virgen foi enserrad'ent<rhyme label="on">on</rhyme>.</l>
-                </lg> 
-                <lg type="estribillo" met="2x10" rhyme="AA">      
-                    <l xml:id="L11">Tan bẽeyta foi a saudaç<rhyme label="on">on</rhyme></l>
-                    <l xml:id="L12">per que nos vẽemos a salvaç<rhyme label="on">on</rhyme>.</l>
+
+                    <l xml:id="L11" rendition="estribillo">Tan bẽeyta foi a saudaç<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L12" rendition="estribillo">per que nos vẽemos a salvaç<rhyme label="on">on</rhyme>.</l>
                 </lg>
-                <lg n="3" type="estrofa" met="4x10" rhyme="bbba">      
+                <lg n="3">      
                     <l xml:id="L13">E u "Graçia plena" lle diz<rhyme label="er">er</rhyme></l>
                     <l xml:id="L14">foi o angeo, nos fez connosç<rhyme label="er">er</rhyme></l>
                     <l xml:id="L15">a Deus, que non podiamos ve<rhyme label="er">er</rhyme></l>
                     <l xml:id="L16">ante; mais pois vimos ben sa fayç<rhyme label="on">on</rhyme>.</l>
+ 
+                    <l xml:id="L17" rendition="estribillo">Tan bẽeyta foi a saudaç<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L18" rendition="estribillo">per que nos vẽemos a salvaç<rhyme label="on">on</rhyme>.</l>
                 </lg>
-                <lg type="estribillo" met="2x10" rhyme="AA">      
-                    <l xml:id="L17">Tan bẽeyta foi a saudaç<rhyme label="on">on</rhyme></l>
-                    <l xml:id="L18">per que nos vẽemos a salvaç<rhyme label="on">on</rhyme>.</l>
-                </lg>
-                <lg n="4" type="estrofa" met="4x10" rhyme="bbba">      
+                <lg n="4">      
                     <l xml:id="L19">E u lle disse "Contig[o] é D<rhyme label="eus">eus</rhyme>",</l>
                     <l xml:id="L20">enton foi prenne do que polos s<rhyme label="eus">eus</rhyme></l>
                     <l xml:id="L21">salvar quis morte prender per jud<rhyme label="eus">eus</rhyme>,</l>
                     <l xml:id="L22">por nos tirar da infernal prij<rhyme label="on">on</rhyme>.</l>
+
+                    <l xml:id="L23" rendition="estribillo">Tan bẽeyta foi a saudaç<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L24" rendition="estribillo">per que nos vẽemos a salvaç<rhyme label="on">on</rhyme>.</l>
                 </lg>
-                <lg type="estribillo" met="2x10" rhyme="AA">     
-                    <l xml:id="L23">Tan bẽeyta foi a saudaç<rhyme label="on">on</rhyme></l>
-                    <l xml:id="L24">per que nos vẽemos a salvaç<rhyme label="on">on</rhyme>.</l>
-                </lg>
-                <lg n="5" type="estrofa" met="4x10" rhyme="bbba">     
+                <lg n="5">     
                     <l xml:id="L25">E u lle disse "Bẽeyta es t<rhyme label="u">u</rhyme></l>
                     <l xml:id="L26">entr'as molleres", logo de Jhes<rhyme label="u">u</rhyme></l>
                     <l xml:id="L27">Cristo foi prenne, que naçeu pois <rhyme label="u">u</rhyme></l>
                     <l xml:id="L28">tres Reys lle deron cada un seu d<rhyme label="on">on</rhyme>.</l>
+
+                    <l xml:id="L29" rendition="estribillo">Tan bẽeyta foi a saudaç<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L30" rendition="estribillo">per que nos vẽemos a salvaç<rhyme label="on">on</rhyme>.</l>
                 </lg>
-                <lg type="estribillo" met="2x10" rhyme="AA">     
-                    <l xml:id="L29">Tan bẽeyta foi a saudaç<rhyme label="on">on</rhyme></l>
-                    <l xml:id="L30">per que nos vẽemos a salvaç<rhyme label="on">on</rhyme>.</l>
-                </lg>
-                <lg n="6" type="estrofa" met="4x10" rhyme="bbba">     
+                <lg n="6">     
                     <l xml:id="L31">E u lle disse: "Bẽeyto ser<rhyme label="a">á</rhyme></l>
                     <l xml:id="L32">aquel fruito que de ti naçer<rhyme label="a">á</rhyme>",</l>
                     <l xml:id="L33">ali nos deu carreira por que j<rhyme label="a">a</rhyme></l>
                     <l xml:id="L34">ouvessemos sempre de Deus perd<rhyme label="on">on</rhyme>.</l>
-                </lg>
-                <lg type="estribillo" met="2x10" rhyme="AA">     
-                    <l xml:id="L35">Tan bẽeyta foi a saudaç<rhyme label="on">on</rhyme></l>
-                    <l xml:id="L36">per que nos vẽemos a salvaç<rhyme label="on">on</rhyme>.</l>
+
+                    <l xml:id="L35" rendition="estribillo">Tan bẽeyta foi a saudaç<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L36" rendition="estribillo">per que nos vẽemos a salvaç<rhyme label="on">on</rhyme>.</l>
                 </lg>
             </lg>
         </body>

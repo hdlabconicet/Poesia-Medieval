@@ -44,7 +44,7 @@
                 isoestrofismo="isoestrófico" asonancia="consonante" met="6x11" rhyme="abbcca">
 
 
-                <lg n="1" type="estrofa"  met="6x11" rhyme="abbcca">
+                <lg n="1">
                     <l xml:id="L1">Proençaes soen mui ben trob<rhyme label="ar">ar</rhyme></l>
                     <l xml:id="L2">e dizen eles que é con am<rhyme label="or">or</rhyme>,</l>
                     <l xml:id="L3">mais os que troban no tempo da fr<rhyme label="or">ol</rhyme></l>
@@ -53,7 +53,7 @@
                     <l xml:id="L6">qual m’ eu por mia senhor vejo lev<rhyme label="ar">ar</rhyme>.</l>
                 </lg>
 
-                    <lg n="2" type="estrofa"  met="6x11" rhyme="abbcca">
+                    <lg n="2">
                     <l xml:id="L7">Pero que troban e saben lo<rhyme label="ar">ar</rhyme></l>
                     <l xml:id="L8">sas senhores o mais e o melh<rhyme label="or">or</rhyme></l>
                     <l xml:id="L9">que eles poden soo sabed<rhyme label="or">or</rhyme></l>
@@ -62,7 +62,7 @@
                     <l xml:id="L12">non an tal coita qual eu ei sen p<rhyme label="ar">ar</rhyme>.</l>
                 </lg>
 
-                <lg n="3" type="estrofa"  met="6x11" rhyme="abbcca">
+                <lg n="3">
                     <l xml:id="L13">Ca os que troban e que s’ alegr<rhyme label="ar">ar</rhyme></l>
                     <l xml:id="L14">van eno tempo que ten a col<rhyme label="or">or</rhyme></l>
                     <l xml:id="L15">a frol consig’ é tanto, que se f<rhyme label="or">or</rhyme></l>

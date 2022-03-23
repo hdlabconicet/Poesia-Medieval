@@ -43,35 +43,32 @@
                 isoestrofismo="isoestrófico" asonancia="consonante" met="6x10" rhyme="abbaCC">
                 
                 
-            <lg n="1" type="estrofa" met="4x10" rhyme="abba">
+            <lg n="1">
                 <l xml:id="L1">Quant’á, senhor, que m’eu de vós part<rhyme label="i">i</rhyme>,</l>
                 <l xml:id="L2">atan muit’á que nunca vi praz<rhyme label="er">er</rhyme></l>
                 <l xml:id="L3">nen pesar, e querovos eu diz<rhyme label="er">er</rhyme>,</l>
                             <l xml:id="L4">como prazer nen pesar nen er v<rhyme label="i">i</rhyme>,</l>
-            </lg>
-               <lg type="estribillo" met="2x10" rhyme="CC">
-                   <l xml:id="L5">perdi o sén e non poss’estrem<rhyme label="ar">ar</rhyme></l>
-                   <l xml:id="L6">o ben do mal, nen prazer do pes<rhyme label="ar">ar</rhyme>.</l>
+
+                   <l xml:id="L5" rendition="estribillo">perdi o sén e non poss’estrem<rhyme label="ar">ar</rhyme></l>
+                   <l xml:id="L6" rendition="estribillo">o ben do mal, nen prazer do pes<rhyme label="ar">ar</rhyme>.</l>
                </lg>                       
-                    <lg n="2" type="estrofa" met="4x10" rhyme="abba">
+                    <lg n="2">
                         <l xml:id="L7">E des que m’eu, senhor, per boa f<rhyme label="e">e</rhyme>,</l>
                         <l xml:id="L8">de vós parti, creed’agora b<rhyme label="en">en</rhyme></l>
                         <l xml:id="L9">que non vi prazer nen pesar de r<rhyme label="en">en</rhyme>,</l>
                         <l xml:id="L10">e aquesto direivos por qu’<rhyme label="e">é</rhyme>,</l> 
-                            </lg>                                        
-                  <lg type="estribillo" met="2x10" rhyme="CC">
-                      <l xml:id="L11">perdi o sén e non poss’estrem<rhyme label="ar">ar</rhyme></l>
-                      <l xml:id="L12">o ben do mal, nen prazer do pes<rhyme label="ar">ar</rhyme>.</l>
+
+                      <l xml:id="L11" rendition="estribillo">perdi o sén e non poss’estrem<rhyme label="ar">ar</rhyme></l>
+                      <l xml:id="L12" rendition="estribillo">o ben do mal, nen prazer do pes<rhyme label="ar">ar</rhyme>.</l>
                   </lg> 
-                        <lg n="3" type="estrofa" met="4x10" rhyme="abba">
+                        <lg n="3">
                             <l xml:id="L13">Ca, mia senhor, ben des aquela v<rhyme label="ez">ez</rhyme></l>
                             <l xml:id="L14">que m’eu de vós parti, no coraç<rhyme label="on">on</rhyme></l>
                             <l xml:id="L15">nunca ar ouv’eu pesar des ent<rhyme label="on">on</rhyme></l>
                             <l xml:id="L16">nen prazer, e direivos que mi o f<rhyme label="ez">ez</rhyme>,</l>      
-                        </lg>                             
-                <lg type="estribillo" met="2x10" rhyme="CC">
-                    <l xml:id="L17">perdi o sén e non poss’estrem<rhyme label="ar">ar</rhyme></l>
-                    <l xml:id="L18">o ben do mal, nen prazer do pes<rhyme label="ar">ar</rhyme>.</l>
+
+                    <l xml:id="L17" rendition="estribillo">perdi o sén e non poss’estrem<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L18" rendition="estribillo">o ben do mal, nen prazer do pes<rhyme label="ar">ar</rhyme>.</l>
                 </lg>
             </lg>
         </body>

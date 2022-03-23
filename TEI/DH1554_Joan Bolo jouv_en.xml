@@ -42,7 +42,7 @@
             <lg type="cantiga" subtype="maestría" style="escarnio" unisonancia="singular" isometrismo="isométrico" 
                 isoestrofismo="isoestrófico" asonancia="consonante" met="7x10" rhyme="abbacca">
                 
-                <lg n="1" type="estrofa" met="7x10" rhyme="abbacca">
+                <lg n="1">
                     <l xml:id="L1">Joan Bolo jouv’ en ũa pous<rhyme label="ada">ada</rhyme>,</l>
                     <l xml:id="L2">ben des ogano que da era pass<rhyme label="ou">ou</rhyme>,</l>
                     <l xml:id="L3">con medo do meirinho que lh’ach<rhyme label="ou">ou</rhyme></l>
@@ -52,7 +52,7 @@
                     <l xml:id="L7">que a trouxe sempre des que foi n<rhyme label="ada">ada</rhyme>.</l>
             </lg>
             
-                <lg n="2" type="estrofa" met="7x10" rhyme="abbacca">
+                <lg n="2">
                     <l xml:id="L8">Esta mũa pod’el provar por s<rhyme label="ua">ua</rhyme>,</l>
                     <l xml:id="L9">que a non pod’ome d’ele lev<rhyme label="ar">ar</rhyme></l>
                     <l xml:id="L10">pelo dereito se a non forç<rhyme label="ar">ar</rhyme>,</l>
@@ -62,7 +62,7 @@
                     <l xml:id="L14">que a teve sempre mentre foi m<rhyme label="ua">ua</rhyme>.</l>
                 </lg>
             
-                <lg n="3" type="estrofa" met="7x10" rhyme="abbacca">
+                <lg n="3">
                     <l xml:id="L15">Nõna perderá se ouver bon vog<rhyme label="ado">ado</rhyme>,</l>
                     <l xml:id="L16">pois el pode per enquisas põ<rhyme label="er">er</rhyme></l>
                     <l xml:id="L17">como lh’a viron criar e trag<rhyme label="er">er</rhyme></l>

@@ -43,7 +43,7 @@
                 
                 <head type="rúbrica">Esta quarta é da Trîidade de Santa Maria.</head> 
 
-                <lg n="1" type="estrofa" met="8x10" rhyme="abbaccda"> 
+                <lg n="1"> 
                     <l xml:id="L1">Como Deus é comprida Trîid<rhyme label="ade">ade</rhyme></l>
                     <l xml:id="L2">sen enader nen minguar de ssi n<rhyme label="ada">ada</rhyme>,</l>
                     <l xml:id="L3">éste, cousa çerta e mui prov<rhyme label="ada">ada</rhyme>,</l>
@@ -54,7 +54,7 @@
                     <l xml:id="L8">en tres guisas dûa virgîid<rhyme label="ade">ade</rhyme>.</l>
             </lg>
             
-                <lg n="2" type="estrofa" met="8x10" rhyme="abbaccda"> 
+                <lg n="2"> 
                     <l xml:id="L9">Ca ela foi virgen na voont<rhyme label="ade">ade</rhyme></l>
                     <l xml:id="L10">e ena carn' ante que fosse d<rhyme label="ada">ada</rhyme></l>
                     <l xml:id="L11">a Joseph, con que foi espos<rhyme label="ada">ada</rhyme>,</l>
@@ -65,7 +65,7 @@
                     <l xml:id="L16">e assi foron tres en unid<rhyme label="ade">ade</rhyme>.</l>
             </lg>
             
-                <lg n="3" type="estrofa" met="8x10" rhyme="abbaccda"> 
+                <lg n="3"> 
                     <l xml:id="L17">E porend', amigos, mentes par<rhyme label="ade">ade</rhyme></l>
                     <l xml:id="L18">e veredes obra muit'ordin[n]<rhyme label="ada">ada</rhyme></l>
                     <l xml:id="L19">de como Deus buscou carne sagr<rhyme label="ada">ada</rhyme></l>
@@ -76,7 +76,7 @@
                     <l xml:id="L24">e destruir o dem'e sa mald<rhyme label="ade">ade</rhyme>.</l>
             </lg>
             
-                <lg n="4" type="estrofa" met="8x10" rhyme="abbaccda"> 
+                <lg n="4"> 
                     <l xml:id="L25">E macar é Sennor, quis iguald<rhyme label="ade">ade</rhyme></l>
                     <l xml:id="L26">con sa Madre, a benaventur<rhyme label="ada">ada</rhyme>;</l>
                     <l xml:id="L27">ca seendo sa filla e cri<rhyme label="ada">ada</rhyme>,</l>
@@ -87,7 +87,7 @@
                     <l xml:id="L32">e da filla fez madr', est'é verd<rhyme label="ade">ade</rhyme>.</l>
             </lg>
             
-                <lg n="5" type="estrofa" met="8x10" rhyme="abbaccda"> 
+                <lg n="5"> 
                     <l xml:id="L33">E tant'ouv'ela en si omild<rhyme label="ade">ade</rhyme></l>
                     <l xml:id="L34">que dos çeos, u era sa mor<rhyme label="ada">ada</rhyme>,</l>
                     <l xml:id="L35">o fez deçer na sa santivig<rhyme label="ada">ada</rhyme></l>
@@ -98,7 +98,7 @@
                     <l xml:id="L40">reçebes[s]en per ela sãid<rhyme label="ade">ade</rhyme>.</l>
             </lg>
             
-                <lg n="6" type="estrofa" met="8x10" rhyme="abbaccda"> 
+                <lg n="6"> 
                     <l xml:id="L41">Por én lle roguemos por piad<rhyme label="ade">ade</rhyme></l>
                     <l xml:id="L42">que rog'a Deus, de que ficou prenn<rhyme label="ada">ada</rhyme></l>
                     <l xml:id="L43">quando foi do angeo saud<rhyme label="ada">ada</rhyme>,</l>

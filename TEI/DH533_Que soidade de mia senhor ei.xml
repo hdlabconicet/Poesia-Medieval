@@ -42,37 +42,34 @@
             <lg type="cantiga" subtype="refrán" style="amor" unisonancia="singular" isometrismo="isométrico" 
                isoestrofismo="heteroestrófico" asonancia="consonante" met="6x10/2x10" rhyme="abbaCC/cc">
                 
-                <lg n="1" type="estrofa" met="4x10" rhyme="abba">
+                <lg n="1">
                     <l xml:id="L1">Que soidade de mia senhor <rhyme label="ei">ei</rhyme>,</l>
                     <l xml:id="L2">quando me nembra d’ela qual a v<rhyme label="i">i</rhyme>,</l>
                     <l xml:id="L3">e que me nembra que ben a o<rhyme label="i">í</rhyme></l>
                     <l xml:id="L4">falar, e por quanto ben d’ela s<rhyme label="ei">ei</rhyme>,</l>
+     
+                    <l xml:id="L5" rendition="estribillo">rog’eu a Deus, que end’á o pod<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L6" rendition="estribillo">que mi a leixe,  se lhi prouguer, ve<rhyme label="er">er</rhyme></l>
                 </lg>
-                <lg type="estribillo" met="2x10" rhyme="CC">
-                    <l xml:id="L5">rog’eu a Deus, que end’á o pod<rhyme label="er">er</rhyme>,</l>
-                    <l xml:id="L6">que mi a leixe,  se lhi prouguer, ve<rhyme label="er">er</rhyme></l>
-                </lg>
-                <lg n="2" type="estrofa" met="4x10" rhyme="abba">
+                <lg n="2">
                     <l xml:id="L7">cedo; ca pero mi nunca fez b<rhyme label="en">en</rhyme></l>
                     <l xml:id="L8">se a non vir, non me posso guard<rhyme label="ar">ar</rhyme></l>
                     <l xml:id="L9">d’enssandecer ou morrer con pes<rhyme label="ar">ar</rhyme>,</l>
                     <l xml:id="L10">e porque ela tod’én poder t<rhyme label="en">en</rhyme>,</l>
-                </lg>
-                <lg type="estribillo" met="4x10" rhyme="CC">
-                    <l xml:id="L11">rog’eu a Deus que end’á o pod<rhyme label="er">er</rhyme></l>
-                    <l xml:id="L12">que mi a leixe,  se lhi prouguer, ve<rhyme label="er">er</rhyme></l>
+          
+                    <l xml:id="L11" rendition="estribillo">rog’eu a Deus que end’á o pod<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L12" rendition="estribillo">que mi a leixe,  se lhi prouguer, ve<rhyme label="er">er</rhyme></l>
                     </lg>
-              <lg n="3" type="estrofa" met="4x10" rhyme="abba">
+              <lg n="3">
                   <l xml:id="L13">cedo; ca tal á fez Nostro Senh<rhyme label="or">or</rhyme></l>
                   <l xml:id="L14">de quantas outras no mundo s<rhyme label="on">on</rhyme>,</l>
                   <l xml:id="L15">non lhi fez par, a la minha fe, n<rhyme label="on">on</rhyme>,</l>
                   <l xml:id="L16">e poila fez das melhores melh<rhyme label="or">or</rhyme>,</l>
+              
+                    <l xml:id="L17" rendition="estribillo">rog’eu a xDeus que end’á o pod<rhyme label="er">er</rhyme></l>
+                        <l xml:id="L18" rendition="estribillo">que mi a leixe,  se lhi prouguer, ve<rhyme label="er">er</rhyme></l>
                   </lg>
-                <lg type="estribillo" met="2x10" rhyme="CC">
-                    <l xml:id="L17">rog’eu a xDeus que end’á o pod<rhyme label="er">er</rhyme></l>
-                        <l xml:id="L18">que mi a leixe,  se lhi prouguer, ve<rhyme label="er">er</rhyme></l>
-                  </lg>
-                <lg type="finda" met="2x10" rhyme="cc">
+                <lg>
                     <l xml:id="L19">cedo; ca tal a quis Deus faz<rhyme label="er">er</rhyme>,</l>
                     <l xml:id="L20">que se a non vir, non posso viv<rhyme label="er">er</rhyme>.</l>
                 </lg>
