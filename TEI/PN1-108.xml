@@ -92,10 +92,10 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="7x8"
-                rhyme="abbacca">
+                met="7x8/4x8"
+                rhyme="abbacca/abba">
 
-                    <lg n="1" type="etrovadoresca" met="7x8" rhyme="abbacca">
+                    <lg n="1">
 
 
 
@@ -117,7 +117,7 @@
                         <l xml:id="L7">e manjar emponzoñ<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
-                    <lg n="2" type="etrovadoresca" met="7x8" rhyme="abbacca">
+                    <lg n="2">
                         <l xml:id="L8">
                             <rs ref="#AAV">De mí me siento coit<rhyme label="ado">ado</rhyme>
                      </rs>
@@ -137,7 +137,7 @@
                         <l xml:id="L14">non será de Dios am<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
-                    <lg n="3" type="etrovadoresca" met="7x8" rhyme="abbacca">
+                    <lg n="3">
                         <l xml:id="L15">
                             <rs ref="#AAV">Non soy tan desatent<rhyme label="ado">ado</rhyme>
                      </rs>
@@ -159,7 +159,7 @@
                         <l xml:id="L21">siempre entiende ser honr<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
-                    <lg n="4" type="etrovadoresca" met="7x8" rhyme="abbacca">
+                    <lg n="4">
                         <l xml:id="L22">Si <rs ref="#PCA">tenedes</rs> ya libr<rhyme label="ado">ado</rhyme>
                   </l>
                         <l xml:id="L23">ponimiento en ced<rhyme label="illo">illo</rhyme>
@@ -175,7 +175,7 @@
                         <l xml:id="L28">haya el mundo soseg<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
-                    <lg n="5" type="finida" met="4x8" rhyme="abba">
+                    <lg n="5">
                         <l xml:id="L29">
                             <rs ref="#AAV">Temome de ser tent<rhyme label="ado">ado</rhyme>
                      </rs>,</l>

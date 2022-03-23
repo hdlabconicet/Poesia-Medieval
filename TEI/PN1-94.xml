@@ -97,13 +97,10 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8x10"
-                rhyme="ABBAACCA">
+                met="8x10/3x10"
+                rhyme="ABBAACCA/AAB"
                     <note> Se trata de una pieza de arte mayor</note>
-                    <lg n="1"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="1">
 
 
 
@@ -129,10 +126,7 @@
                         <l xml:id="L8">que moira o viva so la vosa s<rhyme label="eña">eña</rhyme>.</l>
                     </lg>
 
-                    <lg n="2"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="2">
                         <l xml:id="L9">
                      <rs ref="#AAV">Dezid <rs ref="#BSA">me</rs> señor</rs> u se
                             foi franqu<rhyme label="eza">eza</rhyme>
@@ -155,10 +149,7 @@
 
                     <pb facs="#PN94-2"/>
 
-                    <lg n="3"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="3">
                         <l xml:id="L17">Que <rs ref="#BSA">vejo e vi</rs> fazer a coit<rhyme label="ados">ados</rhyme>
                   </l>
                         <l xml:id="L18">fidalgos mesquinos que tan solam<rhyme label="ente">ente</rhyme>
@@ -176,7 +167,7 @@
                         <l xml:id="L24">que non ser nos dela asi arredr<rhyme label="ados">ados</rhyme>.</l>
                     </lg>
 
-                    <lg n="4" type="finida" met="3x10" rhyme="AAB">
+                    <lg n="4">
                         <l xml:id="L25">E poys os señores ja nada non d<rhyme label="an">an</rhyme>,</l>
                         <l xml:id="L26">fidalgos cabtivos ora que far<rhyme label="an">án</rhyme>
                   </l>

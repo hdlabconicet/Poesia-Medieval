@@ -100,13 +100,10 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8x10"
-                rhyme="ABBAACCA">
+                met="8x10/3X10"
+                rhyme="ABBAACCA/AAB">
                     <note> Se trata de una pieza de arte mayor</note>
-                    <lg n="1"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="1">
                         <l xml:id="L1">Todos los discretos perder deven r<rhyme label="issa">issa</rhyme>
                   </l>
                         <l xml:id="L2">fablando en la muerte a que son dev<rhyme label="idos">idos</rhyme>
@@ -122,10 +119,7 @@
                         <l xml:id="L8">pagaron e pagan esta amarga s<rhyme label="issa">issa</rhyme>.</l>
                     </lg>
 
-                    <lg n="2"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="2">
                         <l xml:id="L9">Por ende, <rs ref="#BSA">amigo</rs>, todo omne se esc<rhyme label="ude">ude</rhyme>
                   </l>
                         <l xml:id="L10">con la penitencia si muerte barr<rhyme label="unta">unta</rhyme>
@@ -141,10 +135,7 @@
                     
                     <pb facs="#PN87-2"/>
                     
-                    <lg n="3"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="3">
                         <l xml:id="L17">
                      <rs ref="#BSA">Amigo señor</rs>, <rs ref="#AAV">yo bien he
                                     pens<rhyme label="ado">ado</rhyme>
@@ -167,7 +158,7 @@
                      </rs>.</l>
                     </lg>
 
-                    <lg n="4" type="finida" met="3x10" rhyme="AAB">
+                    <lg n="4">
                         <l xml:id="L25">Pero <rs ref="#AAV">yo entiendo con mi simple g<rhyme label="esto">esto</rhyme>
                      </rs>
                         </l>

@@ -102,15 +102,12 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8x10"
-                rhyme="ABBAACCA">
+                met="8x10/4x10"
+                rhyme="ABBAACCA/ABBA">
                     <note> Se trata de una pieza de arte mayor. La clasificación de la pieza como
                         repregunta del mismo poeta es un unicum. El receptor, al igual que en la
                         pieza anterior, podría ser Fernán Pérez de Guzmán.</note>
-                    <lg n="1"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="1">
 
 
                         <l xml:id="L1">A esta <term cRef="162">pregunta</term> que <rs ref="#AAV">me</rs>
@@ -132,7 +129,7 @@
                             <rs ref="#NC">echad</rs> en remojo essa que rap<rhyme label="ades">ades</rhyme>”.</l>
                     </lg>
                     
-                    <lg n="2" type="finida" met="4x10" rhyme="ABBA">
+                    <lg n="2">
 
                         <l xml:id="L9">Castillos e villas con sus merind<rhyme label="ades">ades</rhyme>
                   </l>

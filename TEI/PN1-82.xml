@@ -100,13 +100,10 @@
                 isometrismo="isométrico"
                 isoestrofismo="isoestrófico"
                 asonancia="consonante"
-                met="8x10"
+                met="8x10+"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor</note>
-                    <lg n="1"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="1">
                         <l xml:id="L1">
                      <persName ref="#AAV">Señor Alfonso Álvarez</persName>, <rs ref="#AAV">grant sabio perf<rhyme label="eto">eto</rhyme>
                      </rs>,</l>
@@ -132,10 +129,7 @@
                         <l xml:id="L8">en el Apocalipſi oscuro e secr<rhyme label="eto">eto</rhyme>.</l>
                     </lg>
 
-                    <lg n="2"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="2">
                         <l xml:id="L9">Dixo que viera muger en pers<rhyme label="ona">ona</rhyme>
                   </l>
                         <l xml:id="L10">vestida del sol so sus pies la l<rhyme label="una">una</rhyme>,</l>
@@ -154,10 +148,7 @@
                     
                     <pb facs="#PN82-2"/>
 
-                    <lg n="3"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="3">
                         <l xml:id="L17">Desque fue nacido el fijo var<rhyme label="on">ón</rhyme>
                   </l>
                         <l xml:id="L18">luego a los cielos fue arrebat<rhyme label="ado">ado</rhyme>
@@ -175,10 +166,7 @@
                         <l xml:id="L24">los que sabedes dicid su faz<rhyme label="on">ión</rhyme>.</l>
                     </lg>
 
-                    <lg n="4"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="4">
                         <l xml:id="L25">
                      <rs ref="#AAV">Vos</rs>
                             <rs ref="#PCO">declaradme</rs> el rostro, las c<rhyme label="ejas">ejas</rhyme>,</l>
@@ -197,10 +185,7 @@
                         <l xml:id="L32">más que el que anda a guardar ov<rhyme label="ejas">ejas</rhyme>.</l>
                     </lg>
 
-                    <lg n="5"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="5">
                         <l xml:id="L33">Los pies e los braços, su cuerpo e fig<rhyme label="ura">ura</rhyme>
                   </l>
                         <l xml:id="L34">nin como del sol se puede e faze r<rhyme label="opa">opa</rhyme>
@@ -220,10 +205,7 @@
                     
          <pb facs="#PN82-3"/>
 
-                    <lg n="6"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="6">
                         <l xml:id="L41">La luna esso mesmo so sus pies ech<rhyme label="ada">ada</rhyme>
                   </l>
                         <l xml:id="L42">si era tapete o guadamez<rhyme label="il">il</rhyme>
@@ -239,10 +221,7 @@
                         <l xml:id="L48">pües esta dueña la tiene tan preci<rhyme label="ada">ada</rhyme>.</l>
                     </lg>
 
-                    <lg n="7"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="7">
                         <l xml:id="L49">Aquella corona tan resplandeci<rhyme label="ente">ente</rhyme>
                   </l>
                         <l xml:id="L50">de estrellas compueſta e tan relunbr<rhyme label="osa">osa</rhyme>
@@ -262,10 +241,7 @@
                      </rs>.</l>
                     </lg>
 
-                    <lg n="8"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="8">
                         <l xml:id="L57">Quien fue su padre daquel tal nac<rhyme label="ido">ido</rhyme>
                   </l>
                         <l xml:id="L58">que avié con su vara rregir todo el m<rhyme label="undo">undo</rhyme>
@@ -283,10 +259,7 @@
                         <l xml:id="L64">o en los monesterios do Dios es serv<rhyme label="ido">ido</rhyme>.</l>
                     </lg>
 
-                    <lg n="9"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="9">
                         <l xml:id="L65">La verga de fierro, dezit me señ<rhyme label="or">or</rhyme>,</l>
                         <l xml:id="L66">si ha de enviar por ella a Vizc<rhyme label="aya">aya</rhyme>
                   </l>

@@ -95,13 +95,10 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8x10"
-                rhyme="ABBAACCA">
+                met="8x10/4x10"
+                rhyme="ABBAACCA/ABBA">
                     <note> Se trata de una pieza de arte mayor</note>
-                    <lg n="1"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="1">
 
                         <l xml:id="L1">Oh, criaturas tan organiz<rhyme label="adas">adas</rhyme>
                   </l>
@@ -120,10 +117,7 @@
                             *preciadas*</note>
                     </lg>
 
-                    <lg n="2"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="2">
                         <l xml:id="L9">Non fue in neutro nin hoy es fall<rhyme label="ado">ado</rhyme>
                   </l>
                         <l xml:id="L10">más lindo, sabio, intepetr<rhyme label="ador">ador</rhyme>
@@ -139,10 +133,7 @@
                         <note> en el verso 5 error por atracción *esmerador* por *esmerado* </note>
                     </lg>
 
-                    <lg n="3"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="3">
                         <l xml:id="L17">Non se ofrece la mi navez<rhyme label="illa">illa</rhyme>
                   </l>
                         <l xml:id="L18">a se marear en ondas mar<rhyme label="inas">inas</rhyme>,</l>
@@ -157,7 +148,7 @@
                     
                     <pb facs="#PN90-2"/>  
 
-                    <lg n="4" type="finida" met="4x10" rhyme="ABBA">
+                    <lg n="4">
                         <l xml:id="L25">Mas bien inclinada está <rs ref="#BSA">mi rod<rhyme label="illa">illa</rhyme>
                      </rs>,</l>
                         <l xml:id="L26">segund que disciplo muy insip<rhyme label="iente">iente</rhyme>,</l>

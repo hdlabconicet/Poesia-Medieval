@@ -98,13 +98,10 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8x10"
-                rhyme="ABBAACCA">
+                met="8x10/4x10"
+                rhyme="ABBAACCA/ABBA">
                     <note> Se trata de una pieza de arte mayor</note>
-                    <lg n="1"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="1">
 
                         <l xml:id="L1">Non <rs ref="#BSA">tengo</rs> que siente la natural<rhyme label="eza">eza</rhyme>
                   </l>
@@ -126,10 +123,7 @@
 
                     <pb facs="#PN84-2"/>
 
-                    <lg n="2"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="2">
                         <l xml:id="L9">De otra quistión asaz bien esc<rhyme label="ura">ura</rhyme>
                   </l>
                         <l xml:id="L10">cobdiçio tanbién ser certific<rhyme label="ado">ado</rhyme>
@@ -147,10 +141,7 @@
                         <l xml:id="L16">pues que el non era in rerum nat<rhyme label="ura">ura</rhyme>.</l>
                     </lg>
 
-                    <lg n="3"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="3">
                         <l xml:id="L17">La quistión tercera es maravill<rhyme label="osa">osa</rhyme>
                   </l>
                         <l xml:id="L18">por ser muy dubdada en la asoluci<rhyme label="on">ón</rhyme>
@@ -168,10 +159,7 @@
                         <l xml:id="L24">un fijo gracioso mas fino que r<rhyme label="osa">osa</rhyme>.</l>
                     </lg>
 
-                    <lg n="4"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="4">
                         <l xml:id="L25">La quarta pregunta es tan intric<rhyme label="ada">ada</rhyme>
                   </l>
                         <l xml:id="L26">que la discretiva se turba en prov<rhyme label="iso">iso</rhyme>
@@ -189,7 +177,7 @@
                         <l xml:id="L32">en una cibdat notable esmer<rhyme label="ada">ada</rhyme>.</l>
                     </lg>
 
-                    <lg n="5" type="finida" met="4x10" rhyme="ABBA">
+                    <lg n="5">
                         <l xml:id="L33">
                      <rs ref="#AAV">Quien</rs> diere <term cRef="163">respuesta</term>bien <term cRef="168">metrific<rhyme label="ada">ada</rhyme>
                      </term>

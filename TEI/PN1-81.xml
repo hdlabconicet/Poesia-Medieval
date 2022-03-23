@@ -95,8 +95,8 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8x10"
-                rhyme="ABBAACCA">
+                met="8x10/4x10"
+                rhyme="ABBAACCA/ABBA">
                     <note> Se trata de una pieza de arte mayor. No se especifica el nombre del
                         poeta al que <persName ref="#JAB">Baena</persName> responde, aunque, por la
                         pregunta anterior, sabemos que es <persName ref="#AAV">Villasandino</persName>
@@ -104,10 +104,7 @@
 
                    
 
-                    <lg n="1"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="1">
                         <l xml:id="L1">Segund que <rs ref="#AAV">fingides</rs>
                             <rs ref="#JAB">so vuestro encomi<rhyme label="enda">enda</rhyme>
                      </rs>
@@ -128,10 +125,7 @@
                      </rs>.</l>
                     </lg>
 
-                    <lg n="2"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="2">
                         <l xml:id="L9">Ca puesto por caso que puge e trasc<rhyme>enda</rhyme>
                   </l>
                         <l xml:id="L10">la <rs ref="#AAV">vuestra <term cRef="195">ciencia</term> de
@@ -150,10 +144,7 @@
 
                     <pb facs="#PN81-2"/>
 
-                    <lg n="3"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="3">
                         <l xml:id="L17">E porque <rs ref="#JAB">non siento</rs> quien non
                                 condesc<rhyme label="enda">enda</rhyme>
                   </l>
@@ -174,10 +165,7 @@
                      <rs ref="#JAB">seré</rs> todo siempre, <rs ref="#AAV">tomad</rs> esta pr<rhyme label="enda">enda</rhyme>.</l>
                     </lg>
 
-                    <lg n="4"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="4">
                         <l xml:id="L25">Pero si <rs ref="#AAV">vos plaze</rs> que desto <rs ref="#JAB">dep<rhyme label="enda">enda</rhyme>
                      </rs>
                   </l>
@@ -202,7 +190,7 @@
                      </rs>.</l>
                     </lg>
 
-                    <lg n="5" type="finida" met="4x10" rhyme="ABBA">
+                    <lg n="5">
                         <l xml:id="L33">Pasteles de pollos con polvos de h<rhyme label="enda">ienda</rhyme>,</l>   <!-- El atributo label= correcto para estas rimas
                                                                                                                      es "ienda" o "enda"??? -->
                         <l xml:id="L34">e festes de noya con buen salpic<rhyme label="on">ón</rhyme>
