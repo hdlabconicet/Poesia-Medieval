@@ -25,8 +25,8 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <locus xml:id="B526a" from="117r" to="117r"/>
-                            <locus xml:id="V119" from="14r" to="14r"/>
+                            <locus xml:id="B526a" from="117r" to="117r">117r</locus>
+                            <locus xml:id="V119" from="14r" to="14r">14r</locus>
                             <idno xml:id="DH533"/>
                             <filiation type="contrafactum"> 
                                 <ref target="#CSM170"/> 
@@ -69,7 +69,7 @@
                     <l xml:id="L17" rendition="estribillo">rog’eu a xDeus que end’á o pod<rhyme label="er">er</rhyme></l>
                         <l xml:id="L18" rendition="estribillo">que mi a leixe,  se lhi prouguer, ve<rhyme label="er">er</rhyme></l>
                   </lg>
-                <lg>
+                <lg n="4">
                     <l xml:id="L19">cedo; ca tal a quis Deus faz<rhyme label="er">er</rhyme>,</l>
                     <l xml:id="L20">que se a non vir, non posso viv<rhyme label="er">er</rhyme>.</l>
                 </lg>

@@ -71,10 +71,3 @@ a:hover {
 
 input,textarea{display:inline-block;padding:5px 0;width:100%;border:0;border-bottom:2px solid #d4d4d4;outline:none;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;background:transparent}input:focus,textarea:focus{border-color:#277cea;-webkit-transition:border-color .25s;transition:border-color .25s}.form__input{position:relative;display:inline-block;width:100%;margin-bottom:35px}.form__input::before{content:"";position:absolute;bottom:0;left:0;width:0;height:2px;background:#277cea;z-index:5;-webkit-transition:width 0.45s cubic-bezier(0.694, 0.048, 0.335, 1);transition:width 0.45s cubic-bezier(0.694, 0.048, 0.335, 1);-webkit-transition-delay:.1s;transition-delay:.1s}.form__input::after{content:"";position:absolute;bottom:0;left:0;width:0;height:2px;background:#ff6161;z-index:4;-webkit-transition:width 0.45s cubic-bezier(0.694, 0.048, 0.335, 1);transition:width 0.45s cubic-bezier(0.694, 0.048, 0.335, 1)}.form__input:hover::after,.form__input :focus::after,.form__input :active::after{width:100%}.form__input:hover::before,.form__input :focus::before,.form__input :active::after{width:100%}.form__input.error:hover::after,.form__input.error :focus::after,.form__input.error :active::after{width:0%}.form__input.error:hover::before,.form__input.error :focus::before,.form__input.error :active::after{width:0%}.error input{border-bottom-color:#ff6161}.error textarea{border-bottom-color:#ff6161}.error-data{color:#ff6161;font-size:14px;position:absolute;left:0;bottom:-21px}
 
-.estribillo
-{
-
-  font-style: italic;
-  margin-top: 0%;
-  margin-bottom: 0%;
-}

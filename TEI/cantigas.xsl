@@ -7,7 +7,7 @@
     xmlns="http://www.w3.org/1999/xhtml"
     >
     
-   <!-- <xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes"></xsl:output>-->
+  <xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes"></xsl:output>
     
     <xsl:template match="/">
         <xsl:variable name="doc_id" select="//msItem/idno/@xml:id"/> <!-- Recuperamos el id del documento en una variable para nombrar el archivo de salida -->
@@ -22,13 +22,13 @@ button: siquieromiboton
 ---
         
             <div class="row clearfix">
-                <div class="col-right px-3">
+                <div class="col-left px-3">
                     <h1><xsl:apply-templates select="//title[1]"/></h1>
                 </div>
             </div>
             
         <div class="row clearfix">
-        <div class="col-right px-3">
+        <div class="col-left px-3">
             <p class="rubrica">
                 <xsl:apply-templates select="//head"/>
             </p>
@@ -36,7 +36,7 @@ button: siquieromiboton
         </div>
         
         <div class="row clearfix">
-        <div class="col-right px-3">
+        <div class="col-left px-3">
             <xsl:apply-templates select="//lg"/>
         </div>
         </div>  
@@ -66,7 +66,7 @@ button: siquieromiboton
    </div>
             
             <div class="row clearfix">
-                <div class="col-right px-3">
+                <div class="col-left px-3">
                     <div class="px-3 py-3">
                         <dl>
                             <dt>Autor</dt>
