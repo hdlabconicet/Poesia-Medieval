@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../FiloCyT/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Ai, senhor fremosa, por Deus</title>
+                <author>Don Denis</author>
+                <editor resp="critica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Rocío Méndez</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B518/V121</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B518" from="117v" to="117v">117v</locus>
+                            <locus xml:id="V121" from="14v" to="14v">14v</locus>
+                            <idno xml:id="DH535"/>
+                            <filiation type="contrafactum">
+                                <ref target="#CSM80"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+           
+            <lg type="cantiga" subtype="refrán" style="amor" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x8" rhyme="abbaCC">
+                <lg n="1">
+                    
+                    <l xml:id="L1">Ai, senhor fremosa, por D<rhyme label="eus">eus</rhyme>,</l>
+                    <l xml:id="L2">e por quan boa vos el f<rhyme label="ez">ez</rhyme>,</l>
+                    <l xml:id="L3">doedevos algũa v<rhyme label="ez">ez</rhyme></l>
+                    <l xml:id="L4">de min e destes olhos m<rhyme label="eus">eus</rhyme>,</l>            
+                    <l xml:id="L5" rendition="estribillo">que vos viron por mal de s<rhyme label="i">i</rhyme>,</l>
+                    <l xml:id="L6" rendition="estribillo">quando vos viron, e por  m<rhyme label="i">i</rhyme>n.</l>
+                </lg>
+                <lg n="2">
+                    <l xml:id="L7">E porque vos fez Deus melh<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L8">de quantas fez, e máis val<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L9">queredevos de min do<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L10">e destes meus olhos, senh<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L11" rendition="estribillo">que vos viron por mal de s<rhyme label="i">i</rhyme>,</l>
+                    <l xml:id="L12" rendition="estribillo">quando vos viron, e por  m<rhyme label="i">i</rhyme>n.</l>
+                </lg>
+                <lg n="3">
+                    <l xml:id="L13">E porque o al non é r<rhyme label="en">en</rhyme>,</l>
+                    <l xml:id="L14">senon o ben que vos Deus d<rhyme label="eu">eu</rhyme>,</l>
+                    <l xml:id="L15">queredevos doer do m<rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L16">mal e dos meus olhos, meu b<rhyme label="en">en</rhyme>,</l>
+                    <l xml:id="L17" rendition="estribillo">que vos viron por mal de s<rhyme label="i">i</rhyme>,</l>
+                    <l xml:id="L18" rendition="estribillo">quando vos viron, e por  m<rhyme label="i">i</rhyme>n.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>

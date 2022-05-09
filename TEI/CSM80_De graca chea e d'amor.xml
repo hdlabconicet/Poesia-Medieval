@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../FiloCyT/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">De graça chẽa e d'amor</title>
+                <author>Alfonso X</author>
+                <editor resp="critica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Rocío Méndez</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Códice de Toledo/Códice Rico o del Escorial/Códice de los músicos</repository>
+                        <idno>To90/T70/E80</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="To90" from="115r" to="115v">115r</locus>
+                            <locus xml:id="T70" from="103v" to="103v">103v</locus>
+                            <locus xml:id="E80" from="96v" to="96v">96v</locus>
+                            <idno xml:id="CSM80"/>
+                            <filiation type="base">
+                                <ref target="#DH535"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="mariana" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x8" rhyme="aaabBB">
+                <head type="rúbrica">Esta é de loor de Santa Maria, de como a saudou o angeo.</head>
+              
+                <lg n="1">
+                    <l xml:id="L3">Santa Maria, se te pr<rhyme label="az">az</rhyme>,</l>
+                    <l xml:id="L4">pois nosso ben tod'en ti j<rhyme label="az">az</rhyme></l>
+                    <l xml:id="L5">e que teu Fillo sempre f<rhyme label="az">az</rhyme></l>
+                    <l xml:id="L6">por ti o de que ás sab<rhyme label="or">or</rhyme>.</l>
+                    <l xml:id="L7" rendition="estribillo">De graça chẽa e d'am<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L8" rendition="estribillo">de Deus, acorre-nos, Senn<rhyme label="or">or</rhyme>.</l>
+                </lg>
+                <lg n="2">
+                    <l xml:id="L9">E pois que contigo é D<rhyme label="eus">eus</rhyme>,</l>
+                    <l xml:id="L10">acorr'a nos que somos t<rhyme label="eus">eus</rhyme>,</l>
+                    <l xml:id="L11">e fas-nos que sejamos s<rhyme label="eus">eus</rhyme></l>
+                    <l xml:id="L12">e que perçamos del pav<rhyme label="or">or</rhyme>.</l>
+                    <l xml:id="L13" rendition="estribillo">De graça chẽa e d'am<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L14" rendition="estribillo">de Deus, acorre-nos, Senn<rhyme label="or">or</rhyme>.</l>
+                </lg>
+                <lg n="3">
+                    <l xml:id="L15">Ontr'as outras molleres t<rhyme label="u">u</rhyme></l>
+                    <l xml:id="L16">es bẽeita porque Jes<rhyme label="u">u</rhyme></l>
+                    <l xml:id="L17">Cristo parist';e porend'<rhyme label="u">u</rhyme></l>
+                    <l xml:id="L18">nos for mester, razõad<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L19" rendition="estribillo">De graça chẽa e d'am<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L20" rendition="estribillo">de Deus, acorre-nos, Senn<rhyme label="or">or</rhyme>.</l>
+                </lg>
+                <lg n="4">    
+                    <l xml:id="L21">Sei por nos, pois que b˜eeit'<rhyme label="e">é</rhyme></l>
+                    <l xml:id="L22">o fruito de ti, a la ff<rhyme label="e">e</rhyme>;</l>
+                    <l xml:id="L23">e pois tu sees u al se<rhyme label="e">é</rhyme>,</l>
+                    <l xml:id="L24">roga por nos u mester f<rhyme label="or">or</rhyme>.</l>
+                    <l xml:id="L25" rendition="estribillo">De graça chẽa e d'am<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L26" rendition="estribillo">de Deus, acorre-nos, Senn<rhyme label="or">or</rhyme>.</l>
+                </lg>
+                <lg n="5">
+                    <l xml:id="L27">Punna, Sennor, de nos salv<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L28">pois Deus por ti quer perdõ<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L29">mil vegadas,se mil err<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L30">eno dia o pecad<rhyme label="or">or</rhyme>.</l>
+                    <l xml:id="L31" rendition="estribillo">De graça chẽa e d'am<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L32" rendition="estribillo">de Deus, acorre-nos, Senn<rhyme label="or">or</rhyme>.</l>
+                </lg>
+            </lg> 
+        </body>
+    </text>
+</TEI>
