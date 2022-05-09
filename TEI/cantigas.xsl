@@ -72,9 +72,9 @@ button: siquieromiboton
                             <dt>Autor</dt>
                             <dd><xsl:apply-templates select="//author"/></dd>
                             <dt>Editor/a del texto</dt>
-                            <dd><xsl:apply-templates select="//editor[@resp='crítica']"/></dd>
+                            <dd><xsl:apply-templates select="//editor[@resp='critica']"/></dd>
                             <dt>Editor/a del contrafactum</dt>
-                            <dd><xsl:apply-templates select="//editor[@resp='contrafactum']"/></dd>
+                            <dd><xsl:apply-templates select="concat(//editor[@resp='contrafactum'][1],' y ',//editor[@resp='contrafactum'][2])"/></dd>
                             <dt>Repositorio</dt>
                             <dd><xsl:apply-templates select="//repository"/></dd>
                             <dt>Identificador</dt>
