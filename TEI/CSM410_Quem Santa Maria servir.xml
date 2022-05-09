@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../FiloCyT/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Quem Santa Maria servir</title>
+                <author>Alfonso X</author>
+                <editor resp="critica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Rocío Méndez</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier> 
+                        <repository>Códice de los Músicos</repository>
+                        <idno>EFestas00</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="EFestas00" from= "1v" to="1v">1v</locus>
+                            <idno xml:id="CSM410"/>
+                            <filiation type="base">
+                                <ref target="#DH571"/></filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+
+            <lg type="cantiga" subtype="refrán" style="amor" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x8" rhyme="abbaCC">
+                <head type="rúbrica">Prologo das Cantigas das cinco Festas de Santa Maria.</head> 
+                
+                <lg n="1">
+                    <l xml:id="L1">E porque eu gran sabor <rhyme label="ey">ey</rhyme></l>
+                    <l xml:id="L2">de a servir, servi-la-<rhyme label="ey">ey</rhyme>,</l>
+                    <l xml:id="L3">e quanto poder punnar<rhyme label="ey">ey</rhyme></l>
+                    <l xml:id="L4">d'os seus miragres descobr<rhyme label="ir">ir</rhyme>.</l>
+                    <l xml:id="L5"  rendition="estribillo">Quem Santa Maria serv<rhyme label="ir">ir</rhyme>,</l>
+                    <l xml:id="L6" rendition="estribillo">non pode no seu ben fal<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                <lg n="2">    
+                    <l xml:id="L7">Pero direi ant'en bon s<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L8">das sas çinque festas, que s<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L9">mui nobres, e direi raz<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L10">que praza a quena o<rhyme label="yr">yr</rhyme>.</l>
+                    <l xml:id="L11"  rendition="estribillo">Quem Santa Maria serv<rhyme label="ir">ir</rhyme>,</l>
+                    <l xml:id="L12"  rendition="estribillo">non pode no seu ben fal<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                <lg n="3">     
+                    <l xml:id="L13">Santa Egreja ordin[n]<rhyme label="ou">ou</rhyme></l>
+                    <l xml:id="L14">çinque festas, porque ach<rhyme label="ou">ou</rhyme></l>
+                    <l xml:id="L15">çinque letras no nome s<rhyme label="ou">ou</rhyme>,</l>
+                    <l xml:id="L16">como vos quero depa[r]t<rhyme label="ir">ir</rhyme>.</l>
+                    <l xml:id="L17"  rendition="estribillo">Quem Santa Maria serv<rhyme label="ir">ir</rhyme>,</l>
+                    <l xml:id="L18"  rendition="estribillo">non pode no seu ben fal<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                <lg n="4">    
+                    <l xml:id="L19">A primeira, que M <rhyme label="e">é</rhyme>,</l>
+                    <l xml:id="L20">mostra de com'a nossa ff<rhyme label="e">e</rhyme>,</l>
+                    <l xml:id="L21">naçend'ela, naçeu e s<rhyme label="e">é</rhyme></l>
+                    <l xml:id="L22">y firm'a queno comed<rhyme label="ir">ir</rhyme>.</l>
+                    <l xml:id="L23"  rendition="estribillo">Quem Santa Maria serv<rhyme label="ir">ir</rhyme>,</l>
+                    <l xml:id="L24"  rendition="estribillo">non pode no seu ben fal<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                <lg n="5">    
+                    <l xml:id="L25">A mostra a saudaçi<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L26">d'Ave que Gabriel ent<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L27">lle disse que fillo bar<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L28">Deus e om', iria par<rhyme label="ir"></rhyme>ir.</l>
+                    <l xml:id="L29"  rendition="estribillo">Quem Santa Maria serv<rhyme label="ir">ir</rhyme>,</l>
+                    <l xml:id="L30"  rendition="estribillo">non pode no seu ben fal<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                <lg n="6">    
+                    <l xml:id="L31">R mostra como reyn<rhyme label="ou">ou</rhyme></l>
+                    <l xml:id="L32">ontr'as virgẽes, u am<rhyme label="ou">ou</rhyme></l>
+                    <l xml:id="L33">sa virgîidad'e guard<rhyme label="ou">ou</rhyme></l>
+                    <l xml:id="L34">por toda bondade compr<rhyme label="ir">ir</rhyme>.</l>
+                    <l xml:id="L35"  rendition="estribillo">Quem Santa Maria serv<rhyme label="ir">ir</rhyme>,</l>
+                    <l xml:id="L36"  rendition="estribillo">non pode no seu ben fal<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                <lg n="7" type="estrofa" met="4x8" rhyme="aaab">    
+                    <l xml:id="L37">I, indo de ben en mell<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L38">foi offreçer o Salvad<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L39">seu Fill', a Deus con gran sab<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L40">de fazer-nos a çeo <rhyme label="ir">ir</rhyme>.</l>
+                    <l xml:id="L41"  rendition="estribillo">Quem Santa Maria serv<rhyme label="ir">ir</rhyme>,</l>
+                    <l xml:id="L42"  rendition="estribillo">non pode no seu ben fal<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                <lg n="8" type="estrofa" met="4x8" rhyme="aaab">    
+                    <l xml:id="L43">A ar mostrou carreira t<rhyme label="al">al</rhyme></l>
+                    <l xml:id="L44">u desta vida tempor<rhyme label="al">al</rhyme></l>
+                    <l xml:id="L45">sobiu aa celesti<rhyme label="al">al</rhyme></l>
+                    <l xml:id="L46">por nos fazer alá sob<rhyme label="ir">ir</rhyme>.</l>
+                    <l xml:id="L47"  rendition="estribillo">Quem Santa Maria serv<rhyme label="ir">ir</rhyme>,</l>
+                    <l xml:id="L48"  rendition="estribillo">non pode no seu ben fal<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>
