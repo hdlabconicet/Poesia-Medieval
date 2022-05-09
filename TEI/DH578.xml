@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../FiloCyT/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Vós que vós en vossos cantares meu</title>
+                <author>Don Denis</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriela Striker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B561/V164</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B561" from="125v" to="125v"/>
+                            <locus xml:id="V164" from="22r" to="22r"/>
+                            <idno xml:id="DH578"/>
+                            <filiation type="contrafactum">
+                                <ref target="#CSM126"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="amigo" unisonancia="singular" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante" met="6x10/2x10" rhyme="abbaCC/cc">
+                <lg n="1">
+                    <l xml:id="L1">Vós que vós en vossos cantares m<rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L2">amigo chamades, creede b<rhyme label="en">en</rhyme></l>
+                    <l xml:id="L3">que non dou eu por tal enfinta r<rhyme label="en">en</rhyme>,</l>
+                    <l xml:id="L4">e por aquesto, senhor, vos mand’ <rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L5" rendition="estribillo">que ben quanto quiserdes des aqu<rhyme label="i">i</rhyme></l>
+                    <l xml:id="L6" rendition="estribillo">fazer, façades enfinta de m<rhyme label="i">í</rhyme>.</l>
+                </lg>
+                
+                <lg n="2">
+                    <l xml:id="L7">Ca Demo lev’ essa ren que eu deu</l> 
+                    <l xml:id="L8">por enfinta fazer o mentir <rhyme label="al">al</rhyme></l>
+                    <l xml:id="L9">de min, ca me non monta ben nen m<rhyme label="al">al</rhyme>,</l>
+                    <l xml:id="L10">e por aquesto vos mand’ eu, senhor,</l>
+         
+           
+                    <l xml:id="L11" rendition="estribillo">que ben quanto quiserdes des aqu<rhyme label="i">i</rhyme></l>
+                    <l xml:id="L12" rendition="estribillo">fazer, façades en finta de m<rhyme label="i">í</rhyme>.</l>
+                </lg>
+                
+                <lg n="3">
+                    <l xml:id="L13">Ca mi non tolh’ a mí ren, nen mi d<rhyme label="a">á</rhyme></l>
+                    <l xml:id="L14">de s’ enfinger de mi mui sen raz<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L15">ao que eu nunca fiz se mal n<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L16">e por én, senhor, vos mand’ ora j<rhyme label="a">a</rhyme>,</l>
+                
+                    <l xml:id="L17" rendition="estribillo">que ben quanto quiserdes des aqu<rhyme label="i">i</rhyme></l>
+                    <l xml:id="L18" rendition="estribillo">fazer, façades enfinta de m<rhyme label="i">í</rhyme>.</l>
+                </lg>
+                
+                <lg n="4">
+                    <l xml:id="L19">E estade com’ estades de m<rhyme label="i">in</rhyme>,</l>
+                    <l xml:id="L20">e enfingedevos ben des aqu<rhyme label="i">i</rhyme>.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>

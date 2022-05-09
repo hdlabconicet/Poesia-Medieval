@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../FiloCyT/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">De toda chaga ben pode guarir</title>
+                <author>Alfonso X</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriela Striker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Códice de los Músicos/Códice Rico o del Escorial</repository>
+                        <idno>E126/T126</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="E126" from="130r" to="130r"/>
+                            <locus xml:id="T126" from="178v" to="178v"/>
+                            <idno xml:id="CSM126"/>
+                            <filiation type="base">
+                                <ref target="#DH578"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="mariana" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x10" rhyme="aaabBB">
+                <head type="rúbrica">Esta é como Santa Maria guareceo un ome en Elche dũa saeta que lle entrara pelos ossos da faz.</head>
+                
+                <lg n="1">
+                    <l xml:id="L1">Como sãou en Elche hũa v<rhyme label="ez">ez</rhyme></l>
+                    <l xml:id="L2">Santa Maria, a Sennor de pr<rhyme label="ez">ez</rhyme>,</l>
+                    <l xml:id="L3">a un ome de chaga que lle f<rhyme label="ez">ez</rhyme></l>
+                    <l xml:id="L4">hũa saet', onde cuidou fĩ<rhyme label="ir">ir</rhyme>.</l>
+    
+          
+                    <l xml:id="L5" rendition="estribillo">De toda chaga ben pode guar<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L6" rendition="estribillo">e de door a Virgen sen fal<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                
+                <lg n="2" >
+                    <l xml:id="L7">Ca a saeta ll' entrara ass<rhyme label="i">y</rhyme></l>
+                    <l xml:id="L8">pelos ossos da faz, com' aprend<rhyme label="i">i</rhyme>,</l>
+                    <l xml:id="L9">que lla non podian tirar dal<rhyme label="i">i</rhyme></l>
+                    <l xml:id="L10">per maestria, nen y avĩ<rhyme label="ir">ir</rhyme>.</l>
+          
+             
+                    <l xml:id="L11" rendition="estribillo">De toda chaga ben pode guar<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L12" rendition="estribillo">e de door a Virgen sen fal<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                
+               <lg n="3">
+                    <l xml:id="L13">E con tẽaces a yan fill<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L14">mas per ren non lla podian tir<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L15">nen con baesta que yan arm<rhyme label="ar">ar</rhyme>;</l>
+                    <l xml:id="L16">ca Deus non llo queria consent<rhyme label="ir">ir</rhyme></l>
+             
+                
+                
+                   <l xml:id="L17" rendition="estribillo">De toda chaga ben pode guar<rhyme label="ir">ir</rhyme></l>
+                   <l xml:id="L18" rendition="estribillo">e de door a Virgen sen fal<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                
+                <lg n="4">
+                    <l xml:id="L19">Que guarisse, senon pola Senn<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L20">nossa, ssa Madre. Poren sofred<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L21">foi aquel ome de tan gran do<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L22">de qual vos guarde Deus, se por ben v<rhyme label="ir">ir</rhyme>.</l>
+        
+                
+            
+                    <l xml:id="L23" rendition="estribillo">De toda chaga ben pode guar<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L24" rendition="estribillo">e de door a Virgen sen fal<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                
+                
+                <lg n="5">
+                    <l xml:id="L25">Pois viu aquel ome que ren val<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L26">non lle podia que fosse faz<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L27">ben ant' o seu altar se fez trag<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L28">de Santa Maria, e repent<rhyme label="ir">ir</rhyme></l>
+             
+                
+     
+                    <l xml:id="L29" rendition="estribillo">De toda chaga ben pode guar<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L30" rendition="estribillo">e de door a Virgen sen fal<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                
+                <lg n="6">
+                    <l xml:id="L31">Se foi de seus pecados; e chor<rhyme label="ou">ou</rhyme></l>
+                    <l xml:id="L32">muito e mui ben se mãefest<rhyme label="ou">ou</rhyme></l>
+                    <l xml:id="L33">e Santa Maria muito cham<rhyme label="ou">ou</rhyme>,</l>
+                    <l xml:id="L34">e logo o ferro lle fez sa<rhyme label="ir">yr</rhyme></l>
+        
+                
+           
+                    <l xml:id="L35" rendition="estribillo">De toda chaga ben pode guar<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L36" rendition="estribillo">e de door a Virgen sen fal<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                
+                <lg n="7" >
+                    <l xml:id="L37">Sen door ela dos ossos da f<rhyme label="az">az</rhyme>.</l>
+                    <l xml:id="L38">E esto viron omẽes ass<rhyme label="az">az</rhyme>,</l>
+                    <l xml:id="L39">que a loaron, ca en ela j<rhyme label="az">az</rhyme></l>
+                    <l xml:id="L40">mais de ben que podemos comed<rhyme label="ir">ir</rhyme>.</l>
+              
+                
+            
+                    <l xml:id="L41" rendition="estribillo">De toda chaga ben pode guar<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L42" rendition="estribillo">e de door a Virgen sen fal<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+            </lg>    
+        </body>
+    </text>
+</TEI>
