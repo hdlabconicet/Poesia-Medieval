@@ -7,7 +7,7 @@
     xmlns="http://www.w3.org/1999/xhtml"
     >
     
-   <!-- <xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes"></xsl:output>-->
+  <xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes"></xsl:output>
     
     <xsl:template match="/">
         <xsl:variable name="doc_id" select="//msItem/idno/@xml:id"/> <!-- Recuperamos el id del documento en una variable para nombrar el archivo de salida -->
@@ -34,12 +34,19 @@ button: siquieromiboton
             </p>
         </div>
         </div>
-        
+
         <div class="row clearfix">
         <div class="col-right px-3">
-            <xsl:apply-templates select="//lg"/>
+            <xsl:apply-templates select="//lg[@type='cantiga']"/>
         </div>
         </div>  
+
+        <!-- <div class="row clearfix">
+        <div class="col-right px-3">
+            <xsl:apply-templates select="//lg//lg"/>
+        </div>
+        </div>   -->
+
         
         
    <!-- fila de audio -->
@@ -117,15 +124,7 @@ button: siquieromiboton
     
 
     
-    <xsl:template match="//lg[1]">     
-        <p class="info"><xsl:value-of select="concat('Unisonancia: ', @unisonancia)"/></p>
-        <p class="info"><xsl:value-of select="concat('Isometrismo: ', @isometrismo)"/></p>
-        <p class="info"><xsl:value-of select="concat('Isoestrofismo: ', @isoestrofismo)"/></p>
-        <p class="info"><xsl:value-of select="concat('Asonancia: ', @asonancia)"/></p>
-        <p class="info"><xsl:value-of select="concat('Esquema métrico: ', @met)"/></p>
-        <p class="info"><xsl:value-of select="concat('Esquema rimático: ', @rhyme)"/></p>
-        <xsl:apply-templates/>
-    </xsl:template>
+
     
     <!-- <xsl:template match="//lg//lg">
         <div class="estrofa">
@@ -147,11 +146,22 @@ button: siquieromiboton
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-   
+
+
     <xsl:template match="//l[@rendition='estribillo']">
     <p class="estribillo">
             <xsl:apply-templates/>
         </p>
+    </xsl:template>
+
+    <xsl:template match="//lg[@type='cantiga']">     
+        <p class="info"><xsl:value-of select="concat('Unisonancia: ', @unisonancia)"/></p>
+        <p class="info"><xsl:value-of select="concat('Isometrismo: ', @isometrismo)"/></p>
+        <p class="info"><xsl:value-of select="concat('Isoestrofismo: ', @isoestrofismo)"/></p>
+        <p class="info"><xsl:value-of select="concat('Asonancia: ', @asonancia)"/></p>
+        <p class="info"><xsl:value-of select="concat('Esquema métrico: ', @met)"/></p>
+        <p class="info"><xsl:value-of select="concat('Esquema rimático: ', @rhyme)"/></p>
+            <xsl:apply-templates/>
     </xsl:template>
 
     <xsl:template match="//note">
