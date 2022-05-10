@@ -57,7 +57,7 @@ button: siquieromiboton
      <xsl:apply-templates select="//title"/>
      </h3>
      <p class="rubrica">Melodía: Cantiga de Santa María nro, título</p>
-     <audio controls=""><source src="{{{site.baseurl}}}/assets/audios/{$doc_id}.mp3" type="audio/mpeg">Your browser does not support the audio element.</source></audio><!-- cambiar path al audio -->
+     <audio controls=""><source src="../assets/audios/{$doc_id}.mp3" type="audio/mpeg">Your browser does not support the audio element.</source></audio><!-- cambiar path al audio -->
      </div>
    </div>
  </div>
