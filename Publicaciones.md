@@ -11,7 +11,7 @@ permalink: /publicaciones/
 <h3 style="color: SlateGray;">Artículos de revista</h3>
 
 <ol type="1">
-<li style="color: SlateGray;"><a href="https://revista.an.gov.br/index.php/revistaacervo/article/view/1850" target="_blank"> “Una vez más sobre los sures de las Humanidades Digitales”</a>, con Domenico Fiormonte. Revista Acervo, 35(1), 1-15, 2022.</li>
+<li><a href="https://revista.an.gov.br/index.php/revistaacervo/article/view/1850" target="_blank"> “Una vez más sobre los sures de las Humanidades Digitales”</a>, con Domenico Fiormonte. Revista Acervo, 35(1), 1-15, 2022.</li>
 <li>“Recogito-in-a-Box: From Annotation to Digital Edition”, Modern Languages Open, 2020(1): 44 pp. 1–13. Con Valeria Vitale. https://doi.org/10.3828/mlo.v0i0.299   (con traducción al español).</li>
 <li>“The Switchover: Teaching and Learning the Text Encoding Initiative in Spanish”, con Susanna Allés-Torrent (University of Miami), Journal of the Text Encoding Initiative [Online], Issue 12 | July 2019 - May 2020. DOI: https://doi.org/10.4000/jtei.2994</li>
 <li>“La poesía medieval como objeto de estudio en el siglo XXI: evanescencia y fijación en el medio digital”. Boletín de Literatura Oral. Vol. extraordinario 2 (2019). Lyra Mínima: entre la historia, la literatura y la antropología. Estudios en homenaje a Margit Frenk. En colaboración con Clara Isabel Martínez Cantón y Elena González Blanco, pp. 253-264. ISSN: 2173-0695.</li>
