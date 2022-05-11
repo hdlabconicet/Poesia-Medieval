@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publicaciones
-subtitle: Proyecto Reis Trobadors (2018-2022)
+description: Proyecto Reis Trobadors (2018-2022)
 order: 11
 permalink: /publicaciones/
 ---
