@@ -6,12 +6,9 @@ permalink: /publicaciones/
 
 ## Publicaciones del proyecto Reis Trobadors (2018-2022)
 
-<div class="container mx-auto px-2 py-2">
-        <div class="py-2 mb-2 prose">
-          <ul>
 
-<h2>Gimena del Rio Riande</h2>
-<h3>Artículos de revista</h3>
+<h2 style="color: DarkCyan;">Gimena del Rio Riande</h2>
+<h3 style="color: SlateGray;">Artículos de revista</h3>
 
 <ol type="1">
 <li><a href="https://revista.an.gov.br/index.php/revistaacervo/article/view/1850" target="_blank"> “Una vez más sobre los sures de las Humanidades Digitales”, con Domenico Fiormonte. Revista Acervo, 35(1), 1-15, 2022.</a></li>
