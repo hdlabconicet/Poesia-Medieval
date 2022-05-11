@@ -4,14 +4,16 @@
         <div class="py-2 mb-2 prose">
           <ul>
 
-GIMENA DEL RIO 
-Artículos de revista (todos los artículos han pasado por referato):
-“Una vez más sobre los sures de las Humanidades Digitales”, con Domenico Fiormonte. Revista Acervo, 35(1), 1-15, 2022. https://revista.an.gov.br/index.php/revistaacervo/article/view/1850
-“Recogito-in-a-Box: From Annotation to Digital Edition”, Modern Languages Open, 2020(1): 44 pp. 1–13. Con Valeria Vitale. https://doi.org/10.3828/mlo.v0i0.299   (con traducción al español).
-“The Switchover: Teaching and Learning the Text Encoding Initiative in Spanish”, con Susanna Allés-Torrent (University of Miami), Journal of the Text Encoding Initiative [Online], Issue 12 | July 2019 - May 2020. DOI: https://doi.org/10.4000/jtei.2994
- “La poesía medieval como objeto de estudio en el siglo XXI: evanescencia y fijación en el medio digital”. Boletín de Literatura Oral. Vol. extraordinario 2 (2019). Lyra Mínima: entre la historia, la literatura y la antropología. Estudios en homenaje a Margit Frenk. En colaboración con Clara Isabel Martínez Cantón y Elena González Blanco, pp. 253-264. ISSN: 2173-0695.
-“La mirada humana, la mirada crítica”. Revista Telos, 112 (2019). ISSN : 0213-084X https://telos.fundaciontelefonica.com/revista/telos-112/
- “Humanidades Digitales. Miradas desde el sur”. LIINC em Revista, 15(1), 2019, pp. 2-3. ISSN 1808-3536. http://revista.ibict.br/liinc/article/view/4745/4133
+<h3>GIMENA DEL RIO</h3>
+
+<h2>Artículos de revista:</h2>
+<ol type="1">
+<li><a href="https://revista.an.gov.br/index.php/revistaacervo/article/view/1850" target="_blank"> “Una vez más sobre los sures de las Humanidades Digitales”, con Domenico Fiormonte. Revista Acervo, 35(1), 1-15, 2022.</a></li>
+<li>“Recogito-in-a-Box: From Annotation to Digital Edition”, Modern Languages Open, 2020(1): 44 pp. 1–13. Con Valeria Vitale. https://doi.org/10.3828/mlo.v0i0.299   (con traducción al español).</li>
+<li>“The Switchover: Teaching and Learning the Text Encoding Initiative in Spanish”, con Susanna Allés-Torrent (University of Miami), Journal of the Text Encoding Initiative [Online], Issue 12 | July 2019 - May 2020. DOI: https://doi.org/10.4000/jtei.2994</li>
+<li>“La poesía medieval como objeto de estudio en el siglo XXI: evanescencia y fijación en el medio digital”. Boletín de Literatura Oral. Vol. extraordinario 2 (2019). Lyra Mínima: entre la historia, la literatura y la antropología. Estudios en homenaje a Margit Frenk. En colaboración con Clara Isabel Martínez Cantón y Elena González Blanco, pp. 253-264. ISSN: 2173-0695.</li>
+<li>“La mirada humana, la mirada crítica”. Revista Telos, 112 (2019). ISSN : 0213-084X https://telos.fundaciontelefonica.com/revista/telos-112/</li>
+<li>“Humanidades Digitales. Miradas desde el sur”. LIINC em Revista, 15(1), 2019, pp. 2-3. ISSN 1808-3536. http://revista.ibict.br/liinc/article/view/4745/4133</li>
  
 Capítulos de libro
 “Humanidades Digitais e o mundo lusófono. Prefacio para las “otras” Humanidades Digitales”. En: Alves, Daniel y Pimenta, Ricardo (eds.). Humanidades Digitais e mundo lusófono. Rio de Janeiro: FGV Editora, 2021, pp. 8-12. ISBN: 978-65-5652-070-4.
