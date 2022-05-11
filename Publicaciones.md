@@ -1,12 +1,13 @@
-## Publicaciones del proyecto Reis Trobadors (2018-2022)
+## Publicaciones
 
 <div class="container mx-auto px-2 py-2">
         <div class="py-2 mb-2 prose">
           <ul>
 
-<h3>GIMENA DEL RIO</h3>
+<h3>Publicaciones del proyecto Reis Trobadors (2018-2022)</h3>
+<h2>GIMENA DEL RIO RIANDE</h2>
+<h1>Artículos de revista</h1>
 
-<h2>Artículos de revista:</h2>
 <ol type="1">
 <li><a href="https://revista.an.gov.br/index.php/revistaacervo/article/view/1850" target="_blank"> “Una vez más sobre los sures de las Humanidades Digitales”, con Domenico Fiormonte. Revista Acervo, 35(1), 1-15, 2022.</a></li>
 <li>“Recogito-in-a-Box: From Annotation to Digital Edition”, Modern Languages Open, 2020(1): 44 pp. 1–13. Con Valeria Vitale. https://doi.org/10.3828/mlo.v0i0.299   (con traducción al español).</li>
@@ -14,6 +15,7 @@
 <li>“La poesía medieval como objeto de estudio en el siglo XXI: evanescencia y fijación en el medio digital”. Boletín de Literatura Oral. Vol. extraordinario 2 (2019). Lyra Mínima: entre la historia, la literatura y la antropología. Estudios en homenaje a Margit Frenk. En colaboración con Clara Isabel Martínez Cantón y Elena González Blanco, pp. 253-264. ISSN: 2173-0695.</li>
 <li>“La mirada humana, la mirada crítica”. Revista Telos, 112 (2019). ISSN : 0213-084X https://telos.fundaciontelefonica.com/revista/telos-112/</li>
 <li>“Humanidades Digitales. Miradas desde el sur”. LIINC em Revista, 15(1), 2019, pp. 2-3. ISSN 1808-3536. http://revista.ibict.br/liinc/article/view/4745/4133</li>
+</ol>
  
 Capítulos de libro
 “Humanidades Digitais e o mundo lusófono. Prefacio para las “otras” Humanidades Digitales”. En: Alves, Daniel y Pimenta, Ricardo (eds.). Humanidades Digitais e mundo lusófono. Rio de Janeiro: FGV Editora, 2021, pp. 8-12. ISBN: 978-65-5652-070-4.
