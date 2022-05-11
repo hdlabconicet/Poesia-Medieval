@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Publicaciones
+order: 11
 permalink: /publicaciones/
 ---
 
