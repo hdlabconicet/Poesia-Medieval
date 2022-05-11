@@ -4,7 +4,6 @@ title: Recursos
 permalink: /recursos/
 ---
 	  
-
 ## Repertorios poéticos digitales
 
 <div class="container mx-auto px-2 py-2">
