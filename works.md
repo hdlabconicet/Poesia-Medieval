@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publicaciones
-permalink: /publicaciones/
+permalink: /works/
 ---
 
 <h2 style="color: DarkCyan;">Gimena del Rio Riande</h2>
