@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Corpus
+order: 7
 permalink: /corpus/
 ---
 
