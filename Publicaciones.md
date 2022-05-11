@@ -10,7 +10,7 @@ permalink: /publicaciones/
         <div class="py-2 mb-2 prose">
           <ul>
 
-<h2>GIMENA DEL RIO RIANDE</h2>
+<h2>Gimena del Rio Riande</h2>
 <h3>Artículos de revista</h3>
 
 <ol type="1">
