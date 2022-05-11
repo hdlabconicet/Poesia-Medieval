@@ -15,7 +15,7 @@ permalink: /corpus/
 {% endfor %}
 </ul>
 
-## span style="color: SlateGray;"Cantigas</span>
+## <span style="color: SlateGray;">Cantigas</span>
 
 🚧 en construcción 🚧
 <ul>
