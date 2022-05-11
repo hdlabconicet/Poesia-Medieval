@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Publicaciones
+subtitle: Proyecto Reis Trobadors (2018-2022)
 order: 11
 permalink: /publicaciones/
 ---
@@ -13,9 +14,9 @@ permalink: /publicaciones/
 <li align="justify"><a href="https://revista.an.gov.br/index.php/revistaacervo/article/view/1850" target="_blank"> “Una vez más sobre los sures de las Humanidades Digitales”</a>, con Domenico Fiormonte. Revista Acervo, 35(1), 1-15, 2022.</li>
 <li align="justify"><a href="https://doi.org/10.3828/mlo.v0i0.299"  target="_blank">“Recogito-in-a-Box: From Annotation to Digital Edition”</a>, Modern Languages Open, 2020(1): 44 pp. 1–13. Con Valeria Vitale.(con traducción al español)</li>
 <li align="justify"><a href="https://doi.org/10.4000/jtei.2994" target="_blank">“The Switchover: Teaching and Learning the Text Encoding Initiative in Spanish”</a>, con Susanna Allés-Torrent (University of Miami), Journal of the Text Encoding Initiative [Online], Issue 12 | July 2019 - May 2020.</li>
-<li align="justify"><a href="https://revistaselectronicas.ujaen.es/index.php/blo/article/view/4940" target="_blank">“La poesía medieval como objeto de estudio en el siglo XXI: evanescencia y fijación en el medio digital”</a>. Boletín de Literatura Oral. Vol. extraordinario 2 (2019). Lyra Mínima: entre la historia, la literatura y la antropología. Estudios en homenaje a Margit Frenk. En colaboración con Clara Isabel Martínez Cantón y Elena González Blanco, pp. 253-264. ISSN: 2173-0695.</li>
-<li align="justify"><a href="http://revista.ibict.br/liinc/article/view/4745/4133 target="_blank">“La mirada humana, la mirada crítica”</a>. Revista Telos, 112 (2019). ISSN : 0213-084X</li>
-<li align="justify">“Humanidades Digitales. Miradas desde el sur”. LIINC em Revista, 15(1), 2019, pp. 2-3. ISSN 1808-3536.</li>
+<li align="justify"><a href="https://revistaselectronicas.ujaen.es/index.php/blo/article/view/4940" target="_blank">“La poesía medieval como objeto de estudio en el siglo XXI: evanescencia y fijación en el medio digital”</a>. Boletín de Literatura Oral. Vol. extraordinario 2 (2019). Lyra Mínima: entre la historia, la literatura y la antropología. Estudios en homenaje a Margit Frenk. Con Clara Isabel Martínez Cantón y Elena González Blanco, pp. 253-264. ISSN: 2173-0695.</li>
+<li align="justify"><a href="http://revista.ibict.br/liinc/article/view/4745/4133" target="_blank">“La mirada humana, la mirada crítica”</a>. Revista Telos, 112 (2019). ISSN : 0213-084X</li>
+<li align="justify"><a href="https://revista.ibict.br/liinc/article/view/4745" target="_blank">“Humanidades digitais: olhares do sul | Humanidades digitales: miradas del sur | Digital humanities: views from the south</a>. LIINC em Revista, 15(1), 2019, pp. 2-3. ISSN 1808-3536.</li>
 </ol>
 
 <h3 style="color: SlateGray;">Capítulos de libro</h3>
