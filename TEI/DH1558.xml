@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../FiloCyT/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">U noutro dia seve don Foan</title>
+                <author>Don Denis</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriela Striker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa</repository>
+                        <idno>B1539</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B1539" from="322r" to="322r"/>
+                            <idno xml:id="DH1558"/>
+                            <filiation type="contrafactum">
+                                <ref target="#CSM109"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="escarnio y maldecir" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x10" rhyme="abbaCC">
+                
+                <lg n="1">
+                    <l xml:id="L1">U noutro dia seve don Fo<rhyme label="an">an</rhyme></l>
+                    <l xml:id="L2">a mi começou gran noj’ a crec<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L3">de muitas cousas que lh’ oí diz<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L4">diss’ el: “ir-m’ ei, ca ja se deitar <rhyme label="an">an</rhyme>”,</l>
+   
+            
+                    <l xml:id="L5" rendition="estribillo">e dix’ eu: “boa ventura ajad<rhyme label="es">es</rhyme>,</l> 
+                    <l xml:id="L6" rendition="estribillo">porque vos ides e me leixad<rhyme label="es">es</rhyme>”.</l>
+                </lg>
+                
+                <lg n="2">
+                    <l xml:id="L7">El muit’ enfadado de seu parl<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L8">sev’ i gran peça, se mi valha D<rhyme label="eus">eus</rhyme>,</l>
+                    <l xml:id="L9">e tosquejavan estes olhos m<rhyme label="eus">eus</rhyme>,</l>
+                    <l xml:id="L10">e quand’ el disse: “irm’ é, quer’ eu deit<rhyme label="ar">ar</rhyme>”,</l>
+               
+                    <l xml:id="L11" rendition="estribillo">e dix’ eu: “bõa ventura ajad<rhyme label="es">es</rhyme>,</l> 
+                    <l xml:id="L12" rendition="estribillo">porque vos ides e me leixad<rhyme label="es">es</rhyme>”.</l>
+                </lg>
+                
+                <lg n="3">
+                    <l xml:id="L13" rendition="estribillo">El seve muit’ e diss’ e parfi<rhyme label="ou">ou</rhyme>,</l>
+                    <l xml:id="L14" rendition="estribillo">e a min creceu gran nojo por <rhyme label="en">én</rhyme>,</l>
+                    <l xml:id="L15" rendition="estribillo">e non soub’ el se x’ era mal, se b<rhyme label="en">en</rhyme>,</l>
+                    <l xml:id="L16" rendition="estribillo">e quand’ el disse: “ja m’ eu deitar v<rhyme label="ou">ou</rhyme>”,</l>
+             
+                    <l xml:id="L17" rendition="estribillo">e dixilh’ eu: “bõa ventura ajad<rhyme label="es">es</rhyme>,</l> 
+                    <l xml:id="L18" rendition="estribillo">porque vos ides e me leixad<rhyme label="es">es</rhyme>”.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>

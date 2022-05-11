@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../FiloCyT/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Razon an os diabos de fogir</title>
+                <author>Alfonso X</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriela Striker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Códice de los Músicos/Códice Rico o del Escorial</repository>
+                        <idno>E109/T109</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="E109" from="117r" to="117v"/>
+                            <locus xml:id="T109" from="156r" to="156r"/>
+                            <idno xml:id="CSM109"/>
+                            <filiation type="base">
+                                <ref target="#DH1558"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="mariana" unisonancia="singular" isometrismo="heterométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x10" rhyme="aaabBB">
+                <head type="rúbrica">Como Santa Maria livrou un ome de cinco diaboos que o querian levar e matar.</head>
+                <note>La cantiga presenta una vacilación en la métrica, en las rimas a</note>
+                
+                <lg n="1">
+                    <l xml:id="L1">Dereito fazen de ss' ir perd<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L2">ant' a de que Deus quiso nac<rhyme label="er">er</rhyme>;</l>
+                    <l xml:id="L3">ca per ela perderon seu pod<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L4">de guisa que nos non poden noz<rhyme label="ir">ir</rhyme>.</l>
+    
+                    <l xml:id="L5" rendition="estribillo">Razon an os diabos de fog<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L6" rendition="estribillo">ant' a Virgen que a Deus foi par<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                
+                <lg n="2" >
+                    <l xml:id="L7">Dest' un miragre quero cont<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L8">que fez a Virgen que non á p<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L9">nen averá mentr' o mundo dur<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L10">esto vos posso jurar sen ment<rhyme label="ir">ir</rhyme>.</l>
+                
+                    <l xml:id="L11" rendition="estribillo">Razon an os diabos de fog<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L12" rendition="estribillo">ant' a Virgen que a Deus foi par<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                
+                <lg n="3" >
+                    <l xml:id="L13">O miragre foi en tal raz<rhyme label="on">on</rhyme>:</l>
+                    <l xml:id="L14">cinco diabos hũa saz<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L15">s' assũaron e fillaron ent<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L16">todos un ome polo mal bail<rhyme label="ir">ir</rhyme>.</l>
+      
+                    <l xml:id="L17" rendition="estribillo">Razon an os diabos de fog<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L18" rendition="estribillo">ant' a Virgen que a Deus foi par<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                
+                <lg n="4" >
+                    <l xml:id="L19">Pera Salas en camĩ' entr<rhyme label="ou">ou</rhyme>;</l>
+                    <l xml:id="L20">quand' a vista do logar cheg<rhyme label="ou">ou</rhyme>,</l>
+                    <l xml:id="L21">essa companna assi s' espant<rhyme label="ou">ou</rhyme></l>
+                    <l xml:id="L22">que o non leixaron adeant' <rhyme label="ir">ir</rhyme></l>
+               
+                    <l xml:id="L23" rendition="estribillo">Razon an os diabos de fog<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L24" rendition="estribillo">ant' a Virgen que a Deus foi par<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                
+                <lg n="5">
+                    <l xml:id="L25">Aquel ome, segund' aprend<rhyme label="i">i</rhyme>,</l>
+                    <l xml:id="L26">ta que dous fades vẽeron <rhyme label="i">y</rhyme></l>
+                    <l xml:id="L27">mẽores, que o levaron dal<rhyme label="i">i</rhyme></l>
+                    <l xml:id="L28">aa eigreja logo sen fal<rhyme label="ir">ir</rhyme>,</l>
+        
+                    <l xml:id="L29" rendition="estribillo">Razon an os diabos de fog<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L30" rendition="estribillo">ant' a Virgen que a Deus foi par<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                
+                <lg n="6">
+                    <l xml:id="L31">Querelando-sse, com' apres' <rhyme label="ei">ei</rhyme>,</l>
+                    <l xml:id="L32">os demões da Madre do R<rhyme label="ei">ey</rhyme></l>
+                    <l xml:id="L33">dos Ceos en como vos eu dir<rhyme label="ei">ei</rhyme>:</l>
+                    <l xml:id="L34">"Esta nos fará dest' ome part<rhyme label="ir">ir</rhyme>."</l>
+                
+                    <l xml:id="L35" rendition="estribillo">Razon an os diabos de fog<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L36" rendition="estribillo">ant' a Virgen que a Deus foi par<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                
+                <lg n="7">
+                    <l xml:id="L37">Un judeu os conjurou por D<rhyme label="eus">eus</rhyme></l>
+                    <l xml:id="L38">que dissessen porque os jud<rhyme label="eus">eus</rhyme></l>
+                    <l xml:id="L39">non fillavan. Diss' un demo: "Ca m<rhyme label="eus">eus</rhyme></l>
+                    <l xml:id="L40">sodes e punnades de me serv<rhyme label="ir">ir</rhyme>.</l>
+                
+                    <l xml:id="L41" rendition="estribillo">Razon an os diabos de fog<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L42" rendition="estribillo">ant' a Virgen que a Deus foi par<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                
+                <lg n="8">
+                    <l xml:id="L43">Por esto non vos fazemos m<rhyme label="al">al</rhyme>,</l>
+                    <l xml:id="L44">ca sodes todos nossos sen <rhyme label="al">al</rhyme>;</l>
+                    <l xml:id="L45">mai-los que do batismo o sin<rhyme label="al">al</rhyme></l>
+                    <l xml:id="L46">tragen, aqueles ymos percod<rhyme label="ir">ir</rhyme>."</l>
+    
+                    <l xml:id="L47" rendition="estribillo">Razon an os diabos de fog<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L48" rendition="estribillo">ant' a Virgen que a Deus foi par<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                
+                <lg n="9">
+                    <l xml:id="L49">Esto dito, fogiu o jud<rhyme label="eu">eu</rhyme>;</l>
+                    <l xml:id="L50">mai-los diabos, com' aprix <rhyme label="eu">eu</rhyme>,</l>
+                    <l xml:id="L51">cada un deles logo sinal d<rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L52">quando ouveron do om' a sa<rhyme label="ir">ir</rhyme>.</l>
+             
+                    <l xml:id="L53" rendition="estribillo">Razon an os diabos de fog<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L54" rendition="estribillo">ant' a Virgen que a Deus foi par<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+                
+                <lg n="10">
+                    <l xml:id="L55">Desto deron todos gran lo<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L56">a Santa Maria, que sab<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L57">á de valer sempr' ao pecad<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L58">e d' os diabos sempre destro<rhyme label="ir">ir</rhyme>.</l>
+             
+                    <l xml:id="L59" rendition="estribillo">Razon an os diabos de fog<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L60" rendition="estribillo">ant' a Virgen que a Deus foi par<rhyme label="ir">ir</rhyme>.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>

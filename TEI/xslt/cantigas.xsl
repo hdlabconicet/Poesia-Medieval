@@ -57,7 +57,7 @@ button: siquieromiboton
      <xsl:apply-templates select="//title"/>
      </h3>
      <p class="rubrica">Melodía: Cantiga de Santa María nro, título</p>
-     <audio controls=""><source src="{{{site.baseurl}}}/assets/audios/{$doc_id}.mp3" type="audio/mpeg">Your browser does not support the audio element.</source></audio><!-- cambiar path al audio -->
+     <audio controls=""><source src="../assets/audios/{$doc_id}.mp3" type="audio/mpeg">Your browser does not support the audio element.</source></audio><!-- cambiar path al audio -->
      </div>
    </div>
  </div>
@@ -79,7 +79,7 @@ button: siquieromiboton
                             <dt>Autor</dt>
                             <dd><xsl:apply-templates select="//author"/></dd>
                             <dt>Editor/a del texto</dt>
-                            <dd><xsl:apply-templates select="//editor[@resp='critica']"/></dd>
+                            <dd><xsl:apply-templates select="//editor[@resp='crítica']"/></dd>
                             <dt>Editor/a del contrafactum</dt>
                             <dd><xsl:apply-templates select="concat(//editor[@resp='contrafactum'][1],' y ',//editor[@resp='contrafactum'][2])"/></dd>
                             <dt>Repositorio</dt>
