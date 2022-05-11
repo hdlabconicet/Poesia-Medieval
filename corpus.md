@@ -12,6 +12,7 @@ permalink: /corpus/
 
 
 ## <span style="color: DarkCyan;">Preguntas y respuestas</span>
+<br/>
 <ul>
 {% for my_preg_resp in site.preguntas_respuestas %}
     <li><a href="{{site.baseurl}}/{{my_preg_resp.url}}">{{ my_preg_resp.title }}</a></li>
@@ -19,8 +20,9 @@ permalink: /corpus/
 </ul>
 
 ## <span style="color: SlateGray;">Cantigas y </span>
-
+<br/>
 🚧 en construcción 🚧
+<br/>
 <ul>
 {% for my_cantiga in site.cantigas %}
     <li><a href="{{site.baseurl}}/{{my_cantiga.url}}">{{ my_cantiga.title }}</a></li>
