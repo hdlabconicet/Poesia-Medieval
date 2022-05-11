@@ -4,7 +4,6 @@ title: Publicaciones
 permalink: /publicaciones/
 ---
 
-## Publicaciones del proyecto Reis Trobadors (2018-2022)
 
 
 <h2 style="color: DarkCyan;">Gimena del Rio Riande</h2>
