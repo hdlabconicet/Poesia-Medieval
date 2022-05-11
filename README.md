@@ -6,13 +6,13 @@ Repositorio de proyectos HD CAICYT Lab / IIBICRIT sobre poesía medieval y Filo:
 ## Equipo
 
 
-  Gimena del Rio (HD CAICYT Lab - IIBICRIT, CONICET - UBA) - Dirección
+  Gimena del Rio (HD Lab - IIBICRIT, CONICET - UBA) - Dirección
 	
   Germán Pablo Rossi (UBA) - Co-dirección
 	
-  Nidia Hernández (HD CAICYT Lab - CONICET)
+  Nidia Hernández (HD Lab - CONICET)
 	
-  Romina De Léon (HD CAICYT Lab - CONICET)
+  Romina De Léon (HD Lab - CONICET)
 	
   Gabriela Striker (UBA)
 	
