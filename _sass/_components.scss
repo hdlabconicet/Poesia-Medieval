@@ -45,6 +45,13 @@ mark {
 
   }
 
+  .prosa{
+    // margin-left: 2em;
+    padding-right: 4em;
+    text-align: justify;
+    font-size: 22px;
+  }
+
   .verso {
   font-size: 22px;
   margin-bottom:4px;
@@ -84,6 +91,8 @@ mark {
     margin-bottom: 0.5em;
     padding-right: 4em;
     text-align: justify;
+      font-size: 22px;
+    }
 
     ul li, ol li {
       margin-bottom: 0;
