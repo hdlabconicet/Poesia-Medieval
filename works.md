@@ -30,58 +30,58 @@ permalink: /works/
 <h3 style="color: SlateGray;">Publicaciones de Jornadas y Congresos</h3>
 <ol type="3">
 <li align="justify">“Más allá de las Cantigas de Santa María. La lírica mariana en la península ibérica después de Alfonso X”, en Actas de las XVI Jornadas Internacionales de Estudios Medievales y XXVI Curso de Actualización en Historia Medieval / editado por Lidia Amor, Ana Basarte, Dolores Castro. Buenos Aires: SAEMED-Asociación Civil de Estudios Medievales de la República Argentina, 2019, pp. 77-89.ISBN 978-987-47434-0-4. </li>
-<li align="justify">“Las Humanidades Digitales como posibilidad de redefinición del campo académico y discurso científico humanista en la Argentina”. En Orsi, Laura (coord.) VI Jornadas de Investigación en Humanidades: homenaje a Cecilia Borel. Universidad Nacional del Sur. Departamento de Humanidades. EdiUNS, 2019, pp. 952-957. ISBN 978-987-655-222-6. http://repositoriodigital.uns.edu.ar/handle/123456789/4745</li>
-<li align="justify">“TTHUB: Text Technologies Hub for Extending TEI Training in Spanish”. En TEI Book of abstracts, 2019. https://gams.uni-graz.at/o:tei2019.bookofabstracts</li>
+<li align="justify"><a href=“http://repositoriodigital.uns.edu.ar/handle/123456789/4745" target="_blank">Las Humanidades Digitales como posibilidad de redefinición del campo académico y discurso científico humanista en la Argentina”</a>. En Orsi, Laura (coord.) VI Jornadas de Investigación en Humanidades: homenaje a Cecilia Borel. Universidad Nacional del Sur. Departamento de Humanidades. EdiUNS, 2019, pp. 952-957. ISBN 978-987-655-222-6.</li>
+<li align="justify"> <a href="https://gams.uni-graz.at/o:tei2019.bookofabstracts" target="_blank">“TTHUB: Text Technologies Hub for Extending TEI Training in Spanish”</a>. En TEI Book of abstracts, 2019.</li>
 </ol>
 
 
 <h3 style="color: SlateGray;">Publicaciones electrónicas</h3>
 <ol type="4">
-<li align="justify">“Editing a Medieval Hispanic Poetry Corpus with TextGrid”. 2020. Iniciativa Text+. https://www.text-plus.org/en/research-data/user-story-407/</li>
+<li align="justify"><a href="https://www.text-plus.org/en/research-data/user-story-407/" target="_blank">“Editing a Medieval Hispanic Poetry Corpus with TextGrid”</a>. 2020. Iniciativa Text+.</li>
 </ol>
  
 <h3 style="color: SlateGray;">Reseñas</h3>
 <ol type="5">
-<li align="justify">Reseña crítica de Mini Lazarillo, a minimal digital edition of Lazarillo de Tormes, created by Susanna Allés-Torrent, Alex Gil, Armando León, Falls Kennedy, Fiona Kibblewhite, and Taewan Shim. Reviews in DH, Vol. 1, Num. 4/5, 2020. DOI: https://doi.org/10.21428/3e88f64f.de565313</li>
+<li align="justify"><a href="https://doi.org/10.21428/3e88f64f.de565313" target="_blank">Reseña crítica de Mini Lazarillo, a minimal digital edition of Lazarillo de Tormes, created by Susanna Allés-Torrent, Alex Gil, Armando León, Falls Kennedy, Fiona Kibblewhite, and Taewan Shim</a>. Reviews in DH, Vol. 1, Num. 4/5, 2020.</li>
 </ol>
  
 
 <h2 style="color: DarkCyan;">Gimena del Rio Riande y Germán Rossi</h2>
 <h3 style="color: SlateGray;">Publicaciones de Jornadas y Congresos</h3>
 <ol type="6">
-<li align="justify">“Reis Trobadors: filología, musicología y práctica musical de la lírica románica medieval”, con Germán Rossi. En: I Jornadas de Jóvenes Hispanistas, 2020. ISBN 978-987-8363-59-2.  http://eventosacademicos.filo.uba.ar/index.php/JJH/IJJH</li>
+<li align="justify"><a href="http://eventosacademicos.filo.uba.ar/index.php/JJH/IJJH" target="_blank">“Reis Trobadors: filología, musicología y práctica musical de la lírica románica medieval”</a>. En: I Jornadas de Jóvenes Hispanistas, 2020. ISBN 978-987-8363-59-2.</li>
 </ol>
 
 
 <h2 style="color: DarkCyan;">Gimena del Rio Riande y Gabriel Calarco</h2>
 <h3 style="color: SlateGray;">Artículos de revistas</h3>
 <ol type="7">
-<li align="justify">“Introducción a la publicación web de archivos TEI con CETEIcean”, con Gabriel Calarco. The Programming Historian, 2021. https://doi.org/10.46430/phes0056</li>
+<li align="justify"> <a href="https://doi.org/10.46430/phes0056" target="_blank">“Introducción a la publicación web de archivos TEI con CETEIcean”</a>. The Programming Historian, 2021. </li>
 </ol>
 
-<h2 style="color: DarkCyan;">Gimena del Rio Riande, Gabriel Calarco, Romina De León y Nidia Hernández</h2>
+<h2 style="color: DarkCyan;">Gimena del Rio Riande, Raff Viglianti, Gabriel Calarco, Romina De León y Nidia Hernández</h2>
 <h3 style="color: SlateGray;">Artículos de revistas</h3>
 <ol type="8">
-<li align="justify">“Creación de sitios estáticos con Jekyll y GitHub pages”, con Raff Viglianti, Gabriel Calarco, Romina De León y  Nidia Hernández, The Programming Historian, 2021. https://doi.org/10.46430/phes0050</li>
+<li align="justify"> <a href="https://doi.org/10.46430/phes0050" target="_blank">“Creación de sitios estáticos con Jekyll y GitHub pages”</a>. The Programming Historian, 2021. </li>
 </ol>
 
 <h2 style="color: DarkCyan;">Gabriel Calarco</h2>
 <h3 style="color: SlateGray;">Publicaciones de Jornadas y Congresos</h3>
 <ol type="9">
-<li align="justify">Calarco, Gabriel. “Huellas formales del mester de clerecía en las Cantigas de Santa María”, en Actas de las XVI Jornadas Internacionales de Estudios Medievales y XXVI Curso de Actualización en Historia Medieval, editado por Lidia Amor, Ana Basarte y Dolores Castro. Buenos Aires: SAEMED-Asociación Civil de Estudios Medievales de la República Argentina, 2019, pp. 25-35. ISBN 978-987-47434-0-4.</li>
-<li align="justify">Calarco, Gabriel. “Ecclesia et Synagoga. La representación del judío en las letras clericales castellanas del siglo XIII” en Un milenio de contar historias II. Los conceptos de ficcionalización y narración de la Antigüedad al Medioevo. Editorial de la Facultad de Filosofía y Letras Universidad de Buenos Aires, Pégolo, Liliana y Neyra, Andrea Vanina (coordinadoras), pp. 113-129. 2020.</li>
+<li align="justify">“Huellas formales del mester de clerecía en las Cantigas de Santa María”, en Actas de las XVI Jornadas Internacionales de Estudios Medievales y XXVI Curso de Actualización en Historia Medieval, editado por Lidia Amor, Ana Basarte y Dolores Castro. Buenos Aires: SAEMED-Asociación Civil de Estudios Medievales de la República Argentina, 2019, pp. 25-35. ISBN 978-987-47434-0-4.</li>
+<li align="justify">“Ecclesia et Synagoga. La representación del judío en las letras clericales castellanas del siglo XIII” en Un milenio de contar historias II. Los conceptos de ficcionalización y narración de la Antigüedad al Medioevo. Editorial de la Facultad de Filosofía y Letras Universidad de Buenos Aires, Pégolo, Liliana y Neyra, Andrea Vanina (coordinadoras), pp. 113-129. 2020.</li>
 </ol>
 
 <h3 style="color: SlateGray;">Reseñas</h3>
 <ol type="10">
-<li align="justify">Calarco, Gabriel. (2021). Reseña “Daniel H. Cabrera (coord.), Cosas confusas. Comprender las tecnologí­as y la comunicación. Valencia, Tirant Humanidades, 2019”. Orbis Tertius, 26(33), e204. https://doi.org/10.24215/18517811e204</li>
+<li align="justify"><a href=" https://doi.org/10.24215/18517811e204" target="_blank">Reseña “Daniel H. Cabrera (coord.), Cosas confusas. Comprender las tecnologí­as y la comunicación. Valencia, Tirant Humanidades, 2019”</a>. Orbis Tertius, 26(33), 2021.</li>
 </ol>
 
 
 <h2 style="color: DarkCyan;">Gabriel Calarco y Gabriela Striker</h2>
 <h3 style="color: SlateGray;">Artículos de revistas</h3>
 <ol type="11">
-<li align="justify">Calarco, Gabriel; Goinco, Pamela; Méndez, Rocío; Merino Recalde, David; Striker, Gabriela y Suárez, Cristian.“Digital Publishing with Minimal Computing (UMD-USAL, 2020): nuestra experiencia como estudiantes”. Publicaciones de la Asociación Argentina de Humanidades Digitales, 2021. https://www.aacademica.org/noviembrehd/29</li>
+<li align="justify"><a href="https://www.aacademica.org/noviembrehd/29" target="_blank">Calarco, Gabriel; Goinco, Pamela; Méndez, Rocío; Merino Recalde, David; Striker, Gabriela y Suárez, Cristian.“Digital Publishing with Minimal Computing (UMD-USAL, 2020): nuestra experiencia como estudiantes”</a>. Publicaciones de la Asociación Argentina de Humanidades Digitales, 2021. </li>
 </ol>
 
 <h3 style="color: SlateGray;">Reseñas</h3>
@@ -94,7 +94,7 @@ permalink: /works/
 <ol type="13">
 <li align="justify">“De los cruzados y peregrinos en las cantigas profanas gallego-portuguesas a los viajeros en las Cantigas de Santa María de Alfonso X: la construcción poética de los espacios de peregrinación” (2019). En M. Cámpora y M. L. Puppo (Coords.), Dinámicas del espacio. Reflexiones desde América Latina. Actas del V Coloquio Internacional de Literatura Comparada: Buenos Aires, 6-8 de junio de 2018 (pp. 367-378). Buenos Aires: Facultad de Filosofía y Letras, Universidad Católica Argentina. ISBN 978-987-620-389-0.</li>
 <li align="justify">“Un cotejo entre las denominaciones del juglar y su representación en las cantigas profanas y marianas gallego-portuguesas” (2019). En L. Amor, A. Basarte y D. Castro (Eds.), Actas de las XVI Jornadas Internacionales de Estudios Medievales y XXVI Curso de Actualización en Historia Medieval: Buenos Aires, 3-5 de septiembre de 2018 (pp. 253-263). Buenos Aires: IMHICIHU-CONICET y SAEMED. ISBN 978-987-47434-0-4.</li>
-<li align="justify">“El proyecto de digitalización de las revistas INCIPIT. Comentarios sobre su primera etapa” (2019), con Agustina Miguens e Ileana Campagno Pizarro. En G. del Rio (Coord.), La cultura de los datos. Actas del II Congreso Internacional de la Asociación Argentina de Humanidades Digitales: Rosario, 7-9 de noviembre de 2018 (pp. 227- 252). La Plata: Facultad de Humanidades y Ciencias de la Educación, Universidad Nacional de la Plata; Rosario: Universidad Nacional de Rosario. ISBN 978-950-34-1840-6. https://www.aacademica.org/aahd2018/35</li>
-<li align="justify">“El juego de puntos de vista en la cantiga gallego-portuguesa Loavan un dia, en Lugo, Elvira de Johan Romeu de Lugo” (2020). En L. Pégolo y A. V. Neyra (Coords.), Un milenio de contar historias. Los conceptos de ficcionalización y narración  de la Antigüedad al Medioevo. Tomo II, pp. 359-376. Buenos Aires: Facultad de Filosofía y Letras, UBA. (Colección Saberes). ISBN: 978-987-8363-07-3. http://publicaciones.filo.uba.ar/un-milenio-de-contar-historias-ii</li>
-<li align="justify">“La resignificación discursiva de la alteridad en la lírica gallego-portuguesa medieval: apuntes de un plan de investigación” (2021). En G. Striker y G. Calarco (Coords.), Actas de las Primeras Jornadas de Jóvenes Hispanistas. “Las letras hispánicas: ayer y hoy”. Buenos Aires: Facultad de Filosofía y Letras, UBA.  ISBN 978-987-8363-59-2. http://eventosacademicos.filo.uba.ar/index.php/JJH/IJJH</li>
+<li align="justify"><a href="https://www.aacademica.org/aahd2018/35" target="_blank">“El proyecto de digitalización de las revistas INCIPIT. Comentarios sobre su primera etapa” (2019), con Agustina Miguens e Ileana Campagno Pizarro</a>. En G. del Rio (Coord.), La cultura de los datos. Actas del II Congreso Internacional de la Asociación Argentina de Humanidades Digitales: Rosario, 7-9 de noviembre de 2018 (pp. 227- 252). La Plata: Facultad de Humanidades y Ciencias de la Educación, Universidad Nacional de la Plata; Rosario: Universidad Nacional de Rosario. ISBN 978-950-34-1840-6.</li>
+<li align="justify"><a href="http://publicaciones.filo.uba.ar/un-milenio-de-contar-historias-ii" target="_blank">“El juego de puntos de vista en la cantiga gallego-portuguesa Loavan un dia, en Lugo, Elvira de Johan Romeu de Lugo” (2020)</a>. En L. Pégolo y A. V. Neyra (Coords.), Un milenio de contar historias. Los conceptos de ficcionalización y narración  de la Antigüedad al Medioevo. Tomo II, pp. 359-376. Buenos Aires: Facultad de Filosofía y Letras, UBA. (Colección Saberes). ISBN: 978-987-8363-07-3. </li>
+<li align="justify"><a href="http://eventosacademicos.filo.uba.ar/index.php/JJH/IJJH" target="_blank">“La resignificación discursiva de la alteridad en la lírica gallego-portuguesa medieval: apuntes de un plan de investigación” (2021)</a>. En G. Striker y G. Calarco (Coords.), Actas de las Primeras Jornadas de Jóvenes Hispanistas. “Las letras hispánicas: ayer y hoy”. Buenos Aires: Facultad de Filosofía y Letras, UBA.  ISBN 978-987-8363-59-2.</li>
 </ol>
