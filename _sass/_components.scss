@@ -94,6 +94,16 @@ mark {
     font-size: 20px;
     }
 
+    .corpus {
+      font-size: 22px;
+    }
+
+    .biblio {
+      text-indent: -60px;
+      // position: absolute;
+      padding-left: 40px
+    }
+
     ul li, ol li {
       margin-bottom: 0;
     }
