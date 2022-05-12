@@ -39,7 +39,7 @@ permalink: /works/
 <li class="prosa"><a href="https://www.text-plus.org/en/research-data/user-story-407/" target="_blank">“Editing a Medieval Hispanic Poetry Corpus with TextGrid”</a>. 2020. Iniciativa Text+.</li>
 </ol>
  
-#### <span style="color: SlateGray;">Reseñas</span>
+### <span style="color: SlateGray;">Reseñas</span>
 <ol>
 <li class="prosa"><a href="https://doi.org/10.21428/3e88f64f.de565313" target="_blank">Reseña crítica de Mini Lazarillo, a minimal digital edition of Lazarillo de Tormes, created by Susanna Allés-Torrent, Alex Gil, Armando León, Falls Kennedy, Fiona Kibblewhite, and Taewan Shim</a>. Reviews in DH, Vol. 1, Num. 4/5, 2020.</li>
 </ol>
