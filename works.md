@@ -29,7 +29,7 @@ permalink: /works/
 ### <span style="color: SlateGray;">Publicaciones de Jornadas y Congresos</span>
 <ol>
 <li class="prosa">“Más allá de las Cantigas de Santa María. La lírica mariana en la península ibérica después de Alfonso X”, en Actas de las XVI Jornadas Internacionales de Estudios Medievales y XXVI Curso de Actualización en Historia Medieval / editado por Lidia Amor, Ana Basarte, Dolores Castro. Buenos Aires: SAEMED-Asociación Civil de Estudios Medievales de la República Argentina, 2019, pp. 77-89.ISBN 978-987-47434-0-4. </li>
-<li class="prosa"><a href=“http://repositoriodigital.uns.edu.ar/handle/123456789/4745" target="_blank">"Las Humanidades Digitales como posibilidad de redefinición del campo académico y discurso científico humanista en la Argentina”</a>. En Orsi, Laura (coord.) VI Jornadas de Investigación en Humanidades: homenaje a Cecilia Borel. Universidad Nacional del Sur. Departamento de Humanidades. EdiUNS, 2019, pp. 952-957. ISBN 978-987-655-222-6.</li>
+<li class="prosa">"Las Humanidades Digitales como posibilidad de redefinición del campo académico y discurso científico humanista en la Argentina”. En Orsi, Laura (coord.) VI Jornadas de Investigación en Humanidades: homenaje a Cecilia Borel. Universidad Nacional del Sur. Departamento de Humanidades. EdiUNS, 2019, pp. 952-957. ISBN 978-987-655-222-6.</li>
 <li class="prosa"> <a href="https://gams.uni-graz.at/o:tei2019.bookofabstracts" target="_blank">“TTHUB: Text Technologies Hub for Extending TEI Training in Spanish”</a>. En TEI Book of abstracts, 2019.</li>
 </ol>
 
@@ -46,7 +46,7 @@ permalink: /works/
  
 
 ## <span style="color: DarkCyan;">Gimena del Rio Riande y Germán Rossi</span>
-### <spanstyle="color: SlateGray;">Publicaciones de Jornadas y Congresos</span>
+### <span style="color: SlateGray;">Publicaciones de Jornadas y Congresos</span>
 <ol>
 <li class="prosa"><a href="http://eventosacademicos.filo.uba.ar/index.php/JJH/IJJH" target="_blank">“Reis Trobadors: filología, musicología y práctica musical de la lírica románica medieval”</a>. En: I Jornadas de Jóvenes Hispanistas, 2020. ISBN 978-987-8363-59-2.</li>
 </ol>
