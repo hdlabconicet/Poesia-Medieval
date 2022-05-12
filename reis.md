@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Recursos
-permalink: /recursos/
+title: Proyecto
+permalink: /reis/
 ---
 	  
 ## Repertorios poéticos digitales
