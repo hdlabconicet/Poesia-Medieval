@@ -45,15 +45,22 @@ mark {
 
   }
 
+  .prosa{
+    // margin-left: 2em;
+    padding-right: 4em;
+    text-align: justify;
+    font-size: 20px;
+  }
+
   .verso {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom:4px;
   }
 
   .estribillo
 {
   font-style: italic;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom:4px;
 }
 
@@ -81,9 +88,20 @@ mark {
   }
 
   li {
-    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
     padding-right: 4em;
     text-align: justify;
+    font-size: 20px;
+    }
+
+    .corpus {
+      font-size: 22px;
+    }
+
+    .biblio {
+      text-indent: -40px;
+      padding-left: 40px
+    }
 
     ul li, ol li {
       margin-bottom: 0;
@@ -175,5 +193,5 @@ mark {
       border-bottom: 2px solid $color-body-text;
     }
   }
-  }
+  // }
 
