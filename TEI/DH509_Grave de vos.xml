@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../FiloCyT/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Grave vos é de que vos ei amor</title>
+                <author>Don Denis</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B511/V94</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B511" from="113r" to="113v">113r-113v</locus>
+                            <locus xml:id="V90" from="9v" to="10r">9v-10r</locus>
+                            <idno xml:id="DH509"/>
+                            <filiation type="contrafactum">
+                                <ref target="#CSM240"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+                
+                <lg type="cantiga" subtype="refrán" style="amor" unisonancia="singular" isometrismo="isométrico" 
+                    isoestrofismo="heteroestrófico" asonancia="consonante" met="6x10/2x10" rhyme="abbaCC">
+                    
+                    
+                    <lg n="1">                
+                        <l xml:id="L1">Grave vos é de que vos ei am<rhyme label="or">or</rhyme></l>
+                        <l xml:id="L2">e, par Deus, aquesto vej’eu mui b<rhyme label="en">en</rhyme>,</l>
+                        <l xml:id="L3">mais empero direivos ũa r<rhyme label="en">en</rhyme>,</l>
+                        <l xml:id="L4">per boa fe, fremosa mia senh<rhyme label="or">or</rhyme>,</l>
+                        <l xml:id="L5" rendition="estribillo">se vos grav’é de vós eu ben quer<rhyme label="er">er</rhyme>,</l>
+                        <l xml:id="L6" rendition="estribillo">grav’ést’a mí, mais non poss’al faz<rhyme label="er">er</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="2">
+                        <l xml:id="L7">Grave vos é, ben vej’eu que é ass<rhyme label="i">i</rhyme>,</l>
+                        <l xml:id="L8">de que vos amo máis ca min nen <rhyme label="al">al</rhyme>,</l>
+                        <l xml:id="L9">e qu’est’é grav’, e mia mort’e meu m<rhyme label="al">al</rhyme>,</l>
+                        <l xml:id="L10">mais, par Deus, senhor que por meu mal v<rhyme label="i">i</rhyme>,</l>    
+                        <l xml:id="L11" rendition="estribillo">se vos grav’é de vós eu ben quer<rhyme label="er">er</rhyme>,</l>
+                        <l xml:id="L12" rendition="estribillo">grav’ést’ a mí, mais non poss’al faz<rhyme label="er">er</rhyme>.</l>
+                    </lg>
+            
+                    <lg n="3">
+                        <l xml:id="L13">Grave vos ést’assi, Deus mi perd<rhyme label="on">on</rhyme>,</l>
+                        <l xml:id="L14">que non podia máis, per boa f<rhyme label="e">e</rhyme>,</l>
+                        <l xml:id="L15">de que vos am’, e sei que assi <rhyme label="e">é</rhyme>,</l>
+                        <l xml:id="L16">mais, par Deus, coita do meu coraç<rhyme label="on">on</rhyme>,</l>
+                        <l xml:id="L17" rendition="estribillo">se vos grav’é de vos eu ben quer<rhyme label="er">er</rhyme>,</l>
+                        <l xml:id="L18" rendition="estribillo">grav’ést’a mi, mais non poss’al faz<rhyme label="er">er</rhyme>.</l>
+                    </lg>
+            
+                    <lg n="4" type="finda">
+                        <l xml:id="L19">Pero máis grave dev’i a min de se<rhyme label="er">er</rhyme>,</l>
+                        <l xml:id="L20">quant’é morte máis grave ca viv<rhyme label="er">er</rhyme>.</l>
+                    </lg>
+  
+            </lg>
+        </body>
+    </text>
+</TEI>
