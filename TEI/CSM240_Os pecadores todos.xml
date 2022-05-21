@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../FiloCyT/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Os peccadores todos loarán</title>
+                <author>Alfonso X</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Códice de los Músicos</repository>
+                        <idno>E240</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="E240" from="218v" to="219r">218v-219r</locus>
+                            <idno xml:id="CSM240"/>
+                            <filiation type="base">
+                                <ref target="#DH509"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="mariana" unisonancia="singular" isometrismo="isométrico" 
+                isoestrofismo="isoestrófico" asonancia="consonante" met="6x10" rhyme="aaabBB">
+
+                <head type="rúbrica">Esta é [de] loor de Santa Maria.</head> 
+
+            
+                <lg n="1">
+                    <l xml:id="L3">Ena loar e dizer o seu b<rhyme label="en">en</rhyme></l>
+                    <l xml:id="L4">e non cuidar nunca en outra r<rhyme label="en">en</rhyme>;</l>
+                    <l xml:id="L5">ca pois que peccan per seu mao s<rhyme label="en">en</rhyme>,</l>
+                    <l xml:id="L6">roga por eles a do bon tal<rhyme label="an">an</rhyme>.</l>
+                    <l xml:id="L7" rendition="estribillo">Os peccadores todos loar<rhyme label="an">án</rhyme></l>
+                    <l xml:id="L8" rendition="estribillo">Santa Maria, ca dereit'i <rhyme label="an">an</rhyme></l>
+                </lg>
+            
+                <lg n="2">
+                    <l xml:id="L9">Ena loar, e senpr'eu loar<rhyme label="ei">ei</rhyme></l>
+                    <l xml:id="L10">os seus feitos, ca outro ben non <rhyme label="ei">ei</rhyme>;</l>
+                    <l xml:id="L11">e por aquesto dereito far<rhyme label="ei">ei</rhyme>,</l>
+                    <l xml:id="L12">e os cuitados dereito far<rhyme label="an">án</rhyme>.</l>
+                    <l xml:id="L13" rendition="estribillo">Os peccadores todos loar<rhyme label="an">án</rhyme></l>
+                    <l xml:id="L14" rendition="estribillo">Santa Maria, ca dereit'i <rhyme label="an">an</rhyme></l>
+                </lg>
+
+                <lg n="3">
+                    <l xml:id="L15">Ena loar e senpr'esto faz<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L16">polas sas coitas, de que faz lez<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L17">quando Deus vee irado se<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L18">polos pesares que lle fazer v<rhyme label="an">an</rhyme>.</l>
+                    <l xml:id="L19" rendition="estribillo">Os peccadores todos loar<rhyme label="an">án</rhyme></l>
+                    <l xml:id="L20" rendition="estribillo">Santa Maria, ca dereit'i  <rhyme label="an"></rhyme>an</l>
+                </lg>
+            
+                <lg n="4">
+                    <l xml:id="L21">Ena loar e nunca fazer <rhyme label="al">al</rhyme>;</l>
+                    <l xml:id="L22">ca u a chaman senpr'ela y v<rhyme label="al">al</rhyme>,</l>
+                    <l xml:id="L23">e per ela somos livres de m<rhyme label="al">al</rhyme></l>
+                    <l xml:id="L24">e do pecado que fezo Ad<rhyme label="an">an</rhyme>.</l>
+                    <l xml:id="L25" rendition="estribillo">Os peccadores todos loar<rhyme label="an">án</rhyme></l>
+                    <l xml:id="L26" rendition="estribillo">Santa Maria, ca dereit'i <rhyme label="an">an</rhyme></l>
+                </lg>
+            
+                <lg n="5">
+                    <l xml:id="L27">Ena loar e dizer o seu pr<rhyme label="ez">ez</rhyme></l>
+                    <l xml:id="L28">e quanto ben ela no mundo f<rhyme label="ez">ez</rhyme></l>
+                    <l xml:id="L29">e como roga por nos cada v<rhyme label="ez">ez</rhyme></l>
+                    <l xml:id="L30">que pecamos, por nos salvar de pr<rhyme label="an">an</rhyme>.</l>
+                    <l xml:id="L31" rendition="estribillo">Os peccadores todos loar<rhyme label="an">án</rhyme></l>
+                    <l xml:id="L32" rendition="estribillo">Santa Maria, ca dereit'i <rhyme label="an">an</rhyme></l>
+                </lg>
+                
+                <lg n="6">
+                    <l xml:id="L33">Ena loar e dereito ser<rhyme label="a">á</rhyme>;</l>
+                    <l xml:id="L34">ca muito ben nos fez senpr' e far<rhyme label="a">á</rhyme>,</l>
+                    <l xml:id="L35">e se non foss' ela, foramos j<rhyme label="a">a</rhyme></l>
+                    <l xml:id="L36">todos con Abiron e con Dat<rhyme label="an">an</rhyme>.</l>
+                    <l xml:id="L37" rendition="estribillo">Os peccadores todos loar<rhyme label="an">án</rhyme></l>
+                    <l xml:id="L38" rendition="estribillo">Santa Maria, ca dereit'i  <rhyme label="an">an</rhyme></l>
+                </lg>
+                
+                <lg n="7">
+                    <l xml:id="L39">Ena loar, e farán gran raz<rhyme label="on">on</rhyme>;</l>
+                    <l xml:id="L40">ca ela ped' a seu Fillo perd<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L41">quand' eles erran, e outro padr<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L42">nunca ouveron neno aver<rhyme label="an">án</rhyme>.</l>
+                    <l xml:id="L43" rendition="estribillo">Os peccadores todos loar<rhyme label="an">án</rhyme></l>
+                    <l xml:id="L44" rendition="estribillo">Santa Maria, ca dereit' i <rhyme label="an">an</rhyme></l>
+                </lg>
+                
+                <lg n="8">
+                    <l xml:id="L45">Ena loar, e quen esto fez<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L46">fará dereito, pois senpr' ela qu<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L47">rogar por nos u nos á mais mest<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L48">por nos tirar de coitas e d' af<rhyme label="an">an</rhyme>.</l>
+                    <l xml:id="L49" rendition="estribillo">Os peccadores todos loar<rhyme label="an">án</rhyme></l>
+                    <l xml:id="L50" rendition="estribillo">Santa Maria, ca dereit' i <rhyme label="an">an</rhyme></l>
+                </lg>
+                
+                <lg n="9">
+                    <l xml:id="L51">Ena loar, ca Deus non lle fez p<rhyme label="ar">ar</rhyme>;</l>
+                    <l xml:id="L52">e poren devemos a confi<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L53">dela, que por nos Deus verrá rog<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L54">ali u todos muito temer<rhyme label="an">án</rhyme>.</l>
+                    <l xml:id="L55">Os peccadores todos loar<rhyme label="an">án</rhyme></l>
+                    <l xml:id="L56">Santa Maria, ca dereit' y <rhyme label="an">an</rhyme></l>
+                </lg>
+                
+                <lg n="10">
+                    <l xml:id="L57">Ena loar, ca u Nostro Senn<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L58">eno juyzo mais yrado f<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L59">perdõa-lles-á polo seu am<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L60">e estes taes non se perder<rhyme label="an">án</rhyme>.</l>
+                    <l xml:id="L61" rendition="estribillo">Os peccadores todos loar<rhyme label="an">án</rhyme></l>
+                    <l xml:id="L62" rendition="estribillo">Santa Maria, ca dereit' i <rhyme label="an">an</rhyme></l>
+                </lg>
+
+            </lg> 
+        </body>
+    </text>
+</TEI>
