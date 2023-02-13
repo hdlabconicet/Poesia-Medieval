@@ -94,11 +94,11 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="7x8"
-                rhyme="abbacca">
+                met="7x8/4x8"
+                rhyme="abbacca/abba">
 
 
-                    <lg n="1" type="etrovadoresca" met="7x8" rhyme="abbacca">
+                    <lg n="1">
                         <l xml:id="L1">Puesto que fuese quem<rhyme label="ado">ado</rhyme>
                   </l>
                         <l xml:id="L2">lo verde o carden<rhyme>illo</rhyme>,</l>
@@ -113,7 +113,7 @@
                     
                     <pb facs="#PN109-2"/>
 
-                    <lg n="2" type="etrovadoresca" met="7x8" rhyme="abbacca">
+                    <lg n="2">
                         <l xml:id="L8">Si <rs ref="#AAV">vos</rs> fue juego jug<rhyme label="ado">ado</rhyme>
                   </l>
                         <l xml:id="L9">aviesso non muy longu<rhyme label="illo">illo</rhyme>
@@ -130,7 +130,7 @@
                         <l xml:id="L14">para lo que es tard<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
-                    <lg n="3" type="etrovadoresca" met="7x8" rhyme="abbacca">
+                    <lg n="3">
                         <l xml:id="L15">
                             <rs ref="#PCA">Yo sería denost<rhyme label="ado">ado</rhyme>
                      </rs>
@@ -147,7 +147,7 @@
                         <l xml:id="L21">el honor así es cont<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
-                    <lg n="4" type="etrovadoresca" met="7x8" rhyme="abbacca">
+                    <lg n="4">
                         <l xml:id="L22">
                             <rs ref="#AAV">En vos ser tan lastim<rhyme label="ado">ado</rhyme>
                      </rs>
@@ -164,7 +164,7 @@
                         <l xml:id="L28">boda es de mal merc<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
-                    <lg n="5" type="etrovadoresca" met="7x8" rhyme="abbacca">
+                    <lg n="5">
                         <l xml:id="L29">
                             <rs ref="#AAV">Vos que sodes tan atent<rhyme label="ado">ado</rhyme>
                      </rs>
@@ -180,7 +180,7 @@
                         <l xml:id="L35">e lo mal es despreci<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
-                    <lg n="6" type="etrovadoresca" met="7x8" rhyme="abbacca">
+                    <lg n="6">
                         <l xml:id="L36">El tiempo desconcert<rhyme label="ado">ado</rhyme>
                   </l>
                         <l xml:id="L37">en frío zarzagan<rhyme label="illo">illo</rhyme>
@@ -194,7 +194,7 @@
                         <l xml:id="L42">que requiera al convid<rhyme label="ado">ado</rhyme>”.</l>
                     </lg>
 
-                    <lg n="7" type="finida" met="4x8" rhyme="abba">
+                    <lg n="7">
                         <l xml:id="L43">Pues <rs ref="#PCA">me tenedes prend<rhyme label="ado">ado</rhyme>
                      </rs>
                   </l>

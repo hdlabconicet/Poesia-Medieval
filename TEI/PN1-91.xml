@@ -99,10 +99,7 @@
                 met="8x10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor</note>
-                    <lg n="1"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="1">
 
                         <l xml:id="L1">
                      <rs ref="#BSA">Amigo maestro</rs>, ya otras veg<rhyme label="adas">adas</rhyme>
@@ -130,10 +127,7 @@
                         <l xml:id="L8">en lindas personas que son bien cre<rhyme label="adas">adas</rhyme>.</l>
                     </lg>
 
-                    <lg n="2"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="2">
                         <l xml:id="L9">Nin <rs ref="#AAV">yo me siento tan desacord<rhyme label="ado">ado</rhyme>
                      </rs>
                   </l>
@@ -149,10 +143,7 @@
                         <l xml:id="L16">bien puede por gracia ser quisto e am<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
-                    <lg n="3"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="3">
                         <l xml:id="L17">
                      <rs ref="#BSA">La vuestra grand fusta sin toda renz<rhyme label="illa">illa</rhyme>
                      </rs>

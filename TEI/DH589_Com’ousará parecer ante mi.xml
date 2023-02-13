@@ -40,35 +40,32 @@
         <body>
             <lg type="cantiga" subtype="refrán" style="amigo" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x10" rhyme="abbaCC">
                 
-                <lg n="1" type="estrofa" met="4x10" rhyme="abba"> 
+                <lg n="1"> 
                     <l xml:id="L1">Com’ousará parecer ante m<rhyme label="i">i</rhyme>,</l>
                     <l xml:id="L2">o meu amig’,  ai amiga, por D<rhyme label="eus">eus</rhyme>,</l>
                     <l xml:id="L3">e com’ousará catar estes m<rhyme label="eus">eus</rhyme></l>
                     <l xml:id="L4">olhos  se o Deus trouxer per aqu<rhyme label="i">i</rhyme>?</l>
-                </lg>
-                <lg type="estribillo" met="2x10" rhyme="CC"> 
-                    <l xml:id="L5">pois tan muit’a que vos veo ve<rhyme label="er">er</rhyme></l>
-                    <l xml:id="L6">mi e meus olhos e meu parec<rhyme label="er">er</rhyme>.</l>
+                 
+                    <l xml:id="L5" rendition="estribillo">pois tan muit’a que vos veo ve<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L6" rendition="estribillo">mi e meus olhos e meu parec<rhyme label="er">er</rhyme>.</l>
                 </lg> 
-                <lg n="2" type="estrofa" met="4x10" rhyme="abba"> 
+                <lg n="2"> 
                     <l xml:id="L7">Amiga, ou como s’atrever<rhyme label="a">á</rhyme></l>
                     <l xml:id="L8">de m’ousar sol dos seus olhos cat<rhyme label="ar">ar</rhyme>,</l>
                     <l xml:id="L9">se os meus olhos vir un pouc’alç<rhyme label="ar">ar</rhyme>,</l>
                     <l xml:id="L10">ou no coraçon, como o porr<rhyme label="a">á</rhyme>?</l>
+
+                    <l xml:id="L11" rendition="estribillo">pois tan muit’a que vos veo ve<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L12" rendition="estribillo">mi e meus olhos e meu parec<rhyme label="er">er</rhyme>.</l>
                 </lg> 
-                <lg type="estribillo" met="2x10" rhyme="CC"> 
-                    <l xml:id="L11">pois tan muit’a que vos veo ve<rhyme label="er">er</rhyme></l>
-                    <l xml:id="L12">mi e meus olhos e meu parec<rhyme label="er">er</rhyme>.</l>
-                </lg> 
-                <lg n="3" type="estrofa" met="4x10" rhyme="abba">
+                <lg n="3">
                     <l xml:id="L13">Ca sei que non terrá el por raz<rhyme label="on">on</rhyme>,</l>
                     <l xml:id="L14">como quer que m’aja mui grand’am<rhyme label="or">or</rhyme></l>
                     <l xml:id="L15">de m’ousar veer nen chamar senh<rhyme label="or">or</rhyme>,</l>
                     <l xml:id="L16">nen sol non o porrá no coraç<rhyme label="on">on</rhyme>,</l>
-                </lg>
-                <lg type="estribillo" met="2x10" rhyme="CC">     
-                    <l xml:id="L17">pois tan muit’a que vos veo ve<rhyme label="er">er</rhyme></l>
-                    <l xml:id="L18">mi e meus olhos e meu parec<rhyme label="er">er</rhyme>.</l>
+
+                    <l xml:id="L17" rendition="estribillo">pois tan muit’a que vos veo ve<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L18" rendition="estribillo">mi e meus olhos e meu parec<rhyme label="er">er</rhyme>.</l>
                 </lg>
             </lg>
         </body>

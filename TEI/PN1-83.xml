@@ -107,10 +107,7 @@
                 rhyme="ABBAACCA">
 
 
-                    <lg n="1"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="1">
                         <l xml:id="L1">
                      <persName ref="#PCO">Fray Pedro señor</persName>, aqueste
                                 resp<rhyme label="eto">eto</rhyme>
@@ -135,10 +132,7 @@
                             </rs>.</l>
                     </lg>
 
-                    <lg n="2"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="2">
                         <l xml:id="L9">Non fue esta muger la grant amaz<rhyme label="ona">ona</rhyme>
                   </l>
                         <l xml:id="L10">nin de las dehessas fermosas alg<rhyme label="una">una</rhyme>
@@ -156,10 +150,7 @@
                         <l xml:id="L16">por su santa sangre de limpia car<rhyme label="ona">ona</rhyme>.</l>
                     </lg>
 
-                    <lg n="3"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="3">
                         <l xml:id="L17">El onrrado viejo justo Sime<rhyme label="on">ón</rhyme>
                   </l>
                         <l xml:id="L18">diz que lo tovo en sí abraç<rhyme label="ado">ado</rhyme></l>
@@ -178,10 +169,7 @@
                     
                     <pb facs="#PN83-2"/>
 
-                    <lg n="4"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="4">
                         <l xml:id="L25">Aunque juntasen millares d’ arv<rhyme label="ejas">ejas</rhyme>
                   </l>
                         <l xml:id="L26">con que contasen cien mill escriv<rhyme label="anos">anos</rhyme>
@@ -199,10 +187,7 @@
                         <l xml:id="L32">e non se pagava de otras cons<rhyme label="ejas">ejas</rhyme>.</l>
                     </lg>
 
-                    <lg n="5"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="5">
                         <l xml:id="L33">Asaz es propuesta su grant fermos<rhyme label="ura">ura</rhyme>
                   </l>
                         <l xml:id="L34">daquesta ques vasso de Dios e su c<rhyme label="opa">opa</rhyme>
@@ -223,10 +208,7 @@
 
                     <pb facs="#PN83-3"/>
 
-                    <lg n="6"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="6">
                         <l xml:id="L41">La fermossa luna así inclin<rhyme label="ada">ada</rhyme>
                   </l>
                         <l xml:id="L42">so los pies daquesta señora gent<rhyme label="il">il</rhyme>
@@ -244,10 +226,7 @@
                         <l xml:id="L48">después que la ostia es ya consagr<rhyme label="ada">ada</rhyme>.</l>
                     </lg>
 
-                    <lg n="7"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="7">
                         <l xml:id="L49">La rica corona así reluzi<rhyme label="ente">ente</rhyme>
                   </l>
                         <l xml:id="L50">non puedo entender que sea otra c<rhyme label="osa">osa</rhyme>
@@ -265,10 +244,7 @@
                         <l xml:id="L56">les aparesçió segunt so crey<rhyme label="ente">ente</rhyme>.</l>
                     </lg>
 
-                    <lg n="8"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="8">
                         <l xml:id="L57">Su padre de aqueste un dios conosc<rhyme label="ido">ido</rhyme>
                   </l>
                         <l xml:id="L58">sabet que non ovo por nonbre Fag<rhyme label="undo">undo</rhyme>
@@ -286,10 +262,7 @@
                         <l xml:id="L64">que desde Adam aca han contesç<rhyme label="ido">ido</rhyme>.</l>
                     </lg>
 
-                    <lg n="9"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="9">
                         <l xml:id="L65">La verga de fierro será el grant tem<rhyme label="or">or</rhyme>
                   </l>
                         <l xml:id="L66">el día del Juizio que a todos desm<rhyme label="aya">aya</rhyme>

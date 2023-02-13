@@ -98,13 +98,10 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8x10"
-                rhyme="ABBAACCA">
+                met="8x10/3x10"
+                rhyme="ABBAACCA/AAB">
                 <note> Se trata de una pieza de arte mayor</note>
-                <lg n="1"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">   
+                <lg n="1">   
                  
                     <l xml:id="L1">
                         <rs ref="#AAV">Señor</rs>, non tomedes enojo nin s<rhyme label="aña">aña</rhyme>
@@ -125,10 +122,7 @@
                         <rs ref="#AAV">dezid</rs> quien la muda siendo tam<rhyme label="aña">aña</rhyme>.</l>
                     </lg>
                     
-                <lg n="2"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">   
+                <lg n="2">   
                         <l xml:id="L9">Ca non se mueve d´allí do es p<rhyme label="uesta">uesta</rhyme>
                   </l>
                         <l xml:id="L10">desque fue criada del primer movimi<rhyme label="ent%">ento</rhyme>

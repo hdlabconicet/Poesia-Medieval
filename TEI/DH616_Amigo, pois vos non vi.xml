@@ -42,65 +42,43 @@
             <lg type="cantiga" subtype="refrán_intercalar" style="amigo" unisonancia="singular" isometrismo="isométrico" 
                 isoestrofismo="isoestrófico" asonancia="consonante" met="6x7" rhyme="aaaBaB">
              
-            <lg n="1" type="estrofa" met="6x7" rhyme="aaa"> 
+            <lg n="1"> 
                 <l xml:id="L1">Amigo, pois vos non v<rhyme label="i">i</rhyme>,</l>
                 <l xml:id="L2">nunca folguei nen dorm<rhyme label="i">i</rhyme>,</l>
                 <l xml:id="L3">mais ora ja des aqu<rhyme label="i">i</rhyme></l>
-            </lg>
-                <lg type="estribillo" met="2x7" rhyme="B">
-                <l xml:id="L4">que vos vejo, folgar<rhyme label="ei">ei</rhyme></l>
-                </lg>
-                <lg n="1" type="estrofa" met="6x7" rhyme="a"> 
+                <l xml:id="L4" >que vos vejo, folgar<rhyme label="ei">ei</rhyme></l>
                 <l xml:id="L5">e verei prazer de m<rhyme label="i">í</rhyme>,</l>
-            </lg>
-            <lg type="estribillo" met="2x7" rhyme="B">
                 <l xml:id="L6">pois vejo quanto ben <rhyme label="ei">ei</rhyme>.</l>
             </lg>
-                
-           <lg n="2" type="estrofa" met="6x7" rhyme="aaa">
+
+
+           <lg n="2">
                <l xml:id="L7">Pois vos non pudi ve<rhyme label="er">er</rhyme></l>
                <l xml:id="L8">jamais non ouvi lez<rhyme label="er">er</rhyme>,</l>
                <l xml:id="L9">e u vos Deus non quis trag<rhyme label="er">er</rhyme>,</l>
-           </lg>
-                <lg type="estribillo" met="2x7" rhyme="B">
                <l xml:id="L10">que vos vejo, folgar<rhyme label="ei">ei</rhyme></l>
-                </lg>
-                <lg n="2" type="estrofa" met="6x7" rhyme="a">
                <l xml:id="L11">e veerei de min praz<rhyme label="er">er</rhyme>,</l>
-                </lg>
-                <lg type="estribillo" met="2x7" rhyme="B">
                <l xml:id="L12">pois vejo quanto ben <rhyme label="ei">ei</rhyme>.</l>
            </lg>
                 
-            <lg n="3" type="estrofa" met="6x7" rhyme="aaa">
+            <lg n="3">
                 <l xml:id="L13">Des que vos non vi, de r<rhyme label="en">en</rhyme></l>
                 <l xml:id="L14">non vi prazer e o s<rhyme label="en">én</rhyme></l>
                 <l xml:id="L15">perdi, mais pois que mi av<rhyme label="en">en</rhyme>,</l>
-            </lg>
-                <lg type="estribillo" met="2x7" rhyme="B">
                 <l xml:id="L16">que vos vejo folgar<rhyme label="ei">ei</rhyme>,</l>
-                </lg>
-                <lg n="3" type="estrofa" met="6x7" rhyme="a">
                 <l xml:id="L17">e veerei todo meu b<rhyme label="en">en</rhyme>,</l>
-                </lg>
-                <lg type="estribillo" met="2x7" rhyme="B">
                 <l xml:id="L18">pois vejo quanto ben <rhyme label="ei">ei</rhyme>.</l>
             </lg>
                 
-            <lg n="4" type="estrofa" met="6x7" rhyme="aaa">
+            <lg n="4">
                 <l xml:id="L19">De vos veer a min pr<rhyme label="az">az</rhyme></l>
                 <l xml:id="L20">tanto que muito é ass<rhyme label="az">az</rhyme>,</l>
                 <l xml:id="L21">mais u m’este ben Deus f<rhyme label="az">az</rhyme>,</l>
-            </lg>
-                <lg type="estribillo" met="2x7" rhyme="B">
                 <l xml:id="L22">que vos vejo, folgar<rhyme label="ei">ei</rhyme></l>
-                </lg>
-                <lg n="4" type="estrofa" met="6x7" rhyme="a">
                 <l xml:id="L23">e averei gran sol<rhyme label="az">az</rhyme>,</l>
-                </lg>
-                <lg type="estribillo" met="2x7" rhyme="B">
                 <l xml:id="L24">pois vejo quanto ben <rhyme label="ei">ei</rhyme>.</l>
             </lg>
+
             </lg>
         </body>
     </text>

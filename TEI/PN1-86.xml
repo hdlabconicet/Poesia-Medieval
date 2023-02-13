@@ -96,13 +96,10 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8x10"
-                rhyme="ABBAACCA">
+                met="8x10/3x10"
+                rhyme="ABBAACCA/AAB">
                     <note> Se trata de una pieza de arte mayor.</note>
-                    <lg n="1"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="1">
                         <l xml:id="L1">
                      <rs ref="#AAV">Maestro </rs>, <rs ref="#BSA">yo fallo</rs>
                             por cierta pesqu<rhyme label="isa">isa</rhyme>
@@ -125,10 +122,7 @@
 
                     <pb facs="#PN86-2"/>
 
-                    <lg n="2"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="2">
                         <l xml:id="L9">
                      <rs ref="#AAV">Amigo señor</rs>, que Dios <rs ref="#AAV">vos</rs> ay<rhyme label="ude">ude</rhyme>
                   </l>
@@ -149,10 +143,7 @@
                         <l xml:id="L16">de su grave cossa conviene que d<rhyme label="ude">ubde</rhyme>.</l>
                     </lg>
 
-                    <lg n="3"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="3">
                         <l xml:id="L17">Ca <rs ref="#BSA">veo</rs> que muere de qualquier est<rhyme label="ado">ado</rhyme>
                   </l>
                         <l xml:id="L18">de grandes, pequeños, ninguno non esc<rhyme label="apa">apa</rhyme>,</l>
@@ -166,7 +157,7 @@
                         <l xml:id="L24">que esto <rs ref="#BSA">me sea</rs> por <rs ref="#AAV">vos</rs> declar<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
-                    <lg n="4" type="finida" met="3x10" rhyme="AAB">
+                    <lg n="4">
                         <l xml:id="L25">E <rs ref="#AAV">datme</rs>
                             <term cRef="163">respuesta</term> qual <rs ref="#AAV">vedes</rs>a <rhyme label="esto">esto</rhyme>
                   </l>

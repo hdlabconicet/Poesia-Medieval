@@ -94,13 +94,10 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8x10"
-                rhyme="ABBAACCA">
+                met="8x10/4x10"
+                rhyme="ABBAACCA/ABBA">
                     <note> Se trata de una pieza de arte mayor</note>
-                    <lg n="1"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="1">
 
 
                         <l xml:id="L1">Gracias e mercedes sean otorg<rhyme label="adas">adas</rhyme>
@@ -121,10 +118,7 @@
                         <l xml:id="L8">lo enrequizió de lond<rhyme label="adas">adas</rhyme>.</l>
                     </lg>
 
-                    <lg n="2"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="2">
                         <l xml:id="L9">Segunt el salmista <rs ref="#BSA">so certific<rhyme label="ado">ado</rhyme>
                      </rs>
                   </l>
@@ -146,10 +140,7 @@
                             <rs ref="#AAV">a vos</rs> costelaron planetas e f<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
-                    <lg n="3"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="3">
                         <l xml:id="L17">A Dios lo <rs ref="#BSA">agradesco</rs> pues que en
                                 Sev<rhyme label="illa">illa</rhyme>
                   </l>
@@ -166,7 +157,7 @@
                             <rs ref="#AAV">señor</rs> sea cedo de noble cuadr<rhyme label="illa">illa</rhyme>.</l>
                     </lg>
 
-                    <lg n="4" type="finda" met="4x10" rhyme="ABBA">
+                    <lg n="4">
                         <l xml:id="L25">
                             <rs ref="#BSA">Non quiero</rs> ya más traer en <term cRef="196">fabl<rhyme label="illa">illa</rhyme>
                      </term>

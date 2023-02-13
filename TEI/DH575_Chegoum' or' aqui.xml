@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../FiloCyT/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Chegoum’ or’ aqui recado</title>
+                <author>Don Denis</author>
+                <editor resp="critica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Rocío Méndez y Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier> 
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B/V</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id= "B558" from= "125r" to="125r">125r</locus> 
+                            <locus xml:id="V161" from="21v" to="21v">21v</locus>
+                            <idno xml:id="DH575"/>
+                            <filiation type="contrafactum">
+                                <ref target="#CSM283"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="amigo" unisonancia="unisonante" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="asonante" met="6x7/2x7" rhyme="abbaCC">
+                
+           <lg n="1"> 
+               <l xml:id="L1">Chegoum’ or’ aqui rec<rhyme label="ado">ado</rhyme>,</l>
+               <l xml:id="L2">amiga, do voss’ am<rhyme label="igo">igo</rhyme>,</l>
+               <l xml:id="L3">e aquel que falou m<rhyme label="igo">igo</rhyme></l>
+               <l xml:id="L4">dizmi que é tan coit<rhyme label="ado">ado</rhyme></l>
+               <l xml:id="L5" rendition="estribillo">que, per quanta poss’ av<rhyme label="edes">edes</rhyme>,</l>
+               <l xml:id="L6" rendition="estribillo">ja o guarir non poss<rhyme label="edes">edes</rhyme>.</l>
+            </lg>
+            <lg n="2">
+                <l xml:id="L7">Diz que og’ é tercer d<rhyme label="ia">ia</rhyme>,</l>
+                <l xml:id="L8">ben lhi per tirades mor<rhyme label="te">te</rhyme>,</l>
+                <l xml:id="L9">mais ouv’ el coita tan for<rhyme label="te">te</rhyme></l>
+                <l xml:id="L10">e tan coitad’ er jaz<rhyme label="ia">ia</rhyme></l>
+                <l xml:id="L11" rendition="estribillo">que, per quanta poss’ av<rhyme label="edes">edes</rhyme>,</l>
+                <l xml:id="L12" rendition="estribillo">ja o guarir non poss<rhyme label="edes">edes</rhyme>.</l>
+          </lg>
+           <lg n="3"> 
+               <l xml:id="L13">Con mal que lhi vos fezest<rhyme label="es">es</rhyme>,</l>
+               <l xml:id="L14">juroumi, amiga frem<rhyme label="osa">osa</rhyme></l>
+               <l xml:id="L15">que pero vós, poder<rhyme label="osa">osa</rhyme>,</l>
+               <l xml:id="L16">fostes d’ el quanto quisest<rhyme label="es">es</rhyme></l>
+               <l xml:id="L17" rendition="estribillo">que, per quanta poss’ av<rhyme label="edes">edes</rhyme>,</l>
+               <l xml:id="L18" rendition="estribillo">ja o guarir non poss<rhyme label="edes">edes</rhyme>.</l>
+            </lg>
+           <lg n="4" type="finda">
+                <l xml:id="L19">E gran perda per faz<rhyme label="edes">edes</rhyme></l>
+                <l xml:id="L20">u tal amigo perd<rhyme label="edes">edes</rhyme>.</l>
+            </lg> 
+            </lg>
+        </body>
+    </text>
+</TEI>

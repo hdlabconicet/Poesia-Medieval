@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../FiloCyT/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="incipit">Amiga, muit’á gran sazon</title>
+                    <author>Don Denis</author>
+                    <editor resp="critica">Gimena del Rio</editor>
+                    <editor resp="contrafactum">Germán Rossi</editor>
+                    <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                    <editor resp="TEI">Rocío Méndez</editor>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Reis Trobadors</publisher>
+                    <availability>
+                        <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier> 
+                            <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                            <idno>B554/V157</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <locus xml:id="B554" from= "124v" to="124v">124v</locus> 
+                                <locus xml:id="V157" from="20v" to="21r">20v-21r</locus>
+                                <idno xml:id="DH571"/>
+                                <filiation type="contrafactum">
+                                    <ref target="#CSM410"/>
+                                </filiation>
+                            </msItem>
+                        </msContents>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg type="cantiga" subtype="refrán" style="amigo" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x8" rhyme="abbaCC">
+                    
+                    <lg n="1">
+                        <l xml:id="L1">Amiga, muit’á gran saz<rhyme label="on">on</rhyme>,</l>
+                        <l xml:id="L2">que se foi d’aqui con el-r<rhyme label="ei">ei</rhyme></l>
+                        <l xml:id="L3">meu amigo, mais ja cuid<rhyme label="ei">ei</rhyme></l>
+                        <l xml:id="L4">mil vezes  no meu coraç<rhyme label="on">on</rhyme></l>
+                        <l xml:id="L5" rendition="estribillo">que algur morreu con pes<rhyme label="ar">ar</rhyme>,</l>
+                        <l xml:id="L6" rendition="estribillo">pois non tornou migo fal<rhyme label="ar" >ar</rhyme>.</l>
+                    </lg>
+                    <lg n="2">
+                        <l xml:id="L7">Porque tarda tan muito l<rhyme label="a">á</rhyme>,</l>
+                        <l xml:id="L8">e nunca me tornou ve<rhyme label="er">er</rhyme>,</l>
+                        <l xml:id="L9">amiga, s’i veja praz<rhyme label="er">er</rhyme>,</l>
+                        <l xml:id="L10">mais de mil vezes cuidei j<rhyme label="a">a</rhyme></l>
+                        <l xml:id="L11"  rendition="estribillo">que algur morreu con pes<rhyme label="ar">ar</rhyme>,</l>
+                        <l xml:id="L12"  rendition="estribillo">pois non tornou migo fal<rhyme label="ar">ar</rhyme>.</l>
+                    </lg>
+                    <lg n="3">
+                        <l xml:id="L13">Amiga, o coraçon s<rhyme label="eu">eu</rhyme></l> 
+                        <l xml:id="L14">era de tornar ced’aqu<rhyme label="i">i</rhyme></l>
+                        <l xml:id="L15">u viss’os meus olhos en m<rhyme label="i">i</rhyme>n,</l>
+                        <l xml:id="L16">e por én mil vezes cuid’<rhyme label="eu">eu</rhyme></l>
+                        <l xml:id="L17"  rendition="estribillo">que algur morreu con pes<rhyme label="ar">ar</rhyme>,</l>
+                        <l xml:id="L18"  rendition="estribillo">pois non tornou migo fal<rhyme label="ar">ar</rhyme>.</l>
+                    </lg>
+                </lg>
+            </body>
+        </text>
+    </TEI>

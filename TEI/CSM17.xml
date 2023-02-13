@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../FiloCyT/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Sempre seja bẽeita e loada</title>
+                <author>Alfonso X</author>
+                <editor resp="critica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriela Striker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Códice Rico o del Escorial/Códice de los Músicos/Códice de Toledo</repository>
+                        <idno>T17/E17/To7</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="T17" from="29r" to="29r">29r</locus>
+                            <locus xml:id="E17" from="45r" to="45v">45r-45v</locus>
+                            <locus xml:id="To7" from="17r" to="18r">17r-18r</locus>
+                            <idno xml:id="CSM17"/>
+                            <filiation type="base">
+                                <ref target="#DH508"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="mariana" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x10" rhyme="aaabBB">
+                <head type="rúbrica">Esta é de como Santa Maria guardou de morte a onrrada dona de Roma a que o demo acusou pola fazer queimar.</head>
+            
+                <lg n="1">
+                    <l xml:id="L1">Maravilloso miragre d' o<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L2">vos quer' eu ora contar sen ment<rhyme label="ir">ir</rhyme>,</l>
+                    <l xml:id="L3">de como fez o diabre fog<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L4">de Roma a Virgen de Deus am<rhyme label="ada">ada</rhyme>.</l>
+          
+                    <l xml:id="L5" rendition="estribillo">Sempre seja bẽeita e lo<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L6" rendition="estribillo">Santa Maria, a noss' avog<rhyme label="ada">ada</rhyme>.</l>
+                </lg>
+            
+                <lg n="2">
+                    <l xml:id="L7">En Roma foi, ja ouve tal saz<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L8">que hũa dona mui de coraç<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L9">amou a Madre de Deus; mas ent<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L10">soffreu que fosse do demo tent<rhyme label="ada">ada</rhyme>.</l>
+             
+                    <l xml:id="L11" rendition="estribillo">Sempre seja bẽeita e lo<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L12" rendition="estribillo">Santa Maria, a noss' avog<rhyme label="ada">ada</rhyme>.</l>
+                </lg>
+            
+                <lg n="3">
+                    <l xml:id="L13">A dona mui bon marido perd<rhyme label="eu">eu</rhyme>,</l>
+                    <l xml:id="L14">e con pesar del per poucas morr<rhyme label="eu">eu</rhyme>;</l>
+                    <l xml:id="L15">mas mal conorto dun fillo prend<rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L16">que del avia, que a fez prenn<rhyme label="ada">ada</rhyme>.</l>
+                
+                    <l xml:id="L17" rendition="estribillo">Sempre seja bẽeita e lo<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L18" rendition="estribillo">Santa Maria, a noss' avog<rhyme label="ada">ada</rhyme>.</l>
+                </lg>
+            
+                <lg n="4">
+                    <l xml:id="L19">A dona, pois que prenne se sent<rhyme label="iu">iu</rhyme>,</l>
+                    <l xml:id="L20">gran pesar ouve; mas depois par<rhyme label="iu">iu</rhyme></l>
+                    <l xml:id="L21">un fill', e u a nengũu non v<rhyme label="iu">iu</rhyme></l>
+                    <l xml:id="L22">mató-o dentr' en sa cas' ensserr<rhyme label="ada">ada</rhyme>.</l>
+                
+                    <l xml:id="L23" rendition="estribillo">Sempre seja bẽeita e lo<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L24" rendition="estribillo">Santa Maria, a noss' avog<rhyme label="ada">ada</rhyme>.</l>
+                </lg>
+            
+                <lg n="5">
+                    <l xml:id="L25">En aquel tenpo o demo may<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L26">tornou-ss' en forma d' ome sabed<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L27">e mostrando-sse por devyad<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L28">o Emperador lle fez dar sold<rhyme label="ada">ada</rhyme>.</l>
+              
+                    <l xml:id="L29" rendition="estribillo">Sempre seja bẽeita e lo<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L30" rendition="estribillo">Santa Maria, a noss' avog<rhyme label="ada">ada</rhyme>.</l>
+                </lg>
+            
+                <lg n="6">
+                    <l xml:id="L31">E ontr' o al que soub' adevy<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L32">foy o feito da dona mestur<rhyme label="ar">ar</rhyme>;</l>
+                    <l xml:id="L33">e disse que llo queria prov<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L34">en tal que fosse log' ela queim<rhyme label="ada">ada</rhyme>.</l>
+                
+                    <l xml:id="L35" rendition="estribillo">Sempre seja bẽeita e lo<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L36" rendition="estribillo">Santa Maria, a noss' avog<rhyme label="ada">ada</rhyme>.</l>
+                </lg>
+            
+                <lg n="7">
+                    <l xml:id="L37">E pero ll' o Emperador diz<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L38">oyu, ja per ren non llo quis cre<rhyme label="er">er</rhyme>;</l>
+                    <l xml:id="L39">mas fez a dona ante ssi trag<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L40">e ela vẽo ben aconpann<rhyme label="ada">ada</rhyme>.</l>
+               
+                    <l xml:id="L41" rendition="estribillo">Sempre seja bẽeita e lo<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L42" rendition="estribillo">Santa Maria, a noss' avog<rhyme label="ada">ada</rhyme>.</l>
+                </lg>
+            
+                <lg n="8">
+                    <l xml:id="L43">Poi-lo Emperador chamar m[a]nd<rhyme label="ou">ou</rhyme></l>
+                    <l xml:id="L44">a dona, logo o dem' ar cham<rhyme label="ou">ou</rhyme>,</l>
+                    <l xml:id="L45">que lle foi dizer per quanto pass<rhyme label="ou">ou</rhyme>,</l>
+                    <l xml:id="L46">de que foi ela mui maravill<rhyme label="ada">ada</rhyme>.</l>
+             
+                    <l xml:id="L47" rendition="estribillo">Sempre seja bẽeita e lo<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L48" rendition="estribillo">Santa Maria, a noss' avog<rhyme label="ada">ada</rhyme>.</l>
+                </lg>
+            
+                <lg n="9">
+                    <l xml:id="L49">O Emperador lle disse: "Moll<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L50">bõa, de responder vos é mest<rhyme label="er">er</rhyme>."</l>
+                    <l xml:id="L51">"O ben", diss' ela, "se prazo ouv<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L52">en que eu possa seer conssell<rhyme label="ada">ada</rhyme>."</l>
+             
+                    <l xml:id="L53" rendition="estribillo">Sempre seja bẽeita e lo<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L54" rendition="estribillo">Santa Maria, a noss' avog<rhyme label="ada">ada</rhyme>.</l>
+                </lg>
+            
+                <lg n="10">
+                    <l xml:id="L55">O emperador lles pos praz' at<rhyme label="al">al</rhyme>:</l>
+                    <l xml:id="L56">"D' oj' a tres dias, u non aja <rhyme label="al">al</rhyme>,</l>
+                    <l xml:id="L57">venna provar o maestr' este m<rhyme label="al">al</rhyme>;</l>
+                    <l xml:id="L58">se non, a testa lle seja tall<rhyme label="ada">ada</rhyme>."</l>
+    
+                    <l xml:id="L59" rendition="estribillo">Sempre seja bẽeita e lo<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L60" rendition="estribillo">Santa Maria, a noss' avog<rhyme label="ada">ada</rhyme>.</l>
+                </lg>
+            
+                <lg n="11">
+                    <l xml:id="L61">A bõa dona se foi ben dal<rhyme label="i">i</rhyme></l>
+                    <l xml:id="L62">a un' eigreja, per quant' aprend<rhyme label="i">i</rhyme>,</l>
+                    <l xml:id="L63">de Santa Maria, e diss' ass<rhyme label="i">i</rhyme>:</l>
+                    <l xml:id="L64">"Sennor, acorre a tua coit<rhyme label="ada">ada</rhyme>."</l>
+
+                    <l xml:id="L65" rendition="estribillo">Sempre seja bẽeita e lo<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L66" rendition="estribillo">Santa Maria, a noss' avog<rhyme label="ada">ada</rhyme>.</l>
+                </lg>
+            
+                <lg n="12">
+                    <l xml:id="L67">Santa Maria lle diss': "Est' aff<rhyme label="an">an</rhyme></l>
+                    <l xml:id="L68">e esta coita que tu ás de pr<rhyme label="an">an</rhyme></l>
+                    <l xml:id="L69">faz o maestre; mas mẽos que c<rhyme label="an">an</rhyme></l>
+                    <l xml:id="L70">o ten en vil, e sei ben esforç<rhyme label="ada">ada</rhyme>."</l>
+              
+                    <l xml:id="L71" rendition="estribillo">Sempre seja bẽeita e lo<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L72" rendition="estribillo">Santa Maria, a noss' avog<rhyme label="ada">ada</rhyme>.</l>
+                </lg>
+            
+                <lg n="13">
+                    <l xml:id="L73">A bõa dona sen niun desd<rhyme label="en">en</rhyme></l>
+                    <l xml:id="L74">ant' o Emperador aque-a v<rhyme label="en">en</rhyme>;</l>
+                    <l xml:id="L75">mas o demo enton per nulla r<rhyme label="en">en</rhyme></l>
+                    <l xml:id="L76">nona connoceu nen lle disse n<rhyme label="ada">ada</rhyme>.</l>
+                
+                    <l xml:id="L77" rendition="estribillo">Sempre seja bẽeita e lo<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L78" rendition="estribillo">Santa Maria, a noss' avog<rhyme label="ada">ada</rhyme>.</l>
+                </lg>
+            
+                <lg n="14">
+                    <l xml:id="L79">Diss' o Emperador: "Par San Mart<rhyme label="in">in</rhyme>,</l>
+                    <l xml:id="L80">maestre, mui pret' é a vossa f<rhyme label="in">in</rhyme>."</l>
+                    <l xml:id="L81">Mas foi-ss' o demo e fez-ll' o boc<rhyme label="in">in</rhyme>,</l>
+                    <l xml:id="L82">e derribou o teit' hũa braç<rhyme label="ada">ada</rhyme>.</l>
+        
+                    <l xml:id="L83" rendition="estribillo">Sempre seja bẽeita e lo<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L84" rendition="estribillo">Santa Maria, a noss' avog<rhyme label="ada">ada</rhyme>.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>

@@ -108,15 +108,12 @@
                 isometrismo="isométrico"
                 isoestrofismo="isoestrófico"
                 asonancia="consonante"
-                met="8x10"
-                rhyme="ABBAACCA">
+                met="8x10/4x10"
+                rhyme="ABBAACCA/ABBA">
             
             
             
-                    <lg n="1"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="1">
 
                         <l xml:id="L1">Pena le pone la setena part<rhyme label="ida">ida</rhyme>
                   </l>
@@ -144,9 +141,7 @@
 
 
 
-                    <lg n="2" type="octava"
-                        met="8x10"
-                        rhyme="ABBAACCA">
+                    <lg n="2">
                        
                         <l xml:id="L9">Si bien pensaredes en estos part<rhyme label="idos">idos</rhyme>
                   </l>
@@ -163,9 +158,7 @@
                         <l xml:id="L16">porque vos daba los preparat<rhyme label="ivos">ivos</rhyme>.</l>
                     </lg>
 
-                    <lg n="3" type="octava"
-                        met="8x10"
-                        rhyme="ABBAACCA">
+                    <lg n="3">
 
                        
 
@@ -182,9 +175,7 @@
                         <l xml:id="L24">el que se quita desta tribul<rhyme label="ança">ança</rhyme>.</l>
                     </lg>
 
-                    <lg n="4" type="finida"
-                        met="4x10"
-                        rhyme="ABBA">
+                    <lg n="4">
 
                         <l xml:id="L25">Por ende, señores, con grant acord<rhyme label="ança">ança</rhyme>
                   </l>

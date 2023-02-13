@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../FiloCyT/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Grandes miragres faz Santa Maria</title>
+                <author>Alfonso X</author>
+                <editor resp="critica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Rocío Méndez</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier> 
+                        <repository>Códice de los músicos</repository>
+                        <idno>E367</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="E367" from= "329r" to="329v">329r-329v</locus> 
+                            <idno xml:id="CSM367"/>
+                            <filiation type="base">
+                                <ref target="#DH581"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+
+            <lg type="cantiga" subtype="refrán" style="amor" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófica" asonancia="consonante" met="6x10" rhyme="aaabBB">
+                <head type="rúbrica">[C]omo Santa Maria do Porto guareçeu a[l] Rey Don Affonso dûa grand'enfermedade de que lle ynchavan as pernas tan muito que lle non podiam caber enas calças.</head>
+
+                <lg n="1">    
+                    <l xml:id="L3">Ca en aquele que s'a ela ch<rhyme label="ama">ama</rhyme></l>
+                    <l xml:id="L4">e a serv'e a loa e a <rhyme label="ama">ama</rhyme>,</l>
+                    <l xml:id="L5">macar jaça en leito ou en c<rhyme label="ama">ama</rhyme></l>
+                    <l xml:id="L6">con gran door, sãa-o todav<rhyme label="ia">ia</rhyme>.</l>
+                    <l xml:id="L7" rendition="estribillo">Grandes miragres faz Santa Mar<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L8" rendition="estribillo">e fremosos a quem s'en ela f<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+                <lg n="2">
+                    <l xml:id="L9">Dest'un miragre quero que sabi<rhyme label="ades">ades</rhyme></l>
+                    <l xml:id="L10">que fez mui grande na que esper<rhyme label="ades">ades</rhyme></l>
+                    <l xml:id="L11">todos merçee e u a ach<rhyme label="ades">ades</rhyme></l>
+                    <l xml:id="L12">en todo tempo, de noit'e de d<rhyme label="ia">ia</rhyme>.</l>
+                    <l xml:id="L13" rendition="estribillo">Grandes miragres faz Santa Mar<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L14" rendition="estribillo">e fremosos a quem s'en ela f<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+                <lg n="3">        
+                    <l xml:id="L15">Aquest'av˜eo al Rey de Cast<rhyme label="ela">ela</rhyme></l>
+                    <l xml:id="L16">e de Santiago de Compost<rhyme label="ela">ela</rhyme></l>
+                    <l xml:id="L17">quand' ya veer a ygreja b<rhyme label="ela">ela</rhyme></l>
+                    <l xml:id="L18">que el fezera na Andaluz<rhyme label="ia">ia</rhyme>,</l>
+                    <l xml:id="L19" rendition="estribillo">Grandes miragres faz Santa Mar<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L20" rendition="estribillo">e fremosos a quem s'en ela f<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+                <lg n="4">        
+                    <l xml:id="L21">Que en mui pouco tenpo acab<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L22">foi a onrra da Virgen corõ<rhyme label="ada">ada</rhyme>,</l>
+                    <l xml:id="L23">e de torres e de muro cerc<rhyme label="ada">ada</rhyme>,</l>
+                    <l xml:id="L24">segund' aquel logar mester av<rhyme label="ia">ia</rhyme>.</l>
+                    <l xml:id="L25" rendition="estribillo">Grandes miragres faz Santa Mar<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L26" rendition="estribillo">e fremosos a quem s'en ela f<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+                <lg n="5">         
+                    <l xml:id="L27">Aquel Rei fora enferm'en Sev<rhyme label="illa">illa</rhyme></l>
+                    <l xml:id="L28">de grand'enfermidade a marav<rhyme label="illa">illa</rhyme>,</l>
+                    <l xml:id="L29">de que guariu por aquela que tr<rhyme label="illa">illa</rhyme></l>
+                    <l xml:id="L30">mui mal o demo chẽo de perf<rhyme label="ia">ia</rhyme>.</l>
+                    <l xml:id="L31" rendition="estribillo">Grandes miragres faz Santa Mar<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L31" rendition="estribillo">e fremosos a quem s'en ela f<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+                <lg n="6">         
+                    <l xml:id="L32">E pois [guariu] desta enfermid<rhyme label="ade">ade</rhyme>,</l>
+                    <l xml:id="L33">el Rey ouv'enton mui gran voont<rhyme label="ade">ade</rhyme></l>
+                    <l xml:id="L34">d'ir a logar u tan gran santid<rhyme label="ade">ade</rhyme></l>
+                    <l xml:id="L35">á com'ali; e el en romar<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L36" rendition="estribillo">Grandes miragres faz Santa Mar<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L37" rendition="estribillo">e fremosos a quem s'en ela f<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+                <lg n="7">   
+                    <l xml:id="L38">Foi alá logo per mar e per t<rhyme label="erra">erra</rhyme>.</l>
+                    <l xml:id="L39">E macar l[l]'o tenpo fez mui gran gu<rhyme label="erra">erra</rhyme>,</l>
+                    <l xml:id="L40">guió-o ben aquela que non <rhyme label="erra">erra</rhyme></l>
+                    <l xml:id="L41">a quena serve ben sen oufan<rhyme label="ia">ia</rhyme>.</l>
+                    <l xml:id="L42" rendition="estribillo">Grandes miragres faz Santa Mar<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L43" rendition="estribillo">e fremosos a quem s'en ela f<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+                <lg n="8">          
+                    <l xml:id="L44">E ind'el Rei per mar, tanto ll'inch<rhyme label="aron">aron</rhyme></l>
+                    <l xml:id="L45">as pernas ambas e se lle par<rhyme label="aron">aron</rhyme></l>
+                    <l xml:id="L46">assi vermellas que todos cuid<rhyme label="aron">aron</rhyme></l>
+                    <l xml:id="L47">que daquel mal mui tarde sãar<rhyme label="ia">ia</rhyme>.</l>
+                    <l xml:id="L48" rendition="estribillo">Grandes miragres faz Santa Mar<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L49" rendition="estribillo">e fremosos a quem s'en ela f<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+                <lg n="9">       
+                    <l xml:id="L50">Ca ja de tal guisa inchad'av<rhyme label="iam">iam</rhyme></l>
+                    <l xml:id="L51">que enas osas caber non pod<rhyme label="iam">iam</rhyme>;</l>
+                    <l xml:id="L52">demais os coiros delas se fend<rhyme label="iam">ian</rhyme></l>
+                    <l xml:id="L53">e agua amarela en sa<rhyme label="ia">ya</rhyme>.</l>
+                    <l xml:id="L54" rendition="estribillo">Grandes miragres faz Santa Mar<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L55" rendition="estribillo">e fremosos a quem s' en ela f<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+                <lg n="10">
+                    <l xml:id="L56">Mais el Rei, que toda sa esper<rhyme label="ança">ança</rhyme></l>
+                    <l xml:id="L57">avia ena Virgen sen dult<rhyme label="ança">ança</rhyme>,</l>
+                    <l xml:id="L58">non quis por esto fazer demor<rhyme label="ança">ança</rhyme>,</l>
+                    <l xml:id="L59">mais foi-ss' ao Porto quant'yr pod<rhyme label="ia">ia</rhyme>.</l>
+                    <l xml:id="L60" rendition="estribillo">Grandes miragres faz Santa Mar<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L61" rendition="estribillo">e fremosos a quem s'en ela f<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+                <lg n="11">        
+                    <l xml:id="L62">E chegou vernes aa ssa ygr<rhyme label="eja">eja</rhyme></l>
+                    <l xml:id="L63">daquesta Virgen que bẽeyta s<rhyme label="eja">eja</rhyme>,</l>
+                    <l xml:id="L64">e con esta enfermidade sob<rhyme label="eja">eja</rhyme></l>
+                    <l xml:id="L65">foi ant'o seu altar tẽer veg<rhyme label="ia">ia</rhyme>.</l>
+                    <l xml:id="L66" rendition="estribillo">Grandes miragres faz Santa Mar<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L67" rendition="estribillo">e fremosos a quem s'en ela f<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+                <lg n="12">
+                    <l xml:id="L68">E quando os madudin[n]os começ<rhyme label="aron">aron</rhyme></l>
+                    <l xml:id="L69">os seus clerigos, que os ben cant<rhyme label="aron">aron</rhyme>,</l>
+                    <l xml:id="L71">log'amba-las pernas lle desinch<rhyme label="aron">aron</rhyme></l>
+                    <l xml:id="L72">e guareceu daquela malout<rhyme label="ia">ia</rhyme>.</l>
+                    <l xml:id="L73" rendition="estribillo">Grandes miragres faz Santa Mar<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L74" rendition="estribillo">e fremosos a quem s'en ela f<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+                <lg n="13">
+                    <l xml:id="L75">E el Rei log'e toda sa comp<rhyme label="anna">anna</rhyme>,</l>
+                    <l xml:id="L76">que viron a maravilla tam<rhyme label="anna">anna</rhyme>,</l>
+                    <l xml:id="L77">loaron muit[o] a que nos ga<rhyme label="anna">anna</rhyme></l>
+                    <l xml:id="L78">de Deus saud'e nos dá alegr<rhyme label="ia">ia</rhyme>.</l>
+                    <l xml:id="L79" rendition="estribillo">Grandes miragres faz Santa Mar<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L80" rendition="estribillo">e fremosos a quem s'en ela f<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>

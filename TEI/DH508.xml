@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../FiloCyT/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Tan muito mal mi fazedes, senhor</title>
+                <author>Don Denis</author>
+                <editor resp="critica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriela Striker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B510/V93</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B510" from="113r" to="113r">113r</locus>
+                            <locus xml:id="V93" from="9v" to="9v">9v</locus>
+                            <idno xml:id="DH508"/>
+                            <filiation type="contrafactum">
+                                <ref target="#CSM17"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="amor" unisonancia="singular" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante" met="6x10" rhyme="abbaCC/cc">
+                <lg n="1">
+                    <l xml:id="L1">Tan muito mal mi fazedes, senh<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L2">e tanta coita e afan lev<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L3">e tanto me vejo coitad’ and<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L4">que nunca mi valha Nostro Senh<rhyme label="or">or</rhyme>,</l>
+                
+                    <l xml:id="L5" rendition="estribillo">se ant’ eu ja non queria morr<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L6" rendition="estribillo">e se mi non fosse maior praz<rhyme label="er">er</rhyme>.</l>
+                    </lg>
+                
+                <lg n="2">
+                    <l xml:id="L7">En tan gran coita viv’ a gran saz<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L8">por vós, senhor, e levo tanto m<rhyme label="al">al</rhyme></l>
+                    <l xml:id="L9">que vos non posso nen sei dizer qu<rhyme label="al">al</rhyme>,</l>
+                    <l xml:id="L10">e por aquesto Deus non mi perd<rhyme label="on">on</rhyme>,</l>
+               
+                    <l xml:id="L11" rendition="estribillo">se ant’ eu ja non queria morr<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L12" rendition="estribillo">e se mi non fosse maior praz<rhyme label="er">er</rhyme>.</l>
+                </lg>
+                
+                <lg n="3">
+                    <l xml:id="L13">Tan muit’ é o mal que mi por vós v<rhyme label="en">én</rhyme>,</l>
+                    <l xml:id="L14">e tanta coita lev’ e tant’ af<rhyme label="an">an</rhyme>,</l>
+                    <l xml:id="L15">que morrerei con tanto mal de pr<rhyme label="an">an</rhyme>,</l>
+                    <l xml:id="L16">mais pero, senhor, Deus non mi dé b<rhyme label="en">en</rhyme>,</l>
+           
+                    <l xml:id="L17" rendition="estribillo">se ant’ eu ja non queria morr<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L18" rendition="estribillo">e se mi non fosse maior praz<rhyme label="er">er</rhyme>.</l>
+                </lg>
+                
+                <lg n="4">
+                    <l xml:id="L19">Ca mais meu ben é de morte sofr<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L20">ante ca sempr’ en tal coita viv<rhyme label="er">er</rhyme>.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>

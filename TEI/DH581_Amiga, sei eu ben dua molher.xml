@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../FiloCyT/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Amiga, sei eu ben dũa molher</title>
+                <author>Don Denis</author>
+                <editor resp="critica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Rocío Méndez</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier> 
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B564/V167</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B564" from= "126r" to="126r"/>
+                            <locus xml:id="V167" from="22v" to="22v"/>
+                            <idno xml:id="DH581"/>
+                                <filiation type="contrafactum">
+                                    <ref target="#CSM367"/>
+                                </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="amigo" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x10/2x10" rhyme="abbaCC">
+                
+                <lg n="1">
+                    <l xml:id="L1">Amiga, sei eu ben dũa molh<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L2">que se trabalha de vosco busc<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L3">mal a voss’amigo, polo mat<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L4">mais tod’aquest’, amiga, ela qu<rhyme label="er">er</rhyme></l>    
+                    <l xml:id="L5" rendition="estribillo">porque nunca con el pode po<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L6" rendition="estribillo">que o podesse por amig’av<rhyme label="er">er</rhyme>.</l>
+                </lg>
+                <lg n="2">
+                    <l xml:id="L7">E buscalhi convosco quanto m<rhyme label="al">al</rhyme></l>
+                    <l xml:id="L8">ela máis pode, aquesto sei <rhyme label="eu">eu</rhyme>,</l>
+                    <l xml:id="L9">e tod’aquest’ela faz polo s<rhyme label="eu">eu</rhyme>,</l>
+                    <l xml:id="L10">e por este preit’e non por <rhyme label="al">al</rhyme>,</l>
+                    <l xml:id="L11" rendition="estribillo">porque nunca con el pode po<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L12" rendition="estribillo">que o podesse por amig’ av<rhyme label="er">er</rhyme>.</l>
+                </lg>
+                <lg n="3">    
+                    <l xml:id="L13">Ela trabalhase a gran saz<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L14">de lhi fazer o vosso desam<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L15">aver, e á ende mui gran sab<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L16">e tod'est’, amiga, non é sen<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L17" rendition="estribillo">porque nunca con el pode po<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L18" rendition="estribillo">que o podesse por amig'av<rhyme label="er">er</rhyme>.</l>
+                </lg>
+                <lg type="finda" met="2x10" rhyme="CC">
+                <l xml:id="L19">E por esto faz ela seu pod<rhyme label="er">er</rhyme>,</l>
+                <l xml:id="L20">ara fazelo convosco perd<rhyme label="er">er</rhyme>.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>

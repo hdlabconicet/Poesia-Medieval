@@ -44,7 +44,7 @@
                 isoestrofismo="heteroestrófico" asonancia="consonante" met="7x8/3x8" rhyme="abbacca/cca">
                 
                     
-                    <lg n="1" type="estrofa"  met="7x8" rhyme="abbacca"> 
+                    <lg n="1"> 
                         <l xml:id="L1">Mesura seria senh<rhyme label="or">or</rhyme>,</l>
                         <l xml:id="L2">de vós amercear de m<rhyme label="i">i</rhyme>,</l>
                         <l xml:id="L3">que vos en grave dia v<rhyme label="i">i</rhyme>,</l>
@@ -54,7 +54,7 @@
                         <l xml:id="L7">de que muit’ á fui sofred<rhyme label="or">or</rhyme>.</l>
                 </lg>
                     
-                    <lg n="2" type="estrofa"  met="7x8" rhyme="abbacca"> 
+                    <lg n="2"> 
                         <l xml:id="L8">Pero sabe Nostro Senh<rhyme label="or">or</rhyme></l>
                         <l xml:id="L9">que nunca vol’ eu mereç<rhyme label="i">i</rhyme>,</l>
                         <l xml:id="L10">mais sabe ben que vos serv<rhyme label="i">i</rhyme>,</l>
@@ -64,7 +64,7 @@
                         <l xml:id="L14">de min, coitado pecad<rhyme label="or">or</rhyme>.</l>
             </lg>
                     
-                    <lg n="3" type="estrofa"  met="7x8" rhyme="abbacca"> 
+                    <lg n="3"> 
                         <l xml:id="L15">Mais Deus, que de tod’ é senh<rhyme label="or">or</rhyme>,</l>
                         <l xml:id="L16">me querra põer consselh’ <rhyme label="i">i</rhyme>,</l>
                         <l xml:id="L17">ca se meu feito vai ass<rhyme label="i">i</rhyme>,</l>
@@ -74,7 +74,7 @@
                         <l xml:id="L21">morr’ eu, mais non mereced<rhyme label="or">or</rhyme>.</l>
                 </lg>
                     
-                    <lg n="4" type="finda"  met="3x8" rhyme="cca"> 
+                    <lg n="4"> 
                         <l xml:id="L22">Pero se eu ei de morr<rhyme label="er">er</rhyme></l>
                         <l xml:id="L23">sen volo nunca merec<rhyme label="er">er</rhyme></l>
                         <l xml:id="L24">non vós vej’ i prez nen l<rhyme label="or">oor</rhyme>.</l>

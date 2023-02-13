@@ -102,17 +102,14 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8x10"
-                rhyme="ABBAACCA">
+                met="8x10/4x8"
+                rhyme="ABBAACCA/ABBA">
                     <note> Se trata de una pieza de arte mayor. La pregunta no tiene un
                         destinatario, pero por la estructura de la rúbrica parecería estar dirigida
                         a Fernán Pérez de Guzmán, receptor de las piezas que la antedecen. La
                         pregunta no sigue las rimas de estas, con lo que no puede sostenerse con
                         solidez la hipótesis.</note>
-                    <lg n="1"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="1">
                         <l xml:id="L1">
                      <rs ref="#NC">Amigo señor</rs>, <rs ref="#NC">non vos
                          encubr<rhyme label="ades">ades</rhyme>
@@ -137,7 +134,7 @@
                         <l xml:id="L8">que todos non tiemblan peor que tembl<rhyme label="ades">ades</rhyme>.</l>
                     </lg>
 
-                    <lg n="2" type="finida" met="4x10" rhyme="ABBA">
+                    <lg n="2">
                         <l xml:id="L9">Villas e aldeas, castillos, cibd<rhyme label="ades">ades</rhyme>,</l>
                         <l xml:id="L10">delante sus ojos verán negro v<rhyme label="elo">elo</rhyme>,</l>
                         <l xml:id="L11">si <rs ref="#NC">vos lo sabedes</rs> que quanto <rs ref="#AAV">yo s<rhyme label="elo">elo</rhyme>

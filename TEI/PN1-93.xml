@@ -97,13 +97,10 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8x10"
-                rhyme="ABBAACCA">
+                met="8x10/4x10"
+                rhyme="ABBAACCA/ABBA">
                     <note> Se trata de una pieza de arte mayor</note>
-                    <lg n="1"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="1">
                         <l xml:id="L1">Las gracias complidas <rs ref="#BSA">a vos</rs> sean d<rhyme label="adas">adas</rhyme>
                   </l>
                         <l xml:id="L2">de la mesma parte del maravill<rhyme label="oso">oso</rhyme>
@@ -126,10 +123,7 @@
 
                     <pb facs="#PN93-2"/>
 
-                    <lg n="2"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="2">
                         <l xml:id="L9">
                      <rs ref="#BSA">Non <rs ref="#AAV">me</rs> tengades</rs> por
                                 <rs ref="#AAV">tan mal cri<rhyme label="ado">ado</rhyme>
@@ -155,10 +149,7 @@
                         <l xml:id="L16">desque fuere todo bien consider<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
 
-                    <lg n="3"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="3">
                         <l xml:id="L17">Los que solíen ser gente mex<rhyme label="illa">illa</rhyme>
                   </l>
                         <l xml:id="L18">son en estado que comen gall<rhyme label="inas">inas</rhyme>
@@ -174,7 +165,7 @@
                         <l xml:id="L24">veamos quién tiene la cara amar<rhyme label="illa">illa</rhyme>.</l>
                     </lg>
 
-                    <lg n="4" type="finida" met="14x10" rhyme="ABBA">
+                    <lg n="4">
                         <l xml:id="L25">Ya <rs ref="#AAV">me costase mi mula morz<rhyme label="illa">illa</rhyme>
                      </rs>
                   </l>

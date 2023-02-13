@@ -98,10 +98,7 @@
                 met="8x10"
                 rhyme="ABBAACCA">
                     <note> Se trata de una pieza de arte mayor</note>
-                    <lg n="1"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="1">
 
 
                         <l xml:id="L1">Non siento tal lego, <rs ref="#BSA">amigo</rs>, en <placeName ref="#ESP">Esp<rhyme label="aña">aña</rhyme></placeName>
@@ -122,10 +119,7 @@
                     
                     <pb facs="#PN89-2"/>
 
-                    <lg n="2"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="2">
                         <l xml:id="L9">
                      <rs ref="#BSA">Amigo</rs>, ya <rs ref="#AAV">tengo mi <term ref="#PMC:89">razón</term> prop<rhyme label="esta">uesta</rhyme>
                      </rs>

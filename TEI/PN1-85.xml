@@ -96,13 +96,10 @@
                 isometrismo="isométrico"
                 isoestrofismo="heteroestrófico"
                 asonancia="consonante"
-                met="8x10"
-                rhyme="ABBAACCA">
+                met="8x10/4x10"
+                rhyme="ABBAACCA/ABBA">
                     <note> Se trata de una pieza de arte mayor</note>
-                    <lg n="1"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="1">
 
                         <l xml:id="L1">Quando bien <rs ref="#BSA">contenplo la mi flaqu<rhyme label="eza">eza</rhyme>
                      </rs>
@@ -125,10 +122,7 @@
                     
                     <pb facs="#PN85-2"/>
                     
-                    <lg n="2"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="2">
                         <l xml:id="L9">Este Iesu Cristo, Señor del alt<rhyme label="ura">ura</rhyme>,</l>
                         <l xml:id="L10">de todos nos otros es Padre llam<rhyme label="ado">ado</rhyme>
                   </l>
@@ -142,10 +136,7 @@
                     </lg>
 
 
-                    <lg n="3"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="3">
                         <l xml:id="L17">A todo varón paresce cuid<rhyme label="osa">osa</rhyme>
                   </l>
                         <l xml:id="L18">oír la figura de tal condici<rhyme label="on">ón</rhyme>,</l>
@@ -162,10 +153,7 @@
                         <l xml:id="L24">para nascer dello la flor abond<rhyme label="osa">osa</rhyme>.</l>
                     </lg>
 
-                    <lg n="4"
-                   type="octava"
-                   met="8x10"
-                   rhyme="ABBAACCA">
+                    <lg n="4">
                         <l xml:id="L25">Estoria tenemos e canoniz<rhyme label="ada">ada</rhyme>
                   </l>
                         <l xml:id="L26">de Santo Tomás a quien Dios bien qu<rhyme label="iso">iso</rhyme>
@@ -181,7 +169,7 @@
                         <l xml:id="L32">de muerte cruel muy arrebat<rhyme label="ada">ada</rhyme>.</l>
                     </lg>
 
-                    <lg n="5" type="finida" met="4x10" rhyme="ABBA">
+                    <lg n="5">
                         <l xml:id="L33">Por ende su alma está conden<rhyme label="ada">ada</rhyme>
                   </l>
                         <l xml:id="L34">con todos malos aconsejad<rhyme label="ores">ores</rhyme>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../FiloCyT/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Quen vai contra Santa Maria</title>
+                <author>Alfonso X</author>
+                <editor resp="critica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Rocío Méndez y Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier> 
+                        <repository>Códice de los Músicos/Códice de Florencia</repository>
+                        <idno>E/F</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="E283" from= "253v" to="254r">253v-254r</locus> 
+                            <locus xml:id="F8" from="8v" to="8v">8v</locus>
+                            <idno xml:id="CSM283"/>
+                            <filiation type="base">
+                                <ref target="#DH575"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="amor" unisonancia="unisonante" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="9x8" rhyme="aaaaabcBC">
+            <head type="rúbrica">Como Santa Maria de Terena sãou un clerigo da boca
+                que se lle [torçera] mui feramente.</head>
+            
+       
+            
+            <lg n="1"> 
+                <l xml:id="L1">Ca sobervia non dev' av<rhyme label="er">er</rhyme></l>
+                <l xml:id="L2">ome contra a que venc<rhyme label="er">er</rhyme></l>
+                <l xml:id="L3">foi ao demo per sab<rhyme label="er">er</rhyme></l>
+                <l xml:id="L4">ser omildosa e faz<rhyme label="er">er</rhyme></l>
+                <l xml:id="L5">per que Deus quis dela nac<rhyme label="er">er</rhyme>;</l>
+                <l xml:id="L6">ca d' outra guisa non querr<rhyme label="ia">ia</rhyme></l>
+                <l xml:id="L7">ser Deus ome, nen si nen s<rhyme label="i">i</rhyme>.</l>
+                <l xml:id="L8" rendition="estribillo">Quen vai contra Santa Mar<rhyme label="ia">ia</rhyme></l>
+                <l xml:id="L9" rendition="estribillo">con sobervia, faz mal a ss<rhyme label="i">i</rhyme>.</l>
+            </lg>
+         
+           <lg n="2"> 
+               <l xml:id="L10">E por esto vos contar<rhyme label="ey">ey</rhyme></l>
+               <l xml:id="L11">un gran miragre que ach<rhyme label="ey">ey</rhyme></l>
+               <l xml:id="L12">que fez a Madre do gran R<rhyme label="ey">ey</rhyme></l>
+               <l xml:id="L13">en Terena, e mui ben s<rhyme label="ey">ey</rhyme></l>
+               <l xml:id="L14">que outros y, com' apres' <rhyme label="ey">ey</rhyme>,</l>
+               <l xml:id="L15">fez muitos e faz cada d<rhyme label="ia">ia</rhyme></l>
+               <l xml:id="L16">aos que os van buscar <rhyme label="i">y</rhyme>.</l>
+               <l xml:id="L17" rendition="estribillo">Quen vai contra Santa Mar<rhyme label="ia">ia</rhyme></l>
+               <l xml:id="L18" rendition="estribillo">con sobervia, faz mal a ss<rhyme label="i">i</rhyme>.</l>
+           </lg>
+           
+            <lg n="3"> 
+                <l xml:id="L19">Mui pret' un clerigo mor<rhyme label="ar">a</rhyme></l>
+                <l xml:id="L20">fora daquel santo log<rhyme label="ar">ar</rhyme></l>
+                <l xml:id="L21">desta Groriosa sen p<rhyme label="ar">ar</rhyme>;</l>
+                <l xml:id="L22">e un dia quis p[r]eeg<rhyme label="ar">ar</rhyme></l>
+                <l xml:id="L23">en ssa eigreja e mostr<rhyme label="ar">ar</rhyme></l>
+                <l xml:id="L24">aas gentes que "gran fol<rhyme label="ia">ia</rhyme></l>
+                <l xml:id="L25">será," diss' el, "creed' a m<rhyme label="i">i</rhyme>,</l>
+                <l xml:id="L26" rendition="estribillo">Quen vai contra Santa Mar<rhyme label="ia">ia</rhyme></l>
+                <l xml:id="L27" rendition="estribillo">con sobervia, faz mal a ss<rhyme label="i">i</rhyme>.</l>
+           </lg>
+          
+           <lg n="4">               
+               <l xml:id="L28">De quantos vos fordes part<rhyme label="ir">ir</rhyme></l>
+               <l xml:id="L29">de vossas eigrejas e <rhyme label="ir">ir</rhyme></l>
+               <l xml:id="L30">a Terena por y serv<rhyme label="ir">ir</rhyme></l>
+               <l xml:id="L31">nen dar do voss' e offer<rhyme label="ir">ir</rhyme>;</l>
+               <l xml:id="L32">e juro-vos eu sen ment<rhyme label="ir">ir</rhyme></l>
+               <l xml:id="L33">que por est' escomungar<rhyme label="ia">ia</rhyme></l>
+               <l xml:id="L34">quantos alá fossen daqu<rhyme label="i">i</rhyme>.</l>
+               <l xml:id="L35" rendition="estribillo">Quen vai contra Santa Mar<rhyme label="ia">ia</rhyme></l>
+               <l xml:id="L36" rendition="estribillo">con sobervia, faz mal a ss<rhyme label="i">i</rhyme>.</l>
+           </lg>
+           <lg n="5">
+               <l xml:id="L37">E sse per ventura av<rhyme label="en">en</rhyme></l>
+               <l xml:id="L38">que en esta festa que v<rhyme label="en">en</rhyme></l>
+               <l xml:id="L39">d' Agosto per vosso mal s<rhyme label="en">en</rhyme></l>
+               <l xml:id="L40">fordes y per nehûa r<rhyme label="en">en</rhyme>,</l>
+               <l xml:id="L41">escomungar-vos-ei por<rhyme label="en">en</rhyme>."</l>
+               <l xml:id="L42">E u esto dizer quer<rhyme label="ia">ia</rhyme>,</l>
+               <l xml:id="L43">torceu-xe-ll' a boca, ass<rhyme label="i">i</rhyme></l>
+               <l xml:id="L44" rendition="estribillo">Quen vai contra Santa Mar<rhyme label="ia">ia</rhyme></l>
+               <l xml:id="L45" rendition="estribillo">con sobervia, faz mal a ss<rhyme label="i">i</rhyme>.</l>
+           </lg>
+            <lg n="6">
+                <l xml:id="L46">Que nulla cousa non fal<rhyme label="ou">ou</rhyme></l>
+                <l xml:id="L47">nena missa non ar cant<rhyme label="ou">ou</rhyme>;</l>
+                <l xml:id="L48">e de guisa torto fic<rhyme label="ou">ou</rhyme></l>
+                <l xml:id="L49">que pe nen mão non mud<rhyme label="ou">ou</rhyme></l>
+                <l xml:id="L50">per poder da que despreç<rhyme label="ou">ou</rhyme></l>
+                <l xml:id="L51">por aquelo que dit' av<rhyme label="ia">ia</rhyme>.</l>
+                <l xml:id="L52">E foi tolleito log' al<rhyme label="i">y</rhyme></l>
+                <l xml:id="L53" rendition="estribillo">Quen vai contra Santa Mar<rhyme label="ia">ia</rhyme></l>
+                <l xml:id="L54" rendition="estribillo">con sobervia, faz mal a ss<rhyme label="i">i</rhyme>.</l>
+            </lg>
+
+           <lg n="7"> 
+               <l xml:id="L55">Que u quis descomungaç<rhyme label="on">on</rhyme></l>
+               <l xml:id="L56">dizer, non disse ssi nen n<rhyme label="on">on</rhyme>,</l>
+               <l xml:id="L57">nen ar pode mostrar raz<rhyme label="on">on</rhyme>,</l>
+               <l xml:id="L58">mais braadou come cabr<rhyme label="on">on</rhyme>.</l>
+               <l xml:id="L59">Enton todos de coraç<rhyme label="on">on</rhyme></l>
+               <l xml:id="L60">loaron muit' a que nos gu<rhyme label="ia">ia</rhyme></l>
+               <l xml:id="L61">e temérona mais des <rhyme label="i">y</rhyme>.</l>
+               <l xml:id="L62" rendition="estribillo">Quen vai contra Santa Mar<rhyme label="ia">ia</rhyme></l>
+               <l xml:id="L63" rendition="estribillo">con sobervia, faz mal a ss<rhyme label="i">i</rhyme>.</l>
+            </lg>
+           
+           <lg n="8"> 
+               <l xml:id="L64">Mas quando ss[e] atal sent<rhyme label="iu">iu</rhyme></l>
+               <l xml:id="L65">que tolleit' era e sse v<rhyme label="iu">iu</rhyme></l>
+               <l xml:id="L66">tan maltreito, ben sse part<rhyme label="iu">iu</rhyme></l>
+               <l xml:id="L67">daquel err' e sse repent<rhyme label="iu">iu</rhyme>,</l>
+               <l xml:id="L68">assi que logo ben guar<rhyme label="iu">iu</rhyme>;</l>
+               <l xml:id="L69">e fez assi que todav<rhyme label="ia">ia</rhyme></l>
+               <l xml:id="L70">deu y do seu, com' aprend<rhyme label="i">i</rhyme>.</l>
+               <l xml:id="L71" rendition="estribillo">Quen vai contra Santa Mar<rhyme label="ia">ia</rhyme></l>
+               <l xml:id="L72" rendition="estribillo">con sobervia, faz mal a ss<rhyme label="i">i</rhyme>.</l>
+           </lg>
+       
+            </lg>
+        </body>
+    </text>
+</TEI>

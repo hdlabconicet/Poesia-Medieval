@@ -92,8 +92,8 @@
                         isometrismo="isométrico"
                         isoestrofismo="heteroestrófico"
                         asonancia="consonante"
-                        met="8x10"
-                        rhyme="ABBAACCA">
+                        met="8x10/4x10"
+                        rhyme="ABBAACCA/ABBA">
                         <note>Se trata de una pieza de arte mayor. La pregunta no se dirige a un poeta
                             en particular sino a los <term cRef="208">trovadores</term>. La responde
                             <persName ref="#JAB">Juan Alfonso de Baena</persName>
@@ -101,10 +101,7 @@
                         
                   
                         
-                        <lg n="1"
-                            type="octava"
-                            met="8x10"
-                            rhyme="ABBAACCA">
+                        <lg n="1">
                             <l xml:id="L1">
                                 <rs ref="#AAV">A mí bien me plaze</rs> por que se est<rhyme label="ienda">ienda</rhyme>
                             </l>
@@ -121,10 +118,7 @@
                             <l xml:id="L8">e otros <term cRef="182">poetas</term> que diz la le<rhyme label="ienda">yenda</rhyme>.</l>
                         </lg>
                         
-                        <lg n="2"
-                            type="octava"
-                            met="8x10"
-                            rhyme="ABBAACCA">
+                        <lg n="2">
                             <l xml:id="L9">Aquí todo bueno su sesso desp<rhyme label="ienda">ienda</rhyme>,</l>
                             <l xml:id="L10">e júntense algunos de los natur<rhyme label="ales ">ales</rhyme>
                             </l>
@@ -141,10 +135,7 @@
                         
                         <pb facs="#PN80-2"/>
                         
-                        <lg n="3"
-                            type="octava"
-                            met="8x10"
-                            rhyme="ABBAACCA">
+                        <lg n="3">
                             <l xml:id="L17">E porque se esclaresca más esta faz<rhyme label="ienda">ienda</rhyme>
                             </l>
                             <l xml:id="L18">pongamos exemplo en los menestr<rhyme label="ales ">ales</rhyme>
@@ -161,10 +152,7 @@
                             <l xml:id="L24">delante maestros loor non at<rhyme label="ienda">ienda</rhyme>.</l>
                         </lg>
                         
-                        <lg n="4"
-                            type="octava"
-                            met="8x10"
-                            rhyme="ABBAACCA">
+                        <lg n="4">
                             <l xml:id="L25">Quien de los molinos, do hay grant mol<rhyme label="ienda">ienda,</rhyme>
                             </l>
                             <l xml:id="L26">furta farina e finche cost<rhyme label="ales ">ales</rhyme>,</l>
@@ -180,7 +168,7 @@
                             <l xml:id="L32">si non tiene armas con que se def<rhyme label="ienda">ienda</rhyme>.</l>
                         </lg>
                         
-                        <lg n="5" type="finida" met="4x10" rhyme="ABBA">
+                        <lg n="5">
                             <l xml:id="L33">Pues quien poco sabe convien(e) que se r<rhyme label="ienda">ienda</rhyme>
                             </l>
                             <l xml:id="L34">como se rinde la garç' al falc<rhyme label="on">ón</rhyme>,</l>
