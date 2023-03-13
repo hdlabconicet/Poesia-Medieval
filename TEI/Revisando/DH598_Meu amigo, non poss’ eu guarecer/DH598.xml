@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Meu amigo, non poss’ eu guarecer</title>
+                <author>Don Denis</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B581/V184</idno>                       
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B581" from="129r" to="129r"/>
+                            <locus xml:id="V184" from="25r" to="25v"/>
+                            <idno xml:id="DH598"/>
+                            <filiation type="contrafactum">
+                                <ref target="#CSM22"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <lg type="cantiga" subtype="refrán" style="amigo" unisonancia="singular" isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" asonancia="consonante" met="6x10/2x10" rhyme="abbaCC/CC">
+                
+
+                <lg n="1" type="estrofa" met="6x10" rhyme="abbaCC">
+                    <l xml:id="L1">Meu amigo, non poss’ eu guarec<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L2">sen vós, nen vós sen mí, e que ser<rhyme label="a">á</rhyme></l>
+                    <l xml:id="L3">de nós?, mais Deus, que end’ o poder <rhyme label="a">á</rhyme>,</l>
+                    <l xml:id="L4">lhi rog’ eu que el quera escolh<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L5">por vós, amigo, e des i por m<rhyme label="i">i</rhyme>,</l>
+                    <l xml:id="L6">que non morrades vós, nen eu ass<rhyme label="i">i</rhyme></l>
+            </lg>
+            
+                <lg n="2" type="estrofa" met="6x10" rhyme="abbaCC">
+                    <l xml:id="L7">como morremos, ca non á mest<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L8">de tal vida avermos de pass<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L9">ca mais vós valrria de nos mat<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L10">mais Deus escolha, se a el prougu<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L11">por vós, amigo, e des i por m<rhyme label="i">i</rhyme>,</l>
+                    <l xml:id="L12">que non morrades vos, nen eu ass<rhyme label="i">i</rhyme></l>
+</lg>
+            
+                <lg n="3" type="estrofa" met="6x10" rhyme="abbaCC">
+                    <l xml:id="L13">como morremos, ca ena mai<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L14">coita do mundo e na máis mort<rhyme label="al">al</rhyme>,</l>
+                    <l xml:id="L15">vivemos, amiga, e no maior m<rhyme label="al">al</rhyme>,</l>
+                    <l xml:id="L16">mais Deus escolha, come bon senh<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L17">por vós amigo, e des i por m<rhyme label="i">i</rhyme>,</l>
+                    <l xml:id="L18">que non morrades vos, nen eu ass<rhyme label="i">i</rhyme></l>
+</lg>
+            
+                <lg n="4" type="estrofa" met="6x10" rhyme="abbaCC">
+                    <l xml:id="L19">como morremos ca, per bõa f<rhyme label="e">e</rhyme>,</l>
+                    <l xml:id="L20">mui gran temp’ á que este mal pass<rhyme label="ou">ou</rhyme></l>
+                    <l xml:id="L21">per nós, e passa, e muito dur<rhyme label="ou">ou</rhyme>,</l>
+                    <l xml:id="L22">mais Deus escolha, come quen ele <rhyme label="e">é</rhyme>,</l>
+                    <l xml:id="L23">por vós amigo, e des i por m<rhyme label="i">i</rhyme>,</l>
+                    <l xml:id="L24">que non morrades vos, nen eu ass<rhyme label="i">i</rhyme></l>
+</lg>
+            
+                <lg n="5" type="finda" met="2x10" rhyme="CC">
+                    <l xml:id="L25">como morremos, e Deus ponha <rhyme label="i">i</rhyme></l>
+                    <l xml:id="L26">conselh’, amigo, a vós e a m<rhyme label="i">in</rhyme>.</l>
+</lg>
+
+
+            </lg>
+        </body>
+    </text>
+</TEI>
+

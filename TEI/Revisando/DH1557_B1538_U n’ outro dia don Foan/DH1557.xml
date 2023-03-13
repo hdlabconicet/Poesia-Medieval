@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/C:/Users/Mi%20Amor/Desktop/Taller%20Tei.Filocyt/Esquemas/esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">U n’ outro dia don Foan</title>
+                <author>Don Denis</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriela Striker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa</repository>
+                        <idno>B1538</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B1538" from="321v" to="322r"/>
+                            <idno xml:id="DH1557"/>
+                            <filiation type="contrafactum">
+                                <ref target="#CSM230"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="escarnio y maldecir" unisonancia="singular" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante" met="6x8/2x8/2x8" rhyme="abbaCC/dd/ee">
+                <lg n="1" type="estrofa" met="4x8" rhyme="abba">
+                    <l xml:id="L1">U noutro dia Don Fo<rhyme label="an">an</rhyme></l>
+                    <l xml:id="L2">diss’ ũa cousa que eu s<rhyme label="ei">ei</rhyme>,</l>
+                    <l xml:id="L3">andand’ aqui, en cas del-R<rhyme label="ei">ei</rhyme>,</l>
+                    <l xml:id="L4">bõa razon mi deu de pr<rhyme label="an">an</rhyme></l>
+                </lg>
+                <lg type="estribillo" met="2x8" rhyme="CC">
+                    <l xml:id="L5">perque lhi trobass’, e non qu<rhyme label="is">is</rhyme>,</l>
+                    <l xml:id="L6">e fiz mal porque o non f<rhyme label="is">iz</rhyme>.</l>
+                </lg>
+                
+                <lg n="2" type="estrofa" met="4x8" rhyme="abba">
+                    <l xml:id="L7">Falou mig’ o que quis fal<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L8">e con outros mui sen raz<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L9">e do que nos i diss’ ent<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L10">bõa razon mi par foi d<rhyme label="ar">ar</rhyme></l>
+                </lg>
+                <lg type="estribillo" met="2x8" rhyme="CC">
+                    <l xml:id="L11">perque lhi trobass’, e non qu<rhyme label="is">is</rhyme>,</l>
+                    <l xml:id="L12">e fiz mal porque o non f<rhyme label="is">iz</rhyme>.</l>
+                </lg>
+                
+                <lg n="3" type="estrofa" met="4x8" rhyme="abba">
+                    <l xml:id="L13">Ali u comigo fal<rhyme label="ou">ou</rhyme>,</l>
+                    <l xml:id="L14">de casamento seu e d’ <rhyme label="al">al</rhyme>,</l>
+                    <l xml:id="L15">en que mi falou muit’ e m<rhyme label="al">al</rhyme>,</l>
+                    <l xml:id="L16">que de razões i mostr<rhyme label="ou">ou</rhyme></l>
+                </lg>
+                <lg type="estribillo" met="2x8" rhyme="CC">
+                    <l xml:id="L17">perque lhi trobass’, e non qu<rhyme label="is">is</rhyme>,</l>
+                    <l xml:id="L18">e fiz mal porque o non f<rhyme label="is">iz</rhyme>.</l>
+                </lg>
+                
+                <lg n="4" type="finda" met="2x8" rhyme="dd">
+                    <l xml:id="L19">E sempre m’ eu mal achar<rhyme label="ei">ei</rhyme>,</l>
+                    <l xml:id="L20">porque lh’ eu enton non trob<rhyme label="ei">ei</rhyme>,</l>  
+                </lg>
+                
+                <lg n="5" type="finda" met="2x8" rhyme="ee">
+                    <l xml:id="L21">ca se lh’ enton trobara al<rhyme label="i">i</rhyme>,</l>
+                    <l xml:id="L22">vingarame do que lh’ o<rhyme label="i">í</rhyme>.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>

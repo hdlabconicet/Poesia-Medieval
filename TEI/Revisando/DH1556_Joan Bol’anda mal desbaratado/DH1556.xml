@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Joan Bol’ anda mal desbaratado</title>
+                <author>Don Denis</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa</repository>
+                        <idno>B1537</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B1537" from="321v" to="321v"/>
+                            <idno xml:id="DH1556"/>
+                            <filiation type="contrafactum">
+                                <ref target="#CSM404"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <lg type="cantiga" subtype="refrán" style="escarnio" unisonancia="singular" isometrismo="isométrico" 
+                isoestrofismo="isoestrófico" asonancia="consonante" met="6x10" rhyme="aaabaB">   
+                
+                <lg n="1" type="estrofa" met="6x10" rhyme="aaabaB">
+                    <l xml:id="L1">Joan Bol’ anda mal desbarat<rhyme label="ado">ado</rhyme>,</l>
+                    <l xml:id="L2">e anda trist’ e faz muit’ aguis<rhyme label="ado">ado</rhyme>,</l>
+                    <l xml:id="L3">ca perdeu quant’ avia guaanh<rhyme label="ado">ado</rhyme>,</l>
+                    <l xml:id="L4">e o que lhi leixou a madre s<rhyme label="ua">ua</rhyme>,</l>
+                    <l xml:id="L5">uũ rapaz que era seu cri<rhyme label="ado">ado</rhyme></l>
+                    <l xml:id="L6">levoulh’o roçin e leixoulh’ a m<rhyme label="ua">ua</rhyme>.</l>
+                </lg>
+            
+                <lg n="2" type="estrofa" met="6x10" rhyme="aaabaB">
+                    <l xml:id="L7">Se el a mũa quisesse lev<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L8">a Joan Bol’, e o rocin leix<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L9">non lhi pesara tant’, a meu cuid<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L10">nen ar semelhara cousa tan cr<rhyme label="ua">ua</rhyme>,</l>
+                    <l xml:id="L11">mais o rapaz, por lhi fazer pes<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L12">levoulh’o roçin e leixoulh’ a m<rhyme label="ua">ua</rhyme>.</l>
+                </lg>
+            
+                <lg n="3" type="estrofa" met="6x10" rhyme="aaabaB">
+                    <l xml:id="L13">Aquel rapaz que lh’ o rocin lev<rhyme label="ou">ou</rhyme>,</l>
+                    <l xml:id="L14">se lhi levass’ a mua que lhi fic<rhyme label="ou">ou</rhyme></l>
+                    <l xml:id="L15">a Joan Bolo, como se queix<rhyme label="ou">ou</rhyme>,</l>
+                    <l xml:id="L16">non se queixar’ andando pela r<rhyme label="ua">ua</rhyme>,</l>
+                    <l xml:id="L17">mais o rapaz, por mal que lhi cuid<rhyme label="ou">ou</rhyme>,</l>
+                    <l xml:id="L18">levoulh’o roçin e leixoulh’ a m<rhyme label="ua">ua</rhyme>.</l>
+                </lg>
+            
+            </lg>
+        </body>
+    </text>
+</TEI>

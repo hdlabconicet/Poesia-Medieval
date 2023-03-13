@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Amig'e fals'e desleal</title>
+                <author>Don Denis</author>
+                <editor resp="critica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Rocío Méndez</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B583/V186</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B583" from="129v" to="129v">129v</locus>
+                            <locus xml:id="V186" from="25v" to="25v">25v</locus>
+                            <idno xml:id="DH600"/>
+                            <filiation type="contrafactum">
+                                <ref target="#CSM230"/></filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+          
+            <lg type="cantiga" subtype="refrán" style="amigo" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x8" rhyme="abbaCC">
+               
+                <lg n="1" type="estrofa" met="4x8" rhyme="abba">
+                    <l xml:id="L1">Amig'e fals'e desle<rhyme label="al">al</rhyme>,</l>
+                    <l xml:id="L2">que prol á de vós trabalh<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L3">de na mia mercee cobr<rhyme label="ar">ar</rhyme>?</l>
+                    <l xml:id="L4">ca tanto o trouxestes m<rhyme label="al">al</rhyme>,</l>
+                </lg>
+                <lg type="estribillo" met="2x8" rhyme="CC">
+                    <l xml:id="L5">que non ei de vós ben faz<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L6">pero m’ eu quisesse pod<rhyme label="er">er</rhyme>.</l>
+                </lg>
+                <lg n="2" type="estrofa" met="4x8" rhyme="abba">
+                    <l xml:id="L7">Vós trouxestes o preit'ass<rhyme label="i">i</rhyme>,</l>
+                    <l xml:id="L8">come quen non é sabed<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L9">de ben nen de prez nen d'am<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L10">e por én creede per m<rhyme label="i">i</rhyme>n,</l>
+                </lg>
+                <lg type="estribillo" met="2x8" rhyme="CC">
+                    <l xml:id="L11">que non ei de vós ben faz<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L12">pero m’ eu quisesse pod<rhyme label="er">er</rhyme>.</l>
+                </lg>
+                <lg n="3" type="estrofa" met="4x8" rhyme="abba">
+                    <l xml:id="L13">Caestes en tal caj<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L14">que sol conselho non vos s<rhyme label="ei">ei</rhyme>,</l>
+                    <l xml:id="L15">ca ja vos eu desempar<rhyme label="ei">ei</rhyme></l>
+                    <l xml:id="L16">>en guisa, se Deus mi perd<rhyme label="on">on</rhyme></l>
+                </lg>
+                <lg type="estribillo" met="2x8" rhyme="CC">
+                    <l xml:id="L17">que non ei de vós ben faz<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L18">pero m'eu quisesse pod<rhyme label="er">er</rhyme>.</l>
+                </lg>
+            </lg>    
+        </body>
+    </text>
+</TEI>

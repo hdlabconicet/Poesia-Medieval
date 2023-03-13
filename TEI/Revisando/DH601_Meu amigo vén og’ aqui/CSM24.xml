@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Madre de Deus, non pod' errar</title>
+                <author>Alfonso X</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Códice de Toledo/Códice Rico o del Escorial/Códice de los Músicos</repository>
+                        <idno>To17/T24/E24</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="To17" from="27v" to="28r"/>
+                            <locus xml:id="T24" from="36r" to="36r"/>
+                            <locus xml:id="E24" from="48v" to="49r"/>
+                            <idno xml:id="CSM24"/>
+                            <filiation type="base">
+                                <ref target="#DH601"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="mariana" unisonancia="singular" isometrismo="heterométrico" 
+                isoestrofismo="isoestrófico" asonancia="consonante" met="8,8,8,6,8,6" rhyme="aaabCB">
+                
+                <head type="rúbrica">Esta é como Santa Maria fez nacer hûa fror na boca ao crerigo,
+                    depois que foi morto, e era en semellança de lilio, porque a loava.</head> 
+
+
+                <lg n="1" type="estrofa" met="8,8,8,6,8,6" rhyme="aaabCB"> 
+                    <l xml:id="L1">Non pod' errar nen falecerr<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L2">que(n) loar te sab' e tem<rhyme label="er">er</rhyme>.</l>
+                    <l xml:id="L3">Dest' un miragre retra<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L4">quero, que foi en Fr<rhyme label="ança">ança</rhyme>.</l>
+                    <l xml:id="L5">Madre de Deus, non pod' err<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L6">quen en ti á fi<rhyme label="ança">ança</rhyme>.</l>
+            </lg>
+            
+                <lg n="2" type="estrofa" met="8,8,8,6,8,6" rhyme="aaabCB"> 
+                    <l xml:id="L7">En Chartes o(u)v' un creriz<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L8">que era tafur e ladr<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L9">mas na Virgen de coraç<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L10">avia esper<rhyme label="ança">ança</rhyme>.</l>
+                    <l xml:id="L11">Madre de Deus, non pod' err<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L12">quen en ti á fi<rhyme label="ança">ança</rhyme>.</l>
+</lg>
+            
+                <lg n="3" type="estrofa" met="8,8,8,6,8,6" rhyme="aaabCB"> 
+                    <l xml:id="L13">Quand' algur ya mal faz<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L14">se via omagen se<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L15">de Santa Maria, corr<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L16">ya lá sen tard<rhyme label="ança">ança</rhyme>.</l>
+                    <l xml:id="L17">Madre de Deus, non pod' err<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L18">quen en ti á fi<rhyme label="ança">ança</rhyme>.</l>
+</lg>
+            
+                <lg n="4" type="estrofa" met="8,8,8,6,8,6" rhyme="aaabCB"> 
+                    <l xml:id="L19">E pois fazia oraç<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L20">ya comprir seu mal ent<rhyme label="on">on</rhyme>;</l>
+                    <l xml:id="L21">poren morreu sen confiss<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L22">per sua maland<rhyme label="ança">ança</rhyme>.</l>
+                    <l xml:id="L23">Madre de Deus, non pod' err<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L24">quen en ti á fi<rhyme label="ança">ança</rhyme>.</l>
+</lg>
+            
+                <lg n="5" type="estrofa" met="8,8,8,6,8,6" rhyme="aaabCB"> 
+                    <l xml:id="L25">Porque tal morte foi morr<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L26">nono quiseron receb<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L27">no sagrad' , e ouv' a jaz<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L28">fora, sen demor<rhyme label="ança">ança</rhyme>.</l>
+                    <l xml:id="L29">Madre de Deus, non pod' err<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L30">quen en ti á fi<rhyme label="ança">ança</rhyme>.</l>
+</lg>
+            
+                <lg n="6" type="estrofa" met="8,8,8,6,8,6" rhyme="aaabCB"> 
+                    <l xml:id="L31">Santa Maria en vis<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L32">se mostrou a pouca saz<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L33">a un prest', e disse-ll' ent<rhyme label="on">on</rhyme>:</l>
+                    <l xml:id="L34">"Fezestes malest<rhyme label="ança">ança</rhyme>,</l>
+                    <l xml:id="L35">Madre de Deus, non pod' err<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L36">quen en ti á fi<rhyme label="ança">ança</rhyme>.</l>
+</lg>
+            
+                <lg n="7" type="estrofa" met="8,8,8,6,8,6" rhyme="aaabCB"> 
+                    <l xml:id="L37">Porque non quisestes coll<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L38">o meu crerigo, nen met<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L39">no sagrad', e longe põ<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L40">o fostes por vilt<rhyme label="ança">ança</rhyme>.</l>
+                    <l xml:id="L41">Madre de Deus, non pod' err<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L42">quen en ti á fi<rhyme label="ança">ança</rhyme>.</l>
+</lg>
+            
+                <lg n="8" type="estrofa" met="8,8,8,6,8,6" rhyme="aaabCB"> 
+                    <l xml:id="L43">Mas cras, asse Deus vos perd<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L44">ide por el con prociss<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L45">con choros e con devoç<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L46">ca foi grand' a err<rhyme label="ança">ança</rhyme>."</l>
+                    <l xml:id="L47">Madre de Deus, non pod' err<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L48">quen en ti á fi<rhyme label="ança">ança</rhyme>.</l>
+</lg>
+            
+                <lg n="9" type="estrofa" met="8,8,8,6,8,6" rhyme="aaabCB"> 
+                    <l xml:id="L49">O preste  logo foi-ss' erg<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L50">e mandou os sinos tang<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L51">por ir o miragre ve<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L52">da Virgen sen dult<rhyme label="ança">ança</rhyme>.</l>
+                    <l xml:id="L53">Madre de Deus, non pod' err<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L54">quen en ti á fi<rhyme label="ança">ança</rhyme>.</l>
+</lg>
+            
+                <lg n="10" type="estrofa" met="8,8,8,6,8,6" rhyme="aaabCB"> 
+                    <l xml:id="L55">Os crerigos en mui bon s<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L56">cantando "Kyrieleys<rhyme label="on">on</rhyme>",</l>
+                    <l xml:id="L57">viron jazer aquel bar<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L58">u fez Deus demostr<rhyme label="ança">ança</rhyme>.</l>
+                    <l xml:id="L59">Madre de Deus, non pod' err<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L60">quen en ti á fi<rhyme label="ança">ança</rhyme>.</l>
+</lg>
+            
+                <lg n="11" type="estrofa" met="8,8,8,6,8,6" rhyme="aaabCB"> 
+                    <l xml:id="L61">Que, porque fora ben diz<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L62">de ssa Madre, fez-lle nac<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L63">fror na boca e parec<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L64">de liro semell<rhyme label="ança">ança</rhyme>.</l>
+                    <l xml:id="L65">Madre de Deus, non pod' err<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L66">quen en ti á fi<rhyme label="ança">ança</rhyme>.</l>
+</lg>
+            
+                <lg n="12" type="estrofa" met="8,8,8,6,8,6" rhyme="aaabCB"> 
+                    <l xml:id="L67">Esto teveron por gran d<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L68">da Virgen, e mui con raz<rhyme label="on">on</rhyme>;</l>
+                    <l xml:id="L69">e pois fezeron en serm<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L70">levárono con d<rhyme label="ança">ança</rhyme>.</l>
+                    <l xml:id="L71">Madre de Deus, non pod' err<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L72">quen en ti á fi<rhyme label="ança">ança</rhyme>.</l>
+</lg>
+
+
+            </lg>
+        </body>
+    </text>
+</TEI>

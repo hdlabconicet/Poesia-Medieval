@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="incipit">Tod'ome deve dar loor</title>
+                    <author>Alfonso X</author>
+                    <editor resp="critica">Gimena del Rio</editor>
+                    <editor resp="contrafactum">Germán Rossi</editor>
+                    <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                    <editor resp="TEI">Rocío Méndez</editor>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Reis Trobadors</publisher>
+                    <availability>
+                        <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Biblioteca de El Escorial/Biblioteca Nacional de Florencia</repository>
+                            <idno>E230/F64</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <locus xml:id="E230" from="209r" to="209v">209r-209v</locus>
+                                <locus xml:id="F64" from="82v" to="82v">82v</locus>
+                                <idno xml:id="CSM230"/>
+                                <filiation type="base">
+                                    <ref target="#DH600"/></filiation>
+                            </msItem>
+                        </msContents>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+        <text>
+            <body>
+                <lg type="cantiga" subtype="refrán" style="mariana" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófica" asonancia="consonante" met="6x8" rhyme="abbaCC">
+                    <head type="rúbrica">Esta é de loor de Santa Maria.</head>
+                    
+                    <lg n="1" type="estrofa" met="4x8" rhyme="abba">
+                        <l xml:id="L3">Dereit'é de loores d<rhyme label="ar">ar</rhyme></l>
+                        <l xml:id="L4">a aquela que sempre d<rhyme label="a">á</rhyme></l>
+                        <l xml:id="L5">seu ben que nunca falir<rhyme label="a">á</rhyme>;</l>
+                        <l xml:id="L6">e porend', a[s]se Deus m'amp<rhyme label="ar">ar</rhyme>:</l>
+                    </lg>
+                    <lg type="estribillo" met="2x8" rhyme="CC">
+                        <l xml:id="L7">Tod'ome deve dar lo<rhyme label="or">or</rhyme></l>
+                        <l xml:id="L8">aa Madre do Salvad<rhyme label="or">or</rhyme>.</l>
+                    </lg>
+                    <lg n="2" type="estrofa" met="4x" rhyme="abba">    
+                        <l xml:id="L9">E pois nos dá tan nobre d<rhyme label="on">on</rhyme></l>
+                        <l xml:id="L10">que nos faz o amor de D<rhyme label="eus">eus</rhyme></l>
+                        <l xml:id="L11">aver e que sejamos s<rhyme label="eus">eus</rhyme>;</l>
+                        <l xml:id="L12">porend', assi Deus me perd<rhyme label="on">on</rhyme>:</l>
+                    </lg>
+                    <lg type="estribillo" met="2x8" rhyme="CC">
+                        <l xml:id="L13">Tod'ome deve dar lo<rhyme label="or">or</rhyme></l>
+                        <l xml:id="L14">aa Madre do Salvad<rhyme label="or">or</rhyme>.</l>
+                    </lg>
+                    <lg n="3" type="estrofa" met="4x8" rhyme="abba">
+                        <l xml:id="L15">E pois tan poderosa <rhyme label="e">é</rhyme></l>
+                        <l xml:id="L16">e con Deus á tan gran pod<rhyme label="er">er</rhyme></l>
+                        <l xml:id="L17">que quanto quer pode faz<rhyme label="er">er</rhyme>;</l>
+                        <l xml:id="L18">por aquesto, per bõa f<rhyme label="e">e</rhyme>:</l>
+                    </lg>
+                    <lg type="estribillo" met="2x8" rhyme="CC">
+                        <l xml:id="L19">Tod'ome deve dar lo<rhyme label="or">or</rhyme></l>
+                        <l xml:id="L20">aa Madre do Salvad<rhyme label="or">or</rhyme>.</l>
+                    </lg>
+                </lg>
+            </body>
+        </text>
+</TEI>

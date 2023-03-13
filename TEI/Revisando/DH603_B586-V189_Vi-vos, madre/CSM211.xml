@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/C:/Users/Mi%20Amor/Desktop/Taller%20Tei.Filocyt/Esquemas/esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Apostos miragres faz todavia</title>
+                <author>Alfonso X</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriela Striker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Códice de los Músicos/Códice de Florencia/Códice de Toledo</repository>
+                        <idno>E211/F97/ToAppendix07</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="E211" from="194r" to="194r"/>
+                            <locus xml:id="F97" from="121r" to="121r"/>
+                            <locus xml:id="ToAppendix07" from="152v" to="153r"/>
+                            <idno xml:id="CSM211"/>
+                            <filiation type="base">
+                                <ref target="#DH603"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="mariana" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x11" rhyme="aaabBB">
+            <head type="rúbrica">Como Santa Maria fez aas abellas que comprissen de cera un ciro pasqual que sse queimara da ũa parte.</head>
+            
+            <lg  n="1" type="estrofa" met="4x11" rhyme="aaab">
+                <l xml:id="L1">Faz-los muit' apostos, por que aj<rhyme label="amos">amos</rhyme></l>
+                <l xml:id="L2">sabor de sabe-los e os cre<rhyme label="amos">amos</rhyme>;</l>
+                <l xml:id="L3">e faz-los fremosos, por que quer<rhyme label="amos">amos</rhyme></l>
+                <l xml:id="L4">cobiiçar d' aver a ssa compan<rhyme label="ia">ya</rhyme>.</l>
+            </lg>
+                <lg type="estribillo" met="2x11" rhyme="BB">
+                    <l xml:id="L5">Apostos miragres faz todav<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L6">por nos, e fremosos, Santa Mar<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+            
+            <lg n="2" type="estrofa" met="4x11" rhyme="aaab">
+                <l xml:id="L7">Porend' a Reynna de piad<rhyme label="ade">ade</rhyme></l>
+                <l xml:id="L8">fez un gran miragr' en ũa cid<rhyme label="ade">ade</rhyme></l>
+                <l xml:id="L9">a que dizen Elche, com' en verd<rhyme label="ade">ade</rhyme></l>
+                <l xml:id="L10">achei de gran gente que y av<rhyme label="ia">ia</rhyme>.</l>
+            </lg>
+                <lg type="estribillo" met="2x11" rhyme="BB">
+                    <l xml:id="L11">Apostos miragres faz todav<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L12">por nos, e fremosos, Santa Mar<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+            
+            <lg n="3" type="estrofa" met="4x11" rhyme="aaab">
+                <l xml:id="L13">Esto foi un dia de Pentec<rhyme label="oste">oste</rhyme>,</l>
+                <l xml:id="L14">que a ssa eigreja vẽeron t<rhyme label="oste">oste</rhyme></l>
+                <l xml:id="L15">d' omes e molleres come grand' <rhyme label="oste">oste</rhyme>,</l>
+                <l xml:id="L16">por oyr a missa que ss' y diz<rhyme label="ia">ia</rhyme></l>
+            </lg>
+                <lg type="estribillo" met="2x11" rhyme="BB">
+                    <l xml:id="L17">Apostos miragres faz todav<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L18">por nos, e fremosos, Santa Mar<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+            
+            <lg n="4" type="estrofa" met="4x11" rhyme="aaab">
+                <l xml:id="L19">Mui cantada come en atal f<rhyme label="esta">esta</rhyme>,</l>
+                <l xml:id="L20">e durou atẽena mui gran s<rhyme label="esta">esta</rhyme>;</l>
+                <l xml:id="L21">enton viron cousa mui mãef<rhyme label="esta">esta</rhyme>,</l>
+                <l xml:id="L22">ond' aa gente muito despraz<rhyme label="ia">ia</rhyme>.</l>
+            </lg>
+                <lg type="estribillo" met="2x11" rhyme="BB">
+                    <l xml:id="L23">Apostos miragres faz todav<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L24">por nos, e fremosos, Santa Mar<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+            
+            <lg n="5" type="estrofa" met="4x11" rhyme="aaab">
+                <l xml:id="L25">Ca viron o ciro pasqual queim<rhyme label="ado">ado</rhyme></l>
+                <l xml:id="L26">muito dũa parte e mui mengu<rhyme label="ado">ado</rhyme>;</l>
+                <l xml:id="L27">e desto o poblo foi tan coit<rhyme label="ado">ado</rhyme>,</l>
+                <l xml:id="L28">que cada un deles entrestec<rhyme label="ia">ia</rhyme>.</l>
+            </lg>
+                <lg type="estribillo" met="2x11" rhyme="BB">
+                    <l xml:id="L29">Apostos miragres faz todav<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L30">por nos, e fremosos, Santa Mar<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+            
+            <lg n="6" type="estrofa" met="4x11" rhyme="aaab">
+                <l xml:id="L31">Eles en aquesto assi cuid<rhyme label="ando">ando</rhyme>,</l>
+                <l xml:id="L32">viron un eixame vĩir vo<rhyme label="ando">ando</rhyme></l>
+                <l xml:id="L33">d' abellas mui brancas, que entrou qu<rhyme label="ando">ando</rhyme></l>
+                <l xml:id="L34">o crerig' a sagra dizer quer<rhyme label="ia">ia</rhyme>.</l>
+            </lg>
+                <lg type="estribillo" met="2x11" rhyme="BB">
+                    <l xml:id="L35">Apostos miragres faz todav<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L36">por nos, e fremosos, Santa Mar<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+            
+            <lg n="7" type="estrofa" met="4x11" rhyme="aaab">
+                <l xml:id="L37">En tanto que as abellas cheg<rhyme label="aron">aron</rhyme>,</l>
+                <l xml:id="L38">en un furado da pared' entr<rhyme label="aron">aron</rhyme></l>
+                <l xml:id="L39">e ben dali o cir[i]o lavr<rhyme label="aron">aron</rhyme></l>
+                <l xml:id="L40">daquela cera, que en falec<rhyme label="ia">ia</rhyme>.</l>
+            </lg>
+                <lg type="estribillo" met="2x11" rhyme="BB">
+                    <l xml:id="L41">Apostos miragres faz todav<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L42">por nos, e fremosos, Santa Mar<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+            
+            <lg n="8" type="estrofa" met="4x11" rhyme="aaab">
+                <l xml:id="L43">Quand' aquesto viron toda-las g<rhyme label="entes">entes</rhyme></l>
+                <l xml:id="L44">e eno miragre meteron m<rhyme label="entes">entes</rhyme>,</l>
+                <l xml:id="L45">loaron a Virgen, e mais cre<rhyme label="entes">entes</rhyme></l>
+                <l xml:id="L46">quis cada un foi que ante cre<rhyme label="ia">ya</rhyme>.</l>
+            </lg>
+                <lg type="estribillo" met="2x11" rhyme="BB">
+                    <l xml:id="L47">Apostos miragres faz todav<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L48">por nos, e fremosos, Santa Mar<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+            
+            <lg n="9" type="estrofa" met="4x11" rhyme="aaab">
+                <l xml:id="L49">E aquel eixam' estar y leix<rhyme label="aron">aron</rhyme>,</l>
+                <l xml:id="L50">que per ren tanger sol non o ous<rhyme label="aron">aron</rhyme>,</l>
+                <l xml:id="L51">e as abellas log' aly cri<rhyme label="aron">aron</rhyme></l>
+                <l xml:id="L52">e fezeron mel a mui gran perf<rhyme label="ia">ia</rhyme>.</l>
+            </lg>
+                <lg type="estribillo" met="2x11" rhyme="BB">
+                    <l xml:id="L53">Apostos miragres faz todav<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L54">por nos, e fremosos, Santa Mar<rhyme label="ia">ia</rhyme>.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/C:/Users/Mi%20Amor/Desktop/Taller%20Tei.Filocyt/Esquemas/esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Senhor, pois que m’ agora Deus guisou</title>
+                <author>Don Denis</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriela Striker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B507/V90</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B507" from="112v" to="112v"/>
+                            <locus xml:id="V90" from="9r" to="9r"/>
+                            <idno xml:id="DH505"/>
+                            <filiation type="contrafactum">
+                                <ref target="#CSM39"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="amor" unisonancia="singular" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante" met="6x10/2x10" rhyme="abbaCC/cc">
+                <lg n="1" type="estrofa" met="4x10" rhyme="abba">
+                    <l xml:id="L1">Senhor, pois que m’ agora Deus guis<rhyme label="ou">ou</rhyme></l>
+                    <l xml:id="L2">que vos vejo e vos posso fal<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L3">querovola mia fazenda mostr<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L4">que vejades como de vós est<rhyme label="ou">ou</rhyme>,</l>
+                </lg>
+                <lg type="estribillo" met="2x10" rhyme="CC">
+                    <l xml:id="L5">venmi gran mal de vós, ai mia senh<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L6">en que nunca pos mal Nostro Senh<rhyme label="or">or</rhyme>.</l>
+                </lg>
+                
+                <lg n="2" type="estrofa" met="4x10" rhyme="abba">
+                    <l xml:id="L7">E, senhor, gradesc’ a Deus este b<rhyme label="en">en</rhyme></l>
+                    <l xml:id="L8">que mi fez en mi vos fazer ve<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L9">e mia fazenda vos quero diz<rhyme label="er">er</rhyme>,</l> 
+                    <l xml:id="L10">que vejades que mi de vós av<rhyme label="en">en</rhyme>,</l>
+                </lg>     
+                <lg type="estribillo" met="2x10" rhyme="CC">
+                    <l xml:id="L11">venmi gran mal de vós, ai mia senh<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L12">en que nunca pos mal Nostro Senh<rhyme label="or">or</rhyme>.</l>
+                </lg>
+                
+                <lg n="3" type="estrofa" met="4x10" rhyme="abba">
+                    <l xml:id="L13">E non sei quando vos ar veer<rhyme label="ei">ei</rhyme>,</l>
+                    <l xml:id="L14">e por én, vos quero dizer aqu<rhyme label="i">i</rhyme></l>
+                    <l xml:id="L15">mia fazenda, que vos sempr’ encobr<rhyme label="i">i</rhyme>,</l>
+                    <l xml:id="L16">que vejades o que eu de vós <rhyme label="ei">ei</rhyme>,</l>
+                </lg>     
+                <lg type="estribillo" met="2x10" rhyme="CC">
+                    <l xml:id="L17">venmi gran mal de vós, ai mia senh<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L18">en que nunca pos mal Nostro Senh<rhyme label="or">or</rhyme>.</l>
+                </lg>
+                
+                <lg n="4" type="finda" met="2x10" rhyme="cc">
+                    <l xml:id="L19">Ca non pos en vós mal Nostro Senh<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L20">senon quant’ a min fazedes, senh<rhyme label="or">or</rhyme>.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>

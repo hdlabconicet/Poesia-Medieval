@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Meu amigo vén og’ aqui</title>
+                <author>Don Denis</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B584/V187</idno>                       
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B584" from="129v" to="129v"/>
+                            <locus xml:id="V187" from="25v" to="25v"/>
+                            <idno xml:id="DH601"/>
+                            <filiation type="contrafactum">
+                                <ref target="#CSM24"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <lg type="cantiga" subtype="refrán" style="amigo" unisonancia="singular" isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" asonancia="consonante" met="6x8/2x8" rhyme="abbaCC/CC">
+                
+                
+                <lg n="1" type="estrofa" met="6x8" rhyme="abbaCC"> 
+                    <l xml:id="L1">Meu amigo vén og’ aqu<rhyme label="i">i</rhyme>,</l>
+                    <l xml:id="L2">e diz que quer migo fal<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L3">e sab’ el que mi faz pes<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L4">madre, pois que lh’ eu defend<rhyme label="i">i</rhyme></l>
+                    <l xml:id="L5">que non fosse per nulha r<rhyme label="en">en</rhyme>,</l>
+                    <l xml:id="L6">per u eu foss’, e ora v<rhyme label="en">én</rhyme></l>
+            </lg>
+            
+                <lg n="2" type="estrofa" met="6x8" rhyme="abbaCC">
+                    <l xml:id="L7">aqui, e foi pecado s<rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L8">de sol põer no coraç<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L9">madre, passar mia defenss<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L10">ca sab’ el que lhi mandei <rhyme label="eu">eu</rhyme>,</l>
+                    <l xml:id="L11">que non fosse per nulha r<rhyme label="en">en</rhyme>,</l>
+                    <l xml:id="L12">per u eu foss’, e ora v<rhyme label="en">én</rhyme></l>
+              </lg>
+            
+                <lg n="3" type="estrofa" met="6x8" rhyme="abbaCC">
+                    <l xml:id="L13">aqui, u eu con el fal<rhyme label="ei">ei</rhyme>,</l>
+                    <l xml:id="L14">per ante vós, madr’ e senh<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L15">e oimais perde meu am<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L16">pois lh’ eu defendi e mand<rhyme label="ei">ei</rhyme>,</l>    
+                    <l xml:id="L17">que non fosse per nulha r<rhyme label="en">en</rhyme>,</l>
+                    <l xml:id="L18">per u eu foss’, e ora v<rhyme label="en">én</rhyme></l>
+              </lg>
+            
+                <lg n="4" type="finda" met="2x8" rhyme="CC">
+                    <l xml:id="L19">aqui, madr’, e pois fez mal s<rhyme label="en">én</rhyme>,</l>
+                    <l xml:id="L20">dereit’ é que perça meu b<rhyme label="en">en</rhyme>.</l>
+              </lg>
+            
+                
+            </lg>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Mui gran poder á a Madre de Deus</title>
+                <author>Alfonso X</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Códice de Toledo/Códice Rico o del Escorial/Códice de los Músicos</repository>
+                        <idno>To22/T22/E22</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="To22" from="31v" to="32v"/>
+                            <locus xml:id="T22" from="34r" to="34r"/>
+                            <locus xml:id="E22" from="47v" to="48r"/>
+                            <idno xml:id="CSM22"/>
+                            <filiation type="base">
+                                <ref target="#DH598"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="mariana" unisonancia="singular" isometrismo="isométrico" 
+                isoestrofismo="isoestrófico" asonancia="consonante" met="6x10" rhyme="aaabBB">
+                
+                <head type="rúbrica">Esta é como Santa Maria guardou a un lavrador que non morresse
+                    das feridas que lle dava un cavaleiro e seus omees.</head> 
+                
+                
+                <lg n="1" type="estrofa" met="6x10" rhyme="aaabBB"> 
+                    <l xml:id="L1">Gran poder á, ca sseu Fillo llo d<rhyme label="eu">eu</rhyme>,</l>
+                    <l xml:id="L2">en deffender quen se chamar por s<rhyme label="eu">eu</rhyme>;</l>
+                    <l xml:id="L3">e dest' un miragre vos direi <rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L4">que ela fez grande nos dias m<rhyme label="eus">eus</rhyme>.</l>
+                    <l xml:id="L5">Mui gran poder á a Madre de D<rhyme label="eus">eus</rhyme></l>
+                    <l xml:id="L6">de deffender e ampara-los s<rhyme label="eus">eus</rhyme>.</l>
+            </lg>
+            
+                <lg n="2" type="estrofa" met="6x10" rhyme="aaabBB"> 
+                    <l xml:id="L7">En Armenteira foi un lavrad<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L8">que un cavaleiro, por desam<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L9">mui grande que avi' a seu senn<rhyme label="or">or</rhyme>,</l>
+                    <l xml:id="L10">foi polo matar, per nome Mat<rhyme label="eus">eus</rhyme>.</l>
+                    <l xml:id="L11">Mui gran poder á a Madre de D<rhyme label="eus">eus</rhyme></l>
+                    <l xml:id="L12">de deffender e ampara-los s<rhyme label="eus">eus</rhyme>.</l>
+                </lg>
+            
+                <lg n="3" type="estrofa" met="6x10" rhyme="aaabBB"> 
+                    <l xml:id="L13">E u o viu seu millo debull<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L14">na eira, mandou-lle lançadas d<rhyme label="ar">ar</rhyme>;</l>
+                    <l xml:id="L15">mas el começou a Madr' a cham<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L16">do que na cruz mataron os jud<rhyme label="eus">eus</rhyme>.</l>
+                    <l xml:id="L17">Mui gran poder á a Madre de D<rhyme label="eus">eus</rhyme></l>
+                    <l xml:id="L18">de deffender e ampara-los s<rhyme label="eus">eus</rhyme>.</l>
+                </lg>
+            
+                <lg n="4" type="estrofa" met="6x10" rhyme="aaabBB"> 
+                    <l xml:id="L19">Duas lançadas lle deu un pe<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L20">mas non ll' entraron; e escantaç<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L21">cuidou que era o coteif', ent<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L22">más bravo foi que Judas Macab<rhyme label="eus">eus</rhyme>.</l>
+                    <l xml:id="L23">Mui gran poder á a Madre de D<rhyme label="eus">eus</rhyme></l>
+                    <l xml:id="L24">de deffender e ampara-los s<rhyme label="eus">eus</rhyme>.</l>
+                </lg>
+            
+                <lg n="5" type="estrofa" met="6x10" rhyme="aaabBB"> 
+                    <l xml:id="L25">Enton a ssa azcûa lle lanç<rhyme label="ou">ou</rhyme></l>
+                    <l xml:id="L26">e feriu-o, pero nono chag<rhyme label="ou">ou</rhyme>;</l>
+                    <l xml:id="L27">ca el a Santa Maria cham<rhyme label="ou">ou</rhyme>:</l>
+                    <l xml:id="L28">"Sennor, val-me como vales os t<rhyme label="eus">eus</rhyme>,</l>
+                    <l xml:id="L29">Mui gran poder á a Madre de D<rhyme label="eus">eus</rhyme></l>
+                    <l xml:id="L30">de deffender e ampara-los s<rhyme label="eus">eus</rhyme>.</l>
+                </lg>
+            
+                <lg n="6" type="estrofa" met="6x10" rhyme="aaabBB"> 
+                    <l xml:id="L31">E non moira, ca non mereci m<rhyme label="al">al</rhyme>."</l>
+                    <l xml:id="L32">Eles, pois viron o miragr' at<rhyme label="al">al</rhyme></l>
+                    <l xml:id="L33">que fez a Reynna esperit<rhyme label="al">al</rhyme>,</l>
+                    <l xml:id="L34">creveron ben, ca ant' eran encr<rhyme label="eus">eus</rhyme>.</l>
+                    <l xml:id="L35">Mui gran poder á a Madre de D<rhyme label="eus">eus</rhyme></l>
+                    <l xml:id="L36">de deffender e ampara-los s<rhyme label="eus">eus</rhyme>.</l>
+                </lg>
+            
+                <lg n="7" type="estrofa" met="6x10" rhyme="aaabBB"> 
+                    <l xml:id="L37">E fillaron-sse log' a repent<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L38">e ao lavrador perdon ped<rhyme label="ir">ir</rhyme>,</l>
+                    <l xml:id="L39">e deron-ll' algu' ; e el punnou de ss' <rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L40">a Rocamador con outros rom<rhyme label="eus">eus</rhyme>.</l>
+                    <l xml:id="L41">Mui gran poder á a Madre de D<rhyme label="eus">eus</rhyme></l>
+                    <l xml:id="L42">de deffender e ampara-los s<rhyme label="eus">eus</rhyme>.</l>
+                </lg>
+            
+            </lg>
+        </body>
+    </text>
+</TEI>
+
