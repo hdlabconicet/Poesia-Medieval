@@ -17,7 +17,6 @@ permalink: /corpus/
 
 ## Cantigas 
 
-<!-- 🚧 en construcción 🚧 -->
 <ul>
 {% for my_cantiga in site.cantigas %}
     <li><a href="{{site.baseurl}}/{{my_cantiga.url}}">{{ my_cantiga.title }}</a></li>
