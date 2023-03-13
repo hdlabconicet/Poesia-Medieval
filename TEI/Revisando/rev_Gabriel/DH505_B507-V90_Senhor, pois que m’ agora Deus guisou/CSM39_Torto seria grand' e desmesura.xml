@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="file:/C:/Users/Mi%20Amor/Desktop/Taller%20Tei.Filocyt/Esquemas/esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="Poesía Medieval\TEI\schemas\esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- por algún motivo no funciona el path relativo, así que hay que completar el path con la ubicación de la carpeta de
+ Poesía Medieval en tu computadora -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
