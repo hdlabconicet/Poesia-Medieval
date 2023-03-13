@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/C:/Users/Mi%20Amor/Desktop/Taller%20Tei.Filocyt/Esquemas/esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Torto seria grand' e desmesura</title>
+                <author>Alfonso X</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriela Striker</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Códice de los Músicos/Códice Rico o del Escorial/Códice de Toledo</repository>
+                        <idno>E39/T39/To43</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="E39" from="62r" to="62v"/>
+                            <locus xml:id="T39" from="58r" to="58r"/>
+                            <locus xml:id="To43" from="58r" to="58v"/>
+                            <idno xml:id="CSM39"/>
+                            <filiation type="base">
+                                <ref target="#DH505"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="mariana" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x11" rhyme="aaabBB">
+            
+            <head type="rúbrica">[E]sta é como Santa Maria guardou a sa omagen, que a non que[i]ma[s]' o fogo.</head>
+               
+            <lg n="1">
+                <l xml:id="L1">Ond' avẽo en San Miguel de T<rhyme label="omba">omba</rhyme>,</l>
+                <l xml:id="L2">no mõesteiro que jaz sobre l<rhyme label="omba">omba</rhyme></l>
+                <l xml:id="L3">dũa gran pena, que ja quant' é c<rhyme label="omba">omba</rhyme>,</l>
+                <l xml:id="L4">en que corisco feriu noit' esc<rhyme label="ura">ura</rhyme>.</l>
+                    <l xml:id="L5" rendition="estribillo">[T]orto seria grand' e desmes<rhyme label="ura">ura</rhyme></l>
+                    <l xml:id="L6" rendition="estribillo">de prender mal da Virgen ssa fig<rhyme label="ura">ura</rhyme>.</l>
+                </lg>
+            
+                <lg n="2">
+                    <l xml:id="L7">Toda a noite ardeu a perf<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L8">ali o fog' e queimou quant' av<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L9">na eigreja, mas non foi u si<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L10">a omagen da que foi Virgen p<rhyme label="ura">ura</rhyme>.</l>
+                    <l xml:id="L11" rendition="estribillo">Torto seria grand' e desmes<rhyme label="ura">ura</rhyme></l>
+                    <l xml:id="L12" rendition="estribillo">de prender mal da Virgen ssa fig<rhyme label="ura">ura</rhyme>.</l>
+                </lg>
+            
+                <lg n="3">
+                    <l xml:id="L13">E como quer que o fogo queim<rhyme label="asse">asse</rhyme></l>
+                    <l xml:id="L14">en redor da omagen quant' ach<rhyme label="asse">as[s]e</rhyme>,</l>
+                    <l xml:id="L15">Santa Maria non quis que cheg<rhyme label="asse">asse</rhyme></l>
+                    <l xml:id="L16">o fum' a ela, nena caent<rhyme label="ura">ura</rhyme>.</l>
+                    <l xml:id="L17" rendition="estribillo">Torto seria grand' e desmes<rhyme label="ura">ura</rhyme></l>
+                    <l xml:id="L18" rendition="estribillo">de prender mal da Virgen ssa fig<rhyme label="ura">ura</rhyme>.</l>
+                </lg>
+            
+                <lg n="4">
+                    <l xml:id="L19">Assi guardou a Reĩa do C<rhyme label="eo">eo</rhyme></l>
+                    <l xml:id="L20">a ssa omagen, que nen sol o v<rhyme label="eo">eo</rhyme></l>
+                    <l xml:id="L21">tangeu o fogo, come o ebr<rhyme label="eo">eo</rhyme></l>
+                    <l xml:id="L22">guardou no forno con ssa vestid<rhyme label="ura">ura</rhyme>.</l>
+                    <l xml:id="L23" rendition="estribillo">Torto seria grand' e desmes<rhyme label="ura">ura</rhyme></l>
+                    <l xml:id="L24" rendition="estribillo">de prender mal da Virgen ssa fig<rhyme label="ura">ura</rhyme>.</l>
+                </lg>
+            
+                <lg n="5">
+                    <l xml:id="L25">Assi lle foi o fog' obedi<rhyme label="ente">ente</rhyme></l>
+                    <l xml:id="L26">a Santa Maria, que sol ni<rhyme label="ente">ente</rhyme></l>
+                    <l xml:id="L27">non tangeu sa omage veram<rhyme label="ente">ente</rhyme>,</l>
+                    <l xml:id="L28">ca de seu Fill' el era creat<rhyme label="ura">ura</rhyme>.</l>
+                    <l xml:id="L29" rendition="estribillo">Torto seria grand' e desmes<rhyme label="ura">ura</rhyme></l>
+                    <l xml:id="L30" rendition="estribillo">de prender mal da Virgen ssa fig<rhyme label="ura">ura</rhyme>.</l>
+                </lg>
+            
+                <lg n="6">
+                    <l xml:id="L31">Daquesto foron mui maravill<rhyme label="ados">ados</rhyme></l>
+                    <l xml:id="L32">quantos das terras y foron junt<rhyme label="ados">ados</rhyme>,</l>
+                    <l xml:id="L33">que solament' os fios defum<rhyme label="ados">ados</rhyme></l>
+                    <l xml:id="L34">non viron do veo, nena pint<rhyme label="ura">ura</rhyme></l>
+                    <l xml:id="L35" rendition="estribillo">Torto seria grand' e desmes<rhyme label="ura">ura</rhyme></l>
+                    <l xml:id="L36" rendition="estribillo">de prender mal da Virgen ssa fig<rhyme label="ura">ura</rhyme>.</l>
+                </lg>
+            
+                <lg n="7">
+                    <l xml:id="L37">Da omagen nen ar foi afum<rhyme label="ada">ada</rhyme>,</l>
+                    <l xml:id="L38">ante semellava que mui lav<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L39">fora ben toda con agua ros<rhyme label="ada">ada</rhyme>,</l>
+                    <l xml:id="L40">assi cheirava con ssa cobert<rhyme label="ura">ura</rhyme>.</l>
+                    <l xml:id="L41" rendition="estribillo">Torto seria grand' e desmes<rhyme label="ura">ura</rhyme></l>
+                    <l xml:id="L42" rendition="estribillo">de prender mal da Virgen ssa fig<rhyme label="ura">ura</rhyme>.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>
