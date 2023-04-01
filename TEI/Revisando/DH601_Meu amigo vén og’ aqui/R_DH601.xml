@@ -44,34 +44,34 @@
                 isoestrofismo="heteroestrófico" asonancia="consonante" met="6x8/2x8" rhyme="abbaCC/CC">
                 
                 
-                <lg n="1" type="estrofa" met="6x8" rhyme="abbaCC"> 
+                <lg n="1"> 
                     <l xml:id="L1">Meu amigo vén og’ aqu<rhyme label="i">i</rhyme>,</l>
                     <l xml:id="L2">e diz que quer migo fal<rhyme label="ar">ar</rhyme>,</l>
                     <l xml:id="L3">e sab’ el que mi faz pes<rhyme label="ar">ar</rhyme>,</l>
                     <l xml:id="L4">madre, pois que lh’ eu defend<rhyme label="i">i</rhyme></l>
-                    <l xml:id="L5">que non fosse per nulha r<rhyme label="en">en</rhyme>,</l>
-                    <l xml:id="L6">per u eu foss’, e ora v<rhyme label="en">én</rhyme></l>
+                    <l xml:id="L5" rendition="estribillo">que non fosse per nulha r<rhyme label="en">en</rhyme>,</l>
+                    <l xml:id="L6" rendition="estribillo">per u eu foss’, e ora v<rhyme label="en">én</rhyme></l>
             </lg>
             
-                <lg n="2" type="estrofa" met="6x8" rhyme="abbaCC">
+                <lg n="2">
                     <l xml:id="L7">aqui, e foi pecado s<rhyme label="eu">eu</rhyme></l>
                     <l xml:id="L8">de sol põer no coraç<rhyme label="on">on</rhyme>,</l>
                     <l xml:id="L9">madre, passar mia defenss<rhyme label="on">on</rhyme>,</l>
                     <l xml:id="L10">ca sab’ el que lhi mandei <rhyme label="eu">eu</rhyme>,</l>
-                    <l xml:id="L11">que non fosse per nulha r<rhyme label="en">en</rhyme>,</l>
-                    <l xml:id="L12">per u eu foss’, e ora v<rhyme label="en">én</rhyme></l>
+                    <l xml:id="L11" rendition="estribillo">que non fosse per nulha r<rhyme label="en">en</rhyme>,</l>
+                    <l xml:id="L12" rendition="estribillo">per u eu foss’, e ora v<rhyme label="en">én</rhyme></l>
               </lg>
             
-                <lg n="3" type="estrofa" met="6x8" rhyme="abbaCC">
+                <lg n="3">
                     <l xml:id="L13">aqui, u eu con el fal<rhyme label="ei">ei</rhyme>,</l>
                     <l xml:id="L14">per ante vós, madr’ e senh<rhyme label="or">or</rhyme>,</l>
                     <l xml:id="L15">e oimais perde meu am<rhyme label="or">or</rhyme>,</l>
                     <l xml:id="L16">pois lh’ eu defendi e mand<rhyme label="ei">ei</rhyme>,</l>    
-                    <l xml:id="L17">que non fosse per nulha r<rhyme label="en">en</rhyme>,</l>
-                    <l xml:id="L18">per u eu foss’, e ora v<rhyme label="en">én</rhyme></l>
+                    <l xml:id="L17" rendition="estribillo">que non fosse per nulha r<rhyme label="en">en</rhyme>,</l>
+                    <l xml:id="L18" rendition="estribillo">per u eu foss’, e ora v<rhyme label="en">én</rhyme></l>
               </lg>
             
-                <lg n="4" type="finda" met="2x8" rhyme="CC">
+                <lg n="4">
                     <l xml:id="L19">aqui, madr’, e pois fez mal s<rhyme label="en">én</rhyme>,</l>
                     <l xml:id="L20">dereit’ é que perça meu b<rhyme label="en">en</rhyme>.</l>
               </lg>

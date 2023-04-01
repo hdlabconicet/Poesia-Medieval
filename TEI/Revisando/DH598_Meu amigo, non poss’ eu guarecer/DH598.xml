@@ -44,7 +44,7 @@
                 isoestrofismo="heteroestrófico" asonancia="consonante" met="6x10/2x10" rhyme="abbaCC/CC">
                 
 
-                <lg n="1" type="estrofa" met="6x10" rhyme="abbaCC">
+                <lg n="1">
                     <l xml:id="L1">Meu amigo, non poss’ eu guarec<rhyme label="er">er</rhyme></l>
                     <l xml:id="L2">sen vós, nen vós sen mí, e que ser<rhyme label="a">á</rhyme></l>
                     <l xml:id="L3">de nós?, mais Deus, que end’ o poder <rhyme label="a">á</rhyme>,</l>
@@ -53,7 +53,7 @@
                     <l xml:id="L6">que non morrades vós, nen eu ass<rhyme label="i">i</rhyme></l>
             </lg>
             
-                <lg n="2" type="estrofa" met="6x10" rhyme="abbaCC">
+                <lg n="2">
                     <l xml:id="L7">como morremos, ca non á mest<rhyme label="er">er</rhyme></l>
                     <l xml:id="L8">de tal vida avermos de pass<rhyme label="ar">ar</rhyme>,</l>
                     <l xml:id="L9">ca mais vós valrria de nos mat<rhyme label="ar">ar</rhyme>,</l>
@@ -62,7 +62,7 @@
                     <l xml:id="L12">que non morrades vos, nen eu ass<rhyme label="i">i</rhyme></l>
 </lg>
             
-                <lg n="3" type="estrofa" met="6x10" rhyme="abbaCC">
+                <lg n="3">
                     <l xml:id="L13">como morremos, ca ena mai<rhyme label="or">or</rhyme></l>
                     <l xml:id="L14">coita do mundo e na máis mort<rhyme label="al">al</rhyme>,</l>
                     <l xml:id="L15">vivemos, amiga, e no maior m<rhyme label="al">al</rhyme>,</l>
@@ -71,7 +71,7 @@
                     <l xml:id="L18">que non morrades vos, nen eu ass<rhyme label="i">i</rhyme></l>
 </lg>
             
-                <lg n="4" type="estrofa" met="6x10" rhyme="abbaCC">
+                <lg n="4">
                     <l xml:id="L19">como morremos ca, per bõa f<rhyme label="e">e</rhyme>,</l>
                     <l xml:id="L20">mui gran temp’ á que este mal pass<rhyme label="ou">ou</rhyme></l>
                     <l xml:id="L21">per nós, e passa, e muito dur<rhyme label="ou">ou</rhyme>,</l>
@@ -80,7 +80,7 @@
                     <l xml:id="L24">que non morrades vos, nen eu ass<rhyme label="i">i</rhyme></l>
 </lg>
             
-                <lg n="5" type="finda" met="2x10" rhyme="CC">
+                <lg n="5">
                     <l xml:id="L25">como morremos, e Deus ponha <rhyme label="i">i</rhyme></l>
                     <l xml:id="L26">conselh’, amigo, a vós e a m<rhyme label="i">in</rhyme>.</l>
 </lg>

@@ -40,43 +40,37 @@
     <text>
         <body>
             <lg type="cantiga" subtype="refrán" style="amigo" unisonancia="singular" isometrismo="isométrico" isoestrofismo="heteroestrófico" asonancia="consonante" met="6x10/2x10" rhyme="abbaCC/cc">
-                <lg n="1" type="estrofa" met="4x10" rhyme="abba">
+                <lg n="1">
                     <l xml:id="L1">Vi-vos, madre, con meu amig’ aqu<rhyme label="i">i</rhyme></l>
                     <l xml:id="L2">oge falar, e ouv’ én gran praz<rhyme label="er">er</rhyme>,</l>
                     <l xml:id="L3">porque o  vi de cabo vos ergu<rhyme label="er">er</rhyme></l>
                     <l xml:id="L4">led’, e tenho que mi faz Deus ben <rhyme label="i">i</rhyme>,</l>
+
+                    <l xml:id="L5" rendition="estribillo">ca pois que s’ el ledo partiu d’ aqu<rhyme label="en">en</rhyme></l>
+                    <l xml:id="L6" rendition="estribillo">non pode seer senon por meu b<rhyme label="en">en</rhyme>.</l>
                 </lg>
                 
-                <lg type="estribillo" met="2x10" rhyme="CC">
-                    <l xml:id="L5">ca pois que s’ el ledo partiu d’ aqu<rhyme label="en">en</rhyme></l>
-                    <l xml:id="L6">non pode seer senon por meu b<rhyme label="en">en</rhyme>.</l>
-                </lg>
-                
-                <lg n="2" type="estrofa" met="4x10" rhyme="abba">
+                <lg n="2">
                     <l xml:id="L7">Ergeuse ledo e riiu ja-qu<rhyme label="e">e</rhyme>,</l>
                     <l xml:id="L8">o que mui gran temp’ á que el non f<rhyme label="ez">ez</rhyme>,</l>
                     <l xml:id="L9">mais pois ja esto passou esta v<rhyme label="ez">ez</rhyme>,</l>
                     <l xml:id="L10">fiqu’ end’ eu leda, se Deus ben mi d<rhyme label="e">é</rhyme>,</l>
+
+                    <l xml:id="L11" rendition="estribillo">ca pois que s’ el ledo partiu d’ aqu<rhyme label="en">en</rhyme></l>
+                    <l xml:id="L12" rendition="estribillo">non pode seer senon por meu b<rhyme label="en">en</rhyme>.</l>
                 </lg>
                 
-                <lg type="estribillo" met="2x10" rhyme="CC">
-                    <l xml:id="L11">ca pois que s’ el ledo partiu d’ aqu<rhyme label="en">en</rhyme></l>
-                    <l xml:id="L12">non pode seer senon por meu b<rhyme label="en">en</rhyme>.</l>
-                </lg>
-                
-                <lg n="3" type="estrofa" met="4x10" rhyme="abba">
+                <lg n="3">
                     <l xml:id="L13">El pos os seus olhos nos meus ent<rhyme label="on">on</rhyme>,</l>
                     <l xml:id="L14">quando vistes que x’ i vos esped<rhyme label="iu">iu</rhyme>,</l>
                     <l xml:id="L15">e tornou contra vos led’ e ri<rhyme label="iu">iu</rhyme>,</l>
                     <l xml:id="L16">e por end’ ei prazer no coraç<rhyme label="on">on</rhyme>,</l>
+
+                    <l xml:id="L17" rendition="estribillo">ca pois que s’ el ledo partiu d’ aqu<rhyme label="en">en</rhyme></l>
+                    <l xml:id="L18" rendition="estribillo">non pode seer senon por meu b<rhyme label="en">en</rhyme>.</l>
                 </lg>
                 
-                <lg type="estribillo" met="2x10" rhyme="CC">
-                    <l xml:id="L17">ca pois que s’ el ledo partiu d’ aqu<rhyme label="en">en</rhyme></l>
-                    <l xml:id="L18">non pode seer senon por meu b<rhyme label="en">en</rhyme>.</l>
-                </lg>
-                
-                <lg n="4" type="finda" met="2x10" rhyme="cc">
+                <lg n="4">
                     <l xml:id="L19">E pero m’ eu da fala non sei r<rhyme label="en">en</rhyme>,</l>
                     <l xml:id="L20">de quant’ eu vi, madr’, ei gran prazer <rhyme label="en">én</rhyme>.</l>
                 </lg>

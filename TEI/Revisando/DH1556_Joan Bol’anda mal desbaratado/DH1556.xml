@@ -42,7 +42,7 @@
             <lg type="cantiga" subtype="refrán" style="escarnio" unisonancia="singular" isometrismo="isométrico" 
                 isoestrofismo="isoestrófico" asonancia="consonante" met="6x10" rhyme="aaabaB">   
                 
-                <lg n="1" type="estrofa" met="6x10" rhyme="aaabaB">
+                <lg n="1">
                     <l xml:id="L1">Joan Bol’ anda mal desbarat<rhyme label="ado">ado</rhyme>,</l>
                     <l xml:id="L2">e anda trist’ e faz muit’ aguis<rhyme label="ado">ado</rhyme>,</l>
                     <l xml:id="L3">ca perdeu quant’ avia guaanh<rhyme label="ado">ado</rhyme>,</l>
@@ -51,7 +51,7 @@
                     <l xml:id="L6">levoulh’o roçin e leixoulh’ a m<rhyme label="ua">ua</rhyme>.</l>
                 </lg>
             
-                <lg n="2" type="estrofa" met="6x10" rhyme="aaabaB">
+                <lg n="2">
                     <l xml:id="L7">Se el a mũa quisesse lev<rhyme label="ar">ar</rhyme></l>
                     <l xml:id="L8">a Joan Bol’, e o rocin leix<rhyme label="ar">ar</rhyme>,</l>
                     <l xml:id="L9">non lhi pesara tant’, a meu cuid<rhyme label="ar">ar</rhyme>,</l>
@@ -60,7 +60,7 @@
                     <l xml:id="L12">levoulh’o roçin e leixoulh’ a m<rhyme label="ua">ua</rhyme>.</l>
                 </lg>
             
-                <lg n="3" type="estrofa" met="6x10" rhyme="aaabaB">
+                <lg n="3">
                     <l xml:id="L13">Aquel rapaz que lh’ o rocin lev<rhyme label="ou">ou</rhyme>,</l>
                     <l xml:id="L14">se lhi levass’ a mua que lhi fic<rhyme label="ou">ou</rhyme></l>
                     <l xml:id="L15">a Joan Bolo, como se queix<rhyme label="ou">ou</rhyme>,</l>

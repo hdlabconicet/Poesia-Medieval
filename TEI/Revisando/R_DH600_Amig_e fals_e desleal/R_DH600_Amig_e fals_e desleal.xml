@@ -41,35 +41,29 @@
           
             <lg type="cantiga" subtype="refrán" style="amigo" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x8" rhyme="abbaCC">
                
-                <lg n="1" type="estrofa" met="4x8" rhyme="abba">
+                <lg n="1">
                     <l xml:id="L1">Amig'e fals'e desle<rhyme label="al">al</rhyme>,</l>
                     <l xml:id="L2">que prol á de vós trabalh<rhyme label="ar">ar</rhyme></l>
                     <l xml:id="L3">de na mia mercee cobr<rhyme label="ar">ar</rhyme>?</l>
                     <l xml:id="L4">ca tanto o trouxestes m<rhyme label="al">al</rhyme>,</l>
+                    <l xml:id="L5" rendition="estribillo">que non ei de vós ben faz<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L6" rendition="estribillo">pero m’ eu quisesse pod<rhyme label="er">er</rhyme>.</l>
                 </lg>
-                <lg type="estribillo" met="2x8" rhyme="CC">
-                    <l xml:id="L5">que non ei de vós ben faz<rhyme label="er">er</rhyme>,</l>
-                    <l xml:id="L6">pero m’ eu quisesse pod<rhyme label="er">er</rhyme>.</l>
-                </lg>
-                <lg n="2" type="estrofa" met="4x8" rhyme="abba">
+                <lg n="2">
                     <l xml:id="L7">Vós trouxestes o preit'ass<rhyme label="i">i</rhyme>,</l>
                     <l xml:id="L8">come quen non é sabed<rhyme label="or">or</rhyme></l>
                     <l xml:id="L9">de ben nen de prez nen d'am<rhyme label="or">or</rhyme>,</l>
                     <l xml:id="L10">e por én creede per m<rhyme label="i">i</rhyme>n,</l>
+                    <l xml:id="L11" rendition="estribillo">que non ei de vós ben faz<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L12" rendition="estribillo">pero m’ eu quisesse pod<rhyme label="er">er</rhyme>.</l>
                 </lg>
-                <lg type="estribillo" met="2x8" rhyme="CC">
-                    <l xml:id="L11">que non ei de vós ben faz<rhyme label="er">er</rhyme>,</l>
-                    <l xml:id="L12">pero m’ eu quisesse pod<rhyme label="er">er</rhyme>.</l>
-                </lg>
-                <lg n="3" type="estrofa" met="4x8" rhyme="abba">
+                <lg n="3">
                     <l xml:id="L13">Caestes en tal caj<rhyme label="on">on</rhyme></l>
                     <l xml:id="L14">que sol conselho non vos s<rhyme label="ei">ei</rhyme>,</l>
                     <l xml:id="L15">ca ja vos eu desempar<rhyme label="ei">ei</rhyme></l>
-                    <l xml:id="L16">>en guisa, se Deus mi perd<rhyme label="on">on</rhyme></l>
-                </lg>
-                <lg type="estribillo" met="2x8" rhyme="CC">
-                    <l xml:id="L17">que non ei de vós ben faz<rhyme label="er">er</rhyme>,</l>
-                    <l xml:id="L18">pero m'eu quisesse pod<rhyme label="er">er</rhyme>.</l>
+                    <l xml:id="L16">en guisa, se Deus mi perd<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L17" rendition="estribillo">que non ei de vós ben faz<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L18" rendition="estribillo">pero m'eu quisesse pod<rhyme label="er">er</rhyme>.</l>
                 </lg>
             </lg>    
         </body>
