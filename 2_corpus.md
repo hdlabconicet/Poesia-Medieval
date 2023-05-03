@@ -8,17 +8,25 @@ permalink: /corpus/
 </p>
 <p class="prosa">En el caso de las cantigas gallego-portuguesas, se ofrecen además audios y partituras donde este juego compositivo se pone de manifiesto desde el elemento melódico.</p>
 
+<div id="alphabet-search" class="py-4 ml-4">
+</div>
+
 ## Preguntas y respuestas
-<ul>
-{% for my_preg_resp in site.preguntas_respuestas %}
+
+<ul class="text-list">
+{% assign sorted_preg_resp = site.preguntas_respuestas | sort: "title" %}
+{% for my_preg_resp in sorted_preg_resp %}
     <li><a href="{{site.baseurl}}/{{my_preg_resp.url}}">{{ my_preg_resp.title }}</a></li>
 {% endfor %}
 </ul>
 
 ## Cantigas 
 
-<ul>
-{% for my_cantiga in site.cantigas %}
+<ul class="text-list">
+{% assign sorted_cantigas = site.cantigas | sort: "title" %}
+{% for my_cantiga in sorted_cantigas %}
     <li><a href="{{site.baseurl}}/{{my_cantiga.url}}">{{ my_cantiga.title }}</a></li>
 {% endfor %}
 </ul>
+
+<script src="{{site.baseurl}}/assets/js/alphabetical-search.js"/>
