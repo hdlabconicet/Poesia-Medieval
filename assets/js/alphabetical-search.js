@@ -11,7 +11,7 @@ function buildAlphabetBar() {
 
 	let existingLettersSet = new Set(existingLetters.sort())
 
-	for (letter of [...existingLettersSet]) {
+	for (let letter of [...existingLettersSet]) {
 		newSpan = document.createElement("span")
     	newSpan.setAttribute("class", "f-char")
     	newSpan.innerText = letter
@@ -23,10 +23,6 @@ function buildAlphabetBar() {
 }
 
 buildAlphabetBar()
-
-function showAllTexts(){
-	
-}
 
 const letters = document.querySelectorAll("span.f-char")
 
@@ -55,11 +51,4 @@ for (letter of letters) {
 		  text.style.display = "none"
 		}
 	}
-}
-
-
-
-
-
-
-
+})}
