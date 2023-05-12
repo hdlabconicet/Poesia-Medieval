@@ -29,16 +29,17 @@ const letters = document.querySelectorAll("span.f-char")
 for (letter of letters) {
 	letter.addEventListener("click", (evt)=> {
 
-	if (! document.querySelector("alphabet-search button")) {
+	if (! document.querySelector("#alphabet-search button")) {
 		newBtn = document.createElement("button")
 		newBtn.setAttribute("class", "f-char")
 		newBtn.style.position = "absolute"
 		newBtn.innerText = "Mostrar todo"
 		alphaDiv.appendChild(newBtn)
-		newBtn.addEventListener("click", ()=> {
+		newBtn.addEventListener("click", (e)=> {
 			for (text of texts) {
 				text.style.display = ""
 			}
+			e.target.remove()
 		})
 	}
 	
