@@ -4,7 +4,7 @@ title: Corpus
 permalink: /corpus/
 ---
 
-<p>Esta sección presenta un corpus de poemas editados y reconstruidos desde lo filológico y lo musicológico ordenados según la tradición poética a la que pertenecen : "Preguntas y respuestas del Cancionero de Baena" y "Cantigas medievales gallego-portuguesas". Cada texto se encuentra acompañado de información útil para el estudio de la poesía ibérica medieval que pueden visualizarse al clickear el botón "Métrica y rima" que se encuentra en la esquina superior derecha de la pantalla. Más información sobre el esquema rimático se puede obtener al desplazar el cursor sobre la sílaba final de un verso, lo que hace que se destaquen todos los finales de verso con la misma rima.  
+<p class="prosa">Esta sección presenta un corpus de poemas editados y reconstruidos desde lo filológico y lo musicológico ordenados según la tradición poética a la que pertenecen : "Preguntas y respuestas del Cancionero de Baena" y "Cantigas medievales gallego-portuguesas". Cada texto se encuentra acompañado de información útil para el estudio de la poesía ibérica medieval que pueden visualizarse al clickear el botón "Métrica y rima" que se encuentra en la esquina superior derecha de la pantalla. Más información sobre el esquema rimático se puede obtener al desplazar el cursor sobre la sílaba final de un verso, lo que hace que se destaquen todos los finales de verso con la misma rima.  
 </p>
 <p class="prosa">En el caso de las cantigas gallego-portuguesas, se ofrecen además audios y partituras donde este juego compositivo se pone de manifiesto desde el elemento melódico.</p>
 
