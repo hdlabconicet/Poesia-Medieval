@@ -8,7 +8,7 @@ permalink: /corpus/
 </p>
 <p class="prosa">En el caso de las cantigas gallego-portuguesas, se ofrecen además audios y partituras donde este juego compositivo se pone de manifiesto desde el elemento melódico.</p>
 
-<div id="alphabet-search" class="py-4 ml-4">
+<div id="alphabet-search" class="py-6 ml-6">
 </div>
 
 ## Preguntas y respuestas
