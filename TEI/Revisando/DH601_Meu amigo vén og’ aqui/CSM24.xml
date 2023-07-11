@@ -41,14 +41,14 @@
     <text>
         <body>
             <lg type="cantiga" subtype="refrán" style="mariana" unisonancia="singular" isometrismo="heterométrico" 
-                isoestrofismo="isoestrófico" asonancia="consonante" met="8,8,8,6,8,6" rhyme="aaabCB">
+                isoestrofismo="isoestrófico" asonancia="consonante" met="3x8,7/2x8,7" rhyme="aaabCB">
                 
                 <head type="rúbrica">Esta é como Santa Maria fez nacer hûa fror na boca ao crerigo,
                     depois que foi morto, e era en semellança de lilio, porque a loava.</head> 
 
 
                 <lg n="1"> 
-                    <l xml:id="L1">Non pod' errar nen falecerr<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L1">Non pod' errar nen falec<rhyme label="er">er</rhyme></l>
                     <l xml:id="L2">que(n) loar te sab' e tem<rhyme label="er">er</rhyme>.</l>
                     <l xml:id="L3">Dest' un miragre retra<rhyme label="er">er</rhyme></l>
                     <l xml:id="L4">quero, que foi en Fr<rhyme label="ança">ança</rhyme>.</l>
