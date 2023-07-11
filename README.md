@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/215438929.svg)](https://zenodo.org/badge/latestdoi/215438929)
 
-Repositorio de proyectos HD CAICYT Lab / IIBICRIT sobre poesía medieval y Filo:CyT "_Reis trobadors_: reconstrucción filológico-musicológica de la lírica medieval románica con herramientas digitales"
+Repositorio de proyectos HD Lab / IIBICRIT sobre poesía medieval y Filo:CyT "_Reis trobadors_: reconstrucción filológico-musicológica de la lírica medieval románica con herramientas digitales"
 
 
 ## Equipo
