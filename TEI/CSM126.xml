@@ -40,10 +40,10 @@
     <text>
         <body>
             <lg type="cantiga" subtype="refrán" style="mariana" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x10" rhyme="aaabBB">
-                <head type="rúbrica">Esta é como Santa Maria guareceo un ome en Elche dũa saeta que lle entrara pelos ossos da faz.</head>
+                <head type="rúbrica">Esta é como Santa Maria guareceu un ome en Elche dũa saeta que lle entrara pelos ossos da faz.</head>
                 
                 <lg n="1">
-                    <l xml:id="L1">Como sãou en Elche hũa v<rhyme label="ez">ez</rhyme></l>
+                    <l xml:id="L1">Como sãou en Elche ũa v<rhyme label="ez">ez</rhyme></l>
                     <l xml:id="L2">Santa Maria, a Sennor de pr<rhyme label="ez">ez</rhyme>,</l>
                     <l xml:id="L3">a un ome de chaga que lle f<rhyme label="ez">ez</rhyme></l>
                     <l xml:id="L4">hũa saet', onde cuidou fĩ<rhyme label="ir">ir</rhyme>.</l>
@@ -65,7 +65,7 @@
                 </lg>
                 
                <lg n="3">
-                    <l xml:id="L13">E con tẽaces a yan fill<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L13">E con tẽaces a ían fill<rhyme label="ar">ar</rhyme>,</l>
                     <l xml:id="L14">mas per ren non lla podian tir<rhyme label="ar">ar</rhyme></l>
                     <l xml:id="L15">nen con baesta que yan arm<rhyme label="ar">ar</rhyme>;</l>
                     <l xml:id="L16">ca Deus non llo queria consent<rhyme label="ir">ir</rhyme></l>
