@@ -5,7 +5,7 @@
 Repositorio de proyectos HD Lab / IIBICRIT sobre poesía medieval y Filo:CyT "_Reis trobadors_: reconstrucción filológico-musicológica de la lírica medieval románica con herramientas digitales"
 
 
-## Equipo
+## Equipo 
 
 
   Gimena del Rio (HD Lab - IIBICRIT, CONICET - UBA) - Dirección
@@ -21,7 +21,4 @@ Repositorio de proyectos HD Lab / IIBICRIT sobre poesía medieval y Filo:CyT "_R
   Gabriel Calarco (UBA)
 	
   Eleonora Wachsmann (UBA)
-	
-  Rocío Méndez (UBA)
-	
-  Carina Zubillaga (UBA - IIBICRIT, CONICET) - Dirección PICT 2013
+
