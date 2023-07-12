@@ -41,7 +41,7 @@
     <text>
         <body>
             <lg type="cantiga" subtype="refrán" style="mariana" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x11" rhyme="aaabBB">
-            <head type="rúbrica">Como Santa Maria fez aas abellas que comprissen de cera un ciro pasqual que sse queimara da ũa parte.</head>
+            <head type="rúbrica">Como Santa Maria fez ás abellas que comprissen de cera un ciro pasqual que sse queimara da ũa parte.</head>
             
             <lg  n="1">
                 <l xml:id="L1">Fazlos muit' apostos, por que aj<rhyme label="amos">amos</rhyme></l>
@@ -54,7 +54,7 @@
                 </lg>
             
             <lg n="2">
-                <l xml:id="L7">Porend' a Reynna de piad<rhyme label="ade">ade</rhyme></l>
+                <l xml:id="L7">Porend' a Reinna de piad<rhyme label="ade">ade</rhyme></l>
                 <l xml:id="L8">fez un gran miragr' en ũa cid<rhyme label="ade">ade</rhyme></l>
                 <l xml:id="L9">a que dizen Elche, com' en verd<rhyme label="ade">ade</rhyme></l>
                 <l xml:id="L10">achei de gran gente que i av<rhyme label="ia">ia</rhyme>.</l>
