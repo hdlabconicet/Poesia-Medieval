@@ -46,7 +46,7 @@
                 <lg n="1">
                     <l xml:id="L3">Santa Maria, se te pr<rhyme label="az">az</rhyme>,</l>
                     <l xml:id="L4">pois nosso ben tod'en ti j<rhyme label="az">az</rhyme></l>
-                    <l xml:id="L5">e que teu Fillo sempre f<rhyme label="az">az</rhyme></l>
+                    <l xml:id="L5">e que teu fillo sempre f<rhyme label="az">az</rhyme></l>
                     <l xml:id="L6">por ti o de que ás sab<rhyme label="or">or</rhyme>.</l>
                     <l xml:id="L7" rendition="estribillo">De graça chẽa e d'am<rhyme label="or">or</rhyme></l>
                     <l xml:id="L8" rendition="estribillo">de Deus, acorre-nos, Senn<rhyme label="or">or</rhyme>.</l>
@@ -54,7 +54,7 @@
                 <lg n="2">
                     <l xml:id="L9">E pois que contigo é D<rhyme label="eus">eus</rhyme>,</l>
                     <l xml:id="L10">acorr'a nos que somos t<rhyme label="eus">eus</rhyme>,</l>
-                    <l xml:id="L11">e fas-nos que sejamos s<rhyme label="eus">eus</rhyme></l>
+                    <l xml:id="L11">e faznos que sejamos s<rhyme label="eus">eus</rhyme></l>
                     <l xml:id="L12">e que perçamos del pav<rhyme label="or">or</rhyme>.</l>
                     <l xml:id="L13" rendition="estribillo">De graça chẽa e d'am<rhyme label="or">or</rhyme></l>
                     <l xml:id="L14" rendition="estribillo">de Deus, acorre-nos, Senn<rhyme label="or">or</rhyme>.</l>
@@ -65,7 +65,7 @@
                     <l xml:id="L17">Cristo parist';e porend'<rhyme label="u">u</rhyme></l>
                     <l xml:id="L18">nos for mester, razõad<rhyme label="or">or</rhyme></l>
                     <l xml:id="L19" rendition="estribillo">De graça chẽa e d'am<rhyme label="or">or</rhyme></l>
-                    <l xml:id="L20" rendition="estribillo">de Deus, acorre-nos, Senn<rhyme label="or">or</rhyme>.</l>
+                    <l xml:id="L20" rendition="estribillo">de Deus, acórrenos, Senn<rhyme label="or">or</rhyme>.</l>
                 </lg>
                 <lg n="4">    
                     <l xml:id="L21">Sei por nos, pois que b˜eeit'<rhyme label="e">é</rhyme></l>
@@ -73,7 +73,7 @@
                     <l xml:id="L23">e pois tu sees u al se<rhyme label="e">é</rhyme>,</l>
                     <l xml:id="L24">roga por nos u mester f<rhyme label="or">or</rhyme>.</l>
                     <l xml:id="L25" rendition="estribillo">De graça chẽa e d'am<rhyme label="or">or</rhyme></l>
-                    <l xml:id="L26" rendition="estribillo">de Deus, acorre-nos, Senn<rhyme label="or">or</rhyme>.</l>
+                    <l xml:id="L26" rendition="estribillo">de Deus, acórrenos, Senn<rhyme label="or">or</rhyme>.</l>
                 </lg>
                 <lg n="5">
                     <l xml:id="L27">Punna, Sennor, de nos salv<rhyme label="ar">ar</rhyme>,</l>
@@ -81,7 +81,7 @@
                     <l xml:id="L29">mil vegadas,se mil err<rhyme label="ar">ar</rhyme></l>
                     <l xml:id="L30">eno dia o pecad<rhyme label="or">or</rhyme>.</l>
                     <l xml:id="L31" rendition="estribillo">De graça chẽa e d'am<rhyme label="or">or</rhyme></l>
-                    <l xml:id="L32" rendition="estribillo">de Deus, acorre-nos, Senn<rhyme label="or">or</rhyme>.</l>
+                    <l xml:id="L32" rendition="estribillo">de Deus, acórrenos, Senn<rhyme label="or">or</rhyme>.</l>
                 </lg>
             </lg> 
         </body>
