@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../dialogo%202017/dialogo%20cendari/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Amor fez a min amar</title>
+                <author>Don Denis</author>
+                <editor resp="crítica">Gimena del Rio Riande</editor>
+                <editor resp="contrafactum">Gimena del Rio Riande</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Rocío Méndez</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual No Comercial 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier> 
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B/V</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from= "122r" to="122v">122r-122v</locus> 
+                            <locus from="19r" to="19r">19r</locus>
+                            <locus xml:id="B544" from="122r" to="122v"/>
+                            <locus xml:id="V147" from="19r" to="19r"/>
+                              <idno xml:id="DH561"/>
+                                <ref target="#Rialto364.11"/> 
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="maestría" style="amor" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="10x7" rhyme="abbaabccdd">
+            <lg n="1" type="estrofa_de_diez_versos" met="10x7" rhyme="abbaabccdd">
+                <l xml:id="L1">Amor fez a min am<rhyme label="ar">ar</rhyme></l>
+                <l xml:id="L2">gran temp’ á ũa molh<rhyme label="er">er</rhyme></l>
+                <l xml:id="L3">que meu mal quis sempr’ e qu<rhyme label="er">er</rhyme></l>
+                <l xml:id="L4">e me quis e quer mat<rhyme label="ar">ar</rhyme>,</l>
+                <l xml:id="L5">e ben o pod’ acab<rhyme label="ar">ar</rhyme>,</l>
+                <l xml:id="L6">pois end’ o poder ouv<rhyme label="er">er</rhyme>,</l>
+                <l xml:id="L7">mais Deus, que sab’ a sob<rhyme label="eja">eja</rhyme></l>
+                <l xml:id="L8">coita que m’ ela dá, v<rhyme label="eja">eja</rhyme></l>
+                <l xml:id="L9">como vivo tan coit<rhyme label="ado">ado</rhyme>,</l>
+                <l xml:id="L10">el mi ponha i rec<rhyme label="ado">ado</rhyme>.</l>
+            </lg>
+                <lg n="2" type="estrofa_de_diez_versos" met="10x7" rhyme="abbaabccdd">    
+                <l xml:id="L11">Tal molher mi fez am<rhyme label="or">or</rhyme></l>
+                <l xml:id="L12">amar, que ben des ent<rhyme label="on">on</rhyme></l>
+                <l xml:id="L13">non mi deu se coita n<rhyme label="on">on</rhyme>,</l>
+                <l xml:id="L14">e do mal sempr’ o pei<rhyme label="or">or</rhyme>,</l>
+                <l xml:id="L15">por end’ a Nostro Senh<rhyme label="or">or</rhyme></l>
+                <l xml:id="L16">rog’ eu mui de coraç<rhyme label="on">on</rhyme>,</l>
+                <l xml:id="L17">que el m’ ajud’ atan for<rhyme label="te">te</rhyme></l>
+                <l xml:id="L18">coita que par m’ é de mor<rhyme label="te">te</rhyme>,</l>
+                <l xml:id="L19">e do gran mal sob<rhyme label="ejo">ejo</rhyme></l>
+                <l xml:id="L20">con que m’ og’ eu morrer v<rhyme label="ejo">ejo</rhyme>.</l>
+            </lg>
+            <lg n="3" type="décima" met="10x7" rhyme="abbaabccdd">
+                <l xml:id="L21">A min fez gran ben quer<rhyme label="er">er</rhyme></l>        
+                <l xml:id="L22">Amor una molher t<rhyme label="al">al</rhyme></l>
+                <l xml:id="L23">que sempre quis o meu m<rhyme label="al">al</rhyme>,</l>        
+                <l xml:id="L24">e a que praz d’ eu morr<rhyme label="er">er</rhyme>,</l>
+                <l xml:id="L25">e pois que o quer faz<rhyme label="er">er</rhyme>,</l>           
+                <l xml:id="L26">non poss’ eu fazer i <rhyme label="al">al</rhyme>,</l>
+                <l xml:id="L27">mais Deus, que sab’ o gran tor<rhyme label="to">to</rhyme></l>   
+                <l xml:id="L28">que mi ten mi dé conor<rhyme label="to">to</rhyme>,</l>
+                <l xml:id="L29">a este mal sen mes<rhyme label="ura">ura</rhyme>,</l>             
+                <l xml:id="L30">que tanto comigo d<rhyme label="ura">ura</rhyme>.</l>
+            </lg>
+                <lg n="4" type="estrofa_de_diez_versos" met="10x7" rhyme="abbaabccdd">
+                <l xml:id="L31">Amor fez a min gran b<rhyme label="en">en</rhyme></l>            
+                <l xml:id="L32">querer tal molher ond’ <rhyme label="ei">ei</rhyme></l>
+                <l xml:id="L33">sempre mal e aver<rhyme label="ei">ei</rhyme>,</l>               
+                <l xml:id="L34">ca en tal coita me t<rhyme label="en">en</rhyme>,</l>
+                <l xml:id="L35">que non ei eu força nen s<rhyme label="en">én</rhyme>,</l>       
+                <l xml:id="L36">por én rog’ e rogar<rhyme label="ei">ei</rhyme></l>
+                <l xml:id="L37">a Deus que sabe que v<rhyme label="ivo">ivo</rhyme></l>           
+                <l xml:id="L38">en tal mal e tan esqu<rhyme label="ivo">ivo</rhyme>,</l>
+                <l xml:id="L39">que mi quera dar guar<rhyme label="ida">ida</rhyme></l>           
+                <l xml:id="L40">de mort’ ou de melhor v<rhyme label="ida">ida</rhyme>.</l>
+            </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>
