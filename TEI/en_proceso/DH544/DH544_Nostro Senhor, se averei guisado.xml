@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">Nostro Senhor, se averei guisado</title>
+                <author>Don Denis</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cancionero de la Biblioteca Nacional de Lisboa/Cancionero de la Biblioteca Vaticana</repository>
+                        <idno>B527/V130</idno>                       
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="B527" from="119r" to="119v"/>
+                            <locus xml:id="V130" from="15v" to="16r"/>
+                            <idno xml:id="DH544"/>
+                            <filiation type="contrafactum">
+                                <ref target="#CSM326"/> 
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <lg type="cantiga" subtype="maestría" style="amor" unisonancia="singular" isometrismo="isométrico" 
+                isoestrofismo="isoestrófico" asonancia="consonante" met="7x10" rhyme="abbacca">
+                
+                <lg n="1" type="estrofa"  met="7x10" rhyme="abbacca"> 
+                    <l xml:id="L1">Nostro Senhor, se averei guis<rhyme label="ado">ado</rhyme></l>
+                    <l xml:id="L2">de mia senhor mui fremosa v<rhyme label="er">eer</rhyme>,</l>
+                    <l xml:id="L3">que mi nunca fez nenhun praz<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L4">e de que nunca cuid’ aver bon gr<rhyme label="ado">ado</rhyme>,</l> 
+                    <l xml:id="L5">pero filharlhia por galard<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L6">de a veer, se soubesse que n<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L7">lh’ era tan grave, Deus foss’ én lo<rhyme label="ado">ado</rhyme>.</l>
+            </lg>
+            
+                <lg n="2" type="estrofa"  met="7x10" rhyme="abbacca"> 
+                    <l xml:id="L8">Ca mui gran temp’ á que ando coit<rhyme label="ado">ado</rhyme>,</l>
+                    <l xml:id="L9">se eu podesse pola ir v<rhyme label="er">eer</rhyme>,</l>
+                    <l xml:id="L10">ca depois non me pod’ escaec<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L11">qual eu a vi, u ouvi Deus ir<rhyme label="ado">ado</rhyme>,</l>
+                    <l xml:id="L12">ca verdadeiramente des ent<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L13">non trago mig’ aqueste coraç<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L14">nen er sei de min parte  nen mand<rhyme label="ado">ado</rhyme>.</l>
+                </lg>
+            
+                <lg n="3" type="estrofa"  met="7x10" rhyme="abbacca"> 
+                    <l xml:id="L15">Ca me ten seu amor tan afic<rhyme label="ado">ado</rhyme></l>
+                    <l xml:id="L16">des que se non guisou de a v<rhyme label="er">eer</rhyme>,</l>
+                    <l xml:id="L17">que non ei en min força nen pod<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L18">nen dormo ren, nen ei en mí rec<rhyme label="ado">ado</rhyme>,</l>
+                    <l xml:id="L19">e porque viv’ en tan gran perdiç<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L20">que mi dé mort’, e peç’ a Deus perd<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L21">e perderei meu mal e meu cuid<rhyme label="ado">ado</rhyme>.</l>
+                </lg>    
+                
+            </lg>
+        </body>
+    </text>
+</TEI>
+
+

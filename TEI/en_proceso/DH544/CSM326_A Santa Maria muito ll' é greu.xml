@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="esquema_verso_2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="incipit">A Santa Maria muito ll' é greu</title>
+                <author>Alfonso X</author>
+                <editor resp="crítica">Gimena del Rio</editor>
+                <editor resp="contrafactum">Germán Rossi</editor>
+                <editor resp="contrafactum">Eleonora Wachsmann</editor>
+                <editor resp="TEI">Gabriel Calarco</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Reis Trobadors</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Códice de los Músicos</repository>
+                        <idno>E326</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus xml:id="E326" from="291v" to="292r"/>
+                            <idno xml:id="CSM60"/>
+                            <filiation type="base">
+                                <ref target="#DH544"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg type="cantiga" subtype="refrán" style="mariana" unisonancia="singular" isometrismo="isométrico" 
+                isoestrofismo="isoestrófico" asonancia="consonante" met="6x10" rhyme="abbaCC">
+                
+                <head type="rúbrica">Como Santa Maria de Tudia prendeu os ladrões
+                    que lle furtaron as colm˜eas.</head> 
+                
+
+                <lg n="1" type="estrofa" met="6x10" rhyme="abbaCC">
+                    <l xml:id="L1">Ca a Sennor que o atan ben d<rhyme label="a">á</rhyme></l>
+                    <l xml:id="L2">non á ome razon de lle furt<rhyme label="ar">ar</rhyme></l>
+                    <l xml:id="L3">nen de roubar-ll' o seu nen llo fill<rhyme label="ar">ar</rhyme>,</l>
+                    <l xml:id="L4">ca servindo-a ben ave-lo-<rhyme label="a">á</rhyme>.</l>
+                    <l xml:id="L5">A Santa Maria muito ll' é gr<rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L6">de quen s' atreve de furta-lo s<rhyme label="eu">eu</rhyme>.</l>
+            </lg>
+            
+                <lg n="2" type="estrofa" met="6x10" rhyme="abbaCC">
+                    <l xml:id="L7">E daquesta razon vos contar<rhyme label="ei">ei</rhyme></l>
+                    <l xml:id="L8">un gran miragre que fez hûa v<rhyme label="ez">ez</rhyme></l>
+                    <l xml:id="L9">en Tudia esta Sennor de pr<rhyme label="ez">ez</rhyme>,</l>
+                    <l xml:id="L10">e daqueles que foron y o s<rhyme label="ei">ei</rhyme>.</l>
+                    <l xml:id="L11">A Santa Maria muito ll' é gr<rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L12">de quen s' atreve de furta-lo s<rhyme label="eu">eu</rhyme>.</l>
+</lg>
+            
+                <lg n="3" type="estrofa" met="6x10" rhyme="abbaCC">
+                    <l xml:id="L13">A aqueste logar con devoçee<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L14">v˜een y as gentes e son rom<rhyme label="eus">eus</rhyme></l>
+                    <l xml:id="L15">por servir a nobre Madre de D<rhyme label="eus">eus</rhyme>,</l>
+                    <l xml:id="L16">e dan y todos mui grand' ofreç<rhyme label="on">on</rhyme>.</l>
+                    <l xml:id="L17">A Santa Maria muito ll' é gr<rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L18">de quen s' atreve de furta-lo s<rhyme label="eu">eu</rhyme>.</l>
+</lg>
+            
+                <lg n="4" type="estrofa" met="6x10" rhyme="abbaCC">
+                    <l xml:id="L19">Onde foi que un ome mui fi<rhyme label="el">el</rhyme></l>
+                    <l xml:id="L20">desta Sennor foi aly offrec<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L21">sas colm˜eas, de que podess' av<rhyme label="er">er</rhyme></l>
+                    <l xml:id="L22">a eigreja muita cera e m<rhyme label="el">el</rhyme>.</l>
+                    <l xml:id="L23">A Santa Maria muito ll' é gr<rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L24">de quen s' atreve de furta-lo s<rhyme label="eu">eu</rhyme>.</l>
+</lg>
+            
+                <lg n="5" type="estrofa" met="6x10" rhyme="abbaCC">
+                    <l xml:id="L25">E quen a verdade saber quis<rhyme label="er">er</rhyme>,</l>
+                    <l xml:id="L26">saberá que as poseron al<rhyme label="i">y</rhyme></l>
+                    <l xml:id="L27">derredor da eigreja, e, com' o<rhyme label="i">í</rhyme>,</l>
+                    <l xml:id="L28">guardava-as hûa pobre moll<rhyme label="er">er</rhyme>.</l>
+                    <l xml:id="L29">A Santa Maria muito ll' é gr<rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L30">de quen s' atreve de furta-lo s<rhyme label="eu">eu</rhyme>.</l>
+</lg>
+            
+                <lg n="6" type="estrofa" met="6x10" rhyme="abbaCC">
+                    <l xml:id="L31">E ladrões hûa noit' ant' a l<rhyme label="uz">uz</rhyme></l>
+                    <l xml:id="L32">furtáronas todas e foron-s' <rhyme label="en">en</rhyme>,</l>
+                    <l xml:id="L33">assi que non envergonnaron r<rhyme label="en">en</rhyme></l>
+                    <l xml:id="L34">a ela neno que morreu na cr<rhyme label="uz">uz</rhyme>.</l>
+                    <l xml:id="L35">A Santa Maria muito ll' é gr<rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L36">de quen s' atreve de furta-lo s<rhyme label="eu">eu</rhyme>.</l>
+</lg>
+            
+                <lg n="7" type="estrofa" met="6x10" rhyme="abbaCC">
+                    <l xml:id="L37">Outro dia, pois viron este m<rhyme label="al">al</rhyme>,</l>
+                    <l xml:id="L38">os do logar fillaron-s' a carp<rhyme label="ir">ir</rhyme>,</l>
+                    <l xml:id="L39">e log' a Santa Maria ped<rhyme label="ir">ir</rhyme></l>
+                    <l xml:id="L40">foron vingança deste feito t<rhyme label="al">al</rhyme>.</l>
+                    <l xml:id="L41">A Santa Maria muito ll' é gr<rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L42">de quen s' atreve de furta-lo s<rhyme label="eu">eu</rhyme>.</l>
+</lg>
+            
+                <lg n="8" type="estrofa" met="6x10" rhyme="abbaCC">
+                    <l xml:id="L43">E log' un cavaleir' aly cheg<rhyme label="ou">ou</rhyme></l>
+                    <l xml:id="L44">que de toda a terra a red<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L45">era jostiça, e pois sabed<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L46">foi deste feito, busca-los mand<rhyme label="ou">ou</rhyme>.</l>
+                    <l xml:id="L47">A Santa Maria muito ll' é gr<rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L48">de quen s' atreve de furta-lo s<rhyme label="eu">eu</rhyme>.</l>
+</lg>
+            
+                <lg n="9" type="estrofa" met="6x10" rhyme="abbaCC">
+                    <l xml:id="L49">E el meesmo non foi y de d<rhyme label="ur">ur</rhyme></l>
+                    <l xml:id="L50">en pos eles, buscando-os ass<rhyme label="az">az</rhyme>,</l>
+                    <l xml:id="L51">ata que os viu jazer como j<rhyme label="az">az</rhyme></l>
+                    <l xml:id="L52">o cõello ascondud' ou o m<rhyme label="ur">ur</rhyme>.</l>
+                    <l xml:id="L53">A Santa Maria muito ll' é gr<rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L54">de quen s' atreve de furta-lo s<rhyme label="eu">eu</rhyme>.</l>
+</lg>
+            
+                <lg n="10" type="estrofa" met="6x10" rhyme="abbaCC">
+                    <l xml:id="L55">E as colm˜eas tîian atr<rhyme label="as">as</rhyme></l>
+                    <l xml:id="L56">deitadas, e non podian de pr<rhyme label="an">an</rhyme></l>
+                    <l xml:id="L57">fogir con elas; enton manam<rhyme label="an">an</rhyme></l>
+                    <l xml:id="L58">os prendeu, que non atendeu a cr<rhyme label="as">as</rhyme>.</l>
+                    <l xml:id="L59">A Santa Maria muito ll' é gr<rhyme label="eu">eu</rhyme></l>
+                    <l xml:id="L60">de quen s' atreve de furta-lo s<rhyme label="eu">eu</rhyme>.</l>
+</lg>
+                
+            </lg>
+        </body>
+    </text>
+</TEI>
+
