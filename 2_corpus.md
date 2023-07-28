@@ -13,6 +13,8 @@ permalink: /corpus/
 <div id="alphabet-search" class="py-4 ml-4">
 </div>
 
+<br/>
+
 ## Preguntas y respuestas
 
 <ul class="text-list">
