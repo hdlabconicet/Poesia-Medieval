@@ -17,6 +17,6 @@ collections:
     cantigas:
       output: true
     preguntas_respuestas:
-      output: 
+      output: true
     corpus:
       output: true
